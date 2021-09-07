@@ -1,0 +1,27 @@
+[
+{
+  "directory": "/home/rodelph/dev/ImageProc/build-ImageProc-Desktop-Release",
+  "command": "/bin/x86_64-linux-gnu-g++-9  -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_WIDGETS_LIB -I/home/rodelph/dev/ImageProc/build-ImageProc-Desktop-Release -I/home/rodelph/dev/ImageProc -I/home/rodelph/dev/ImageProc/build-ImageProc-Desktop-Release/ImageProc_autogen/include -isystem /usr/local/include/opencv4 -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtWidgets -isystem /usr/include/x86_64-linux-gnu/qt5/QtGui -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++  -O3 -DNDEBUG   -fPIC -std=gnu++17 -o CMakeFiles/ImageProc.dir/ImageProc_autogen/mocs_compilation.cpp.o -c /home/rodelph/dev/ImageProc/build-ImageProc-Desktop-Release/ImageProc_autogen/mocs_compilation.cpp",
+  "file": "/home/rodelph/dev/ImageProc/build-ImageProc-Desktop-Release/ImageProc_autogen/mocs_compilation.cpp"
+},
+{
+  "directory": "/home/rodelph/dev/ImageProc/build-ImageProc-Desktop-Release",
+  "command": "/bin/x86_64-linux-gnu-g++-9  -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_WIDGETS_LIB -I/home/rodelph/dev/ImageProc/build-ImageProc-Desktop-Release -I/home/rodelph/dev/ImageProc -I/home/rodelph/dev/ImageProc/build-ImageProc-Desktop-Release/ImageProc_autogen/include -isystem /usr/local/include/opencv4 -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtWidgets -isystem /usr/include/x86_64-linux-gnu/qt5/QtGui -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++  -O3 -DNDEBUG   -fPIC -std=gnu++17 -o CMakeFiles/ImageProc.dir/ImageProc/SelectionWindow/main.cpp.o -c /home/rodelph/dev/ImageProc/ImageProc/SelectionWindow/main.cpp",
+  "file": "/home/rodelph/dev/ImageProc/ImageProc/SelectionWindow/main.cpp"
+},
+{
+  "directory": "/home/rodelph/dev/ImageProc/build-ImageProc-Desktop-Release",
+  "command": "/bin/x86_64-linux-gnu-g++-9  -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_WIDGETS_LIB -I/home/rodelph/dev/ImageProc/build-ImageProc-Desktop-Release -I/home/rodelph/dev/ImageProc -I/home/rodelph/dev/ImageProc/build-ImageProc-Desktop-Release/ImageProc_autogen/include -isystem /usr/local/include/opencv4 -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtWidgets -isystem /usr/include/x86_64-linux-gnu/qt5/QtGui -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++  -O3 -DNDEBUG   -fPIC -std=gnu++17 -o CMakeFiles/ImageProc.dir/ImageProc/SelectionWindow/mainwindow.cpp.o -c /home/rodelph/dev/ImageProc/ImageProc/SelectionWindow/mainwindow.cpp",
+  "file": "/home/rodelph/dev/ImageProc/ImageProc/SelectionWindow/mainwindow.cpp"
+},
+{
+  "directory": "/home/rodelph/dev/ImageProc/build-ImageProc-Desktop-Release",
+  "command": "/bin/x86_64-linux-gnu-g++-9  -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_WIDGETS_LIB -I/home/rodelph/dev/ImageProc/build-ImageProc-Desktop-Release -I/home/rodelph/dev/ImageProc -I/home/rodelph/dev/ImageProc/build-ImageProc-Desktop-Release/ImageProc_autogen/include -isystem /usr/local/include/opencv4 -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtWidgets -isystem /usr/include/x86_64-linux-gnu/qt5/QtGui -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++  -O3 -DNDEBUG   -fPIC -std=gnu++17 -o CMakeFiles/ImageProc.dir/ImageProc/FiltOption/filterswindow.cpp.o -c /home/rodelph/dev/ImageProc/ImageProc/FiltOption/filterswindow.cpp",
+  "file": "/home/rodelph/dev/ImageProc/ImageProc/FiltOption/filterswindow.cpp"
+},
+{
+  "directory": "/home/rodelph/dev/ImageProc/build-ImageProc-Desktop-Release",
+  "command": "/bin/x86_64-linux-gnu-g++-9  -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_WIDGETS_LIB -I/home/rodelph/dev/ImageProc/build-ImageProc-Desktop-Release -I/home/rodelph/dev/ImageProc -I/home/rodelph/dev/ImageProc/build-ImageProc-Desktop-Release/ImageProc_autogen/include -isystem /usr/local/include/opencv4 -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtWidgets -isystem /usr/include/x86_64-linux-gnu/qt5/QtGui -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++  -O3 -DNDEBUG   -fPIC -std=gnu++17 -o CMakeFiles/ImageProc.dir/ImageProc/HistOption/histogram.cpp.o -c /home/rodelph/dev/ImageProc/ImageProc/HistOption/histogram.cpp",
+  "file": "/home/rodelph/dev/ImageProc/ImageProc/HistOption/histogram.cpp"
+}
+]

@@ -1,0 +1,4 @@
+{
+    "cmake.buildDirectory": "${workspaceFolder}/build-ImageProc-Desktop-Release",
+    "C_Cpp.errorSquiggles": "Disabled"
+}
