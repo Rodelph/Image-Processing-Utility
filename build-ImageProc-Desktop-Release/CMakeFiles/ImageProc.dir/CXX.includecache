@@ -6,40 +6,12 @@
 
 #IncludeRegexTransform: 
 
-../ImageProc/FiltOption/filterswindow.h
-QDialog
--
-
-../ImageProc/HistOption/histogram.h
-QDialog
--
-
-../ImageProc/SelectionWindow/mainwindow.h
-QMainWindow
--
-../FiltOption/filterswindow.h
-../ImageProc/FiltOption/filterswindow.h
-../HistOption/histogram.h
-../ImageProc/HistOption/histogram.h
-
 /home/rodelph/dev/ImageProc/ImageProc/FiltOption/filterswindow.h
 QDialog
 -
 
-/home/rodelph/dev/ImageProc/ImageProc/HistOption/histogram.cpp
-histogram.h
-/home/rodelph/dev/ImageProc/ImageProc/HistOption/histogram.h
-ui_histogram.h
-/home/rodelph/dev/ImageProc/ImageProc/HistOption/ui_histogram.h
-
 /home/rodelph/dev/ImageProc/ImageProc/HistOption/histogram.h
 QDialog
--
-
-/home/rodelph/dev/ImageProc/ImageProc/SelectionWindow/main.cpp
-mainwindow.h
-/home/rodelph/dev/ImageProc/ImageProc/SelectionWindow/mainwindow.h
-QApplication
 -
 
 /home/rodelph/dev/ImageProc/ImageProc/SelectionWindow/mainwindow.cpp
@@ -49,6 +21,8 @@ mainwindow.h
 /home/rodelph/dev/ImageProc/ImageProc/SelectionWindow/ui_mainwindow.h
 ../FiltOption/filterswindow.h
 /home/rodelph/dev/ImageProc/ImageProc/FiltOption/filterswindow.h
+../HistOption/histogram.h
+/home/rodelph/dev/ImageProc/ImageProc/HistOption/histogram.h
 
 /home/rodelph/dev/ImageProc/ImageProc/SelectionWindow/mainwindow.h
 QMainWindow
@@ -57,38 +31,6 @@ QMainWindow
 /home/rodelph/dev/ImageProc/ImageProc/FiltOption/filterswindow.h
 ../HistOption/histogram.h
 /home/rodelph/dev/ImageProc/ImageProc/HistOption/histogram.h
-
-/home/rodelph/dev/ImageProc/build-ImageProc-Desktop-Release/ImageProc_autogen/6KTI6JJUFA/moc_histogram.cpp
-ImageProc/HistOption/histogram.h
-/home/rodelph/dev/ImageProc/build-ImageProc-Desktop-Release/ImageProc_autogen/6KTI6JJUFA/ImageProc/HistOption/histogram.h
-QtCore/qbytearray.h
--
-QtCore/qmetatype.h
--
-
-/home/rodelph/dev/ImageProc/build-ImageProc-Desktop-Release/ImageProc_autogen/A3SVH7NBGF/moc_filterswindow.cpp
-ImageProc/FiltOption/filterswindow.h
-/home/rodelph/dev/ImageProc/build-ImageProc-Desktop-Release/ImageProc_autogen/A3SVH7NBGF/ImageProc/FiltOption/filterswindow.h
-QtCore/qbytearray.h
--
-QtCore/qmetatype.h
--
-
-/home/rodelph/dev/ImageProc/build-ImageProc-Desktop-Release/ImageProc_autogen/X3O6VQKMRW/moc_mainwindow.cpp
-ImageProc/SelectionWindow/mainwindow.h
-/home/rodelph/dev/ImageProc/build-ImageProc-Desktop-Release/ImageProc_autogen/X3O6VQKMRW/ImageProc/SelectionWindow/mainwindow.h
-QtCore/qbytearray.h
--
-QtCore/qmetatype.h
--
-
-/home/rodelph/dev/ImageProc/build-ImageProc-Desktop-Release/ImageProc_autogen/mocs_compilation.cpp
-A3SVH7NBGF/moc_filterswindow.cpp
-/home/rodelph/dev/ImageProc/build-ImageProc-Desktop-Release/ImageProc_autogen/A3SVH7NBGF/moc_filterswindow.cpp
-6KTI6JJUFA/moc_histogram.cpp
-/home/rodelph/dev/ImageProc/build-ImageProc-Desktop-Release/ImageProc_autogen/6KTI6JJUFA/moc_histogram.cpp
-X3O6VQKMRW/moc_mainwindow.cpp
-/home/rodelph/dev/ImageProc/build-ImageProc-Desktop-Release/ImageProc_autogen/X3O6VQKMRW/moc_mainwindow.cpp
 
 /usr/include/x86_64-linux-gnu/qt5/QtCore/QVariant
 qvariant.h
@@ -1388,16 +1330,6 @@ QtGui/qcursor.h
 QtGui/qkeysequence.h
 -
 QtGui/qevent.h
--
-
-ImageProc_autogen/include/ui_histogram.h
-QtCore/QVariant
--
-QtWidgets/QApplication
--
-QtWidgets/QDialog
--
-QtWidgets/QPushButton
 -
 
 ImageProc_autogen/include/ui_mainwindow.h
