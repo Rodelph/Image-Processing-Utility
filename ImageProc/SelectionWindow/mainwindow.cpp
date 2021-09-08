@@ -1,6 +1,7 @@
 #include "mainwindow.h"
 #include "./ui_mainwindow.h"
 #include "../FiltOption/filterswindow.h"
+#include "../HistOption/histogram.h"
 
 MainWindow::MainWindow(QWidget *parent)
     : QMainWindow(parent)
@@ -23,5 +24,7 @@ void MainWindow::on_filtBtn_clicked()
 
 void MainWindow::on_histBtn_clicked()
 {
-
+    hist = new histogram();
+    hist->show();
+    this->hide();
 }
