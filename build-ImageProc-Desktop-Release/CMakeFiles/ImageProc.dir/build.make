@@ -60,67 +60,67 @@ include CMakeFiles/ImageProc.dir/flags.make
 CMakeFiles/ImageProc.dir/ImageProc_autogen/mocs_compilation.cpp.o: CMakeFiles/ImageProc.dir/flags.make
 CMakeFiles/ImageProc.dir/ImageProc_autogen/mocs_compilation.cpp.o: ImageProc_autogen/mocs_compilation.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rodelph/dev/ImageProc/build-ImageProc-Desktop-Release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/ImageProc.dir/ImageProc_autogen/mocs_compilation.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ImageProc.dir/ImageProc_autogen/mocs_compilation.cpp.o -c /home/rodelph/dev/ImageProc/build-ImageProc-Desktop-Release/ImageProc_autogen/mocs_compilation.cpp
+	/bin/x86_64-linux-gnu-g++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ImageProc.dir/ImageProc_autogen/mocs_compilation.cpp.o -c /home/rodelph/dev/ImageProc/build-ImageProc-Desktop-Release/ImageProc_autogen/mocs_compilation.cpp
 
 CMakeFiles/ImageProc.dir/ImageProc_autogen/mocs_compilation.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ImageProc.dir/ImageProc_autogen/mocs_compilation.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rodelph/dev/ImageProc/build-ImageProc-Desktop-Release/ImageProc_autogen/mocs_compilation.cpp > CMakeFiles/ImageProc.dir/ImageProc_autogen/mocs_compilation.cpp.i
+	/bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rodelph/dev/ImageProc/build-ImageProc-Desktop-Release/ImageProc_autogen/mocs_compilation.cpp > CMakeFiles/ImageProc.dir/ImageProc_autogen/mocs_compilation.cpp.i
 
 CMakeFiles/ImageProc.dir/ImageProc_autogen/mocs_compilation.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ImageProc.dir/ImageProc_autogen/mocs_compilation.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rodelph/dev/ImageProc/build-ImageProc-Desktop-Release/ImageProc_autogen/mocs_compilation.cpp -o CMakeFiles/ImageProc.dir/ImageProc_autogen/mocs_compilation.cpp.s
+	/bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rodelph/dev/ImageProc/build-ImageProc-Desktop-Release/ImageProc_autogen/mocs_compilation.cpp -o CMakeFiles/ImageProc.dir/ImageProc_autogen/mocs_compilation.cpp.s
 
 CMakeFiles/ImageProc.dir/ImageProc/SelectionWindow/main.cpp.o: CMakeFiles/ImageProc.dir/flags.make
 CMakeFiles/ImageProc.dir/ImageProc/SelectionWindow/main.cpp.o: ../ImageProc/SelectionWindow/main.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rodelph/dev/ImageProc/build-ImageProc-Desktop-Release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/ImageProc.dir/ImageProc/SelectionWindow/main.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ImageProc.dir/ImageProc/SelectionWindow/main.cpp.o -c /home/rodelph/dev/ImageProc/ImageProc/SelectionWindow/main.cpp
+	/bin/x86_64-linux-gnu-g++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ImageProc.dir/ImageProc/SelectionWindow/main.cpp.o -c /home/rodelph/dev/ImageProc/ImageProc/SelectionWindow/main.cpp
 
 CMakeFiles/ImageProc.dir/ImageProc/SelectionWindow/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ImageProc.dir/ImageProc/SelectionWindow/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rodelph/dev/ImageProc/ImageProc/SelectionWindow/main.cpp > CMakeFiles/ImageProc.dir/ImageProc/SelectionWindow/main.cpp.i
+	/bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rodelph/dev/ImageProc/ImageProc/SelectionWindow/main.cpp > CMakeFiles/ImageProc.dir/ImageProc/SelectionWindow/main.cpp.i
 
 CMakeFiles/ImageProc.dir/ImageProc/SelectionWindow/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ImageProc.dir/ImageProc/SelectionWindow/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rodelph/dev/ImageProc/ImageProc/SelectionWindow/main.cpp -o CMakeFiles/ImageProc.dir/ImageProc/SelectionWindow/main.cpp.s
+	/bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rodelph/dev/ImageProc/ImageProc/SelectionWindow/main.cpp -o CMakeFiles/ImageProc.dir/ImageProc/SelectionWindow/main.cpp.s
 
 CMakeFiles/ImageProc.dir/ImageProc/SelectionWindow/mainwindow.cpp.o: CMakeFiles/ImageProc.dir/flags.make
 CMakeFiles/ImageProc.dir/ImageProc/SelectionWindow/mainwindow.cpp.o: ../ImageProc/SelectionWindow/mainwindow.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rodelph/dev/ImageProc/build-ImageProc-Desktop-Release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/ImageProc.dir/ImageProc/SelectionWindow/mainwindow.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ImageProc.dir/ImageProc/SelectionWindow/mainwindow.cpp.o -c /home/rodelph/dev/ImageProc/ImageProc/SelectionWindow/mainwindow.cpp
+	/bin/x86_64-linux-gnu-g++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ImageProc.dir/ImageProc/SelectionWindow/mainwindow.cpp.o -c /home/rodelph/dev/ImageProc/ImageProc/SelectionWindow/mainwindow.cpp
 
 CMakeFiles/ImageProc.dir/ImageProc/SelectionWindow/mainwindow.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ImageProc.dir/ImageProc/SelectionWindow/mainwindow.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rodelph/dev/ImageProc/ImageProc/SelectionWindow/mainwindow.cpp > CMakeFiles/ImageProc.dir/ImageProc/SelectionWindow/mainwindow.cpp.i
+	/bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rodelph/dev/ImageProc/ImageProc/SelectionWindow/mainwindow.cpp > CMakeFiles/ImageProc.dir/ImageProc/SelectionWindow/mainwindow.cpp.i
 
 CMakeFiles/ImageProc.dir/ImageProc/SelectionWindow/mainwindow.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ImageProc.dir/ImageProc/SelectionWindow/mainwindow.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rodelph/dev/ImageProc/ImageProc/SelectionWindow/mainwindow.cpp -o CMakeFiles/ImageProc.dir/ImageProc/SelectionWindow/mainwindow.cpp.s
+	/bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rodelph/dev/ImageProc/ImageProc/SelectionWindow/mainwindow.cpp -o CMakeFiles/ImageProc.dir/ImageProc/SelectionWindow/mainwindow.cpp.s
 
 CMakeFiles/ImageProc.dir/ImageProc/FiltOption/filterswindow.cpp.o: CMakeFiles/ImageProc.dir/flags.make
 CMakeFiles/ImageProc.dir/ImageProc/FiltOption/filterswindow.cpp.o: ../ImageProc/FiltOption/filterswindow.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rodelph/dev/ImageProc/build-ImageProc-Desktop-Release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/ImageProc.dir/ImageProc/FiltOption/filterswindow.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ImageProc.dir/ImageProc/FiltOption/filterswindow.cpp.o -c /home/rodelph/dev/ImageProc/ImageProc/FiltOption/filterswindow.cpp
+	/bin/x86_64-linux-gnu-g++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ImageProc.dir/ImageProc/FiltOption/filterswindow.cpp.o -c /home/rodelph/dev/ImageProc/ImageProc/FiltOption/filterswindow.cpp
 
 CMakeFiles/ImageProc.dir/ImageProc/FiltOption/filterswindow.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ImageProc.dir/ImageProc/FiltOption/filterswindow.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rodelph/dev/ImageProc/ImageProc/FiltOption/filterswindow.cpp > CMakeFiles/ImageProc.dir/ImageProc/FiltOption/filterswindow.cpp.i
+	/bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rodelph/dev/ImageProc/ImageProc/FiltOption/filterswindow.cpp > CMakeFiles/ImageProc.dir/ImageProc/FiltOption/filterswindow.cpp.i
 
 CMakeFiles/ImageProc.dir/ImageProc/FiltOption/filterswindow.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ImageProc.dir/ImageProc/FiltOption/filterswindow.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rodelph/dev/ImageProc/ImageProc/FiltOption/filterswindow.cpp -o CMakeFiles/ImageProc.dir/ImageProc/FiltOption/filterswindow.cpp.s
+	/bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rodelph/dev/ImageProc/ImageProc/FiltOption/filterswindow.cpp -o CMakeFiles/ImageProc.dir/ImageProc/FiltOption/filterswindow.cpp.s
 
 CMakeFiles/ImageProc.dir/ImageProc/HistOption/histogram.cpp.o: CMakeFiles/ImageProc.dir/flags.make
 CMakeFiles/ImageProc.dir/ImageProc/HistOption/histogram.cpp.o: ../ImageProc/HistOption/histogram.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rodelph/dev/ImageProc/build-ImageProc-Desktop-Release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/ImageProc.dir/ImageProc/HistOption/histogram.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ImageProc.dir/ImageProc/HistOption/histogram.cpp.o -c /home/rodelph/dev/ImageProc/ImageProc/HistOption/histogram.cpp
+	/bin/x86_64-linux-gnu-g++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ImageProc.dir/ImageProc/HistOption/histogram.cpp.o -c /home/rodelph/dev/ImageProc/ImageProc/HistOption/histogram.cpp
 
 CMakeFiles/ImageProc.dir/ImageProc/HistOption/histogram.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ImageProc.dir/ImageProc/HistOption/histogram.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rodelph/dev/ImageProc/ImageProc/HistOption/histogram.cpp > CMakeFiles/ImageProc.dir/ImageProc/HistOption/histogram.cpp.i
+	/bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rodelph/dev/ImageProc/ImageProc/HistOption/histogram.cpp > CMakeFiles/ImageProc.dir/ImageProc/HistOption/histogram.cpp.i
 
 CMakeFiles/ImageProc.dir/ImageProc/HistOption/histogram.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ImageProc.dir/ImageProc/HistOption/histogram.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rodelph/dev/ImageProc/ImageProc/HistOption/histogram.cpp -o CMakeFiles/ImageProc.dir/ImageProc/HistOption/histogram.cpp.s
+	/bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rodelph/dev/ImageProc/ImageProc/HistOption/histogram.cpp -o CMakeFiles/ImageProc.dir/ImageProc/HistOption/histogram.cpp.s
 
 # Object files for target ImageProc
 ImageProc_OBJECTS = \
