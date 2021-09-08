@@ -43,6 +43,7 @@ public:
     {
         if (MainWindow->objectName().isEmpty())
             MainWindow->setObjectName(QString::fromUtf8("MainWindow"));
+        MainWindow->setWindowModality(Qt::ApplicationModal);
         MainWindow->setEnabled(true);
         MainWindow->resize(804, 710);
         QSizePolicy sizePolicy(QSizePolicy::Fixed, QSizePolicy::Fixed);
@@ -55,6 +56,7 @@ public:
         MainWindow->setAutoFillBackground(false);
         actionDetails = new QAction(MainWindow);
         actionDetails->setObjectName(QString::fromUtf8("actionDetails"));
+        actionDetails->setCheckable(false);
         centralwidget = new QWidget(MainWindow);
         centralwidget->setObjectName(QString::fromUtf8("centralwidget"));
         verticalLayoutWidget = new QWidget(centralwidget);
@@ -115,6 +117,9 @@ public:
     {
         MainWindow->setWindowTitle(QApplication::translate("MainWindow", "Image Processing", nullptr));
         actionDetails->setText(QApplication::translate("MainWindow", "Details", nullptr));
+#ifndef QT_NO_SHORTCUT
+        actionDetails->setShortcut(QApplication::translate("MainWindow", "Ctrl+I", nullptr));
+#endif // QT_NO_SHORTCUT
         label->setText(QApplication::translate("MainWindow", "Traitement d'Image", nullptr));
         histBtn->setText(QApplication::translate("MainWindow", "Histogram", nullptr));
         filtBtn->setText(QApplication::translate("MainWindow", "Filtres", nullptr));

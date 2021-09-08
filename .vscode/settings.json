@@ -1,4 +1,8 @@
 {
     "cmake.buildDirectory": "${workspaceFolder}/build-ImageProc-Desktop-Release",
-    "C_Cpp.errorSquiggles": "Disabled"
+    "C_Cpp.errorSquiggles": "Disabled",
+    "files.associations": {
+        "qmainwindow": "cpp",
+        "qmessagebox": "cpp"
+    }
 }

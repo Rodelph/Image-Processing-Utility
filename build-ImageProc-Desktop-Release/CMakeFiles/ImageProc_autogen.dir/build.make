@@ -55,7 +55,7 @@ include CMakeFiles/ImageProc_autogen.dir/progress.make
 
 CMakeFiles/ImageProc_autogen:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/rodelph/dev/ImageProc/build-ImageProc-Desktop-Release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC and UIC for target ImageProc"
-	/usr/bin/cmake -E cmake_autogen /home/rodelph/dev/ImageProc/build-ImageProc-Desktop-Release/CMakeFiles/ImageProc_autogen.dir/AutogenInfo.json Release
+	/usr/bin/cmake -E cmake_autogen /home/rodelph/dev/ImageProc/build-ImageProc-Desktop-Release/CMakeFiles/ImageProc_autogen.dir/AutogenInfo.json ""
 
 ImageProc_autogen: CMakeFiles/ImageProc_autogen
 ImageProc_autogen: CMakeFiles/ImageProc_autogen.dir/build.make

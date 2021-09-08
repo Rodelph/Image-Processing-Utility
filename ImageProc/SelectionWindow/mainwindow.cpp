@@ -28,3 +28,11 @@ void MainWindow::on_histBtn_clicked()
     hist->show();
     this->hide();
 }
+
+void MainWindow::on_actionDetails_triggered()
+{
+    QMessageBox::information(this,
+                             "More details",
+                             this->_details
+                             );
+}

@@ -2,6 +2,9 @@
 <ui version="4.0">
  <class>MainWindow</class>
  <widget class="QMainWindow" name="MainWindow">
+  <property name="windowModality">
+   <enum>Qt::ApplicationModal</enum>
+  </property>
   <property name="enabled">
    <bool>true</bool>
   </property>
@@ -110,8 +113,14 @@
    <addaction name="menuInfo"/>
   </widget>
   <action name="actionDetails">
+   <property name="checkable">
+    <bool>false</bool>
+   </property>
    <property name="text">
     <string>Details</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+I</string>
    </property>
   </action>
  </widget>

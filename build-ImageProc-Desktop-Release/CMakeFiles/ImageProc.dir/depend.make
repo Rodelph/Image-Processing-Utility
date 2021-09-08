@@ -351,10 +351,12 @@ CMakeFiles/ImageProc.dir/ImageProc/SelectionWindow/main.cpp.o: /usr/include/x86_
 CMakeFiles/ImageProc.dir/ImageProc/SelectionWindow/main.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QApplication
 CMakeFiles/ImageProc.dir/ImageProc/SelectionWindow/main.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QDialog
 CMakeFiles/ImageProc.dir/ImageProc/SelectionWindow/main.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QMainWindow
+CMakeFiles/ImageProc.dir/ImageProc/SelectionWindow/main.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QMessageBox
 CMakeFiles/ImageProc.dir/ImageProc/SelectionWindow/main.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qapplication.h
 CMakeFiles/ImageProc.dir/ImageProc/SelectionWindow/main.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qdesktopwidget.h
 CMakeFiles/ImageProc.dir/ImageProc/SelectionWindow/main.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qdialog.h
 CMakeFiles/ImageProc.dir/ImageProc/SelectionWindow/main.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qmainwindow.h
+CMakeFiles/ImageProc.dir/ImageProc/SelectionWindow/main.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qmessagebox.h
 CMakeFiles/ImageProc.dir/ImageProc/SelectionWindow/main.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qsizepolicy.h
 CMakeFiles/ImageProc.dir/ImageProc/SelectionWindow/main.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qtabwidget.h
 CMakeFiles/ImageProc.dir/ImageProc/SelectionWindow/main.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qtwidgets-config.h
@@ -477,6 +479,7 @@ CMakeFiles/ImageProc.dir/ImageProc/SelectionWindow/mainwindow.cpp.o: /usr/includ
 CMakeFiles/ImageProc.dir/ImageProc/SelectionWindow/mainwindow.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QMainWindow
 CMakeFiles/ImageProc.dir/ImageProc/SelectionWindow/mainwindow.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QMenu
 CMakeFiles/ImageProc.dir/ImageProc/SelectionWindow/mainwindow.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QMenuBar
+CMakeFiles/ImageProc.dir/ImageProc/SelectionWindow/mainwindow.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QMessageBox
 CMakeFiles/ImageProc.dir/ImageProc/SelectionWindow/mainwindow.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QPushButton
 CMakeFiles/ImageProc.dir/ImageProc/SelectionWindow/mainwindow.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QStatusBar
 CMakeFiles/ImageProc.dir/ImageProc/SelectionWindow/mainwindow.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QVBoxLayout
@@ -496,6 +499,7 @@ CMakeFiles/ImageProc.dir/ImageProc/SelectionWindow/mainwindow.cpp.o: /usr/includ
 CMakeFiles/ImageProc.dir/ImageProc/SelectionWindow/mainwindow.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qmainwindow.h
 CMakeFiles/ImageProc.dir/ImageProc/SelectionWindow/mainwindow.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qmenu.h
 CMakeFiles/ImageProc.dir/ImageProc/SelectionWindow/mainwindow.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qmenubar.h
+CMakeFiles/ImageProc.dir/ImageProc/SelectionWindow/mainwindow.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qmessagebox.h
 CMakeFiles/ImageProc.dir/ImageProc/SelectionWindow/mainwindow.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qpushbutton.h
 CMakeFiles/ImageProc.dir/ImageProc/SelectionWindow/mainwindow.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qsizepolicy.h
 CMakeFiles/ImageProc.dir/ImageProc/SelectionWindow/mainwindow.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qstatusbar.h
@@ -613,8 +617,10 @@ CMakeFiles/ImageProc.dir/ImageProc_autogen/mocs_compilation.cpp.o: /usr/include/
 CMakeFiles/ImageProc.dir/ImageProc_autogen/mocs_compilation.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtGui/qwindowdefs_win.h
 CMakeFiles/ImageProc.dir/ImageProc_autogen/mocs_compilation.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QDialog
 CMakeFiles/ImageProc.dir/ImageProc_autogen/mocs_compilation.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QMainWindow
+CMakeFiles/ImageProc.dir/ImageProc_autogen/mocs_compilation.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QMessageBox
 CMakeFiles/ImageProc.dir/ImageProc_autogen/mocs_compilation.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qdialog.h
 CMakeFiles/ImageProc.dir/ImageProc_autogen/mocs_compilation.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qmainwindow.h
+CMakeFiles/ImageProc.dir/ImageProc_autogen/mocs_compilation.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qmessagebox.h
 CMakeFiles/ImageProc.dir/ImageProc_autogen/mocs_compilation.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qsizepolicy.h
 CMakeFiles/ImageProc.dir/ImageProc_autogen/mocs_compilation.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qtabwidget.h
 CMakeFiles/ImageProc.dir/ImageProc_autogen/mocs_compilation.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qtwidgets-config.h
