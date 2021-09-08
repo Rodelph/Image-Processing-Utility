@@ -43,7 +43,7 @@ public:
     {
         if (MainWindow->objectName().isEmpty())
             MainWindow->setObjectName(QString::fromUtf8("MainWindow"));
-        MainWindow->setWindowModality(Qt::ApplicationModal);
+        MainWindow->setWindowModality(Qt::NonModal);
         MainWindow->setEnabled(true);
         MainWindow->resize(804, 710);
         QSizePolicy sizePolicy(QSizePolicy::Fixed, QSizePolicy::Fixed);
