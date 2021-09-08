@@ -23,7 +23,5 @@ void MainWindow::on_filtBtn_clicked()
 
 void MainWindow::on_histBtn_clicked()
 {
-    hist = new histogram(this);
-    hist->show();
-    this->hide();
+
 }
