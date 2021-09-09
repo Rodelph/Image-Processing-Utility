@@ -1,0 +1,58 @@
+{
+	"backtrace" : 0,
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : 
+		[
+			"ImageAlgorithms/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			}
+		]
+	},
+	"id" : "ImageAlgorithms_autogen::@c16bd134b49833051e8d",
+	"isGeneratorProvided" : true,
+	"name" : "ImageAlgorithms_autogen",
+	"paths" : 
+	{
+		"build" : "ImageAlgorithms",
+		"source" : "ImageAlgorithms"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				1
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build-ImageProc-Desktop-Release/ImageAlgorithms/CMakeFiles/ImageAlgorithms_autogen",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build-ImageProc-Desktop-Release/ImageAlgorithms/CMakeFiles/ImageAlgorithms_autogen.rule",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "UTILITY"
+}

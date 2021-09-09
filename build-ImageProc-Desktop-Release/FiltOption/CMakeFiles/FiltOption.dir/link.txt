@@ -1,0 +1,2 @@
+/bin/ar qc libFiltOption.a  CMakeFiles/FiltOption.dir/FiltOption_autogen/mocs_compilation.cpp.o CMakeFiles/FiltOption.dir/src/FiltOption/filterswindow.cpp.o
+/bin/ranlib libFiltOption.a

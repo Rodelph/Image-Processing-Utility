@@ -67,28 +67,6 @@ rebuild_cache/fast: rebuild_cache
 
 .PHONY : rebuild_cache/fast
 
-# Special rule for the target test
-test:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running tests..."
-	/usr/bin/ctest --force-new-ctest-process $(ARGS)
-.PHONY : test
-
-# Special rule for the target test
-test/fast: test
-
-.PHONY : test/fast
-
-# Special rule for the target package_source
-package_source:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool for source..."
-	/usr/bin/cpack --config ./CPackSourceConfig.cmake /home/rodelph/dev/ImageProc/build-ImageProc-Desktop-Release/CPackSourceConfig.cmake
-.PHONY : package_source
-
-# Special rule for the target package_source
-package_source/fast: package_source
-
-.PHONY : package_source/fast
-
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
@@ -100,16 +78,16 @@ edit_cache/fast: edit_cache
 
 .PHONY : edit_cache/fast
 
-# Special rule for the target package
-package: preinstall
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool..."
-	/usr/bin/cpack --config ./CPackConfig.cmake
-.PHONY : package
+# Special rule for the target test
+test:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running tests..."
+	/usr/bin/ctest --force-new-ctest-process $(ARGS)
+.PHONY : test
 
-# Special rule for the target package
-package/fast: package
+# Special rule for the target test
+test/fast: test
 
-.PHONY : package/fast
+.PHONY : test/fast
 
 # The main all target
 all: cmake_check_build_system
@@ -155,6 +133,19 @@ NightlyMemCheck: cmake_check_build_system
 NightlyMemCheck/fast:
 	$(MAKE) -f CMakeFiles/NightlyMemCheck.dir/build.make CMakeFiles/NightlyMemCheck.dir/build
 .PHONY : NightlyMemCheck/fast
+
+#=============================================================================
+# Target rules for targets named NightlyTest
+
+# Build rule for target.
+NightlyTest: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 NightlyTest
+.PHONY : NightlyTest
+
+# fast build rule for target.
+NightlyTest/fast:
+	$(MAKE) -f CMakeFiles/NightlyTest.dir/build.make CMakeFiles/NightlyTest.dir/build
+.PHONY : NightlyTest/fast
 
 #=============================================================================
 # Target rules for targets named ContinuousConfigure
@@ -391,32 +382,6 @@ NightlyCoverage/fast:
 .PHONY : NightlyCoverage/fast
 
 #=============================================================================
-# Target rules for targets named NightlyTest
-
-# Build rule for target.
-NightlyTest: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 NightlyTest
-.PHONY : NightlyTest
-
-# fast build rule for target.
-NightlyTest/fast:
-	$(MAKE) -f CMakeFiles/NightlyTest.dir/build.make CMakeFiles/NightlyTest.dir/build
-.PHONY : NightlyTest/fast
-
-#=============================================================================
-# Target rules for targets named ImageProc
-
-# Build rule for target.
-ImageProc: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 ImageProc
-.PHONY : ImageProc
-
-# fast build rule for target.
-ImageProc/fast:
-	$(MAKE) -f CMakeFiles/ImageProc.dir/build.make CMakeFiles/ImageProc.dir/build
-.PHONY : ImageProc/fast
-
-#=============================================================================
 # Target rules for targets named ExperimentalStart
 
 # Build rule for target.
@@ -521,6 +486,123 @@ ContinuousSubmit/fast:
 .PHONY : ContinuousSubmit/fast
 
 #=============================================================================
+# Target rules for targets named ImageAlgorithms
+
+# Build rule for target.
+ImageAlgorithms: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 ImageAlgorithms
+.PHONY : ImageAlgorithms
+
+# fast build rule for target.
+ImageAlgorithms/fast:
+	$(MAKE) -f ImageAlgorithms/CMakeFiles/ImageAlgorithms.dir/build.make ImageAlgorithms/CMakeFiles/ImageAlgorithms.dir/build
+.PHONY : ImageAlgorithms/fast
+
+#=============================================================================
+# Target rules for targets named ImageAlgorithms_autogen
+
+# Build rule for target.
+ImageAlgorithms_autogen: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 ImageAlgorithms_autogen
+.PHONY : ImageAlgorithms_autogen
+
+# fast build rule for target.
+ImageAlgorithms_autogen/fast:
+	$(MAKE) -f ImageAlgorithms/CMakeFiles/ImageAlgorithms_autogen.dir/build.make ImageAlgorithms/CMakeFiles/ImageAlgorithms_autogen.dir/build
+.PHONY : ImageAlgorithms_autogen/fast
+
+#=============================================================================
+# Target rules for targets named SelectionWindow
+
+# Build rule for target.
+SelectionWindow: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 SelectionWindow
+.PHONY : SelectionWindow
+
+# fast build rule for target.
+SelectionWindow/fast:
+	$(MAKE) -f SelectionWindow/CMakeFiles/SelectionWindow.dir/build.make SelectionWindow/CMakeFiles/SelectionWindow.dir/build
+.PHONY : SelectionWindow/fast
+
+#=============================================================================
+# Target rules for targets named SelectionWindow_autogen
+
+# Build rule for target.
+SelectionWindow_autogen: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 SelectionWindow_autogen
+.PHONY : SelectionWindow_autogen
+
+# fast build rule for target.
+SelectionWindow_autogen/fast:
+	$(MAKE) -f SelectionWindow/CMakeFiles/SelectionWindow_autogen.dir/build.make SelectionWindow/CMakeFiles/SelectionWindow_autogen.dir/build
+.PHONY : SelectionWindow_autogen/fast
+
+#=============================================================================
+# Target rules for targets named FiltOption
+
+# Build rule for target.
+FiltOption: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 FiltOption
+.PHONY : FiltOption
+
+# fast build rule for target.
+FiltOption/fast:
+	$(MAKE) -f FiltOption/CMakeFiles/FiltOption.dir/build.make FiltOption/CMakeFiles/FiltOption.dir/build
+.PHONY : FiltOption/fast
+
+#=============================================================================
+# Target rules for targets named FiltOption_autogen
+
+# Build rule for target.
+FiltOption_autogen: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 FiltOption_autogen
+.PHONY : FiltOption_autogen
+
+# fast build rule for target.
+FiltOption_autogen/fast:
+	$(MAKE) -f FiltOption/CMakeFiles/FiltOption_autogen.dir/build.make FiltOption/CMakeFiles/FiltOption_autogen.dir/build
+.PHONY : FiltOption_autogen/fast
+
+#=============================================================================
+# Target rules for targets named HistOption
+
+# Build rule for target.
+HistOption: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 HistOption
+.PHONY : HistOption
+
+# fast build rule for target.
+HistOption/fast:
+	$(MAKE) -f HistOption/CMakeFiles/HistOption.dir/build.make HistOption/CMakeFiles/HistOption.dir/build
+.PHONY : HistOption/fast
+
+#=============================================================================
+# Target rules for targets named HistOption_autogen
+
+# Build rule for target.
+HistOption_autogen: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 HistOption_autogen
+.PHONY : HistOption_autogen
+
+# fast build rule for target.
+HistOption_autogen/fast:
+	$(MAKE) -f HistOption/CMakeFiles/HistOption_autogen.dir/build.make HistOption/CMakeFiles/HistOption_autogen.dir/build
+.PHONY : HistOption_autogen/fast
+
+#=============================================================================
+# Target rules for targets named ImageProc
+
+# Build rule for target.
+ImageProc: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 ImageProc
+.PHONY : ImageProc
+
+# fast build rule for target.
+ImageProc/fast:
+	$(MAKE) -f ProjectEx/CMakeFiles/ImageProc.dir/build.make ProjectEx/CMakeFiles/ImageProc.dir/build
+.PHONY : ImageProc/fast
+
+#=============================================================================
 # Target rules for targets named ImageProc_autogen
 
 # Build rule for target.
@@ -530,143 +612,8 @@ ImageProc_autogen: cmake_check_build_system
 
 # fast build rule for target.
 ImageProc_autogen/fast:
-	$(MAKE) -f CMakeFiles/ImageProc_autogen.dir/build.make CMakeFiles/ImageProc_autogen.dir/build
+	$(MAKE) -f ProjectEx/CMakeFiles/ImageProc_autogen.dir/build.make ProjectEx/CMakeFiles/ImageProc_autogen.dir/build
 .PHONY : ImageProc_autogen/fast
-
-ImageProc/FiltOption/filterswindow.o: ImageProc/FiltOption/filterswindow.cpp.o
-
-.PHONY : ImageProc/FiltOption/filterswindow.o
-
-# target to build an object file
-ImageProc/FiltOption/filterswindow.cpp.o:
-	$(MAKE) -f CMakeFiles/ImageProc.dir/build.make CMakeFiles/ImageProc.dir/ImageProc/FiltOption/filterswindow.cpp.o
-.PHONY : ImageProc/FiltOption/filterswindow.cpp.o
-
-ImageProc/FiltOption/filterswindow.i: ImageProc/FiltOption/filterswindow.cpp.i
-
-.PHONY : ImageProc/FiltOption/filterswindow.i
-
-# target to preprocess a source file
-ImageProc/FiltOption/filterswindow.cpp.i:
-	$(MAKE) -f CMakeFiles/ImageProc.dir/build.make CMakeFiles/ImageProc.dir/ImageProc/FiltOption/filterswindow.cpp.i
-.PHONY : ImageProc/FiltOption/filterswindow.cpp.i
-
-ImageProc/FiltOption/filterswindow.s: ImageProc/FiltOption/filterswindow.cpp.s
-
-.PHONY : ImageProc/FiltOption/filterswindow.s
-
-# target to generate assembly for a file
-ImageProc/FiltOption/filterswindow.cpp.s:
-	$(MAKE) -f CMakeFiles/ImageProc.dir/build.make CMakeFiles/ImageProc.dir/ImageProc/FiltOption/filterswindow.cpp.s
-.PHONY : ImageProc/FiltOption/filterswindow.cpp.s
-
-ImageProc/HistOption/histogram.o: ImageProc/HistOption/histogram.cpp.o
-
-.PHONY : ImageProc/HistOption/histogram.o
-
-# target to build an object file
-ImageProc/HistOption/histogram.cpp.o:
-	$(MAKE) -f CMakeFiles/ImageProc.dir/build.make CMakeFiles/ImageProc.dir/ImageProc/HistOption/histogram.cpp.o
-.PHONY : ImageProc/HistOption/histogram.cpp.o
-
-ImageProc/HistOption/histogram.i: ImageProc/HistOption/histogram.cpp.i
-
-.PHONY : ImageProc/HistOption/histogram.i
-
-# target to preprocess a source file
-ImageProc/HistOption/histogram.cpp.i:
-	$(MAKE) -f CMakeFiles/ImageProc.dir/build.make CMakeFiles/ImageProc.dir/ImageProc/HistOption/histogram.cpp.i
-.PHONY : ImageProc/HistOption/histogram.cpp.i
-
-ImageProc/HistOption/histogram.s: ImageProc/HistOption/histogram.cpp.s
-
-.PHONY : ImageProc/HistOption/histogram.s
-
-# target to generate assembly for a file
-ImageProc/HistOption/histogram.cpp.s:
-	$(MAKE) -f CMakeFiles/ImageProc.dir/build.make CMakeFiles/ImageProc.dir/ImageProc/HistOption/histogram.cpp.s
-.PHONY : ImageProc/HistOption/histogram.cpp.s
-
-ImageProc/SelectionWindow/main.o: ImageProc/SelectionWindow/main.cpp.o
-
-.PHONY : ImageProc/SelectionWindow/main.o
-
-# target to build an object file
-ImageProc/SelectionWindow/main.cpp.o:
-	$(MAKE) -f CMakeFiles/ImageProc.dir/build.make CMakeFiles/ImageProc.dir/ImageProc/SelectionWindow/main.cpp.o
-.PHONY : ImageProc/SelectionWindow/main.cpp.o
-
-ImageProc/SelectionWindow/main.i: ImageProc/SelectionWindow/main.cpp.i
-
-.PHONY : ImageProc/SelectionWindow/main.i
-
-# target to preprocess a source file
-ImageProc/SelectionWindow/main.cpp.i:
-	$(MAKE) -f CMakeFiles/ImageProc.dir/build.make CMakeFiles/ImageProc.dir/ImageProc/SelectionWindow/main.cpp.i
-.PHONY : ImageProc/SelectionWindow/main.cpp.i
-
-ImageProc/SelectionWindow/main.s: ImageProc/SelectionWindow/main.cpp.s
-
-.PHONY : ImageProc/SelectionWindow/main.s
-
-# target to generate assembly for a file
-ImageProc/SelectionWindow/main.cpp.s:
-	$(MAKE) -f CMakeFiles/ImageProc.dir/build.make CMakeFiles/ImageProc.dir/ImageProc/SelectionWindow/main.cpp.s
-.PHONY : ImageProc/SelectionWindow/main.cpp.s
-
-ImageProc/SelectionWindow/mainwindow.o: ImageProc/SelectionWindow/mainwindow.cpp.o
-
-.PHONY : ImageProc/SelectionWindow/mainwindow.o
-
-# target to build an object file
-ImageProc/SelectionWindow/mainwindow.cpp.o:
-	$(MAKE) -f CMakeFiles/ImageProc.dir/build.make CMakeFiles/ImageProc.dir/ImageProc/SelectionWindow/mainwindow.cpp.o
-.PHONY : ImageProc/SelectionWindow/mainwindow.cpp.o
-
-ImageProc/SelectionWindow/mainwindow.i: ImageProc/SelectionWindow/mainwindow.cpp.i
-
-.PHONY : ImageProc/SelectionWindow/mainwindow.i
-
-# target to preprocess a source file
-ImageProc/SelectionWindow/mainwindow.cpp.i:
-	$(MAKE) -f CMakeFiles/ImageProc.dir/build.make CMakeFiles/ImageProc.dir/ImageProc/SelectionWindow/mainwindow.cpp.i
-.PHONY : ImageProc/SelectionWindow/mainwindow.cpp.i
-
-ImageProc/SelectionWindow/mainwindow.s: ImageProc/SelectionWindow/mainwindow.cpp.s
-
-.PHONY : ImageProc/SelectionWindow/mainwindow.s
-
-# target to generate assembly for a file
-ImageProc/SelectionWindow/mainwindow.cpp.s:
-	$(MAKE) -f CMakeFiles/ImageProc.dir/build.make CMakeFiles/ImageProc.dir/ImageProc/SelectionWindow/mainwindow.cpp.s
-.PHONY : ImageProc/SelectionWindow/mainwindow.cpp.s
-
-ImageProc_autogen/mocs_compilation.o: ImageProc_autogen/mocs_compilation.cpp.o
-
-.PHONY : ImageProc_autogen/mocs_compilation.o
-
-# target to build an object file
-ImageProc_autogen/mocs_compilation.cpp.o:
-	$(MAKE) -f CMakeFiles/ImageProc.dir/build.make CMakeFiles/ImageProc.dir/ImageProc_autogen/mocs_compilation.cpp.o
-.PHONY : ImageProc_autogen/mocs_compilation.cpp.o
-
-ImageProc_autogen/mocs_compilation.i: ImageProc_autogen/mocs_compilation.cpp.i
-
-.PHONY : ImageProc_autogen/mocs_compilation.i
-
-# target to preprocess a source file
-ImageProc_autogen/mocs_compilation.cpp.i:
-	$(MAKE) -f CMakeFiles/ImageProc.dir/build.make CMakeFiles/ImageProc.dir/ImageProc_autogen/mocs_compilation.cpp.i
-.PHONY : ImageProc_autogen/mocs_compilation.cpp.i
-
-ImageProc_autogen/mocs_compilation.s: ImageProc_autogen/mocs_compilation.cpp.s
-
-.PHONY : ImageProc_autogen/mocs_compilation.s
-
-# target to generate assembly for a file
-ImageProc_autogen/mocs_compilation.cpp.s:
-	$(MAKE) -f CMakeFiles/ImageProc.dir/build.make CMakeFiles/ImageProc.dir/ImageProc_autogen/mocs_compilation.cpp.s
-.PHONY : ImageProc_autogen/mocs_compilation.cpp.s
 
 # Help Target
 help:
@@ -675,10 +622,10 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... rebuild_cache"
-	@echo "... test"
-	@echo "... package_source"
 	@echo "... edit_cache"
 	@echo "... NightlyMemCheck"
+	@echo "... NightlyTest"
+	@echo "... test"
 	@echo "... ContinuousConfigure"
 	@echo "... ContinuousBuild"
 	@echo "... NightlyConfigure"
@@ -697,10 +644,7 @@ help:
 	@echo "... NightlyStart"
 	@echo "... ExperimentalCoverage"
 	@echo "... NightlyCoverage"
-	@echo "... NightlyTest"
-	@echo "... ImageProc"
 	@echo "... ExperimentalStart"
-	@echo "... package"
 	@echo "... NightlyBuild"
 	@echo "... ExperimentalBuild"
 	@echo "... ExperimentalUpdate"
@@ -708,22 +652,16 @@ help:
 	@echo "... ContinuousMemCheck"
 	@echo "... ContinuousTest"
 	@echo "... ContinuousSubmit"
+	@echo "... ImageAlgorithms"
+	@echo "... ImageAlgorithms_autogen"
+	@echo "... SelectionWindow"
+	@echo "... SelectionWindow_autogen"
+	@echo "... FiltOption"
+	@echo "... FiltOption_autogen"
+	@echo "... HistOption"
+	@echo "... HistOption_autogen"
+	@echo "... ImageProc"
 	@echo "... ImageProc_autogen"
-	@echo "... ImageProc/FiltOption/filterswindow.o"
-	@echo "... ImageProc/FiltOption/filterswindow.i"
-	@echo "... ImageProc/FiltOption/filterswindow.s"
-	@echo "... ImageProc/HistOption/histogram.o"
-	@echo "... ImageProc/HistOption/histogram.i"
-	@echo "... ImageProc/HistOption/histogram.s"
-	@echo "... ImageProc/SelectionWindow/main.o"
-	@echo "... ImageProc/SelectionWindow/main.i"
-	@echo "... ImageProc/SelectionWindow/main.s"
-	@echo "... ImageProc/SelectionWindow/mainwindow.o"
-	@echo "... ImageProc/SelectionWindow/mainwindow.i"
-	@echo "... ImageProc/SelectionWindow/mainwindow.s"
-	@echo "... ImageProc_autogen/mocs_compilation.o"
-	@echo "... ImageProc_autogen/mocs_compilation.i"
-	@echo "... ImageProc_autogen/mocs_compilation.s"
 .PHONY : help
 
 

@@ -53,17 +53,26 @@ CMAKE_BINARY_DIR = /home/rodelph/dev/ImageProc/build-ImageProc-Desktop-Release
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/ImageProc.dir/all
+all: ImageAlgorithms/all
+all: SelectionWindow/all
+all: FiltOption/all
+all: HistOption/all
+all: ProjectEx/all
 
 .PHONY : all
 
 # The main recursive "preinstall" target.
-preinstall:
+preinstall: ImageAlgorithms/preinstall
+preinstall: SelectionWindow/preinstall
+preinstall: FiltOption/preinstall
+preinstall: HistOption/preinstall
+preinstall: ProjectEx/preinstall
 
 .PHONY : preinstall
 
 # The main recursive "clean" target.
 clean: CMakeFiles/NightlyMemCheck.dir/clean
+clean: CMakeFiles/NightlyTest.dir/clean
 clean: CMakeFiles/ContinuousConfigure.dir/clean
 clean: CMakeFiles/ContinuousBuild.dir/clean
 clean: CMakeFiles/NightlyConfigure.dir/clean
@@ -82,8 +91,6 @@ clean: CMakeFiles/NightlySubmit.dir/clean
 clean: CMakeFiles/NightlyStart.dir/clean
 clean: CMakeFiles/ExperimentalCoverage.dir/clean
 clean: CMakeFiles/NightlyCoverage.dir/clean
-clean: CMakeFiles/NightlyTest.dir/clean
-clean: CMakeFiles/ImageProc.dir/clean
 clean: CMakeFiles/ExperimentalStart.dir/clean
 clean: CMakeFiles/NightlyBuild.dir/clean
 clean: CMakeFiles/ExperimentalBuild.dir/clean
@@ -92,9 +99,108 @@ clean: CMakeFiles/ContinuousStart.dir/clean
 clean: CMakeFiles/ContinuousMemCheck.dir/clean
 clean: CMakeFiles/ContinuousTest.dir/clean
 clean: CMakeFiles/ContinuousSubmit.dir/clean
-clean: CMakeFiles/ImageProc_autogen.dir/clean
+clean: ImageAlgorithms/clean
+clean: SelectionWindow/clean
+clean: FiltOption/clean
+clean: HistOption/clean
+clean: ProjectEx/clean
 
 .PHONY : clean
+
+#=============================================================================
+# Directory level rules for directory FiltOption
+
+# Recursive "all" directory target.
+FiltOption/all: FiltOption/CMakeFiles/FiltOption.dir/all
+
+.PHONY : FiltOption/all
+
+# Recursive "preinstall" directory target.
+FiltOption/preinstall:
+
+.PHONY : FiltOption/preinstall
+
+# Recursive "clean" directory target.
+FiltOption/clean: FiltOption/CMakeFiles/FiltOption.dir/clean
+FiltOption/clean: FiltOption/CMakeFiles/FiltOption_autogen.dir/clean
+
+.PHONY : FiltOption/clean
+
+#=============================================================================
+# Directory level rules for directory HistOption
+
+# Recursive "all" directory target.
+HistOption/all: HistOption/CMakeFiles/HistOption.dir/all
+
+.PHONY : HistOption/all
+
+# Recursive "preinstall" directory target.
+HistOption/preinstall:
+
+.PHONY : HistOption/preinstall
+
+# Recursive "clean" directory target.
+HistOption/clean: HistOption/CMakeFiles/HistOption.dir/clean
+HistOption/clean: HistOption/CMakeFiles/HistOption_autogen.dir/clean
+
+.PHONY : HistOption/clean
+
+#=============================================================================
+# Directory level rules for directory ImageAlgorithms
+
+# Recursive "all" directory target.
+ImageAlgorithms/all: ImageAlgorithms/CMakeFiles/ImageAlgorithms.dir/all
+
+.PHONY : ImageAlgorithms/all
+
+# Recursive "preinstall" directory target.
+ImageAlgorithms/preinstall:
+
+.PHONY : ImageAlgorithms/preinstall
+
+# Recursive "clean" directory target.
+ImageAlgorithms/clean: ImageAlgorithms/CMakeFiles/ImageAlgorithms.dir/clean
+ImageAlgorithms/clean: ImageAlgorithms/CMakeFiles/ImageAlgorithms_autogen.dir/clean
+
+.PHONY : ImageAlgorithms/clean
+
+#=============================================================================
+# Directory level rules for directory ProjectEx
+
+# Recursive "all" directory target.
+ProjectEx/all: ProjectEx/CMakeFiles/ImageProc.dir/all
+
+.PHONY : ProjectEx/all
+
+# Recursive "preinstall" directory target.
+ProjectEx/preinstall:
+
+.PHONY : ProjectEx/preinstall
+
+# Recursive "clean" directory target.
+ProjectEx/clean: ProjectEx/CMakeFiles/ImageProc.dir/clean
+ProjectEx/clean: ProjectEx/CMakeFiles/ImageProc_autogen.dir/clean
+
+.PHONY : ProjectEx/clean
+
+#=============================================================================
+# Directory level rules for directory SelectionWindow
+
+# Recursive "all" directory target.
+SelectionWindow/all: SelectionWindow/CMakeFiles/SelectionWindow.dir/all
+
+.PHONY : SelectionWindow/all
+
+# Recursive "preinstall" directory target.
+SelectionWindow/preinstall:
+
+.PHONY : SelectionWindow/preinstall
+
+# Recursive "clean" directory target.
+SelectionWindow/clean: SelectionWindow/CMakeFiles/SelectionWindow.dir/clean
+SelectionWindow/clean: SelectionWindow/CMakeFiles/SelectionWindow_autogen.dir/clean
+
+.PHONY : SelectionWindow/clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/NightlyMemCheck.dir
@@ -122,6 +228,33 @@ NightlyMemCheck: CMakeFiles/NightlyMemCheck.dir/rule
 CMakeFiles/NightlyMemCheck.dir/clean:
 	$(MAKE) -f CMakeFiles/NightlyMemCheck.dir/build.make CMakeFiles/NightlyMemCheck.dir/clean
 .PHONY : CMakeFiles/NightlyMemCheck.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/NightlyTest.dir
+
+# All Build rule for target.
+CMakeFiles/NightlyTest.dir/all:
+	$(MAKE) -f CMakeFiles/NightlyTest.dir/build.make CMakeFiles/NightlyTest.dir/depend
+	$(MAKE) -f CMakeFiles/NightlyTest.dir/build.make CMakeFiles/NightlyTest.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/rodelph/dev/ImageProc/build-ImageProc-Desktop-Release/CMakeFiles --progress-num= "Built target NightlyTest"
+.PHONY : CMakeFiles/NightlyTest.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/NightlyTest.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/rodelph/dev/ImageProc/build-ImageProc-Desktop-Release/CMakeFiles 0
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/NightlyTest.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/rodelph/dev/ImageProc/build-ImageProc-Desktop-Release/CMakeFiles 0
+.PHONY : CMakeFiles/NightlyTest.dir/rule
+
+# Convenience name for target.
+NightlyTest: CMakeFiles/NightlyTest.dir/rule
+
+.PHONY : NightlyTest
+
+# clean rule for target.
+CMakeFiles/NightlyTest.dir/clean:
+	$(MAKE) -f CMakeFiles/NightlyTest.dir/build.make CMakeFiles/NightlyTest.dir/clean
+.PHONY : CMakeFiles/NightlyTest.dir/clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/ContinuousConfigure.dir
@@ -610,60 +743,6 @@ CMakeFiles/NightlyCoverage.dir/clean:
 .PHONY : CMakeFiles/NightlyCoverage.dir/clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/NightlyTest.dir
-
-# All Build rule for target.
-CMakeFiles/NightlyTest.dir/all:
-	$(MAKE) -f CMakeFiles/NightlyTest.dir/build.make CMakeFiles/NightlyTest.dir/depend
-	$(MAKE) -f CMakeFiles/NightlyTest.dir/build.make CMakeFiles/NightlyTest.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/rodelph/dev/ImageProc/build-ImageProc-Desktop-Release/CMakeFiles --progress-num= "Built target NightlyTest"
-.PHONY : CMakeFiles/NightlyTest.dir/all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/NightlyTest.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/rodelph/dev/ImageProc/build-ImageProc-Desktop-Release/CMakeFiles 0
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/NightlyTest.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/rodelph/dev/ImageProc/build-ImageProc-Desktop-Release/CMakeFiles 0
-.PHONY : CMakeFiles/NightlyTest.dir/rule
-
-# Convenience name for target.
-NightlyTest: CMakeFiles/NightlyTest.dir/rule
-
-.PHONY : NightlyTest
-
-# clean rule for target.
-CMakeFiles/NightlyTest.dir/clean:
-	$(MAKE) -f CMakeFiles/NightlyTest.dir/build.make CMakeFiles/NightlyTest.dir/clean
-.PHONY : CMakeFiles/NightlyTest.dir/clean
-
-#=============================================================================
-# Target rules for target CMakeFiles/ImageProc.dir
-
-# All Build rule for target.
-CMakeFiles/ImageProc.dir/all: CMakeFiles/ImageProc_autogen.dir/all
-	$(MAKE) -f CMakeFiles/ImageProc.dir/build.make CMakeFiles/ImageProc.dir/depend
-	$(MAKE) -f CMakeFiles/ImageProc.dir/build.make CMakeFiles/ImageProc.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/rodelph/dev/ImageProc/build-ImageProc-Desktop-Release/CMakeFiles --progress-num=1,2,3,4,5,6 "Built target ImageProc"
-.PHONY : CMakeFiles/ImageProc.dir/all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/ImageProc.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/rodelph/dev/ImageProc/build-ImageProc-Desktop-Release/CMakeFiles 7
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/ImageProc.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/rodelph/dev/ImageProc/build-ImageProc-Desktop-Release/CMakeFiles 0
-.PHONY : CMakeFiles/ImageProc.dir/rule
-
-# Convenience name for target.
-ImageProc: CMakeFiles/ImageProc.dir/rule
-
-.PHONY : ImageProc
-
-# clean rule for target.
-CMakeFiles/ImageProc.dir/clean:
-	$(MAKE) -f CMakeFiles/ImageProc.dir/build.make CMakeFiles/ImageProc.dir/clean
-.PHONY : CMakeFiles/ImageProc.dir/clean
-
-#=============================================================================
 # Target rules for target CMakeFiles/ExperimentalStart.dir
 
 # All Build rule for target.
@@ -880,31 +959,281 @@ CMakeFiles/ContinuousSubmit.dir/clean:
 .PHONY : CMakeFiles/ContinuousSubmit.dir/clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/ImageProc_autogen.dir
+# Target rules for target ImageAlgorithms/CMakeFiles/ImageAlgorithms.dir
 
 # All Build rule for target.
-CMakeFiles/ImageProc_autogen.dir/all:
-	$(MAKE) -f CMakeFiles/ImageProc_autogen.dir/build.make CMakeFiles/ImageProc_autogen.dir/depend
-	$(MAKE) -f CMakeFiles/ImageProc_autogen.dir/build.make CMakeFiles/ImageProc_autogen.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/rodelph/dev/ImageProc/build-ImageProc-Desktop-Release/CMakeFiles --progress-num=7 "Built target ImageProc_autogen"
-.PHONY : CMakeFiles/ImageProc_autogen.dir/all
+ImageAlgorithms/CMakeFiles/ImageAlgorithms.dir/all: ImageAlgorithms/CMakeFiles/ImageAlgorithms_autogen.dir/all
+	$(MAKE) -f ImageAlgorithms/CMakeFiles/ImageAlgorithms.dir/build.make ImageAlgorithms/CMakeFiles/ImageAlgorithms.dir/depend
+	$(MAKE) -f ImageAlgorithms/CMakeFiles/ImageAlgorithms.dir/build.make ImageAlgorithms/CMakeFiles/ImageAlgorithms.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/rodelph/dev/ImageProc/build-ImageProc-Desktop-Release/CMakeFiles --progress-num=9,10,11 "Built target ImageAlgorithms"
+.PHONY : ImageAlgorithms/CMakeFiles/ImageAlgorithms.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/ImageProc_autogen.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/rodelph/dev/ImageProc/build-ImageProc-Desktop-Release/CMakeFiles 1
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/ImageProc_autogen.dir/all
+ImageAlgorithms/CMakeFiles/ImageAlgorithms.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/rodelph/dev/ImageProc/build-ImageProc-Desktop-Release/CMakeFiles 4
+	$(MAKE) -f CMakeFiles/Makefile2 ImageAlgorithms/CMakeFiles/ImageAlgorithms.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/rodelph/dev/ImageProc/build-ImageProc-Desktop-Release/CMakeFiles 0
-.PHONY : CMakeFiles/ImageProc_autogen.dir/rule
+.PHONY : ImageAlgorithms/CMakeFiles/ImageAlgorithms.dir/rule
 
 # Convenience name for target.
-ImageProc_autogen: CMakeFiles/ImageProc_autogen.dir/rule
+ImageAlgorithms: ImageAlgorithms/CMakeFiles/ImageAlgorithms.dir/rule
+
+.PHONY : ImageAlgorithms
+
+# clean rule for target.
+ImageAlgorithms/CMakeFiles/ImageAlgorithms.dir/clean:
+	$(MAKE) -f ImageAlgorithms/CMakeFiles/ImageAlgorithms.dir/build.make ImageAlgorithms/CMakeFiles/ImageAlgorithms.dir/clean
+.PHONY : ImageAlgorithms/CMakeFiles/ImageAlgorithms.dir/clean
+
+#=============================================================================
+# Target rules for target ImageAlgorithms/CMakeFiles/ImageAlgorithms_autogen.dir
+
+# All Build rule for target.
+ImageAlgorithms/CMakeFiles/ImageAlgorithms_autogen.dir/all:
+	$(MAKE) -f ImageAlgorithms/CMakeFiles/ImageAlgorithms_autogen.dir/build.make ImageAlgorithms/CMakeFiles/ImageAlgorithms_autogen.dir/depend
+	$(MAKE) -f ImageAlgorithms/CMakeFiles/ImageAlgorithms_autogen.dir/build.make ImageAlgorithms/CMakeFiles/ImageAlgorithms_autogen.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/rodelph/dev/ImageProc/build-ImageProc-Desktop-Release/CMakeFiles --progress-num=12 "Built target ImageAlgorithms_autogen"
+.PHONY : ImageAlgorithms/CMakeFiles/ImageAlgorithms_autogen.dir/all
+
+# Build rule for subdir invocation for target.
+ImageAlgorithms/CMakeFiles/ImageAlgorithms_autogen.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/rodelph/dev/ImageProc/build-ImageProc-Desktop-Release/CMakeFiles 1
+	$(MAKE) -f CMakeFiles/Makefile2 ImageAlgorithms/CMakeFiles/ImageAlgorithms_autogen.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/rodelph/dev/ImageProc/build-ImageProc-Desktop-Release/CMakeFiles 0
+.PHONY : ImageAlgorithms/CMakeFiles/ImageAlgorithms_autogen.dir/rule
+
+# Convenience name for target.
+ImageAlgorithms_autogen: ImageAlgorithms/CMakeFiles/ImageAlgorithms_autogen.dir/rule
+
+.PHONY : ImageAlgorithms_autogen
+
+# clean rule for target.
+ImageAlgorithms/CMakeFiles/ImageAlgorithms_autogen.dir/clean:
+	$(MAKE) -f ImageAlgorithms/CMakeFiles/ImageAlgorithms_autogen.dir/build.make ImageAlgorithms/CMakeFiles/ImageAlgorithms_autogen.dir/clean
+.PHONY : ImageAlgorithms/CMakeFiles/ImageAlgorithms_autogen.dir/clean
+
+#=============================================================================
+# Target rules for target SelectionWindow/CMakeFiles/SelectionWindow.dir
+
+# All Build rule for target.
+SelectionWindow/CMakeFiles/SelectionWindow.dir/all: SelectionWindow/CMakeFiles/SelectionWindow_autogen.dir/all
+	$(MAKE) -f SelectionWindow/CMakeFiles/SelectionWindow.dir/build.make SelectionWindow/CMakeFiles/SelectionWindow.dir/depend
+	$(MAKE) -f SelectionWindow/CMakeFiles/SelectionWindow.dir/build.make SelectionWindow/CMakeFiles/SelectionWindow.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/rodelph/dev/ImageProc/build-ImageProc-Desktop-Release/CMakeFiles --progress-num=17,18,19 "Built target SelectionWindow"
+.PHONY : SelectionWindow/CMakeFiles/SelectionWindow.dir/all
+
+# Build rule for subdir invocation for target.
+SelectionWindow/CMakeFiles/SelectionWindow.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/rodelph/dev/ImageProc/build-ImageProc-Desktop-Release/CMakeFiles 4
+	$(MAKE) -f CMakeFiles/Makefile2 SelectionWindow/CMakeFiles/SelectionWindow.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/rodelph/dev/ImageProc/build-ImageProc-Desktop-Release/CMakeFiles 0
+.PHONY : SelectionWindow/CMakeFiles/SelectionWindow.dir/rule
+
+# Convenience name for target.
+SelectionWindow: SelectionWindow/CMakeFiles/SelectionWindow.dir/rule
+
+.PHONY : SelectionWindow
+
+# clean rule for target.
+SelectionWindow/CMakeFiles/SelectionWindow.dir/clean:
+	$(MAKE) -f SelectionWindow/CMakeFiles/SelectionWindow.dir/build.make SelectionWindow/CMakeFiles/SelectionWindow.dir/clean
+.PHONY : SelectionWindow/CMakeFiles/SelectionWindow.dir/clean
+
+#=============================================================================
+# Target rules for target SelectionWindow/CMakeFiles/SelectionWindow_autogen.dir
+
+# All Build rule for target.
+SelectionWindow/CMakeFiles/SelectionWindow_autogen.dir/all:
+	$(MAKE) -f SelectionWindow/CMakeFiles/SelectionWindow_autogen.dir/build.make SelectionWindow/CMakeFiles/SelectionWindow_autogen.dir/depend
+	$(MAKE) -f SelectionWindow/CMakeFiles/SelectionWindow_autogen.dir/build.make SelectionWindow/CMakeFiles/SelectionWindow_autogen.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/rodelph/dev/ImageProc/build-ImageProc-Desktop-Release/CMakeFiles --progress-num=20 "Built target SelectionWindow_autogen"
+.PHONY : SelectionWindow/CMakeFiles/SelectionWindow_autogen.dir/all
+
+# Build rule for subdir invocation for target.
+SelectionWindow/CMakeFiles/SelectionWindow_autogen.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/rodelph/dev/ImageProc/build-ImageProc-Desktop-Release/CMakeFiles 1
+	$(MAKE) -f CMakeFiles/Makefile2 SelectionWindow/CMakeFiles/SelectionWindow_autogen.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/rodelph/dev/ImageProc/build-ImageProc-Desktop-Release/CMakeFiles 0
+.PHONY : SelectionWindow/CMakeFiles/SelectionWindow_autogen.dir/rule
+
+# Convenience name for target.
+SelectionWindow_autogen: SelectionWindow/CMakeFiles/SelectionWindow_autogen.dir/rule
+
+.PHONY : SelectionWindow_autogen
+
+# clean rule for target.
+SelectionWindow/CMakeFiles/SelectionWindow_autogen.dir/clean:
+	$(MAKE) -f SelectionWindow/CMakeFiles/SelectionWindow_autogen.dir/build.make SelectionWindow/CMakeFiles/SelectionWindow_autogen.dir/clean
+.PHONY : SelectionWindow/CMakeFiles/SelectionWindow_autogen.dir/clean
+
+#=============================================================================
+# Target rules for target FiltOption/CMakeFiles/FiltOption.dir
+
+# All Build rule for target.
+FiltOption/CMakeFiles/FiltOption.dir/all: FiltOption/CMakeFiles/FiltOption_autogen.dir/all
+	$(MAKE) -f FiltOption/CMakeFiles/FiltOption.dir/build.make FiltOption/CMakeFiles/FiltOption.dir/depend
+	$(MAKE) -f FiltOption/CMakeFiles/FiltOption.dir/build.make FiltOption/CMakeFiles/FiltOption.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/rodelph/dev/ImageProc/build-ImageProc-Desktop-Release/CMakeFiles --progress-num=1,2,3 "Built target FiltOption"
+.PHONY : FiltOption/CMakeFiles/FiltOption.dir/all
+
+# Build rule for subdir invocation for target.
+FiltOption/CMakeFiles/FiltOption.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/rodelph/dev/ImageProc/build-ImageProc-Desktop-Release/CMakeFiles 4
+	$(MAKE) -f CMakeFiles/Makefile2 FiltOption/CMakeFiles/FiltOption.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/rodelph/dev/ImageProc/build-ImageProc-Desktop-Release/CMakeFiles 0
+.PHONY : FiltOption/CMakeFiles/FiltOption.dir/rule
+
+# Convenience name for target.
+FiltOption: FiltOption/CMakeFiles/FiltOption.dir/rule
+
+.PHONY : FiltOption
+
+# clean rule for target.
+FiltOption/CMakeFiles/FiltOption.dir/clean:
+	$(MAKE) -f FiltOption/CMakeFiles/FiltOption.dir/build.make FiltOption/CMakeFiles/FiltOption.dir/clean
+.PHONY : FiltOption/CMakeFiles/FiltOption.dir/clean
+
+#=============================================================================
+# Target rules for target FiltOption/CMakeFiles/FiltOption_autogen.dir
+
+# All Build rule for target.
+FiltOption/CMakeFiles/FiltOption_autogen.dir/all:
+	$(MAKE) -f FiltOption/CMakeFiles/FiltOption_autogen.dir/build.make FiltOption/CMakeFiles/FiltOption_autogen.dir/depend
+	$(MAKE) -f FiltOption/CMakeFiles/FiltOption_autogen.dir/build.make FiltOption/CMakeFiles/FiltOption_autogen.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/rodelph/dev/ImageProc/build-ImageProc-Desktop-Release/CMakeFiles --progress-num=4 "Built target FiltOption_autogen"
+.PHONY : FiltOption/CMakeFiles/FiltOption_autogen.dir/all
+
+# Build rule for subdir invocation for target.
+FiltOption/CMakeFiles/FiltOption_autogen.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/rodelph/dev/ImageProc/build-ImageProc-Desktop-Release/CMakeFiles 1
+	$(MAKE) -f CMakeFiles/Makefile2 FiltOption/CMakeFiles/FiltOption_autogen.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/rodelph/dev/ImageProc/build-ImageProc-Desktop-Release/CMakeFiles 0
+.PHONY : FiltOption/CMakeFiles/FiltOption_autogen.dir/rule
+
+# Convenience name for target.
+FiltOption_autogen: FiltOption/CMakeFiles/FiltOption_autogen.dir/rule
+
+.PHONY : FiltOption_autogen
+
+# clean rule for target.
+FiltOption/CMakeFiles/FiltOption_autogen.dir/clean:
+	$(MAKE) -f FiltOption/CMakeFiles/FiltOption_autogen.dir/build.make FiltOption/CMakeFiles/FiltOption_autogen.dir/clean
+.PHONY : FiltOption/CMakeFiles/FiltOption_autogen.dir/clean
+
+#=============================================================================
+# Target rules for target HistOption/CMakeFiles/HistOption.dir
+
+# All Build rule for target.
+HistOption/CMakeFiles/HistOption.dir/all: HistOption/CMakeFiles/HistOption_autogen.dir/all
+	$(MAKE) -f HistOption/CMakeFiles/HistOption.dir/build.make HistOption/CMakeFiles/HistOption.dir/depend
+	$(MAKE) -f HistOption/CMakeFiles/HistOption.dir/build.make HistOption/CMakeFiles/HistOption.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/rodelph/dev/ImageProc/build-ImageProc-Desktop-Release/CMakeFiles --progress-num=5,6,7 "Built target HistOption"
+.PHONY : HistOption/CMakeFiles/HistOption.dir/all
+
+# Build rule for subdir invocation for target.
+HistOption/CMakeFiles/HistOption.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/rodelph/dev/ImageProc/build-ImageProc-Desktop-Release/CMakeFiles 4
+	$(MAKE) -f CMakeFiles/Makefile2 HistOption/CMakeFiles/HistOption.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/rodelph/dev/ImageProc/build-ImageProc-Desktop-Release/CMakeFiles 0
+.PHONY : HistOption/CMakeFiles/HistOption.dir/rule
+
+# Convenience name for target.
+HistOption: HistOption/CMakeFiles/HistOption.dir/rule
+
+.PHONY : HistOption
+
+# clean rule for target.
+HistOption/CMakeFiles/HistOption.dir/clean:
+	$(MAKE) -f HistOption/CMakeFiles/HistOption.dir/build.make HistOption/CMakeFiles/HistOption.dir/clean
+.PHONY : HistOption/CMakeFiles/HistOption.dir/clean
+
+#=============================================================================
+# Target rules for target HistOption/CMakeFiles/HistOption_autogen.dir
+
+# All Build rule for target.
+HistOption/CMakeFiles/HistOption_autogen.dir/all:
+	$(MAKE) -f HistOption/CMakeFiles/HistOption_autogen.dir/build.make HistOption/CMakeFiles/HistOption_autogen.dir/depend
+	$(MAKE) -f HistOption/CMakeFiles/HistOption_autogen.dir/build.make HistOption/CMakeFiles/HistOption_autogen.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/rodelph/dev/ImageProc/build-ImageProc-Desktop-Release/CMakeFiles --progress-num=8 "Built target HistOption_autogen"
+.PHONY : HistOption/CMakeFiles/HistOption_autogen.dir/all
+
+# Build rule for subdir invocation for target.
+HistOption/CMakeFiles/HistOption_autogen.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/rodelph/dev/ImageProc/build-ImageProc-Desktop-Release/CMakeFiles 1
+	$(MAKE) -f CMakeFiles/Makefile2 HistOption/CMakeFiles/HistOption_autogen.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/rodelph/dev/ImageProc/build-ImageProc-Desktop-Release/CMakeFiles 0
+.PHONY : HistOption/CMakeFiles/HistOption_autogen.dir/rule
+
+# Convenience name for target.
+HistOption_autogen: HistOption/CMakeFiles/HistOption_autogen.dir/rule
+
+.PHONY : HistOption_autogen
+
+# clean rule for target.
+HistOption/CMakeFiles/HistOption_autogen.dir/clean:
+	$(MAKE) -f HistOption/CMakeFiles/HistOption_autogen.dir/build.make HistOption/CMakeFiles/HistOption_autogen.dir/clean
+.PHONY : HistOption/CMakeFiles/HistOption_autogen.dir/clean
+
+#=============================================================================
+# Target rules for target ProjectEx/CMakeFiles/ImageProc.dir
+
+# All Build rule for target.
+ProjectEx/CMakeFiles/ImageProc.dir/all: ImageAlgorithms/CMakeFiles/ImageAlgorithms.dir/all
+ProjectEx/CMakeFiles/ImageProc.dir/all: SelectionWindow/CMakeFiles/SelectionWindow.dir/all
+ProjectEx/CMakeFiles/ImageProc.dir/all: FiltOption/CMakeFiles/FiltOption.dir/all
+ProjectEx/CMakeFiles/ImageProc.dir/all: HistOption/CMakeFiles/HistOption.dir/all
+ProjectEx/CMakeFiles/ImageProc.dir/all: ProjectEx/CMakeFiles/ImageProc_autogen.dir/all
+	$(MAKE) -f ProjectEx/CMakeFiles/ImageProc.dir/build.make ProjectEx/CMakeFiles/ImageProc.dir/depend
+	$(MAKE) -f ProjectEx/CMakeFiles/ImageProc.dir/build.make ProjectEx/CMakeFiles/ImageProc.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/rodelph/dev/ImageProc/build-ImageProc-Desktop-Release/CMakeFiles --progress-num=13,14,15 "Built target ImageProc"
+.PHONY : ProjectEx/CMakeFiles/ImageProc.dir/all
+
+# Build rule for subdir invocation for target.
+ProjectEx/CMakeFiles/ImageProc.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/rodelph/dev/ImageProc/build-ImageProc-Desktop-Release/CMakeFiles 20
+	$(MAKE) -f CMakeFiles/Makefile2 ProjectEx/CMakeFiles/ImageProc.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/rodelph/dev/ImageProc/build-ImageProc-Desktop-Release/CMakeFiles 0
+.PHONY : ProjectEx/CMakeFiles/ImageProc.dir/rule
+
+# Convenience name for target.
+ImageProc: ProjectEx/CMakeFiles/ImageProc.dir/rule
+
+.PHONY : ImageProc
+
+# clean rule for target.
+ProjectEx/CMakeFiles/ImageProc.dir/clean:
+	$(MAKE) -f ProjectEx/CMakeFiles/ImageProc.dir/build.make ProjectEx/CMakeFiles/ImageProc.dir/clean
+.PHONY : ProjectEx/CMakeFiles/ImageProc.dir/clean
+
+#=============================================================================
+# Target rules for target ProjectEx/CMakeFiles/ImageProc_autogen.dir
+
+# All Build rule for target.
+ProjectEx/CMakeFiles/ImageProc_autogen.dir/all: ImageAlgorithms/CMakeFiles/ImageAlgorithms.dir/all
+ProjectEx/CMakeFiles/ImageProc_autogen.dir/all: SelectionWindow/CMakeFiles/SelectionWindow.dir/all
+ProjectEx/CMakeFiles/ImageProc_autogen.dir/all: FiltOption/CMakeFiles/FiltOption.dir/all
+ProjectEx/CMakeFiles/ImageProc_autogen.dir/all: HistOption/CMakeFiles/HistOption.dir/all
+	$(MAKE) -f ProjectEx/CMakeFiles/ImageProc_autogen.dir/build.make ProjectEx/CMakeFiles/ImageProc_autogen.dir/depend
+	$(MAKE) -f ProjectEx/CMakeFiles/ImageProc_autogen.dir/build.make ProjectEx/CMakeFiles/ImageProc_autogen.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/rodelph/dev/ImageProc/build-ImageProc-Desktop-Release/CMakeFiles --progress-num=16 "Built target ImageProc_autogen"
+.PHONY : ProjectEx/CMakeFiles/ImageProc_autogen.dir/all
+
+# Build rule for subdir invocation for target.
+ProjectEx/CMakeFiles/ImageProc_autogen.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/rodelph/dev/ImageProc/build-ImageProc-Desktop-Release/CMakeFiles 17
+	$(MAKE) -f CMakeFiles/Makefile2 ProjectEx/CMakeFiles/ImageProc_autogen.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/rodelph/dev/ImageProc/build-ImageProc-Desktop-Release/CMakeFiles 0
+.PHONY : ProjectEx/CMakeFiles/ImageProc_autogen.dir/rule
+
+# Convenience name for target.
+ImageProc_autogen: ProjectEx/CMakeFiles/ImageProc_autogen.dir/rule
 
 .PHONY : ImageProc_autogen
 
 # clean rule for target.
-CMakeFiles/ImageProc_autogen.dir/clean:
-	$(MAKE) -f CMakeFiles/ImageProc_autogen.dir/build.make CMakeFiles/ImageProc_autogen.dir/clean
-.PHONY : CMakeFiles/ImageProc_autogen.dir/clean
+ProjectEx/CMakeFiles/ImageProc_autogen.dir/clean:
+	$(MAKE) -f ProjectEx/CMakeFiles/ImageProc_autogen.dir/build.make ProjectEx/CMakeFiles/ImageProc_autogen.dir/clean
+.PHONY : ProjectEx/CMakeFiles/ImageProc_autogen.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

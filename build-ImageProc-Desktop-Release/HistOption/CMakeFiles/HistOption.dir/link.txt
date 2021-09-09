@@ -1,0 +1,2 @@
+/bin/ar qc libHistOption.a  CMakeFiles/HistOption.dir/HistOption_autogen/mocs_compilation.cpp.o CMakeFiles/HistOption.dir/src/HistOption/histogram.cpp.o
+/bin/ranlib libHistOption.a
