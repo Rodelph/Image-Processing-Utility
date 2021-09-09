@@ -12,23 +12,74 @@
 #include <QtCore/QVariant>
 #include <QtWidgets/QApplication>
 #include <QtWidgets/QDialog>
+#include <QtWidgets/QHBoxLayout>
+#include <QtWidgets/QLabel>
 #include <QtWidgets/QPushButton>
+#include <QtWidgets/QVBoxLayout>
+#include <QtWidgets/QWidget>
 
 QT_BEGIN_NAMESPACE
 
 class Ui_histogram
 {
 public:
-    QPushButton *pushButton;
+    QWidget *horizontalLayoutWidget;
+    QHBoxLayout *horizontalLayout;
+    QVBoxLayout *verticalLayout;
+    QLabel *foldImage;
+    QPushButton *foldBtn;
+    QVBoxLayout *verticalLayout_2;
+    QLabel *calcImage;
+    QPushButton *calcBtn;
 
     void setupUi(QDialog *histogram)
     {
         if (histogram->objectName().isEmpty())
             histogram->setObjectName(QString::fromUtf8("histogram"));
-        histogram->resize(400, 300);
-        pushButton = new QPushButton(histogram);
-        pushButton->setObjectName(QString::fromUtf8("pushButton"));
-        pushButton->setGeometry(QRect(130, 160, 89, 25));
+        histogram->resize(1366, 720);
+        QSizePolicy sizePolicy(QSizePolicy::Fixed, QSizePolicy::Fixed);
+        sizePolicy.setHorizontalStretch(0);
+        sizePolicy.setVerticalStretch(0);
+        sizePolicy.setHeightForWidth(histogram->sizePolicy().hasHeightForWidth());
+        histogram->setSizePolicy(sizePolicy);
+        histogram->setMinimumSize(QSize(1366, 720));
+        histogram->setMaximumSize(QSize(1366, 720));
+        horizontalLayoutWidget = new QWidget(histogram);
+        horizontalLayoutWidget->setObjectName(QString::fromUtf8("horizontalLayoutWidget"));
+        horizontalLayoutWidget->setGeometry(QRect(10, 10, 1341, 701));
+        horizontalLayout = new QHBoxLayout(horizontalLayoutWidget);
+        horizontalLayout->setObjectName(QString::fromUtf8("horizontalLayout"));
+        horizontalLayout->setContentsMargins(0, 0, 0, 0);
+        verticalLayout = new QVBoxLayout();
+        verticalLayout->setObjectName(QString::fromUtf8("verticalLayout"));
+        foldImage = new QLabel(horizontalLayoutWidget);
+        foldImage->setObjectName(QString::fromUtf8("foldImage"));
+
+        verticalLayout->addWidget(foldImage);
+
+        foldBtn = new QPushButton(horizontalLayoutWidget);
+        foldBtn->setObjectName(QString::fromUtf8("foldBtn"));
+
+        verticalLayout->addWidget(foldBtn);
+
+
+        horizontalLayout->addLayout(verticalLayout);
+
+        verticalLayout_2 = new QVBoxLayout();
+        verticalLayout_2->setObjectName(QString::fromUtf8("verticalLayout_2"));
+        calcImage = new QLabel(horizontalLayoutWidget);
+        calcImage->setObjectName(QString::fromUtf8("calcImage"));
+
+        verticalLayout_2->addWidget(calcImage);
+
+        calcBtn = new QPushButton(horizontalLayoutWidget);
+        calcBtn->setObjectName(QString::fromUtf8("calcBtn"));
+
+        verticalLayout_2->addWidget(calcBtn);
+
+
+        horizontalLayout->addLayout(verticalLayout_2);
+
 
         retranslateUi(histogram);
 
@@ -38,7 +89,10 @@ public:
     void retranslateUi(QDialog *histogram)
     {
         histogram->setWindowTitle(QApplication::translate("histogram", "Dialog", nullptr));
-        pushButton->setText(QApplication::translate("histogram", "hist", nullptr));
+        foldImage->setText(QString());
+        foldBtn->setText(QApplication::translate("histogram", "Folder", nullptr));
+        calcImage->setText(QString());
+        calcBtn->setText(QApplication::translate("histogram", "Calculate", nullptr));
     } // retranslateUi
 
 };

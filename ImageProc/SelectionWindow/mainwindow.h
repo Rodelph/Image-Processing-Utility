@@ -1,10 +1,11 @@
 #ifndef MAINWINDOW_H
 #define MAINWINDOW_H
 
-#include <QMainWindow>
-#include <QMessageBox>
 #include "../FiltOption/filterswindow.h"
 #include "../HistOption/histogram.h"
+
+#include <QMainWindow>
+#include <QMessageBox>
 
 QT_BEGIN_NAMESPACE
 namespace Ui { class MainWindow; }

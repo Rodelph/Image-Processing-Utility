@@ -1811,7 +1811,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : ""
+			"value" : "/bin/x86_64-linux-gnu-gcc-9"
 		},
 		{
 			"name" : "CUDA_NVCC_EXECUTABLE",

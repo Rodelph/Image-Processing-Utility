@@ -15,6 +15,9 @@ public:
     explicit FiltersWindow(QWidget *parent = nullptr);
     ~FiltersWindow();
 
+private slots :
+    void on_retBtn_clicked();
+
 private:
     Ui::FiltersWindow *ui;
 };

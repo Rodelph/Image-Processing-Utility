@@ -1,5 +1,5 @@
 #include "histogram.h"
-#include "ui_histogram.h"
+#include "./ui_histogram.h"
 
 histogram::histogram(QWidget *parent) :
     QDialog(parent),
