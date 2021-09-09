@@ -1,6 +1,5 @@
 #include "filterswindow.h"
 #include "../../../build-ImageProc-Desktop-Release/FiltOption/FiltOption_autogen/include/ui_filterswindow.h"
-#include <iostream>
 
 FiltersWindow::FiltersWindow(QWidget *parent) : QDialog(parent), 
                                                 ui(new Ui::FiltersWindow)
@@ -12,5 +11,7 @@ FiltersWindow::~FiltersWindow() { delete ui; }
 
 void FiltersWindow::on_retBtn_clicked()
 {
-    std::cout << "Hello";
+    this->hide();
+    main = new histogram(this);
+    main->show();
 }

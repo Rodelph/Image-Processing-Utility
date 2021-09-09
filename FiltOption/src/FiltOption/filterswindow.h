@@ -2,6 +2,7 @@
 #define FILTERSWINDOW_H
 
 #include <QDialog>
+#include "../../../HistOption/src/HistOption/histogram.h"
 
 namespace Ui {
 class FiltersWindow;
@@ -20,6 +21,7 @@ private slots :
 
 private:
     Ui::FiltersWindow *ui;
+    histogram *main;
 };
 
 #endif // FILTERSWINDOW_H

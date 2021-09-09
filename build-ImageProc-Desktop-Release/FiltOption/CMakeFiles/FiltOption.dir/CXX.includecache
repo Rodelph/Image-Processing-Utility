@@ -11,10 +11,14 @@ filterswindow.h
 /home/rodelph/dev/ImageProc/FiltOption/src/FiltOption/filterswindow.h
 ../../../build-ImageProc-Desktop-Release/FiltOption/FiltOption_autogen/include/ui_filterswindow.h
 /home/rodelph/dev/ImageProc/build-ImageProc-Desktop-Release/FiltOption/FiltOption_autogen/include/ui_filterswindow.h
-iostream
--
 
 /home/rodelph/dev/ImageProc/FiltOption/src/FiltOption/filterswindow.h
+QDialog
+-
+../../../HistOption/src/HistOption/histogram.h
+/home/rodelph/dev/ImageProc/HistOption/src/HistOption/histogram.h
+
+/home/rodelph/dev/ImageProc/HistOption/src/HistOption/histogram.h
 QDialog
 -
 

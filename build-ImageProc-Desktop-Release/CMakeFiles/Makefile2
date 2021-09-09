@@ -92,13 +92,13 @@ clean: CMakeFiles/NightlyStart.dir/clean
 clean: CMakeFiles/ExperimentalCoverage.dir/clean
 clean: CMakeFiles/NightlyCoverage.dir/clean
 clean: CMakeFiles/ExperimentalStart.dir/clean
-clean: CMakeFiles/NightlyBuild.dir/clean
-clean: CMakeFiles/ExperimentalBuild.dir/clean
 clean: CMakeFiles/ExperimentalUpdate.dir/clean
 clean: CMakeFiles/ContinuousStart.dir/clean
 clean: CMakeFiles/ContinuousMemCheck.dir/clean
 clean: CMakeFiles/ContinuousTest.dir/clean
 clean: CMakeFiles/ContinuousSubmit.dir/clean
+clean: CMakeFiles/NightlyBuild.dir/clean
+clean: CMakeFiles/ExperimentalBuild.dir/clean
 clean: ImageAlgorithms/clean
 clean: SelectionWindow/clean
 clean: FiltOption/clean
@@ -770,60 +770,6 @@ CMakeFiles/ExperimentalStart.dir/clean:
 .PHONY : CMakeFiles/ExperimentalStart.dir/clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/NightlyBuild.dir
-
-# All Build rule for target.
-CMakeFiles/NightlyBuild.dir/all:
-	$(MAKE) -f CMakeFiles/NightlyBuild.dir/build.make CMakeFiles/NightlyBuild.dir/depend
-	$(MAKE) -f CMakeFiles/NightlyBuild.dir/build.make CMakeFiles/NightlyBuild.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/rodelph/dev/ImageProc/build-ImageProc-Desktop-Release/CMakeFiles --progress-num= "Built target NightlyBuild"
-.PHONY : CMakeFiles/NightlyBuild.dir/all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/NightlyBuild.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/rodelph/dev/ImageProc/build-ImageProc-Desktop-Release/CMakeFiles 0
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/NightlyBuild.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/rodelph/dev/ImageProc/build-ImageProc-Desktop-Release/CMakeFiles 0
-.PHONY : CMakeFiles/NightlyBuild.dir/rule
-
-# Convenience name for target.
-NightlyBuild: CMakeFiles/NightlyBuild.dir/rule
-
-.PHONY : NightlyBuild
-
-# clean rule for target.
-CMakeFiles/NightlyBuild.dir/clean:
-	$(MAKE) -f CMakeFiles/NightlyBuild.dir/build.make CMakeFiles/NightlyBuild.dir/clean
-.PHONY : CMakeFiles/NightlyBuild.dir/clean
-
-#=============================================================================
-# Target rules for target CMakeFiles/ExperimentalBuild.dir
-
-# All Build rule for target.
-CMakeFiles/ExperimentalBuild.dir/all:
-	$(MAKE) -f CMakeFiles/ExperimentalBuild.dir/build.make CMakeFiles/ExperimentalBuild.dir/depend
-	$(MAKE) -f CMakeFiles/ExperimentalBuild.dir/build.make CMakeFiles/ExperimentalBuild.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/rodelph/dev/ImageProc/build-ImageProc-Desktop-Release/CMakeFiles --progress-num= "Built target ExperimentalBuild"
-.PHONY : CMakeFiles/ExperimentalBuild.dir/all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/ExperimentalBuild.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/rodelph/dev/ImageProc/build-ImageProc-Desktop-Release/CMakeFiles 0
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/ExperimentalBuild.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/rodelph/dev/ImageProc/build-ImageProc-Desktop-Release/CMakeFiles 0
-.PHONY : CMakeFiles/ExperimentalBuild.dir/rule
-
-# Convenience name for target.
-ExperimentalBuild: CMakeFiles/ExperimentalBuild.dir/rule
-
-.PHONY : ExperimentalBuild
-
-# clean rule for target.
-CMakeFiles/ExperimentalBuild.dir/clean:
-	$(MAKE) -f CMakeFiles/ExperimentalBuild.dir/build.make CMakeFiles/ExperimentalBuild.dir/clean
-.PHONY : CMakeFiles/ExperimentalBuild.dir/clean
-
-#=============================================================================
 # Target rules for target CMakeFiles/ExperimentalUpdate.dir
 
 # All Build rule for target.
@@ -957,6 +903,60 @@ ContinuousSubmit: CMakeFiles/ContinuousSubmit.dir/rule
 CMakeFiles/ContinuousSubmit.dir/clean:
 	$(MAKE) -f CMakeFiles/ContinuousSubmit.dir/build.make CMakeFiles/ContinuousSubmit.dir/clean
 .PHONY : CMakeFiles/ContinuousSubmit.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/NightlyBuild.dir
+
+# All Build rule for target.
+CMakeFiles/NightlyBuild.dir/all:
+	$(MAKE) -f CMakeFiles/NightlyBuild.dir/build.make CMakeFiles/NightlyBuild.dir/depend
+	$(MAKE) -f CMakeFiles/NightlyBuild.dir/build.make CMakeFiles/NightlyBuild.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/rodelph/dev/ImageProc/build-ImageProc-Desktop-Release/CMakeFiles --progress-num= "Built target NightlyBuild"
+.PHONY : CMakeFiles/NightlyBuild.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/NightlyBuild.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/rodelph/dev/ImageProc/build-ImageProc-Desktop-Release/CMakeFiles 0
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/NightlyBuild.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/rodelph/dev/ImageProc/build-ImageProc-Desktop-Release/CMakeFiles 0
+.PHONY : CMakeFiles/NightlyBuild.dir/rule
+
+# Convenience name for target.
+NightlyBuild: CMakeFiles/NightlyBuild.dir/rule
+
+.PHONY : NightlyBuild
+
+# clean rule for target.
+CMakeFiles/NightlyBuild.dir/clean:
+	$(MAKE) -f CMakeFiles/NightlyBuild.dir/build.make CMakeFiles/NightlyBuild.dir/clean
+.PHONY : CMakeFiles/NightlyBuild.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/ExperimentalBuild.dir
+
+# All Build rule for target.
+CMakeFiles/ExperimentalBuild.dir/all:
+	$(MAKE) -f CMakeFiles/ExperimentalBuild.dir/build.make CMakeFiles/ExperimentalBuild.dir/depend
+	$(MAKE) -f CMakeFiles/ExperimentalBuild.dir/build.make CMakeFiles/ExperimentalBuild.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/rodelph/dev/ImageProc/build-ImageProc-Desktop-Release/CMakeFiles --progress-num= "Built target ExperimentalBuild"
+.PHONY : CMakeFiles/ExperimentalBuild.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/ExperimentalBuild.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/rodelph/dev/ImageProc/build-ImageProc-Desktop-Release/CMakeFiles 0
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/ExperimentalBuild.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/rodelph/dev/ImageProc/build-ImageProc-Desktop-Release/CMakeFiles 0
+.PHONY : CMakeFiles/ExperimentalBuild.dir/rule
+
+# Convenience name for target.
+ExperimentalBuild: CMakeFiles/ExperimentalBuild.dir/rule
+
+.PHONY : ExperimentalBuild
+
+# clean rule for target.
+CMakeFiles/ExperimentalBuild.dir/clean:
+	$(MAKE) -f CMakeFiles/ExperimentalBuild.dir/build.make CMakeFiles/ExperimentalBuild.dir/clean
+.PHONY : CMakeFiles/ExperimentalBuild.dir/clean
 
 #=============================================================================
 # Target rules for target ImageAlgorithms/CMakeFiles/ImageAlgorithms.dir

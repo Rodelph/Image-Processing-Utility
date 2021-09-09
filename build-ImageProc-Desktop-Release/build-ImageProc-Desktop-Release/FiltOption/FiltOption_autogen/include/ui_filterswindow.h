@@ -96,7 +96,7 @@ public:
 
         retBtn = new QPushButton(FiltersWindow);
         retBtn->setObjectName(QString::fromUtf8("retBtn"));
-        retBtn->setGeometry(QRect(10, 20, 51, 25));
+        retBtn->setGeometry(QRect(10, 20, 101, 25));
         label = new QLabel(FiltersWindow);
         label->setObjectName(QString::fromUtf8("label"));
         label->setGeometry(QRect(230, 20, 351, 31));
@@ -119,7 +119,7 @@ public:
         pushButton_4->setText(QApplication::translate("FiltersWindow", "High pass filter", nullptr));
         pushButton_5->setText(QApplication::translate("FiltersWindow", "Median Filter", nullptr));
         pushButton_6->setText(QApplication::translate("FiltersWindow", "Thresholding", nullptr));
-        retBtn->setText(QApplication::translate("FiltersWindow", "Return", nullptr));
+        retBtn->setText(QApplication::translate("FiltersWindow", "Go Histogram", nullptr));
         label->setText(QApplication::translate("FiltersWindow", "Filters Type", nullptr));
     } // retranslateUi
 
