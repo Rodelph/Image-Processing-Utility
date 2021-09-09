@@ -6,39 +6,37 @@
 
 #IncludeRegexTransform: 
 
+../FiltOption/src/FiltOption/filterswindow.h
+QDialog
+-
+
+../HistOption/src/HistOption/histogram.h
+QDialog
+-
+
 /home/rodelph/dev/ImageProc/FiltOption/src/FiltOption/filterswindow.cpp
 filterswindow.h
 /home/rodelph/dev/ImageProc/FiltOption/src/FiltOption/filterswindow.h
 ../../../build-ImageProc-Desktop-Release/FiltOption/FiltOption_autogen/include/ui_filterswindow.h
 /home/rodelph/dev/ImageProc/build-ImageProc-Desktop-Release/FiltOption/FiltOption_autogen/include/ui_filterswindow.h
+../../../../HistOption/src/HistOption/histogram.h
+/home/rodelph/dev/HistOption/src/HistOption/histogram.h
 
 /home/rodelph/dev/ImageProc/FiltOption/src/FiltOption/filterswindow.h
 QDialog
 -
-../../../HistOption/src/HistOption/histogram.h
-/home/rodelph/dev/ImageProc/HistOption/src/HistOption/histogram.h
 
-/home/rodelph/dev/ImageProc/HistOption/src/HistOption/histogram.h
-QDialog
+/home/rodelph/dev/ImageProc/build-ImageProc-Desktop-Release/FiltOption/FiltOption_autogen/4WCEULW2BI/moc_filterswindow.cpp
+src/FiltOption/filterswindow.h
+/home/rodelph/dev/ImageProc/build-ImageProc-Desktop-Release/FiltOption/FiltOption_autogen/4WCEULW2BI/src/FiltOption/filterswindow.h
+QtCore/qbytearray.h
+-
+QtCore/qmetatype.h
 -
 
-/home/rodelph/dev/ImageProc/build-ImageProc-Desktop-Release/FiltOption/FiltOption_autogen/include/ui_filterswindow.h
-QtCore/QVariant
--
-QtWidgets/QApplication
--
-QtWidgets/QDialog
--
-QtWidgets/QHBoxLayout
--
-QtWidgets/QLabel
--
-QtWidgets/QPushButton
--
-QtWidgets/QVBoxLayout
--
-QtWidgets/QWidget
--
+/home/rodelph/dev/ImageProc/build-ImageProc-Desktop-Release/FiltOption/FiltOption_autogen/mocs_compilation.cpp
+4WCEULW2BI/moc_filterswindow.cpp
+/home/rodelph/dev/ImageProc/build-ImageProc-Desktop-Release/FiltOption/FiltOption_autogen/4WCEULW2BI/moc_filterswindow.cpp
 
 /usr/include/x86_64-linux-gnu/qt5/QtCore/QVariant
 qvariant.h
@@ -1256,5 +1254,23 @@ QtGui/qcursor.h
 QtGui/qkeysequence.h
 -
 QtGui/qevent.h
+-
+
+build-ImageProc-Desktop-Release/FiltOption/FiltOption_autogen/include/ui_filterswindow.h
+QtCore/QVariant
+-
+QtWidgets/QApplication
+-
+QtWidgets/QDialog
+-
+QtWidgets/QHBoxLayout
+-
+QtWidgets/QLabel
+-
+QtWidgets/QPushButton
+-
+QtWidgets/QVBoxLayout
+-
+QtWidgets/QWidget
 -
 

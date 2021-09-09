@@ -3,7 +3,6 @@
 
 FiltOption/CMakeFiles/FiltOption.dir/FiltOption_autogen/mocs_compilation.cpp.o
  ../FiltOption/src/FiltOption/filterswindow.h
- ../HistOption/src/HistOption/histogram.h
  /home/rodelph/dev/ImageProc/build-ImageProc-Desktop-Release/FiltOption/FiltOption_autogen/4WCEULW2BI/moc_filterswindow.cpp
  /home/rodelph/dev/ImageProc/build-ImageProc-Desktop-Release/FiltOption/FiltOption_autogen/mocs_compilation.cpp
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qalgorithms.h
@@ -111,10 +110,9 @@ FiltOption/CMakeFiles/FiltOption.dir/FiltOption_autogen/mocs_compilation.cpp.o
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qtwidgetsglobal.h
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qwidget.h
 FiltOption/CMakeFiles/FiltOption.dir/src/FiltOption/filterswindow.cpp.o
+ ../HistOption/src/HistOption/histogram.h
  /home/rodelph/dev/ImageProc/FiltOption/src/FiltOption/filterswindow.cpp
  /home/rodelph/dev/ImageProc/FiltOption/src/FiltOption/filterswindow.h
- /home/rodelph/dev/ImageProc/HistOption/src/HistOption/histogram.h
- /home/rodelph/dev/ImageProc/build-ImageProc-Desktop-Release/FiltOption/FiltOption_autogen/include/ui_filterswindow.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QVariant
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qalgorithms.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qarraydata.h
@@ -241,3 +239,4 @@ FiltOption/CMakeFiles/FiltOption.dir/src/FiltOption/filterswindow.cpp.o
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qtwidgets-config.h
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qtwidgetsglobal.h
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qwidget.h
+ build-ImageProc-Desktop-Release/FiltOption/FiltOption_autogen/include/ui_filterswindow.h

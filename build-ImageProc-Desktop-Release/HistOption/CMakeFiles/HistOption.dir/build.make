@@ -60,28 +60,28 @@ include HistOption/CMakeFiles/HistOption.dir/flags.make
 HistOption/CMakeFiles/HistOption.dir/HistOption_autogen/mocs_compilation.cpp.o: HistOption/CMakeFiles/HistOption.dir/flags.make
 HistOption/CMakeFiles/HistOption.dir/HistOption_autogen/mocs_compilation.cpp.o: HistOption/HistOption_autogen/mocs_compilation.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rodelph/dev/ImageProc/build-ImageProc-Desktop-Release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object HistOption/CMakeFiles/HistOption.dir/HistOption_autogen/mocs_compilation.cpp.o"
-	cd /home/rodelph/dev/ImageProc/build-ImageProc-Desktop-Release/HistOption && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/HistOption.dir/HistOption_autogen/mocs_compilation.cpp.o -c /home/rodelph/dev/ImageProc/build-ImageProc-Desktop-Release/HistOption/HistOption_autogen/mocs_compilation.cpp
+	cd /home/rodelph/dev/ImageProc/build-ImageProc-Desktop-Release/HistOption && /bin/x86_64-linux-gnu-g++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/HistOption.dir/HistOption_autogen/mocs_compilation.cpp.o -c /home/rodelph/dev/ImageProc/build-ImageProc-Desktop-Release/HistOption/HistOption_autogen/mocs_compilation.cpp
 
 HistOption/CMakeFiles/HistOption.dir/HistOption_autogen/mocs_compilation.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/HistOption.dir/HistOption_autogen/mocs_compilation.cpp.i"
-	cd /home/rodelph/dev/ImageProc/build-ImageProc-Desktop-Release/HistOption && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rodelph/dev/ImageProc/build-ImageProc-Desktop-Release/HistOption/HistOption_autogen/mocs_compilation.cpp > CMakeFiles/HistOption.dir/HistOption_autogen/mocs_compilation.cpp.i
+	cd /home/rodelph/dev/ImageProc/build-ImageProc-Desktop-Release/HistOption && /bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rodelph/dev/ImageProc/build-ImageProc-Desktop-Release/HistOption/HistOption_autogen/mocs_compilation.cpp > CMakeFiles/HistOption.dir/HistOption_autogen/mocs_compilation.cpp.i
 
 HistOption/CMakeFiles/HistOption.dir/HistOption_autogen/mocs_compilation.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/HistOption.dir/HistOption_autogen/mocs_compilation.cpp.s"
-	cd /home/rodelph/dev/ImageProc/build-ImageProc-Desktop-Release/HistOption && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rodelph/dev/ImageProc/build-ImageProc-Desktop-Release/HistOption/HistOption_autogen/mocs_compilation.cpp -o CMakeFiles/HistOption.dir/HistOption_autogen/mocs_compilation.cpp.s
+	cd /home/rodelph/dev/ImageProc/build-ImageProc-Desktop-Release/HistOption && /bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rodelph/dev/ImageProc/build-ImageProc-Desktop-Release/HistOption/HistOption_autogen/mocs_compilation.cpp -o CMakeFiles/HistOption.dir/HistOption_autogen/mocs_compilation.cpp.s
 
 HistOption/CMakeFiles/HistOption.dir/src/HistOption/histogram.cpp.o: HistOption/CMakeFiles/HistOption.dir/flags.make
 HistOption/CMakeFiles/HistOption.dir/src/HistOption/histogram.cpp.o: ../HistOption/src/HistOption/histogram.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rodelph/dev/ImageProc/build-ImageProc-Desktop-Release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object HistOption/CMakeFiles/HistOption.dir/src/HistOption/histogram.cpp.o"
-	cd /home/rodelph/dev/ImageProc/build-ImageProc-Desktop-Release/HistOption && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/HistOption.dir/src/HistOption/histogram.cpp.o -c /home/rodelph/dev/ImageProc/HistOption/src/HistOption/histogram.cpp
+	cd /home/rodelph/dev/ImageProc/build-ImageProc-Desktop-Release/HistOption && /bin/x86_64-linux-gnu-g++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/HistOption.dir/src/HistOption/histogram.cpp.o -c /home/rodelph/dev/ImageProc/HistOption/src/HistOption/histogram.cpp
 
 HistOption/CMakeFiles/HistOption.dir/src/HistOption/histogram.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/HistOption.dir/src/HistOption/histogram.cpp.i"
-	cd /home/rodelph/dev/ImageProc/build-ImageProc-Desktop-Release/HistOption && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rodelph/dev/ImageProc/HistOption/src/HistOption/histogram.cpp > CMakeFiles/HistOption.dir/src/HistOption/histogram.cpp.i
+	cd /home/rodelph/dev/ImageProc/build-ImageProc-Desktop-Release/HistOption && /bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rodelph/dev/ImageProc/HistOption/src/HistOption/histogram.cpp > CMakeFiles/HistOption.dir/src/HistOption/histogram.cpp.i
 
 HistOption/CMakeFiles/HistOption.dir/src/HistOption/histogram.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/HistOption.dir/src/HistOption/histogram.cpp.s"
-	cd /home/rodelph/dev/ImageProc/build-ImageProc-Desktop-Release/HistOption && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rodelph/dev/ImageProc/HistOption/src/HistOption/histogram.cpp -o CMakeFiles/HistOption.dir/src/HistOption/histogram.cpp.s
+	cd /home/rodelph/dev/ImageProc/build-ImageProc-Desktop-Release/HistOption && /bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rodelph/dev/ImageProc/HistOption/src/HistOption/histogram.cpp -o CMakeFiles/HistOption.dir/src/HistOption/histogram.cpp.s
 
 # Object files for target HistOption
 HistOption_OBJECTS = \

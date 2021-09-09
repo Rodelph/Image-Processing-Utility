@@ -15,6 +15,9 @@ public:
     explicit histogram(QWidget *parent = nullptr);
     ~histogram();
 
+private slots:
+    void on_filtBtn_clicked();
+
 private:
     Ui::histogram *ui;
 };

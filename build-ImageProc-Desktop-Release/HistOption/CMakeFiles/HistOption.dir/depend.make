@@ -109,9 +109,9 @@ HistOption/CMakeFiles/HistOption.dir/HistOption_autogen/mocs_compilation.cpp.o: 
 HistOption/CMakeFiles/HistOption.dir/HistOption_autogen/mocs_compilation.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qtwidgetsglobal.h
 HistOption/CMakeFiles/HistOption.dir/HistOption_autogen/mocs_compilation.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qwidget.h
 
+HistOption/CMakeFiles/HistOption.dir/src/HistOption/histogram.cpp.o: ../FiltOption/src/FiltOption/filterswindow.h
 HistOption/CMakeFiles/HistOption.dir/src/HistOption/histogram.cpp.o: ../HistOption/src/HistOption/histogram.cpp
 HistOption/CMakeFiles/HistOption.dir/src/HistOption/histogram.cpp.o: ../HistOption/src/HistOption/histogram.h
-HistOption/CMakeFiles/HistOption.dir/src/HistOption/histogram.cpp.o: HistOption/HistOption_autogen/include/ui_histogram.h
 HistOption/CMakeFiles/HistOption.dir/src/HistOption/histogram.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/QVariant
 HistOption/CMakeFiles/HistOption.dir/src/HistOption/histogram.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qalgorithms.h
 HistOption/CMakeFiles/HistOption.dir/src/HistOption/histogram.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qarraydata.h
@@ -238,4 +238,5 @@ HistOption/CMakeFiles/HistOption.dir/src/HistOption/histogram.cpp.o: /usr/includ
 HistOption/CMakeFiles/HistOption.dir/src/HistOption/histogram.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qtwidgets-config.h
 HistOption/CMakeFiles/HistOption.dir/src/HistOption/histogram.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qtwidgetsglobal.h
 HistOption/CMakeFiles/HistOption.dir/src/HistOption/histogram.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qwidget.h
+HistOption/CMakeFiles/HistOption.dir/src/HistOption/histogram.cpp.o: build-ImageProc-Desktop-Release/HistOption/HistOption_autogen/include/ui_histogram.h
 

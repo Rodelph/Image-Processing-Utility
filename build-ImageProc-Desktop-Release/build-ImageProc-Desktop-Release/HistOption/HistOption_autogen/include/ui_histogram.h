@@ -31,6 +31,7 @@ public:
     QVBoxLayout *verticalLayout_2;
     QLabel *calcImage;
     QPushButton *calcBtn;
+    QPushButton *filtBtn;
 
     void setupUi(QDialog *histogram)
     {
@@ -46,7 +47,7 @@ public:
         histogram->setMaximumSize(QSize(1366, 720));
         horizontalLayoutWidget = new QWidget(histogram);
         horizontalLayoutWidget->setObjectName(QString::fromUtf8("horizontalLayoutWidget"));
-        horizontalLayoutWidget->setGeometry(QRect(10, 10, 1341, 701));
+        horizontalLayoutWidget->setGeometry(QRect(10, 60, 1341, 651));
         horizontalLayout = new QHBoxLayout(horizontalLayoutWidget);
         horizontalLayout->setObjectName(QString::fromUtf8("horizontalLayout"));
         horizontalLayout->setContentsMargins(0, 0, 0, 0);
@@ -80,6 +81,9 @@ public:
 
         horizontalLayout->addLayout(verticalLayout_2);
 
+        filtBtn = new QPushButton(histogram);
+        filtBtn->setObjectName(QString::fromUtf8("filtBtn"));
+        filtBtn->setGeometry(QRect(10, 20, 141, 25));
 
         retranslateUi(histogram);
 
@@ -93,6 +97,7 @@ public:
         foldBtn->setText(QApplication::translate("histogram", "Folder", nullptr));
         calcImage->setText(QString());
         calcBtn->setText(QApplication::translate("histogram", "Calculate", nullptr));
+        filtBtn->setText(QApplication::translate("histogram", "Go to Filters", nullptr));
     } // retranslateUi
 
 };

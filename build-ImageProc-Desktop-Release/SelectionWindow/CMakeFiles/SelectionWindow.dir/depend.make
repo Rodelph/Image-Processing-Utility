@@ -121,7 +121,6 @@ SelectionWindow/CMakeFiles/SelectionWindow.dir/src/SelectionWindow/mainwindow.cp
 SelectionWindow/CMakeFiles/SelectionWindow.dir/src/SelectionWindow/mainwindow.cpp.o: ../HistOption/src/HistOption/histogram.h
 SelectionWindow/CMakeFiles/SelectionWindow.dir/src/SelectionWindow/mainwindow.cpp.o: ../SelectionWindow/src/SelectionWindow/mainwindow.cpp
 SelectionWindow/CMakeFiles/SelectionWindow.dir/src/SelectionWindow/mainwindow.cpp.o: ../SelectionWindow/src/SelectionWindow/mainwindow.h
-SelectionWindow/CMakeFiles/SelectionWindow.dir/src/SelectionWindow/mainwindow.cpp.o: SelectionWindow/SelectionWindow_autogen/include/ui_mainwindow.h
 SelectionWindow/CMakeFiles/SelectionWindow.dir/src/SelectionWindow/mainwindow.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/QVariant
 SelectionWindow/CMakeFiles/SelectionWindow.dir/src/SelectionWindow/mainwindow.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qalgorithms.h
 SelectionWindow/CMakeFiles/SelectionWindow.dir/src/SelectionWindow/mainwindow.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qarraydata.h
@@ -262,4 +261,5 @@ SelectionWindow/CMakeFiles/SelectionWindow.dir/src/SelectionWindow/mainwindow.cp
 SelectionWindow/CMakeFiles/SelectionWindow.dir/src/SelectionWindow/mainwindow.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qtwidgets-config.h
 SelectionWindow/CMakeFiles/SelectionWindow.dir/src/SelectionWindow/mainwindow.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qtwidgetsglobal.h
 SelectionWindow/CMakeFiles/SelectionWindow.dir/src/SelectionWindow/mainwindow.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qwidget.h
+SelectionWindow/CMakeFiles/SelectionWindow.dir/src/SelectionWindow/mainwindow.cpp.o: build-ImageProc-Desktop-Release/SelectionWindow/SelectionWindow_autogen/include/ui_mainwindow.h
 

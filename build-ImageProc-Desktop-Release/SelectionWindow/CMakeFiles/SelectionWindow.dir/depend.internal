@@ -122,7 +122,6 @@ SelectionWindow/CMakeFiles/SelectionWindow.dir/src/SelectionWindow/mainwindow.cp
  ../HistOption/src/HistOption/histogram.h
  /home/rodelph/dev/ImageProc/SelectionWindow/src/SelectionWindow/mainwindow.cpp
  /home/rodelph/dev/ImageProc/SelectionWindow/src/SelectionWindow/mainwindow.h
- /home/rodelph/dev/ImageProc/build-ImageProc-Desktop-Release/SelectionWindow/SelectionWindow_autogen/include/ui_mainwindow.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QVariant
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qalgorithms.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qarraydata.h
@@ -263,3 +262,4 @@ SelectionWindow/CMakeFiles/SelectionWindow.dir/src/SelectionWindow/mainwindow.cp
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qtwidgets-config.h
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qtwidgetsglobal.h
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qwidget.h
+ build-ImageProc-Desktop-Release/SelectionWindow/SelectionWindow_autogen/include/ui_mainwindow.h
