@@ -1,3 +1,5 @@
 # excluded files
 
-!.user
+*.user
+*.txt
+!CMakeLists.txt
