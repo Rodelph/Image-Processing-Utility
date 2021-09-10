@@ -3,7 +3,7 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "FiltOption/libFiltOption.a"
+			"path" : "FiltOption/HighPassFilt/libHighPassFilt.a"
 		}
 	],
 	"backtrace" : 1,
@@ -17,7 +17,7 @@
 		],
 		"files" : 
 		[
-			"FiltOption/CMakeLists.txt"
+			"FiltOption/HighPassFilt/CMakeLists.txt"
 		],
 		"nodes" : 
 		[
@@ -27,19 +27,19 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 2,
+				"line" : 1,
 				"parent" : 0
 			},
 			{
 				"command" : 1,
 				"file" : 0,
-				"line" : 15,
+				"line" : 14,
 				"parent" : 0
 			},
 			{
 				"command" : 2,
 				"file" : 0,
-				"line" : 9,
+				"line" : 8,
 				"parent" : 0
 			}
 		]
@@ -79,18 +79,18 @@
 			"includes" : 
 			[
 				{
-					"path" : "/home/rodelph/dev/ImageProc/build-ImageProc-Desktop-Release/FiltOption"
+					"path" : "/home/rodelph/dev/ImageProc/build-ImageProc-Desktop-Release/FiltOption/HighPassFilt"
 				},
 				{
-					"path" : "/home/rodelph/dev/ImageProc/FiltOption"
+					"path" : "/home/rodelph/dev/ImageProc/FiltOption/HighPassFilt"
 				},
 				{
 					"backtrace" : 0,
-					"path" : "/home/rodelph/dev/ImageProc/build-ImageProc-Desktop-Release/FiltOption/FiltOption_autogen/include"
+					"path" : "/home/rodelph/dev/ImageProc/build-ImageProc-Desktop-Release/FiltOption/HighPassFilt/HighPassFilt_autogen/include"
 				},
 				{
 					"backtrace" : 3,
-					"path" : "/home/rodelph/dev/ImageProc/FiltOption/src"
+					"path" : "/home/rodelph/dev/ImageProc/FiltOption/HighPassFilt/src"
 				},
 				{
 					"backtrace" : 2,
@@ -130,16 +130,16 @@
 	[
 		{
 			"backtrace" : 0,
-			"id" : "FiltOption_autogen::@78159e4a7ecc33594894"
+			"id" : "HighPassFilt_autogen::@f6d16be10b591a8b1a18"
 		}
 	],
-	"id" : "FiltOption::@78159e4a7ecc33594894",
-	"name" : "FiltOption",
-	"nameOnDisk" : "libFiltOption.a",
+	"id" : "HighPassFilt::@f6d16be10b591a8b1a18",
+	"name" : "HighPassFilt",
+	"nameOnDisk" : "libHighPassFilt.a",
 	"paths" : 
 	{
-		"build" : "FiltOption",
-		"source" : "FiltOption"
+		"build" : "FiltOption/HighPassFilt",
+		"source" : "FiltOption/HighPassFilt"
 	},
 	"sourceGroups" : 
 	[
@@ -172,23 +172,23 @@
 			"backtrace" : 0,
 			"compileGroupIndex" : 0,
 			"isGenerated" : true,
-			"path" : "build-ImageProc-Desktop-Release/FiltOption/FiltOption_autogen/mocs_compilation.cpp",
+			"path" : "build-ImageProc-Desktop-Release/FiltOption/HighPassFilt/HighPassFilt_autogen/mocs_compilation.cpp",
 			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "FiltOption/src/FiltOption/filterswindow.cpp",
+			"path" : "FiltOption/HighPassFilt/src/HighPassFilt/highpassfilt.cpp",
 			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 1,
-			"path" : "FiltOption/src/FiltOption/filterswindow.h",
+			"path" : "FiltOption/HighPassFilt/src/HighPassFilt/highpassfilt.h",
 			"sourceGroupIndex" : 1
 		},
 		{
 			"backtrace" : 1,
-			"path" : "FiltOption/src/FiltOption/filterswindow.ui",
+			"path" : "FiltOption/HighPassFilt/src/HighPassFilt/highpassfilt.ui",
 			"sourceGroupIndex" : 2
 		}
 	],

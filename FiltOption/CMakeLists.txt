@@ -1,4 +1,6 @@
 
+add_subdirectory(HighPassFilt)
+
 add_library(
             FiltOption
             src/FiltOption/filterswindow.cpp

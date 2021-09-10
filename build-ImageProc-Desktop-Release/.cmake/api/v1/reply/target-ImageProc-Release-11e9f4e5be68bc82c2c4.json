@@ -51,6 +51,12 @@
 				"file" : 0,
 				"line" : 15,
 				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 16,
+				"parent" : 0
 			}
 		]
 	},
@@ -108,10 +114,14 @@
 				},
 				{
 					"backtrace" : 4,
-					"path" : "/home/rodelph/dev/ImageProc/HistOption/src"
+					"path" : "/home/rodelph/dev/ImageProc/FiltOption/HighPassFilt/src"
 				},
 				{
 					"backtrace" : 5,
+					"path" : "/home/rodelph/dev/ImageProc/HistOption/src"
+				},
+				{
+					"backtrace" : 6,
 					"path" : "/home/rodelph/dev/ImageProc/ImageAlgorithms/src"
 				},
 				{
@@ -151,7 +161,7 @@
 	"dependencies" : 
 	[
 		{
-			"backtrace" : 5,
+			"backtrace" : 6,
 			"id" : "ImageAlgorithms::@c16bd134b49833051e8d"
 		},
 		{
@@ -164,6 +174,10 @@
 		},
 		{
 			"backtrace" : 4,
+			"id" : "HighPassFilt::@f6d16be10b591a8b1a18"
+		},
+		{
+			"backtrace" : 5,
 			"id" : "HistOption::@7d0c1c7413a5b4b4a66c"
 		},
 		{
@@ -196,12 +210,29 @@
 			},
 			{
 				"backtrace" : 4,
-				"fragment" : "../HistOption/libHistOption.a",
+				"fragment" : "../FiltOption/HighPassFilt/libHighPassFilt.a",
 				"role" : "libraries"
 			},
 			{
 				"backtrace" : 5,
+				"fragment" : "../HistOption/libHistOption.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 6,
 				"fragment" : "../ImageAlgorithms/libImageAlgorithms.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libQt5Widgets.so.5.12.8",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libQt5Gui.so.5.12.8",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libQt5Core.so.5.12.8",
 				"role" : "libraries"
 			},
 			{

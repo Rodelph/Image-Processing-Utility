@@ -30,6 +30,10 @@
 		},
 		{
 			"backtrace" : 0,
+			"id" : "HighPassFilt::@f6d16be10b591a8b1a18"
+		},
+		{
+			"backtrace" : 0,
 			"id" : "HistOption::@7d0c1c7413a5b4b4a66c"
 		}
 	],

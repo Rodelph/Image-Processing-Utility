@@ -30,7 +30,7 @@ public:
     QPushButton *pushButton_2;
     QPushButton *pushButton_3;
     QVBoxLayout *verticalLayout_2;
-    QPushButton *pushButton_4;
+    QPushButton *hpBtn;
     QPushButton *pushButton_5;
     QPushButton *pushButton_6;
     QPushButton *retBtn;
@@ -76,10 +76,10 @@ public:
 
         verticalLayout_2 = new QVBoxLayout();
         verticalLayout_2->setObjectName(QString::fromUtf8("verticalLayout_2"));
-        pushButton_4 = new QPushButton(horizontalLayoutWidget);
-        pushButton_4->setObjectName(QString::fromUtf8("pushButton_4"));
+        hpBtn = new QPushButton(horizontalLayoutWidget);
+        hpBtn->setObjectName(QString::fromUtf8("hpBtn"));
 
-        verticalLayout_2->addWidget(pushButton_4);
+        verticalLayout_2->addWidget(hpBtn);
 
         pushButton_5 = new QPushButton(horizontalLayoutWidget);
         pushButton_5->setObjectName(QString::fromUtf8("pushButton_5"));
@@ -116,7 +116,7 @@ public:
         pushButton->setText(QApplication::translate("FiltersWindow", "Low pass filter", nullptr));
         pushButton_2->setText(QApplication::translate("FiltersWindow", "Frequency Filter", nullptr));
         pushButton_3->setText(QApplication::translate("FiltersWindow", "Segmentation", nullptr));
-        pushButton_4->setText(QApplication::translate("FiltersWindow", "High pass filter", nullptr));
+        hpBtn->setText(QApplication::translate("FiltersWindow", "High pass filter", nullptr));
         pushButton_5->setText(QApplication::translate("FiltersWindow", "Median Filter", nullptr));
         pushButton_6->setText(QApplication::translate("FiltersWindow", "Thresholding", nullptr));
         retBtn->setText(QApplication::translate("FiltersWindow", "Go Histogram", nullptr));

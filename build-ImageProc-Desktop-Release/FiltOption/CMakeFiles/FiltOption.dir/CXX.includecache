@@ -6,6 +6,10 @@
 
 #IncludeRegexTransform: 
 
+/home/rodelph/dev/ImageProc/FiltOption/HighPassFilt/src/HighPassFilt/highpassfilt.h
+QDialog
+-
+
 /home/rodelph/dev/ImageProc/FiltOption/src/FiltOption/filterswindow.cpp
 filterswindow.h
 /home/rodelph/dev/ImageProc/FiltOption/src/FiltOption/filterswindow.h
@@ -13,6 +17,8 @@ filterswindow.h
 /home/rodelph/dev/ImageProc/build-ImageProc-Desktop-Release/FiltOption/FiltOption_autogen/include/ui_filterswindow.h
 ../../../HistOption/src/HistOption/histogram.h
 /home/rodelph/dev/ImageProc/HistOption/src/HistOption/histogram.h
+../../HighPassFilt/src/HighPassFilt/highpassfilt.h
+/home/rodelph/dev/ImageProc/FiltOption/HighPassFilt/src/HighPassFilt/highpassfilt.h
 
 /home/rodelph/dev/ImageProc/FiltOption/src/FiltOption/filterswindow.h
 QDialog

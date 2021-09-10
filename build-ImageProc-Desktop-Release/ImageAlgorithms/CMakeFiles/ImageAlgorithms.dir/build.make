@@ -60,28 +60,28 @@ include ImageAlgorithms/CMakeFiles/ImageAlgorithms.dir/flags.make
 ImageAlgorithms/CMakeFiles/ImageAlgorithms.dir/ImageAlgorithms_autogen/mocs_compilation.cpp.o: ImageAlgorithms/CMakeFiles/ImageAlgorithms.dir/flags.make
 ImageAlgorithms/CMakeFiles/ImageAlgorithms.dir/ImageAlgorithms_autogen/mocs_compilation.cpp.o: ImageAlgorithms/ImageAlgorithms_autogen/mocs_compilation.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rodelph/dev/ImageProc/build-ImageProc-Desktop-Release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object ImageAlgorithms/CMakeFiles/ImageAlgorithms.dir/ImageAlgorithms_autogen/mocs_compilation.cpp.o"
-	cd /home/rodelph/dev/ImageProc/build-ImageProc-Desktop-Release/ImageAlgorithms && /bin/x86_64-linux-gnu-g++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ImageAlgorithms.dir/ImageAlgorithms_autogen/mocs_compilation.cpp.o -c /home/rodelph/dev/ImageProc/build-ImageProc-Desktop-Release/ImageAlgorithms/ImageAlgorithms_autogen/mocs_compilation.cpp
+	cd /home/rodelph/dev/ImageProc/build-ImageProc-Desktop-Release/ImageAlgorithms && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ImageAlgorithms.dir/ImageAlgorithms_autogen/mocs_compilation.cpp.o -c /home/rodelph/dev/ImageProc/build-ImageProc-Desktop-Release/ImageAlgorithms/ImageAlgorithms_autogen/mocs_compilation.cpp
 
 ImageAlgorithms/CMakeFiles/ImageAlgorithms.dir/ImageAlgorithms_autogen/mocs_compilation.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ImageAlgorithms.dir/ImageAlgorithms_autogen/mocs_compilation.cpp.i"
-	cd /home/rodelph/dev/ImageProc/build-ImageProc-Desktop-Release/ImageAlgorithms && /bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rodelph/dev/ImageProc/build-ImageProc-Desktop-Release/ImageAlgorithms/ImageAlgorithms_autogen/mocs_compilation.cpp > CMakeFiles/ImageAlgorithms.dir/ImageAlgorithms_autogen/mocs_compilation.cpp.i
+	cd /home/rodelph/dev/ImageProc/build-ImageProc-Desktop-Release/ImageAlgorithms && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rodelph/dev/ImageProc/build-ImageProc-Desktop-Release/ImageAlgorithms/ImageAlgorithms_autogen/mocs_compilation.cpp > CMakeFiles/ImageAlgorithms.dir/ImageAlgorithms_autogen/mocs_compilation.cpp.i
 
 ImageAlgorithms/CMakeFiles/ImageAlgorithms.dir/ImageAlgorithms_autogen/mocs_compilation.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ImageAlgorithms.dir/ImageAlgorithms_autogen/mocs_compilation.cpp.s"
-	cd /home/rodelph/dev/ImageProc/build-ImageProc-Desktop-Release/ImageAlgorithms && /bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rodelph/dev/ImageProc/build-ImageProc-Desktop-Release/ImageAlgorithms/ImageAlgorithms_autogen/mocs_compilation.cpp -o CMakeFiles/ImageAlgorithms.dir/ImageAlgorithms_autogen/mocs_compilation.cpp.s
+	cd /home/rodelph/dev/ImageProc/build-ImageProc-Desktop-Release/ImageAlgorithms && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rodelph/dev/ImageProc/build-ImageProc-Desktop-Release/ImageAlgorithms/ImageAlgorithms_autogen/mocs_compilation.cpp -o CMakeFiles/ImageAlgorithms.dir/ImageAlgorithms_autogen/mocs_compilation.cpp.s
 
 ImageAlgorithms/CMakeFiles/ImageAlgorithms.dir/src/ImageAlgorithms/algo.cpp.o: ImageAlgorithms/CMakeFiles/ImageAlgorithms.dir/flags.make
 ImageAlgorithms/CMakeFiles/ImageAlgorithms.dir/src/ImageAlgorithms/algo.cpp.o: ../ImageAlgorithms/src/ImageAlgorithms/algo.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rodelph/dev/ImageProc/build-ImageProc-Desktop-Release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object ImageAlgorithms/CMakeFiles/ImageAlgorithms.dir/src/ImageAlgorithms/algo.cpp.o"
-	cd /home/rodelph/dev/ImageProc/build-ImageProc-Desktop-Release/ImageAlgorithms && /bin/x86_64-linux-gnu-g++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ImageAlgorithms.dir/src/ImageAlgorithms/algo.cpp.o -c /home/rodelph/dev/ImageProc/ImageAlgorithms/src/ImageAlgorithms/algo.cpp
+	cd /home/rodelph/dev/ImageProc/build-ImageProc-Desktop-Release/ImageAlgorithms && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ImageAlgorithms.dir/src/ImageAlgorithms/algo.cpp.o -c /home/rodelph/dev/ImageProc/ImageAlgorithms/src/ImageAlgorithms/algo.cpp
 
 ImageAlgorithms/CMakeFiles/ImageAlgorithms.dir/src/ImageAlgorithms/algo.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ImageAlgorithms.dir/src/ImageAlgorithms/algo.cpp.i"
-	cd /home/rodelph/dev/ImageProc/build-ImageProc-Desktop-Release/ImageAlgorithms && /bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rodelph/dev/ImageProc/ImageAlgorithms/src/ImageAlgorithms/algo.cpp > CMakeFiles/ImageAlgorithms.dir/src/ImageAlgorithms/algo.cpp.i
+	cd /home/rodelph/dev/ImageProc/build-ImageProc-Desktop-Release/ImageAlgorithms && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rodelph/dev/ImageProc/ImageAlgorithms/src/ImageAlgorithms/algo.cpp > CMakeFiles/ImageAlgorithms.dir/src/ImageAlgorithms/algo.cpp.i
 
 ImageAlgorithms/CMakeFiles/ImageAlgorithms.dir/src/ImageAlgorithms/algo.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ImageAlgorithms.dir/src/ImageAlgorithms/algo.cpp.s"
-	cd /home/rodelph/dev/ImageProc/build-ImageProc-Desktop-Release/ImageAlgorithms && /bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rodelph/dev/ImageProc/ImageAlgorithms/src/ImageAlgorithms/algo.cpp -o CMakeFiles/ImageAlgorithms.dir/src/ImageAlgorithms/algo.cpp.s
+	cd /home/rodelph/dev/ImageProc/build-ImageProc-Desktop-Release/ImageAlgorithms && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rodelph/dev/ImageProc/ImageAlgorithms/src/ImageAlgorithms/algo.cpp -o CMakeFiles/ImageAlgorithms.dir/src/ImageAlgorithms/algo.cpp.s
 
 # Object files for target ImageAlgorithms
 ImageAlgorithms_OBJECTS = \

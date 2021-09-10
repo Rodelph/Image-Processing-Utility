@@ -112,19 +112,40 @@ clean: ProjectEx/clean
 
 # Recursive "all" directory target.
 FiltOption/all: FiltOption/CMakeFiles/FiltOption.dir/all
+FiltOption/all: FiltOption/HighPassFilt/all
 
 .PHONY : FiltOption/all
 
 # Recursive "preinstall" directory target.
-FiltOption/preinstall:
+FiltOption/preinstall: FiltOption/HighPassFilt/preinstall
 
 .PHONY : FiltOption/preinstall
 
 # Recursive "clean" directory target.
 FiltOption/clean: FiltOption/CMakeFiles/FiltOption.dir/clean
 FiltOption/clean: FiltOption/CMakeFiles/FiltOption_autogen.dir/clean
+FiltOption/clean: FiltOption/HighPassFilt/clean
 
 .PHONY : FiltOption/clean
+
+#=============================================================================
+# Directory level rules for directory FiltOption/HighPassFilt
+
+# Recursive "all" directory target.
+FiltOption/HighPassFilt/all: FiltOption/HighPassFilt/CMakeFiles/HighPassFilt.dir/all
+
+.PHONY : FiltOption/HighPassFilt/all
+
+# Recursive "preinstall" directory target.
+FiltOption/HighPassFilt/preinstall:
+
+.PHONY : FiltOption/HighPassFilt/preinstall
+
+# Recursive "clean" directory target.
+FiltOption/HighPassFilt/clean: FiltOption/HighPassFilt/CMakeFiles/HighPassFilt.dir/clean
+FiltOption/HighPassFilt/clean: FiltOption/HighPassFilt/CMakeFiles/HighPassFilt_autogen.dir/clean
+
+.PHONY : FiltOption/HighPassFilt/clean
 
 #=============================================================================
 # Directory level rules for directory HistOption
@@ -965,7 +986,7 @@ CMakeFiles/ExperimentalBuild.dir/clean:
 ImageAlgorithms/CMakeFiles/ImageAlgorithms.dir/all: ImageAlgorithms/CMakeFiles/ImageAlgorithms_autogen.dir/all
 	$(MAKE) -f ImageAlgorithms/CMakeFiles/ImageAlgorithms.dir/build.make ImageAlgorithms/CMakeFiles/ImageAlgorithms.dir/depend
 	$(MAKE) -f ImageAlgorithms/CMakeFiles/ImageAlgorithms.dir/build.make ImageAlgorithms/CMakeFiles/ImageAlgorithms.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/rodelph/dev/ImageProc/build-ImageProc-Desktop-Release/CMakeFiles --progress-num=9,10,11 "Built target ImageAlgorithms"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/rodelph/dev/ImageProc/build-ImageProc-Desktop-Release/CMakeFiles --progress-num=13,14,15 "Built target ImageAlgorithms"
 .PHONY : ImageAlgorithms/CMakeFiles/ImageAlgorithms.dir/all
 
 # Build rule for subdir invocation for target.
@@ -992,7 +1013,7 @@ ImageAlgorithms/CMakeFiles/ImageAlgorithms.dir/clean:
 ImageAlgorithms/CMakeFiles/ImageAlgorithms_autogen.dir/all:
 	$(MAKE) -f ImageAlgorithms/CMakeFiles/ImageAlgorithms_autogen.dir/build.make ImageAlgorithms/CMakeFiles/ImageAlgorithms_autogen.dir/depend
 	$(MAKE) -f ImageAlgorithms/CMakeFiles/ImageAlgorithms_autogen.dir/build.make ImageAlgorithms/CMakeFiles/ImageAlgorithms_autogen.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/rodelph/dev/ImageProc/build-ImageProc-Desktop-Release/CMakeFiles --progress-num=12 "Built target ImageAlgorithms_autogen"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/rodelph/dev/ImageProc/build-ImageProc-Desktop-Release/CMakeFiles --progress-num=16 "Built target ImageAlgorithms_autogen"
 .PHONY : ImageAlgorithms/CMakeFiles/ImageAlgorithms_autogen.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1019,7 +1040,7 @@ ImageAlgorithms/CMakeFiles/ImageAlgorithms_autogen.dir/clean:
 SelectionWindow/CMakeFiles/SelectionWindow.dir/all: SelectionWindow/CMakeFiles/SelectionWindow_autogen.dir/all
 	$(MAKE) -f SelectionWindow/CMakeFiles/SelectionWindow.dir/build.make SelectionWindow/CMakeFiles/SelectionWindow.dir/depend
 	$(MAKE) -f SelectionWindow/CMakeFiles/SelectionWindow.dir/build.make SelectionWindow/CMakeFiles/SelectionWindow.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/rodelph/dev/ImageProc/build-ImageProc-Desktop-Release/CMakeFiles --progress-num=17,18,19 "Built target SelectionWindow"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/rodelph/dev/ImageProc/build-ImageProc-Desktop-Release/CMakeFiles --progress-num=21,22,23 "Built target SelectionWindow"
 .PHONY : SelectionWindow/CMakeFiles/SelectionWindow.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1046,7 +1067,7 @@ SelectionWindow/CMakeFiles/SelectionWindow.dir/clean:
 SelectionWindow/CMakeFiles/SelectionWindow_autogen.dir/all:
 	$(MAKE) -f SelectionWindow/CMakeFiles/SelectionWindow_autogen.dir/build.make SelectionWindow/CMakeFiles/SelectionWindow_autogen.dir/depend
 	$(MAKE) -f SelectionWindow/CMakeFiles/SelectionWindow_autogen.dir/build.make SelectionWindow/CMakeFiles/SelectionWindow_autogen.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/rodelph/dev/ImageProc/build-ImageProc-Desktop-Release/CMakeFiles --progress-num=20 "Built target SelectionWindow_autogen"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/rodelph/dev/ImageProc/build-ImageProc-Desktop-Release/CMakeFiles --progress-num=24 "Built target SelectionWindow_autogen"
 .PHONY : SelectionWindow/CMakeFiles/SelectionWindow_autogen.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1121,13 +1142,67 @@ FiltOption/CMakeFiles/FiltOption_autogen.dir/clean:
 .PHONY : FiltOption/CMakeFiles/FiltOption_autogen.dir/clean
 
 #=============================================================================
+# Target rules for target FiltOption/HighPassFilt/CMakeFiles/HighPassFilt.dir
+
+# All Build rule for target.
+FiltOption/HighPassFilt/CMakeFiles/HighPassFilt.dir/all: FiltOption/HighPassFilt/CMakeFiles/HighPassFilt_autogen.dir/all
+	$(MAKE) -f FiltOption/HighPassFilt/CMakeFiles/HighPassFilt.dir/build.make FiltOption/HighPassFilt/CMakeFiles/HighPassFilt.dir/depend
+	$(MAKE) -f FiltOption/HighPassFilt/CMakeFiles/HighPassFilt.dir/build.make FiltOption/HighPassFilt/CMakeFiles/HighPassFilt.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/rodelph/dev/ImageProc/build-ImageProc-Desktop-Release/CMakeFiles --progress-num=5,6,7 "Built target HighPassFilt"
+.PHONY : FiltOption/HighPassFilt/CMakeFiles/HighPassFilt.dir/all
+
+# Build rule for subdir invocation for target.
+FiltOption/HighPassFilt/CMakeFiles/HighPassFilt.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/rodelph/dev/ImageProc/build-ImageProc-Desktop-Release/CMakeFiles 4
+	$(MAKE) -f CMakeFiles/Makefile2 FiltOption/HighPassFilt/CMakeFiles/HighPassFilt.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/rodelph/dev/ImageProc/build-ImageProc-Desktop-Release/CMakeFiles 0
+.PHONY : FiltOption/HighPassFilt/CMakeFiles/HighPassFilt.dir/rule
+
+# Convenience name for target.
+HighPassFilt: FiltOption/HighPassFilt/CMakeFiles/HighPassFilt.dir/rule
+
+.PHONY : HighPassFilt
+
+# clean rule for target.
+FiltOption/HighPassFilt/CMakeFiles/HighPassFilt.dir/clean:
+	$(MAKE) -f FiltOption/HighPassFilt/CMakeFiles/HighPassFilt.dir/build.make FiltOption/HighPassFilt/CMakeFiles/HighPassFilt.dir/clean
+.PHONY : FiltOption/HighPassFilt/CMakeFiles/HighPassFilt.dir/clean
+
+#=============================================================================
+# Target rules for target FiltOption/HighPassFilt/CMakeFiles/HighPassFilt_autogen.dir
+
+# All Build rule for target.
+FiltOption/HighPassFilt/CMakeFiles/HighPassFilt_autogen.dir/all:
+	$(MAKE) -f FiltOption/HighPassFilt/CMakeFiles/HighPassFilt_autogen.dir/build.make FiltOption/HighPassFilt/CMakeFiles/HighPassFilt_autogen.dir/depend
+	$(MAKE) -f FiltOption/HighPassFilt/CMakeFiles/HighPassFilt_autogen.dir/build.make FiltOption/HighPassFilt/CMakeFiles/HighPassFilt_autogen.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/rodelph/dev/ImageProc/build-ImageProc-Desktop-Release/CMakeFiles --progress-num=8 "Built target HighPassFilt_autogen"
+.PHONY : FiltOption/HighPassFilt/CMakeFiles/HighPassFilt_autogen.dir/all
+
+# Build rule for subdir invocation for target.
+FiltOption/HighPassFilt/CMakeFiles/HighPassFilt_autogen.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/rodelph/dev/ImageProc/build-ImageProc-Desktop-Release/CMakeFiles 1
+	$(MAKE) -f CMakeFiles/Makefile2 FiltOption/HighPassFilt/CMakeFiles/HighPassFilt_autogen.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/rodelph/dev/ImageProc/build-ImageProc-Desktop-Release/CMakeFiles 0
+.PHONY : FiltOption/HighPassFilt/CMakeFiles/HighPassFilt_autogen.dir/rule
+
+# Convenience name for target.
+HighPassFilt_autogen: FiltOption/HighPassFilt/CMakeFiles/HighPassFilt_autogen.dir/rule
+
+.PHONY : HighPassFilt_autogen
+
+# clean rule for target.
+FiltOption/HighPassFilt/CMakeFiles/HighPassFilt_autogen.dir/clean:
+	$(MAKE) -f FiltOption/HighPassFilt/CMakeFiles/HighPassFilt_autogen.dir/build.make FiltOption/HighPassFilt/CMakeFiles/HighPassFilt_autogen.dir/clean
+.PHONY : FiltOption/HighPassFilt/CMakeFiles/HighPassFilt_autogen.dir/clean
+
+#=============================================================================
 # Target rules for target HistOption/CMakeFiles/HistOption.dir
 
 # All Build rule for target.
 HistOption/CMakeFiles/HistOption.dir/all: HistOption/CMakeFiles/HistOption_autogen.dir/all
 	$(MAKE) -f HistOption/CMakeFiles/HistOption.dir/build.make HistOption/CMakeFiles/HistOption.dir/depend
 	$(MAKE) -f HistOption/CMakeFiles/HistOption.dir/build.make HistOption/CMakeFiles/HistOption.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/rodelph/dev/ImageProc/build-ImageProc-Desktop-Release/CMakeFiles --progress-num=5,6,7 "Built target HistOption"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/rodelph/dev/ImageProc/build-ImageProc-Desktop-Release/CMakeFiles --progress-num=9,10,11 "Built target HistOption"
 .PHONY : HistOption/CMakeFiles/HistOption.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1154,7 +1229,7 @@ HistOption/CMakeFiles/HistOption.dir/clean:
 HistOption/CMakeFiles/HistOption_autogen.dir/all:
 	$(MAKE) -f HistOption/CMakeFiles/HistOption_autogen.dir/build.make HistOption/CMakeFiles/HistOption_autogen.dir/depend
 	$(MAKE) -f HistOption/CMakeFiles/HistOption_autogen.dir/build.make HistOption/CMakeFiles/HistOption_autogen.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/rodelph/dev/ImageProc/build-ImageProc-Desktop-Release/CMakeFiles --progress-num=8 "Built target HistOption_autogen"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/rodelph/dev/ImageProc/build-ImageProc-Desktop-Release/CMakeFiles --progress-num=12 "Built target HistOption_autogen"
 .PHONY : HistOption/CMakeFiles/HistOption_autogen.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1181,16 +1256,17 @@ HistOption/CMakeFiles/HistOption_autogen.dir/clean:
 ProjectEx/CMakeFiles/ImageProc.dir/all: ImageAlgorithms/CMakeFiles/ImageAlgorithms.dir/all
 ProjectEx/CMakeFiles/ImageProc.dir/all: SelectionWindow/CMakeFiles/SelectionWindow.dir/all
 ProjectEx/CMakeFiles/ImageProc.dir/all: FiltOption/CMakeFiles/FiltOption.dir/all
+ProjectEx/CMakeFiles/ImageProc.dir/all: FiltOption/HighPassFilt/CMakeFiles/HighPassFilt.dir/all
 ProjectEx/CMakeFiles/ImageProc.dir/all: HistOption/CMakeFiles/HistOption.dir/all
 ProjectEx/CMakeFiles/ImageProc.dir/all: ProjectEx/CMakeFiles/ImageProc_autogen.dir/all
 	$(MAKE) -f ProjectEx/CMakeFiles/ImageProc.dir/build.make ProjectEx/CMakeFiles/ImageProc.dir/depend
 	$(MAKE) -f ProjectEx/CMakeFiles/ImageProc.dir/build.make ProjectEx/CMakeFiles/ImageProc.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/rodelph/dev/ImageProc/build-ImageProc-Desktop-Release/CMakeFiles --progress-num=13,14,15 "Built target ImageProc"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/rodelph/dev/ImageProc/build-ImageProc-Desktop-Release/CMakeFiles --progress-num=17,18,19 "Built target ImageProc"
 .PHONY : ProjectEx/CMakeFiles/ImageProc.dir/all
 
 # Build rule for subdir invocation for target.
 ProjectEx/CMakeFiles/ImageProc.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/rodelph/dev/ImageProc/build-ImageProc-Desktop-Release/CMakeFiles 20
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/rodelph/dev/ImageProc/build-ImageProc-Desktop-Release/CMakeFiles 24
 	$(MAKE) -f CMakeFiles/Makefile2 ProjectEx/CMakeFiles/ImageProc.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/rodelph/dev/ImageProc/build-ImageProc-Desktop-Release/CMakeFiles 0
 .PHONY : ProjectEx/CMakeFiles/ImageProc.dir/rule
@@ -1212,15 +1288,16 @@ ProjectEx/CMakeFiles/ImageProc.dir/clean:
 ProjectEx/CMakeFiles/ImageProc_autogen.dir/all: ImageAlgorithms/CMakeFiles/ImageAlgorithms.dir/all
 ProjectEx/CMakeFiles/ImageProc_autogen.dir/all: SelectionWindow/CMakeFiles/SelectionWindow.dir/all
 ProjectEx/CMakeFiles/ImageProc_autogen.dir/all: FiltOption/CMakeFiles/FiltOption.dir/all
+ProjectEx/CMakeFiles/ImageProc_autogen.dir/all: FiltOption/HighPassFilt/CMakeFiles/HighPassFilt.dir/all
 ProjectEx/CMakeFiles/ImageProc_autogen.dir/all: HistOption/CMakeFiles/HistOption.dir/all
 	$(MAKE) -f ProjectEx/CMakeFiles/ImageProc_autogen.dir/build.make ProjectEx/CMakeFiles/ImageProc_autogen.dir/depend
 	$(MAKE) -f ProjectEx/CMakeFiles/ImageProc_autogen.dir/build.make ProjectEx/CMakeFiles/ImageProc_autogen.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/rodelph/dev/ImageProc/build-ImageProc-Desktop-Release/CMakeFiles --progress-num=16 "Built target ImageProc_autogen"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/rodelph/dev/ImageProc/build-ImageProc-Desktop-Release/CMakeFiles --progress-num=20 "Built target ImageProc_autogen"
 .PHONY : ProjectEx/CMakeFiles/ImageProc_autogen.dir/all
 
 # Build rule for subdir invocation for target.
 ProjectEx/CMakeFiles/ImageProc_autogen.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/rodelph/dev/ImageProc/build-ImageProc-Desktop-Release/CMakeFiles 17
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/rodelph/dev/ImageProc/build-ImageProc-Desktop-Release/CMakeFiles 21
 	$(MAKE) -f CMakeFiles/Makefile2 ProjectEx/CMakeFiles/ImageProc_autogen.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/rodelph/dev/ImageProc/build-ImageProc-Desktop-Release/CMakeFiles 0
 .PHONY : ProjectEx/CMakeFiles/ImageProc_autogen.dir/rule

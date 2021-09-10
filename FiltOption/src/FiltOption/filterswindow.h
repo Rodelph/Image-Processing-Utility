@@ -17,6 +17,7 @@ public:
 
 private slots :
     void on_retBtn_clicked();
+    void on_hpBtn_clicked();
 
 private:
     Ui::FiltersWindow *ui;

@@ -586,6 +586,32 @@ FiltOption_autogen/fast:
 .PHONY : FiltOption_autogen/fast
 
 #=============================================================================
+# Target rules for targets named HighPassFilt
+
+# Build rule for target.
+HighPassFilt: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 HighPassFilt
+.PHONY : HighPassFilt
+
+# fast build rule for target.
+HighPassFilt/fast:
+	$(MAKE) -f FiltOption/HighPassFilt/CMakeFiles/HighPassFilt.dir/build.make FiltOption/HighPassFilt/CMakeFiles/HighPassFilt.dir/build
+.PHONY : HighPassFilt/fast
+
+#=============================================================================
+# Target rules for targets named HighPassFilt_autogen
+
+# Build rule for target.
+HighPassFilt_autogen: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 HighPassFilt_autogen
+.PHONY : HighPassFilt_autogen
+
+# fast build rule for target.
+HighPassFilt_autogen/fast:
+	$(MAKE) -f FiltOption/HighPassFilt/CMakeFiles/HighPassFilt_autogen.dir/build.make FiltOption/HighPassFilt/CMakeFiles/HighPassFilt_autogen.dir/build
+.PHONY : HighPassFilt_autogen/fast
+
+#=============================================================================
 # Target rules for targets named HistOption
 
 # Build rule for target.
@@ -682,6 +708,8 @@ help:
 	@echo "... SelectionWindow_autogen"
 	@echo "... FiltOption"
 	@echo "... FiltOption_autogen"
+	@echo "... HighPassFilt"
+	@echo "... HighPassFilt_autogen"
 	@echo "... HistOption"
 	@echo "... HistOption_autogen"
 	@echo "... ImageProc"
