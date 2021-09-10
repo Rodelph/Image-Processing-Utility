@@ -2,10 +2,9 @@
 #define HIGHPASSFILT_H
 
 #include <QDialog>
+#include <QFileDialog>
 
-namespace Ui {
-class highpassfilt;
-}
+namespace Ui { class highpassfilt; }
 
 class highpassfilt : public QDialog
 {
@@ -17,6 +16,7 @@ public:
 
 private slots :
     void on_retBtn_clicked();
+    void on_foldBtn_clicked();
 
 private:
     Ui::highpassfilt *ui;

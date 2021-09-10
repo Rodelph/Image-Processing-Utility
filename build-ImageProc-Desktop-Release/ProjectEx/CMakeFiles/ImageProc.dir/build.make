@@ -60,28 +60,28 @@ include ProjectEx/CMakeFiles/ImageProc.dir/flags.make
 ProjectEx/CMakeFiles/ImageProc.dir/ImageProc_autogen/mocs_compilation.cpp.o: ProjectEx/CMakeFiles/ImageProc.dir/flags.make
 ProjectEx/CMakeFiles/ImageProc.dir/ImageProc_autogen/mocs_compilation.cpp.o: ProjectEx/ImageProc_autogen/mocs_compilation.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rodelph/dev/ImageProc/build-ImageProc-Desktop-Release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object ProjectEx/CMakeFiles/ImageProc.dir/ImageProc_autogen/mocs_compilation.cpp.o"
-	cd /home/rodelph/dev/ImageProc/build-ImageProc-Desktop-Release/ProjectEx && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ImageProc.dir/ImageProc_autogen/mocs_compilation.cpp.o -c /home/rodelph/dev/ImageProc/build-ImageProc-Desktop-Release/ProjectEx/ImageProc_autogen/mocs_compilation.cpp
+	cd /home/rodelph/dev/ImageProc/build-ImageProc-Desktop-Release/ProjectEx && /bin/x86_64-linux-gnu-g++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ImageProc.dir/ImageProc_autogen/mocs_compilation.cpp.o -c /home/rodelph/dev/ImageProc/build-ImageProc-Desktop-Release/ProjectEx/ImageProc_autogen/mocs_compilation.cpp
 
 ProjectEx/CMakeFiles/ImageProc.dir/ImageProc_autogen/mocs_compilation.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ImageProc.dir/ImageProc_autogen/mocs_compilation.cpp.i"
-	cd /home/rodelph/dev/ImageProc/build-ImageProc-Desktop-Release/ProjectEx && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rodelph/dev/ImageProc/build-ImageProc-Desktop-Release/ProjectEx/ImageProc_autogen/mocs_compilation.cpp > CMakeFiles/ImageProc.dir/ImageProc_autogen/mocs_compilation.cpp.i
+	cd /home/rodelph/dev/ImageProc/build-ImageProc-Desktop-Release/ProjectEx && /bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rodelph/dev/ImageProc/build-ImageProc-Desktop-Release/ProjectEx/ImageProc_autogen/mocs_compilation.cpp > CMakeFiles/ImageProc.dir/ImageProc_autogen/mocs_compilation.cpp.i
 
 ProjectEx/CMakeFiles/ImageProc.dir/ImageProc_autogen/mocs_compilation.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ImageProc.dir/ImageProc_autogen/mocs_compilation.cpp.s"
-	cd /home/rodelph/dev/ImageProc/build-ImageProc-Desktop-Release/ProjectEx && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rodelph/dev/ImageProc/build-ImageProc-Desktop-Release/ProjectEx/ImageProc_autogen/mocs_compilation.cpp -o CMakeFiles/ImageProc.dir/ImageProc_autogen/mocs_compilation.cpp.s
+	cd /home/rodelph/dev/ImageProc/build-ImageProc-Desktop-Release/ProjectEx && /bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rodelph/dev/ImageProc/build-ImageProc-Desktop-Release/ProjectEx/ImageProc_autogen/mocs_compilation.cpp -o CMakeFiles/ImageProc.dir/ImageProc_autogen/mocs_compilation.cpp.s
 
 ProjectEx/CMakeFiles/ImageProc.dir/main.cpp.o: ProjectEx/CMakeFiles/ImageProc.dir/flags.make
 ProjectEx/CMakeFiles/ImageProc.dir/main.cpp.o: ../ProjectEx/main.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rodelph/dev/ImageProc/build-ImageProc-Desktop-Release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object ProjectEx/CMakeFiles/ImageProc.dir/main.cpp.o"
-	cd /home/rodelph/dev/ImageProc/build-ImageProc-Desktop-Release/ProjectEx && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ImageProc.dir/main.cpp.o -c /home/rodelph/dev/ImageProc/ProjectEx/main.cpp
+	cd /home/rodelph/dev/ImageProc/build-ImageProc-Desktop-Release/ProjectEx && /bin/x86_64-linux-gnu-g++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ImageProc.dir/main.cpp.o -c /home/rodelph/dev/ImageProc/ProjectEx/main.cpp
 
 ProjectEx/CMakeFiles/ImageProc.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ImageProc.dir/main.cpp.i"
-	cd /home/rodelph/dev/ImageProc/build-ImageProc-Desktop-Release/ProjectEx && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rodelph/dev/ImageProc/ProjectEx/main.cpp > CMakeFiles/ImageProc.dir/main.cpp.i
+	cd /home/rodelph/dev/ImageProc/build-ImageProc-Desktop-Release/ProjectEx && /bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rodelph/dev/ImageProc/ProjectEx/main.cpp > CMakeFiles/ImageProc.dir/main.cpp.i
 
 ProjectEx/CMakeFiles/ImageProc.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ImageProc.dir/main.cpp.s"
-	cd /home/rodelph/dev/ImageProc/build-ImageProc-Desktop-Release/ProjectEx && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rodelph/dev/ImageProc/ProjectEx/main.cpp -o CMakeFiles/ImageProc.dir/main.cpp.s
+	cd /home/rodelph/dev/ImageProc/build-ImageProc-Desktop-Release/ProjectEx && /bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rodelph/dev/ImageProc/ProjectEx/main.cpp -o CMakeFiles/ImageProc.dir/main.cpp.s
 
 # Object files for target ImageProc
 ImageProc_OBJECTS = \
@@ -96,9 +96,17 @@ ProjectEx/ImageProc: ProjectEx/CMakeFiles/ImageProc.dir/main.cpp.o
 ProjectEx/ImageProc: ProjectEx/CMakeFiles/ImageProc.dir/build.make
 ProjectEx/ImageProc: SelectionWindow/libSelectionWindow.a
 ProjectEx/ImageProc: FiltOption/libFiltOption.a
+ProjectEx/ImageProc: FiltOption/FreqFilt/libFreqFilt.a
 ProjectEx/ImageProc: FiltOption/HighPassFilt/libHighPassFilt.a
+ProjectEx/ImageProc: FiltOption/LowPassFilt/libLowPassFilt.a
 ProjectEx/ImageProc: HistOption/libHistOption.a
 ProjectEx/ImageProc: ImageAlgorithms/libImageAlgorithms.a
+ProjectEx/ImageProc: /usr/lib/x86_64-linux-gnu/libQt5Widgets.so.5.12.8
+ProjectEx/ImageProc: /usr/lib/x86_64-linux-gnu/libQt5Gui.so.5.12.8
+ProjectEx/ImageProc: /usr/lib/x86_64-linux-gnu/libQt5Core.so.5.12.8
+ProjectEx/ImageProc: /usr/lib/x86_64-linux-gnu/libQt5Widgets.so.5.12.8
+ProjectEx/ImageProc: /usr/lib/x86_64-linux-gnu/libQt5Gui.so.5.12.8
+ProjectEx/ImageProc: /usr/lib/x86_64-linux-gnu/libQt5Core.so.5.12.8
 ProjectEx/ImageProc: /usr/lib/x86_64-linux-gnu/libQt5Widgets.so.5.12.8
 ProjectEx/ImageProc: /usr/lib/x86_64-linux-gnu/libQt5Gui.so.5.12.8
 ProjectEx/ImageProc: /usr/lib/x86_64-linux-gnu/libQt5Core.so.5.12.8

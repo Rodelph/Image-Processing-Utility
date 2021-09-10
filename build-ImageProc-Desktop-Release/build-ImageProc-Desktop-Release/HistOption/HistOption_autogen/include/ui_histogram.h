@@ -32,6 +32,7 @@ public:
     QLabel *calcImage;
     QPushButton *calcBtn;
     QPushButton *filtBtn;
+    QLabel *label;
 
     void setupUi(QDialog *histogram)
     {
@@ -84,6 +85,13 @@ public:
         filtBtn = new QPushButton(histogram);
         filtBtn->setObjectName(QString::fromUtf8("filtBtn"));
         filtBtn->setGeometry(QRect(10, 20, 141, 25));
+        label = new QLabel(histogram);
+        label->setObjectName(QString::fromUtf8("label"));
+        label->setGeometry(QRect(540, 10, 271, 31));
+        QFont font;
+        font.setPointSize(21);
+        label->setFont(font);
+        label->setAlignment(Qt::AlignCenter);
 
         retranslateUi(histogram);
 
@@ -98,6 +106,7 @@ public:
         calcImage->setText(QString());
         calcBtn->setText(QApplication::translate("histogram", "Calculate", nullptr));
         filtBtn->setText(QApplication::translate("histogram", "Go to Filters", nullptr));
+        label->setText(QApplication::translate("histogram", "Histogram", nullptr));
     } // retranslateUi
 
 };

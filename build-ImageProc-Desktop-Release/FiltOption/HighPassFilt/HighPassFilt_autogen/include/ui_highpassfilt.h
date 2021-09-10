@@ -26,11 +26,11 @@ public:
     QWidget *horizontalLayoutWidget;
     QHBoxLayout *horizontalLayout;
     QVBoxLayout *verticalLayout;
-    QLabel *label;
-    QPushButton *pushButton;
+    QLabel *imgFoldLbl;
+    QPushButton *foldBtn;
     QVBoxLayout *verticalLayout_2;
-    QLabel *label_2;
-    QPushButton *pushButton_2;
+    QLabel *imageTrsLbl;
+    QPushButton *transformBtn;
     QPushButton *retBtn;
     QLabel *label_3;
 
@@ -54,30 +54,30 @@ public:
         horizontalLayout->setContentsMargins(0, 0, 0, 0);
         verticalLayout = new QVBoxLayout();
         verticalLayout->setObjectName(QString::fromUtf8("verticalLayout"));
-        label = new QLabel(horizontalLayoutWidget);
-        label->setObjectName(QString::fromUtf8("label"));
+        imgFoldLbl = new QLabel(horizontalLayoutWidget);
+        imgFoldLbl->setObjectName(QString::fromUtf8("imgFoldLbl"));
 
-        verticalLayout->addWidget(label);
+        verticalLayout->addWidget(imgFoldLbl);
 
-        pushButton = new QPushButton(horizontalLayoutWidget);
-        pushButton->setObjectName(QString::fromUtf8("pushButton"));
+        foldBtn = new QPushButton(horizontalLayoutWidget);
+        foldBtn->setObjectName(QString::fromUtf8("foldBtn"));
 
-        verticalLayout->addWidget(pushButton, 0, Qt::AlignHCenter);
+        verticalLayout->addWidget(foldBtn, 0, Qt::AlignHCenter);
 
 
         horizontalLayout->addLayout(verticalLayout);
 
         verticalLayout_2 = new QVBoxLayout();
         verticalLayout_2->setObjectName(QString::fromUtf8("verticalLayout_2"));
-        label_2 = new QLabel(horizontalLayoutWidget);
-        label_2->setObjectName(QString::fromUtf8("label_2"));
+        imageTrsLbl = new QLabel(horizontalLayoutWidget);
+        imageTrsLbl->setObjectName(QString::fromUtf8("imageTrsLbl"));
 
-        verticalLayout_2->addWidget(label_2);
+        verticalLayout_2->addWidget(imageTrsLbl);
 
-        pushButton_2 = new QPushButton(horizontalLayoutWidget);
-        pushButton_2->setObjectName(QString::fromUtf8("pushButton_2"));
+        transformBtn = new QPushButton(horizontalLayoutWidget);
+        transformBtn->setObjectName(QString::fromUtf8("transformBtn"));
 
-        verticalLayout_2->addWidget(pushButton_2, 0, Qt::AlignHCenter);
+        verticalLayout_2->addWidget(transformBtn, 0, Qt::AlignHCenter);
 
 
         horizontalLayout->addLayout(verticalLayout_2);
@@ -101,10 +101,10 @@ public:
     void retranslateUi(QDialog *highpassfilt)
     {
         highpassfilt->setWindowTitle(QApplication::translate("highpassfilt", "Dialog", nullptr));
-        label->setText(QString());
-        pushButton->setText(QApplication::translate("highpassfilt", "Folder", nullptr));
-        label_2->setText(QString());
-        pushButton_2->setText(QApplication::translate("highpassfilt", "Transform", nullptr));
+        imgFoldLbl->setText(QString());
+        foldBtn->setText(QApplication::translate("highpassfilt", "Folder", nullptr));
+        imageTrsLbl->setText(QString());
+        transformBtn->setText(QApplication::translate("highpassfilt", "Transform", nullptr));
         retBtn->setText(QApplication::translate("highpassfilt", "Return", nullptr));
         label_3->setText(QApplication::translate("highpassfilt", "High Pass Filter", nullptr));
     } // retranslateUi

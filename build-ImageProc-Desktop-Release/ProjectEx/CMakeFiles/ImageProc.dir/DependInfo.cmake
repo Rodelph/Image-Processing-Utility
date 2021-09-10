@@ -24,7 +24,9 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "ProjectEx/ImageProc_autogen/include"
   "../SelectionWindow/src"
   "../FiltOption/src"
+  "../FiltOption/FreqFilt/src"
   "../FiltOption/HighPassFilt/src"
+  "../FiltOption/LowPassFilt/src"
   "../HistOption/src"
   "../ImageAlgorithms/src"
   "/usr/include/x86_64-linux-gnu/qt5"
@@ -38,7 +40,9 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
 set(CMAKE_TARGET_LINKED_INFO_FILES
   "/home/rodelph/dev/ImageProc/build-ImageProc-Desktop-Release/SelectionWindow/CMakeFiles/SelectionWindow.dir/DependInfo.cmake"
   "/home/rodelph/dev/ImageProc/build-ImageProc-Desktop-Release/FiltOption/CMakeFiles/FiltOption.dir/DependInfo.cmake"
+  "/home/rodelph/dev/ImageProc/build-ImageProc-Desktop-Release/FiltOption/FreqFilt/CMakeFiles/FreqFilt.dir/DependInfo.cmake"
   "/home/rodelph/dev/ImageProc/build-ImageProc-Desktop-Release/FiltOption/HighPassFilt/CMakeFiles/HighPassFilt.dir/DependInfo.cmake"
+  "/home/rodelph/dev/ImageProc/build-ImageProc-Desktop-Release/FiltOption/LowPassFilt/CMakeFiles/LowPassFilt.dir/DependInfo.cmake"
   "/home/rodelph/dev/ImageProc/build-ImageProc-Desktop-Release/HistOption/CMakeFiles/HistOption.dir/DependInfo.cmake"
   "/home/rodelph/dev/ImageProc/build-ImageProc-Desktop-Release/ImageAlgorithms/CMakeFiles/ImageAlgorithms.dir/DependInfo.cmake"
   )

@@ -11,8 +11,8 @@
 						1,
 						2,
 						3,
-						5,
-						6
+						7,
+						8
 					],
 					"minimumCMakeVersion" : 
 					{
@@ -40,16 +40,16 @@
 						15,
 						16,
 						17,
-						28,
-						29,
-						30,
-						31,
 						32,
 						33,
 						34,
 						35,
 						36,
-						37
+						37,
+						38,
+						39,
+						40,
+						41
 					]
 				},
 				{
@@ -63,8 +63,8 @@
 					"source" : "ImageAlgorithms",
 					"targetIndexes" : 
 					[
-						24,
-						25
+						26,
+						27
 					]
 				},
 				{
@@ -78,15 +78,17 @@
 					"source" : "SelectionWindow",
 					"targetIndexes" : 
 					[
-						38,
-						39
+						42,
+						43
 					]
 				},
 				{
 					"build" : "FiltOption",
 					"childIndexes" : 
 					[
-						4
+						4,
+						5,
+						6
 					],
 					"minimumCMakeVersion" : 
 					{
@@ -112,6 +114,36 @@
 					"source" : "FiltOption/HighPassFilt",
 					"targetIndexes" : 
 					[
+						22,
+						23
+					]
+				},
+				{
+					"build" : "FiltOption/LowPassFilt",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8"
+					},
+					"parentIndex" : 3,
+					"projectIndex" : 0,
+					"source" : "FiltOption/LowPassFilt",
+					"targetIndexes" : 
+					[
+						30,
+						31
+					]
+				},
+				{
+					"build" : "FiltOption/FreqFilt",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8"
+					},
+					"parentIndex" : 3,
+					"projectIndex" : 0,
+					"source" : "FiltOption/FreqFilt",
+					"targetIndexes" : 
+					[
 						20,
 						21
 					]
@@ -127,8 +159,8 @@
 					"source" : "HistOption",
 					"targetIndexes" : 
 					[
-						22,
-						23
+						24,
+						25
 					]
 				},
 				{
@@ -142,8 +174,8 @@
 					"source" : "ProjectEx",
 					"targetIndexes" : 
 					[
-						26,
-						27
+						28,
+						29
 					]
 				}
 			],
@@ -159,7 +191,9 @@
 						3,
 						4,
 						5,
-						6
+						6,
+						7,
+						8
 					],
 					"name" : "ImageProc",
 					"targetIndexes" : 
@@ -203,7 +237,11 @@
 						36,
 						37,
 						38,
-						39
+						39,
+						40,
+						41,
+						42,
+						43
 					]
 				}
 			],
@@ -338,7 +376,7 @@
 				{
 					"directoryIndex" : 3,
 					"id" : "FiltOption::@78159e4a7ecc33594894",
-					"jsonFile" : "target-FiltOption-Release-816c3648b0a81b664131.json",
+					"jsonFile" : "target-FiltOption-Release-a4b4bd876a237803a894.json",
 					"name" : "FiltOption",
 					"projectIndex" : 0
 				},
@@ -347,6 +385,20 @@
 					"id" : "FiltOption_autogen::@78159e4a7ecc33594894",
 					"jsonFile" : "target-FiltOption_autogen-Release-6aa33835406c9fe85652.json",
 					"name" : "FiltOption_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "FreqFilt::@73e90590c886ac8e6c25",
+					"jsonFile" : "target-FreqFilt-Release-6d374bde0cb4d55576cd.json",
+					"name" : "FreqFilt",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "FreqFilt_autogen::@73e90590c886ac8e6c25",
+					"jsonFile" : "target-FreqFilt_autogen-Release-bb19cf6679ae840cb5f8.json",
+					"name" : "FreqFilt_autogen",
 					"projectIndex" : 0
 				},
 				{
@@ -364,14 +416,14 @@
 					"projectIndex" : 0
 				},
 				{
-					"directoryIndex" : 5,
+					"directoryIndex" : 7,
 					"id" : "HistOption::@7d0c1c7413a5b4b4a66c",
 					"jsonFile" : "target-HistOption-Release-5c4c968a2b1595bd301d.json",
 					"name" : "HistOption",
 					"projectIndex" : 0
 				},
 				{
-					"directoryIndex" : 5,
+					"directoryIndex" : 7,
 					"id" : "HistOption_autogen::@7d0c1c7413a5b4b4a66c",
 					"jsonFile" : "target-HistOption_autogen-Release-49afcfb8f024eac3ead7.json",
 					"name" : "HistOption_autogen",
@@ -392,17 +444,31 @@
 					"projectIndex" : 0
 				},
 				{
-					"directoryIndex" : 6,
+					"directoryIndex" : 8,
 					"id" : "ImageProc::@ef295547339b82ba77b5",
-					"jsonFile" : "target-ImageProc-Release-11e9f4e5be68bc82c2c4.json",
+					"jsonFile" : "target-ImageProc-Release-dce64b2a59626f7048fa.json",
 					"name" : "ImageProc",
 					"projectIndex" : 0
 				},
 				{
-					"directoryIndex" : 6,
+					"directoryIndex" : 8,
 					"id" : "ImageProc_autogen::@ef295547339b82ba77b5",
-					"jsonFile" : "target-ImageProc_autogen-Release-4f79f4ff695593f1898e.json",
+					"jsonFile" : "target-ImageProc_autogen-Release-d3b8cd54dbd117aec055.json",
 					"name" : "ImageProc_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "LowPassFilt::@b2dc804a7729002c48fa",
+					"jsonFile" : "target-LowPassFilt-Release-4e034ac0620e0e5973aa.json",
+					"name" : "LowPassFilt",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "LowPassFilt_autogen::@b2dc804a7729002c48fa",
+					"jsonFile" : "target-LowPassFilt_autogen-Release-988aa002f55e35f38811.json",
+					"name" : "LowPassFilt_autogen",
 					"projectIndex" : 0
 				},
 				{

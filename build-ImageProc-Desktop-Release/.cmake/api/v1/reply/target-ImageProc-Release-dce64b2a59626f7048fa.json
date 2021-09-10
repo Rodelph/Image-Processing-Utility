@@ -57,6 +57,18 @@
 				"file" : 0,
 				"line" : 16,
 				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 17,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 18,
+				"parent" : 0
 			}
 		]
 	},
@@ -114,14 +126,22 @@
 				},
 				{
 					"backtrace" : 4,
-					"path" : "/home/rodelph/dev/ImageProc/FiltOption/HighPassFilt/src"
+					"path" : "/home/rodelph/dev/ImageProc/FiltOption/FreqFilt/src"
 				},
 				{
 					"backtrace" : 5,
-					"path" : "/home/rodelph/dev/ImageProc/HistOption/src"
+					"path" : "/home/rodelph/dev/ImageProc/FiltOption/HighPassFilt/src"
 				},
 				{
 					"backtrace" : 6,
+					"path" : "/home/rodelph/dev/ImageProc/FiltOption/LowPassFilt/src"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "/home/rodelph/dev/ImageProc/HistOption/src"
+				},
+				{
+					"backtrace" : 8,
 					"path" : "/home/rodelph/dev/ImageProc/ImageAlgorithms/src"
 				},
 				{
@@ -161,7 +181,7 @@
 	"dependencies" : 
 	[
 		{
-			"backtrace" : 6,
+			"backtrace" : 8,
 			"id" : "ImageAlgorithms::@c16bd134b49833051e8d"
 		},
 		{
@@ -173,11 +193,19 @@
 			"id" : "FiltOption::@78159e4a7ecc33594894"
 		},
 		{
-			"backtrace" : 4,
+			"backtrace" : 5,
 			"id" : "HighPassFilt::@f6d16be10b591a8b1a18"
 		},
 		{
-			"backtrace" : 5,
+			"backtrace" : 6,
+			"id" : "LowPassFilt::@b2dc804a7729002c48fa"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "FreqFilt::@73e90590c886ac8e6c25"
+		},
+		{
+			"backtrace" : 7,
 			"id" : "HistOption::@7d0c1c7413a5b4b4a66c"
 		},
 		{
@@ -210,17 +238,51 @@
 			},
 			{
 				"backtrace" : 4,
-				"fragment" : "../FiltOption/HighPassFilt/libHighPassFilt.a",
+				"fragment" : "../FiltOption/FreqFilt/libFreqFilt.a",
 				"role" : "libraries"
 			},
 			{
 				"backtrace" : 5,
-				"fragment" : "../HistOption/libHistOption.a",
+				"fragment" : "../FiltOption/HighPassFilt/libHighPassFilt.a",
 				"role" : "libraries"
 			},
 			{
 				"backtrace" : 6,
+				"fragment" : "../FiltOption/LowPassFilt/libLowPassFilt.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 7,
+				"fragment" : "../HistOption/libHistOption.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 8,
 				"fragment" : "../ImageAlgorithms/libImageAlgorithms.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libQt5Widgets.so.5.12.8",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libQt5Gui.so.5.12.8",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libQt5Core.so.5.12.8",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libQt5Widgets.so.5.12.8",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libQt5Gui.so.5.12.8",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libQt5Core.so.5.12.8",
 				"role" : "libraries"
 			},
 			{

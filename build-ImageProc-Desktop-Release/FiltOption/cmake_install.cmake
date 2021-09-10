@@ -40,6 +40,8 @@ endif()
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
   include("/home/rodelph/dev/ImageProc/build-ImageProc-Desktop-Release/FiltOption/HighPassFilt/cmake_install.cmake")
+  include("/home/rodelph/dev/ImageProc/build-ImageProc-Desktop-Release/FiltOption/LowPassFilt/cmake_install.cmake")
+  include("/home/rodelph/dev/ImageProc/build-ImageProc-Desktop-Release/FiltOption/FreqFilt/cmake_install.cmake")
 
 endif()
 

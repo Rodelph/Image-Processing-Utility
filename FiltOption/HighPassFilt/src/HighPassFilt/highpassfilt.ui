@@ -44,14 +44,14 @@
     <item>
      <layout class="QVBoxLayout" name="verticalLayout">
       <item>
-       <widget class="QLabel" name="label">
+       <widget class="QLabel" name="imgFoldLbl">
         <property name="text">
          <string/>
         </property>
        </widget>
       </item>
       <item alignment="Qt::AlignHCenter">
-       <widget class="QPushButton" name="pushButton">
+       <widget class="QPushButton" name="foldBtn">
         <property name="text">
          <string>Folder</string>
         </property>
@@ -62,14 +62,14 @@
     <item>
      <layout class="QVBoxLayout" name="verticalLayout_2">
       <item>
-       <widget class="QLabel" name="label_2">
+       <widget class="QLabel" name="imageTrsLbl">
         <property name="text">
          <string/>
         </property>
        </widget>
       </item>
       <item alignment="Qt::AlignHCenter">
-       <widget class="QPushButton" name="pushButton_2">
+       <widget class="QPushButton" name="transformBtn">
         <property name="text">
          <string>Transform</string>
         </property>

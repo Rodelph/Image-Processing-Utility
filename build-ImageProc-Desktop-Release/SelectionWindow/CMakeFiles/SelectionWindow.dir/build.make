@@ -60,28 +60,28 @@ include SelectionWindow/CMakeFiles/SelectionWindow.dir/flags.make
 SelectionWindow/CMakeFiles/SelectionWindow.dir/SelectionWindow_autogen/mocs_compilation.cpp.o: SelectionWindow/CMakeFiles/SelectionWindow.dir/flags.make
 SelectionWindow/CMakeFiles/SelectionWindow.dir/SelectionWindow_autogen/mocs_compilation.cpp.o: SelectionWindow/SelectionWindow_autogen/mocs_compilation.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rodelph/dev/ImageProc/build-ImageProc-Desktop-Release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object SelectionWindow/CMakeFiles/SelectionWindow.dir/SelectionWindow_autogen/mocs_compilation.cpp.o"
-	cd /home/rodelph/dev/ImageProc/build-ImageProc-Desktop-Release/SelectionWindow && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/SelectionWindow.dir/SelectionWindow_autogen/mocs_compilation.cpp.o -c /home/rodelph/dev/ImageProc/build-ImageProc-Desktop-Release/SelectionWindow/SelectionWindow_autogen/mocs_compilation.cpp
+	cd /home/rodelph/dev/ImageProc/build-ImageProc-Desktop-Release/SelectionWindow && /bin/x86_64-linux-gnu-g++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/SelectionWindow.dir/SelectionWindow_autogen/mocs_compilation.cpp.o -c /home/rodelph/dev/ImageProc/build-ImageProc-Desktop-Release/SelectionWindow/SelectionWindow_autogen/mocs_compilation.cpp
 
 SelectionWindow/CMakeFiles/SelectionWindow.dir/SelectionWindow_autogen/mocs_compilation.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SelectionWindow.dir/SelectionWindow_autogen/mocs_compilation.cpp.i"
-	cd /home/rodelph/dev/ImageProc/build-ImageProc-Desktop-Release/SelectionWindow && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rodelph/dev/ImageProc/build-ImageProc-Desktop-Release/SelectionWindow/SelectionWindow_autogen/mocs_compilation.cpp > CMakeFiles/SelectionWindow.dir/SelectionWindow_autogen/mocs_compilation.cpp.i
+	cd /home/rodelph/dev/ImageProc/build-ImageProc-Desktop-Release/SelectionWindow && /bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rodelph/dev/ImageProc/build-ImageProc-Desktop-Release/SelectionWindow/SelectionWindow_autogen/mocs_compilation.cpp > CMakeFiles/SelectionWindow.dir/SelectionWindow_autogen/mocs_compilation.cpp.i
 
 SelectionWindow/CMakeFiles/SelectionWindow.dir/SelectionWindow_autogen/mocs_compilation.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SelectionWindow.dir/SelectionWindow_autogen/mocs_compilation.cpp.s"
-	cd /home/rodelph/dev/ImageProc/build-ImageProc-Desktop-Release/SelectionWindow && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rodelph/dev/ImageProc/build-ImageProc-Desktop-Release/SelectionWindow/SelectionWindow_autogen/mocs_compilation.cpp -o CMakeFiles/SelectionWindow.dir/SelectionWindow_autogen/mocs_compilation.cpp.s
+	cd /home/rodelph/dev/ImageProc/build-ImageProc-Desktop-Release/SelectionWindow && /bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rodelph/dev/ImageProc/build-ImageProc-Desktop-Release/SelectionWindow/SelectionWindow_autogen/mocs_compilation.cpp -o CMakeFiles/SelectionWindow.dir/SelectionWindow_autogen/mocs_compilation.cpp.s
 
 SelectionWindow/CMakeFiles/SelectionWindow.dir/src/SelectionWindow/mainwindow.cpp.o: SelectionWindow/CMakeFiles/SelectionWindow.dir/flags.make
 SelectionWindow/CMakeFiles/SelectionWindow.dir/src/SelectionWindow/mainwindow.cpp.o: ../SelectionWindow/src/SelectionWindow/mainwindow.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rodelph/dev/ImageProc/build-ImageProc-Desktop-Release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object SelectionWindow/CMakeFiles/SelectionWindow.dir/src/SelectionWindow/mainwindow.cpp.o"
-	cd /home/rodelph/dev/ImageProc/build-ImageProc-Desktop-Release/SelectionWindow && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/SelectionWindow.dir/src/SelectionWindow/mainwindow.cpp.o -c /home/rodelph/dev/ImageProc/SelectionWindow/src/SelectionWindow/mainwindow.cpp
+	cd /home/rodelph/dev/ImageProc/build-ImageProc-Desktop-Release/SelectionWindow && /bin/x86_64-linux-gnu-g++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/SelectionWindow.dir/src/SelectionWindow/mainwindow.cpp.o -c /home/rodelph/dev/ImageProc/SelectionWindow/src/SelectionWindow/mainwindow.cpp
 
 SelectionWindow/CMakeFiles/SelectionWindow.dir/src/SelectionWindow/mainwindow.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SelectionWindow.dir/src/SelectionWindow/mainwindow.cpp.i"
-	cd /home/rodelph/dev/ImageProc/build-ImageProc-Desktop-Release/SelectionWindow && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rodelph/dev/ImageProc/SelectionWindow/src/SelectionWindow/mainwindow.cpp > CMakeFiles/SelectionWindow.dir/src/SelectionWindow/mainwindow.cpp.i
+	cd /home/rodelph/dev/ImageProc/build-ImageProc-Desktop-Release/SelectionWindow && /bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rodelph/dev/ImageProc/SelectionWindow/src/SelectionWindow/mainwindow.cpp > CMakeFiles/SelectionWindow.dir/src/SelectionWindow/mainwindow.cpp.i
 
 SelectionWindow/CMakeFiles/SelectionWindow.dir/src/SelectionWindow/mainwindow.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SelectionWindow.dir/src/SelectionWindow/mainwindow.cpp.s"
-	cd /home/rodelph/dev/ImageProc/build-ImageProc-Desktop-Release/SelectionWindow && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rodelph/dev/ImageProc/SelectionWindow/src/SelectionWindow/mainwindow.cpp -o CMakeFiles/SelectionWindow.dir/src/SelectionWindow/mainwindow.cpp.s
+	cd /home/rodelph/dev/ImageProc/build-ImageProc-Desktop-Release/SelectionWindow && /bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rodelph/dev/ImageProc/SelectionWindow/src/SelectionWindow/mainwindow.cpp -o CMakeFiles/SelectionWindow.dir/src/SelectionWindow/mainwindow.cpp.s
 
 # Object files for target SelectionWindow
 SelectionWindow_OBJECTS = \

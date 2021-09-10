@@ -44,21 +44,21 @@
     <item>
      <layout class="QVBoxLayout" name="verticalLayout">
       <item>
-       <widget class="QPushButton" name="pushButton">
+       <widget class="QPushButton" name="lpBtn">
         <property name="text">
          <string>Low pass filter</string>
         </property>
        </widget>
       </item>
       <item>
-       <widget class="QPushButton" name="pushButton_2">
+       <widget class="QPushButton" name="freqBtn">
         <property name="text">
          <string>Frequency Filter</string>
         </property>
        </widget>
       </item>
       <item>
-       <widget class="QPushButton" name="pushButton_3">
+       <widget class="QPushButton" name="segBtn">
         <property name="text">
          <string>Segmentation</string>
         </property>
@@ -76,14 +76,14 @@
        </widget>
       </item>
       <item>
-       <widget class="QPushButton" name="pushButton_5">
+       <widget class="QPushButton" name="medBtn">
         <property name="text">
          <string>Median Filter</string>
         </property>
        </widget>
       </item>
       <item>
-       <widget class="QPushButton" name="pushButton_6">
+       <widget class="QPushButton" name="treshBtn">
         <property name="text">
          <string>Thresholding</string>
         </property>

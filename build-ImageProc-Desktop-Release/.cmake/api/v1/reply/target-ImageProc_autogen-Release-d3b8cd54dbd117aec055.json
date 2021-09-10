@@ -34,6 +34,14 @@
 		},
 		{
 			"backtrace" : 0,
+			"id" : "LowPassFilt::@b2dc804a7729002c48fa"
+		},
+		{
+			"backtrace" : 0,
+			"id" : "FreqFilt::@73e90590c886ac8e6c25"
+		},
+		{
+			"backtrace" : 0,
 			"id" : "HistOption::@7d0c1c7413a5b4b4a66c"
 		}
 	],

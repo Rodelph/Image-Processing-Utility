@@ -110,7 +110,9 @@ FiltOption/CMakeFiles/FiltOption.dir/FiltOption_autogen/mocs_compilation.cpp.o
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qtwidgetsglobal.h
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qwidget.h
 FiltOption/CMakeFiles/FiltOption.dir/src/FiltOption/filterswindow.cpp.o
+ /home/rodelph/dev/ImageProc/FiltOption/FreqFilt/src/FreqFilt/freqfilt.h
  /home/rodelph/dev/ImageProc/FiltOption/HighPassFilt/src/HighPassFilt/highpassfilt.h
+ /home/rodelph/dev/ImageProc/FiltOption/LowPassFilt/src/LowPassFilt/lowpassfilt.h
  /home/rodelph/dev/ImageProc/FiltOption/src/FiltOption/filterswindow.cpp
  /home/rodelph/dev/ImageProc/FiltOption/src/FiltOption/filterswindow.h
  /home/rodelph/dev/ImageProc/HistOption/src/HistOption/histogram.h

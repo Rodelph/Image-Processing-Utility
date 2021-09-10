@@ -6,8 +6,26 @@
 
 #IncludeRegexTransform: 
 
+../FiltOption/src/FiltOption/filterswindow.h
+QDialog
+-
+
+/home/rodelph/dev/ImageProc/FiltOption/FreqFilt/src/FreqFilt/freqfilt.h
+QDialog
+-
+QFileDialog
+-
+
 /home/rodelph/dev/ImageProc/FiltOption/HighPassFilt/src/HighPassFilt/highpassfilt.h
 QDialog
+-
+QFileDialog
+-
+
+/home/rodelph/dev/ImageProc/FiltOption/LowPassFilt/src/LowPassFilt/lowpassfilt.h
+QDialog
+-
+QFileDialog
 -
 
 /home/rodelph/dev/ImageProc/FiltOption/src/FiltOption/filterswindow.cpp
@@ -19,6 +37,10 @@ filterswindow.h
 /home/rodelph/dev/ImageProc/HistOption/src/HistOption/histogram.h
 ../../HighPassFilt/src/HighPassFilt/highpassfilt.h
 /home/rodelph/dev/ImageProc/FiltOption/HighPassFilt/src/HighPassFilt/highpassfilt.h
+../../LowPassFilt/src/LowPassFilt/lowpassfilt.h
+/home/rodelph/dev/ImageProc/FiltOption/LowPassFilt/src/LowPassFilt/lowpassfilt.h
+../../FreqFilt/src/FreqFilt/freqfilt.h
+/home/rodelph/dev/ImageProc/FiltOption/FreqFilt/src/FreqFilt/freqfilt.h
 
 /home/rodelph/dev/ImageProc/FiltOption/src/FiltOption/filterswindow.h
 QDialog
@@ -29,6 +51,18 @@ QDialog
 -
 QFileDialog
 -
+
+/home/rodelph/dev/ImageProc/build-ImageProc-Desktop-Release/FiltOption/FiltOption_autogen/4WCEULW2BI/moc_filterswindow.cpp
+src/FiltOption/filterswindow.h
+/home/rodelph/dev/ImageProc/build-ImageProc-Desktop-Release/FiltOption/FiltOption_autogen/4WCEULW2BI/src/FiltOption/filterswindow.h
+QtCore/qbytearray.h
+-
+QtCore/qmetatype.h
+-
+
+/home/rodelph/dev/ImageProc/build-ImageProc-Desktop-Release/FiltOption/FiltOption_autogen/mocs_compilation.cpp
+4WCEULW2BI/moc_filterswindow.cpp
+/home/rodelph/dev/ImageProc/build-ImageProc-Desktop-Release/FiltOption/FiltOption_autogen/4WCEULW2BI/moc_filterswindow.cpp
 
 /usr/include/x86_64-linux-gnu/qt5/QtCore/QVariant
 qvariant.h

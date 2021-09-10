@@ -2,6 +2,8 @@
 #include "../../../build-ImageProc-Desktop-Release/FiltOption/FiltOption_autogen/include/ui_filterswindow.h"
 #include "../../../HistOption/src/HistOption/histogram.h"
 #include "../../HighPassFilt/src/HighPassFilt/highpassfilt.h"
+#include "../../LowPassFilt/src/LowPassFilt/lowpassfilt.h"
+#include "../../FreqFilt/src/FreqFilt/freqfilt.h"
 
 FiltersWindow::FiltersWindow(QWidget *parent) : QDialog(parent), 
                                                 ui(new Ui::FiltersWindow)
@@ -27,4 +29,21 @@ void FiltersWindow::on_hpBtn_clicked()
     highpassfilt hpFilt;
     hpFilt.setModal(true);
     hpFilt.exec();
+}
+void FiltersWindow::on_lpBtn_clicked()
+{
+    this->setAttribute(Qt::WA_QuitOnClose);
+    this->close();
+    lowpassfilt lpFilt;
+    lpFilt.setModal(true);
+    lpFilt.exec();
+}
+
+void FiltersWindow::on_freqBtn_clicked()
+{
+    this->setAttribute(Qt::WA_QuitOnClose);
+    this->close();
+    freqfilt frFilt;
+    frFilt.setModal(true);
+    frFilt.exec();
 }

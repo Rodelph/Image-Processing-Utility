@@ -18,3 +18,12 @@ void highpassfilt::on_retBtn_clicked()
     filt.setModal(true);
     filt.exec();
 }
+
+void highpassfilt::on_foldBtn_clicked()
+{
+    QString path = QFileDialog::getOpenFileName(nullptr,
+                                                "Open Image File",
+                                                QDir::currentPath() + "/resources/Images/**",
+                                                ("Image files (*.png *.jpg *.jpeg")
+                                                );
+}

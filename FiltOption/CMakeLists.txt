@@ -1,5 +1,7 @@
 
 add_subdirectory(HighPassFilt)
+add_subdirectory(LowPassFilt)
+add_subdirectory(FreqFilt)
 
 add_library(
             FiltOption

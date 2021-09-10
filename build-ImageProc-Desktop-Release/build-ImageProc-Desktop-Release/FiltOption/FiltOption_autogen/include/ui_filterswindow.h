@@ -26,13 +26,13 @@ public:
     QWidget *horizontalLayoutWidget;
     QHBoxLayout *horizontalLayout;
     QVBoxLayout *verticalLayout;
-    QPushButton *pushButton;
-    QPushButton *pushButton_2;
-    QPushButton *pushButton_3;
+    QPushButton *lpBtn;
+    QPushButton *freqBtn;
+    QPushButton *segBtn;
     QVBoxLayout *verticalLayout_2;
     QPushButton *hpBtn;
-    QPushButton *pushButton_5;
-    QPushButton *pushButton_6;
+    QPushButton *medBtn;
+    QPushButton *treshBtn;
     QPushButton *retBtn;
     QLabel *label;
 
@@ -56,20 +56,20 @@ public:
         horizontalLayout->setContentsMargins(0, 0, 0, 0);
         verticalLayout = new QVBoxLayout();
         verticalLayout->setObjectName(QString::fromUtf8("verticalLayout"));
-        pushButton = new QPushButton(horizontalLayoutWidget);
-        pushButton->setObjectName(QString::fromUtf8("pushButton"));
+        lpBtn = new QPushButton(horizontalLayoutWidget);
+        lpBtn->setObjectName(QString::fromUtf8("lpBtn"));
 
-        verticalLayout->addWidget(pushButton);
+        verticalLayout->addWidget(lpBtn);
 
-        pushButton_2 = new QPushButton(horizontalLayoutWidget);
-        pushButton_2->setObjectName(QString::fromUtf8("pushButton_2"));
+        freqBtn = new QPushButton(horizontalLayoutWidget);
+        freqBtn->setObjectName(QString::fromUtf8("freqBtn"));
 
-        verticalLayout->addWidget(pushButton_2);
+        verticalLayout->addWidget(freqBtn);
 
-        pushButton_3 = new QPushButton(horizontalLayoutWidget);
-        pushButton_3->setObjectName(QString::fromUtf8("pushButton_3"));
+        segBtn = new QPushButton(horizontalLayoutWidget);
+        segBtn->setObjectName(QString::fromUtf8("segBtn"));
 
-        verticalLayout->addWidget(pushButton_3);
+        verticalLayout->addWidget(segBtn);
 
 
         horizontalLayout->addLayout(verticalLayout);
@@ -81,15 +81,15 @@ public:
 
         verticalLayout_2->addWidget(hpBtn);
 
-        pushButton_5 = new QPushButton(horizontalLayoutWidget);
-        pushButton_5->setObjectName(QString::fromUtf8("pushButton_5"));
+        medBtn = new QPushButton(horizontalLayoutWidget);
+        medBtn->setObjectName(QString::fromUtf8("medBtn"));
 
-        verticalLayout_2->addWidget(pushButton_5);
+        verticalLayout_2->addWidget(medBtn);
 
-        pushButton_6 = new QPushButton(horizontalLayoutWidget);
-        pushButton_6->setObjectName(QString::fromUtf8("pushButton_6"));
+        treshBtn = new QPushButton(horizontalLayoutWidget);
+        treshBtn->setObjectName(QString::fromUtf8("treshBtn"));
 
-        verticalLayout_2->addWidget(pushButton_6);
+        verticalLayout_2->addWidget(treshBtn);
 
 
         horizontalLayout->addLayout(verticalLayout_2);
@@ -113,12 +113,12 @@ public:
     void retranslateUi(QDialog *FiltersWindow)
     {
         FiltersWindow->setWindowTitle(QApplication::translate("FiltersWindow", "Dialog", nullptr));
-        pushButton->setText(QApplication::translate("FiltersWindow", "Low pass filter", nullptr));
-        pushButton_2->setText(QApplication::translate("FiltersWindow", "Frequency Filter", nullptr));
-        pushButton_3->setText(QApplication::translate("FiltersWindow", "Segmentation", nullptr));
+        lpBtn->setText(QApplication::translate("FiltersWindow", "Low pass filter", nullptr));
+        freqBtn->setText(QApplication::translate("FiltersWindow", "Frequency Filter", nullptr));
+        segBtn->setText(QApplication::translate("FiltersWindow", "Segmentation", nullptr));
         hpBtn->setText(QApplication::translate("FiltersWindow", "High pass filter", nullptr));
-        pushButton_5->setText(QApplication::translate("FiltersWindow", "Median Filter", nullptr));
-        pushButton_6->setText(QApplication::translate("FiltersWindow", "Thresholding", nullptr));
+        medBtn->setText(QApplication::translate("FiltersWindow", "Median Filter", nullptr));
+        treshBtn->setText(QApplication::translate("FiltersWindow", "Thresholding", nullptr));
         retBtn->setText(QApplication::translate("FiltersWindow", "Go Histogram", nullptr));
         label->setText(QApplication::translate("FiltersWindow", "Filters Type", nullptr));
     } // retranslateUi
