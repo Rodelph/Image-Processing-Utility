@@ -29,6 +29,7 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "../FiltOption/LowPassFilt/src"
   "../HistOption/src"
   "../ImageAlgorithms/src"
+  "/usr/local/include/opencv4"
   "/usr/include/x86_64-linux-gnu/qt5"
   "/usr/include/x86_64-linux-gnu/qt5/QtWidgets"
   "/usr/include/x86_64-linux-gnu/qt5/QtGui"

@@ -234,3 +234,31 @@ Parsed CXX implicit link information from above output:
   implicit fwks: []
 
 
+Determining if the include file pthread.h exists passed with the following output:
+Change Dir: /home/rodelph/dev/ImageProc/build-ImageProc-Desktop-Release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_3f0b4/fast && /usr/bin/make -f CMakeFiles/cmTC_3f0b4.dir/build.make CMakeFiles/cmTC_3f0b4.dir/build
+make[1]: Entering directory '/home/rodelph/dev/ImageProc/build-ImageProc-Desktop-Release/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_3f0b4.dir/CheckIncludeFile.cxx.o
+/bin/x86_64-linux-gnu-g++-9     -o CMakeFiles/cmTC_3f0b4.dir/CheckIncludeFile.cxx.o -c /home/rodelph/dev/ImageProc/build-ImageProc-Desktop-Release/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+Linking CXX executable cmTC_3f0b4
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3f0b4.dir/link.txt --verbose=1
+/bin/x86_64-linux-gnu-g++-9       CMakeFiles/cmTC_3f0b4.dir/CheckIncludeFile.cxx.o  -o cmTC_3f0b4 
+make[1]: Leaving directory '/home/rodelph/dev/ImageProc/build-ImageProc-Desktop-Release/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function pthread_create exists in the pthread passed with the following output:
+Change Dir: /home/rodelph/dev/ImageProc/build-ImageProc-Desktop-Release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_64005/fast && /usr/bin/make -f CMakeFiles/cmTC_64005.dir/build.make CMakeFiles/cmTC_64005.dir/build
+make[1]: Entering directory '/home/rodelph/dev/ImageProc/build-ImageProc-Desktop-Release/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_64005.dir/CheckFunctionExists.cxx.o
+/bin/x86_64-linux-gnu-g++-9    -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_64005.dir/CheckFunctionExists.cxx.o -c /home/rodelph/dev/ImageProc/build-ImageProc-Desktop-Release/CMakeFiles/CheckLibraryExists/CheckFunctionExists.cxx
+Linking CXX executable cmTC_64005
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_64005.dir/link.txt --verbose=1
+/bin/x86_64-linux-gnu-g++-9   -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_64005.dir/CheckFunctionExists.cxx.o  -o cmTC_64005  -lpthread 
+make[1]: Leaving directory '/home/rodelph/dev/ImageProc/build-ImageProc-Desktop-Release/CMakeFiles/CMakeTmp'
+
+
+
