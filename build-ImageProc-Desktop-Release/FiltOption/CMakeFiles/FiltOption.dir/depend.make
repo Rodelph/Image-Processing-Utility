@@ -109,9 +109,9 @@ FiltOption/CMakeFiles/FiltOption.dir/FiltOption_autogen/mocs_compilation.cpp.o: 
 FiltOption/CMakeFiles/FiltOption.dir/FiltOption_autogen/mocs_compilation.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qtwidgetsglobal.h
 FiltOption/CMakeFiles/FiltOption.dir/FiltOption_autogen/mocs_compilation.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qwidget.h
 
-FiltOption/CMakeFiles/FiltOption.dir/src/FiltOption/filterswindow.cpp.o: ../HistOption/src/HistOption/histogram.h
 FiltOption/CMakeFiles/FiltOption.dir/src/FiltOption/filterswindow.cpp.o: ../FiltOption/src/FiltOption/filterswindow.cpp
 FiltOption/CMakeFiles/FiltOption.dir/src/FiltOption/filterswindow.cpp.o: ../FiltOption/src/FiltOption/filterswindow.h
+FiltOption/CMakeFiles/FiltOption.dir/src/FiltOption/filterswindow.cpp.o: ../HistOption/src/HistOption/histogram.h
 FiltOption/CMakeFiles/FiltOption.dir/src/FiltOption/filterswindow.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/QVariant
 FiltOption/CMakeFiles/FiltOption.dir/src/FiltOption/filterswindow.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qalgorithms.h
 FiltOption/CMakeFiles/FiltOption.dir/src/FiltOption/filterswindow.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qarraydata.h
@@ -132,9 +132,11 @@ FiltOption/CMakeFiles/FiltOption.dir/src/FiltOption/filterswindow.cpp.o: /usr/in
 FiltOption/CMakeFiles/FiltOption.dir/src/FiltOption/filterswindow.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qcoreevent.h
 FiltOption/CMakeFiles/FiltOption.dir/src/FiltOption/filterswindow.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qdatastream.h
 FiltOption/CMakeFiles/FiltOption.dir/src/FiltOption/filterswindow.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qdebug.h
+FiltOption/CMakeFiles/FiltOption.dir/src/FiltOption/filterswindow.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qdir.h
 FiltOption/CMakeFiles/FiltOption.dir/src/FiltOption/filterswindow.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qeventloop.h
 FiltOption/CMakeFiles/FiltOption.dir/src/FiltOption/filterswindow.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qfile.h
 FiltOption/CMakeFiles/FiltOption.dir/src/FiltOption/filterswindow.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qfiledevice.h
+FiltOption/CMakeFiles/FiltOption.dir/src/FiltOption/filterswindow.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qfileinfo.h
 FiltOption/CMakeFiles/FiltOption.dir/src/FiltOption/filterswindow.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qflags.h
 FiltOption/CMakeFiles/FiltOption.dir/src/FiltOption/filterswindow.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qgenericatomic.h
 FiltOption/CMakeFiles/FiltOption.dir/src/FiltOption/filterswindow.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qglobal.h
@@ -218,6 +220,7 @@ FiltOption/CMakeFiles/FiltOption.dir/src/FiltOption/filterswindow.cpp.o: /usr/in
 FiltOption/CMakeFiles/FiltOption.dir/src/FiltOption/filterswindow.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtGui/qwindowdefs_win.h
 FiltOption/CMakeFiles/FiltOption.dir/src/FiltOption/filterswindow.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QApplication
 FiltOption/CMakeFiles/FiltOption.dir/src/FiltOption/filterswindow.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QDialog
+FiltOption/CMakeFiles/FiltOption.dir/src/FiltOption/filterswindow.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QFileDialog
 FiltOption/CMakeFiles/FiltOption.dir/src/FiltOption/filterswindow.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QHBoxLayout
 FiltOption/CMakeFiles/FiltOption.dir/src/FiltOption/filterswindow.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QLabel
 FiltOption/CMakeFiles/FiltOption.dir/src/FiltOption/filterswindow.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QPushButton
@@ -228,6 +231,7 @@ FiltOption/CMakeFiles/FiltOption.dir/src/FiltOption/filterswindow.cpp.o: /usr/in
 FiltOption/CMakeFiles/FiltOption.dir/src/FiltOption/filterswindow.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qboxlayout.h
 FiltOption/CMakeFiles/FiltOption.dir/src/FiltOption/filterswindow.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qdesktopwidget.h
 FiltOption/CMakeFiles/FiltOption.dir/src/FiltOption/filterswindow.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qdialog.h
+FiltOption/CMakeFiles/FiltOption.dir/src/FiltOption/filterswindow.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qfiledialog.h
 FiltOption/CMakeFiles/FiltOption.dir/src/FiltOption/filterswindow.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qframe.h
 FiltOption/CMakeFiles/FiltOption.dir/src/FiltOption/filterswindow.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qgridlayout.h
 FiltOption/CMakeFiles/FiltOption.dir/src/FiltOption/filterswindow.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qlabel.h

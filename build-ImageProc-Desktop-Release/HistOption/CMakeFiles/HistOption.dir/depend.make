@@ -22,8 +22,10 @@ HistOption/CMakeFiles/HistOption.dir/HistOption_autogen/mocs_compilation.cpp.o: 
 HistOption/CMakeFiles/HistOption.dir/HistOption_autogen/mocs_compilation.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qcoreevent.h
 HistOption/CMakeFiles/HistOption.dir/HistOption_autogen/mocs_compilation.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qdatastream.h
 HistOption/CMakeFiles/HistOption.dir/HistOption_autogen/mocs_compilation.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qdebug.h
+HistOption/CMakeFiles/HistOption.dir/HistOption_autogen/mocs_compilation.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qdir.h
 HistOption/CMakeFiles/HistOption.dir/HistOption_autogen/mocs_compilation.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qfile.h
 HistOption/CMakeFiles/HistOption.dir/HistOption_autogen/mocs_compilation.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qfiledevice.h
+HistOption/CMakeFiles/HistOption.dir/HistOption_autogen/mocs_compilation.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qfileinfo.h
 HistOption/CMakeFiles/HistOption.dir/HistOption_autogen/mocs_compilation.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qflags.h
 HistOption/CMakeFiles/HistOption.dir/HistOption_autogen/mocs_compilation.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qgenericatomic.h
 HistOption/CMakeFiles/HistOption.dir/HistOption_autogen/mocs_compilation.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qglobal.h
@@ -103,7 +105,9 @@ HistOption/CMakeFiles/HistOption.dir/HistOption_autogen/mocs_compilation.cpp.o: 
 HistOption/CMakeFiles/HistOption.dir/HistOption_autogen/mocs_compilation.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtGui/qwindowdefs.h
 HistOption/CMakeFiles/HistOption.dir/HistOption_autogen/mocs_compilation.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtGui/qwindowdefs_win.h
 HistOption/CMakeFiles/HistOption.dir/HistOption_autogen/mocs_compilation.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QDialog
+HistOption/CMakeFiles/HistOption.dir/HistOption_autogen/mocs_compilation.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QFileDialog
 HistOption/CMakeFiles/HistOption.dir/HistOption_autogen/mocs_compilation.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qdialog.h
+HistOption/CMakeFiles/HistOption.dir/HistOption_autogen/mocs_compilation.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qfiledialog.h
 HistOption/CMakeFiles/HistOption.dir/HistOption_autogen/mocs_compilation.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qsizepolicy.h
 HistOption/CMakeFiles/HistOption.dir/HistOption_autogen/mocs_compilation.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qtwidgets-config.h
 HistOption/CMakeFiles/HistOption.dir/HistOption_autogen/mocs_compilation.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qtwidgetsglobal.h
@@ -132,9 +136,11 @@ HistOption/CMakeFiles/HistOption.dir/src/HistOption/histogram.cpp.o: /usr/includ
 HistOption/CMakeFiles/HistOption.dir/src/HistOption/histogram.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qcoreevent.h
 HistOption/CMakeFiles/HistOption.dir/src/HistOption/histogram.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qdatastream.h
 HistOption/CMakeFiles/HistOption.dir/src/HistOption/histogram.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qdebug.h
+HistOption/CMakeFiles/HistOption.dir/src/HistOption/histogram.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qdir.h
 HistOption/CMakeFiles/HistOption.dir/src/HistOption/histogram.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qeventloop.h
 HistOption/CMakeFiles/HistOption.dir/src/HistOption/histogram.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qfile.h
 HistOption/CMakeFiles/HistOption.dir/src/HistOption/histogram.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qfiledevice.h
+HistOption/CMakeFiles/HistOption.dir/src/HistOption/histogram.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qfileinfo.h
 HistOption/CMakeFiles/HistOption.dir/src/HistOption/histogram.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qflags.h
 HistOption/CMakeFiles/HistOption.dir/src/HistOption/histogram.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qgenericatomic.h
 HistOption/CMakeFiles/HistOption.dir/src/HistOption/histogram.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qglobal.h
@@ -218,6 +224,7 @@ HistOption/CMakeFiles/HistOption.dir/src/HistOption/histogram.cpp.o: /usr/includ
 HistOption/CMakeFiles/HistOption.dir/src/HistOption/histogram.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtGui/qwindowdefs_win.h
 HistOption/CMakeFiles/HistOption.dir/src/HistOption/histogram.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QApplication
 HistOption/CMakeFiles/HistOption.dir/src/HistOption/histogram.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QDialog
+HistOption/CMakeFiles/HistOption.dir/src/HistOption/histogram.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QFileDialog
 HistOption/CMakeFiles/HistOption.dir/src/HistOption/histogram.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QHBoxLayout
 HistOption/CMakeFiles/HistOption.dir/src/HistOption/histogram.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QLabel
 HistOption/CMakeFiles/HistOption.dir/src/HistOption/histogram.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QPushButton
@@ -228,6 +235,7 @@ HistOption/CMakeFiles/HistOption.dir/src/HistOption/histogram.cpp.o: /usr/includ
 HistOption/CMakeFiles/HistOption.dir/src/HistOption/histogram.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qboxlayout.h
 HistOption/CMakeFiles/HistOption.dir/src/HistOption/histogram.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qdesktopwidget.h
 HistOption/CMakeFiles/HistOption.dir/src/HistOption/histogram.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qdialog.h
+HistOption/CMakeFiles/HistOption.dir/src/HistOption/histogram.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qfiledialog.h
 HistOption/CMakeFiles/HistOption.dir/src/HistOption/histogram.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qframe.h
 HistOption/CMakeFiles/HistOption.dir/src/HistOption/histogram.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qgridlayout.h
 HistOption/CMakeFiles/HistOption.dir/src/HistOption/histogram.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qlabel.h

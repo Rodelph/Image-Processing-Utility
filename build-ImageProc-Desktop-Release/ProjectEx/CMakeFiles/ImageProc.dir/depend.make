@@ -3,8 +3,6 @@
 
 ProjectEx/CMakeFiles/ImageProc.dir/ImageProc_autogen/mocs_compilation.cpp.o: ProjectEx/ImageProc_autogen/mocs_compilation.cpp
 
-ProjectEx/CMakeFiles/ImageProc.dir/main.cpp.o: ../FiltOption/src/FiltOption/filterswindow.h
-ProjectEx/CMakeFiles/ImageProc.dir/main.cpp.o: ../HistOption/src/HistOption/histogram.h
 ProjectEx/CMakeFiles/ImageProc.dir/main.cpp.o: ../ProjectEx/main.cpp
 ProjectEx/CMakeFiles/ImageProc.dir/main.cpp.o: ../SelectionWindow/src/SelectionWindow/mainwindow.h
 ProjectEx/CMakeFiles/ImageProc.dir/main.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qalgorithms.h
@@ -111,7 +109,6 @@ ProjectEx/CMakeFiles/ImageProc.dir/main.cpp.o: /usr/include/x86_64-linux-gnu/qt5
 ProjectEx/CMakeFiles/ImageProc.dir/main.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtGui/qwindowdefs.h
 ProjectEx/CMakeFiles/ImageProc.dir/main.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtGui/qwindowdefs_win.h
 ProjectEx/CMakeFiles/ImageProc.dir/main.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QApplication
-ProjectEx/CMakeFiles/ImageProc.dir/main.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QDialog
 ProjectEx/CMakeFiles/ImageProc.dir/main.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QMainWindow
 ProjectEx/CMakeFiles/ImageProc.dir/main.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QMessageBox
 ProjectEx/CMakeFiles/ImageProc.dir/main.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qapplication.h

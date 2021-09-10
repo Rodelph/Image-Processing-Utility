@@ -4,8 +4,6 @@
 ProjectEx/CMakeFiles/ImageProc.dir/ImageProc_autogen/mocs_compilation.cpp.o
  /home/rodelph/dev/ImageProc/build-ImageProc-Desktop-Release/ProjectEx/ImageProc_autogen/mocs_compilation.cpp
 ProjectEx/CMakeFiles/ImageProc.dir/main.cpp.o
- ../FiltOption/src/FiltOption/filterswindow.h
- ../HistOption/src/HistOption/histogram.h
  /home/rodelph/dev/ImageProc/ProjectEx/main.cpp
  /home/rodelph/dev/ImageProc/SelectionWindow/src/SelectionWindow/mainwindow.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qalgorithms.h
@@ -112,7 +110,6 @@ ProjectEx/CMakeFiles/ImageProc.dir/main.cpp.o
  /usr/include/x86_64-linux-gnu/qt5/QtGui/qwindowdefs.h
  /usr/include/x86_64-linux-gnu/qt5/QtGui/qwindowdefs_win.h
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QApplication
- /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QDialog
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QMainWindow
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QMessageBox
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qapplication.h

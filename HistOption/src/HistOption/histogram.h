@@ -2,6 +2,7 @@
 #define HISTOGRAM_H
 
 #include <QDialog>
+#include <QFileDialog>
 
 namespace Ui {
 class histogram;
@@ -17,6 +18,7 @@ public:
 
 private slots:
     void on_filtBtn_clicked();
+    void on_foldBtn_clicked();
 
 private:
     Ui::histogram *ui;

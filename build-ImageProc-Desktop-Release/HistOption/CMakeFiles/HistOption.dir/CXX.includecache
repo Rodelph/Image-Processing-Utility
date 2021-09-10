@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-../FiltOption/src/FiltOption/filterswindow.h
+/home/rodelph/dev/ImageProc/FiltOption/src/FiltOption/filterswindow.h
 QDialog
 -
 
@@ -15,11 +15,13 @@ histogram.h
 /home/rodelph/dev/ImageProc/HistOption/src/HistOption/histogram.h
 ../../../build-ImageProc-Desktop-Release/HistOption/HistOption_autogen/include/ui_histogram.h
 /home/rodelph/dev/ImageProc/build-ImageProc-Desktop-Release/HistOption/HistOption_autogen/include/ui_histogram.h
-../../../../FiltOption/src/FiltOption/filterswindow.h
-/home/rodelph/dev/FiltOption/src/FiltOption/filterswindow.h
+../../../FiltOption/src/FiltOption/filterswindow.h
+/home/rodelph/dev/ImageProc/FiltOption/src/FiltOption/filterswindow.h
 
 /home/rodelph/dev/ImageProc/HistOption/src/HistOption/histogram.h
 QDialog
+-
+QFileDialog
 -
 
 /usr/include/x86_64-linux-gnu/qt5/QtCore/QVariant
@@ -180,6 +182,16 @@ map
 utility
 -
 
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qdir.h
+QtCore/qstring.h
+-
+QtCore/qfileinfo.h
+-
+QtCore/qstringlist.h
+-
+QtCore/qshareddata.h
+-
+
 /usr/include/x86_64-linux-gnu/qt5/QtCore/qeventloop.h
 QtCore/qobject.h
 -
@@ -196,6 +208,16 @@ stdio.h
 QtCore/qiodevice.h
 -
 QtCore/qstring.h
+-
+
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qfileinfo.h
+QtCore/qfile.h
+-
+QtCore/qlist.h
+-
+QtCore/qshareddata.h
+-
+QtCore/qmetatype.h
 -
 
 /usr/include/x86_64-linux-gnu/qt5/QtCore/qflags.h
@@ -1064,6 +1086,10 @@ qapplication.h
 qdialog.h
 /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qdialog.h
 
+/usr/include/x86_64-linux-gnu/qt5/QtWidgets/QFileDialog
+qfiledialog.h
+/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qfiledialog.h
+
 /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QHBoxLayout
 qboxlayout.h
 /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qboxlayout.h
@@ -1132,6 +1158,18 @@ QtWidgets/qwidget.h
 QtWidgets/qtwidgetsglobal.h
 -
 QtWidgets/qwidget.h
+-
+
+/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qfiledialog.h
+QtWidgets/qtwidgetsglobal.h
+-
+QtCore/qdir.h
+-
+QtCore/qstring.h
+-
+QtCore/qurl.h
+-
+QtWidgets/qdialog.h
 -
 
 /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qframe.h

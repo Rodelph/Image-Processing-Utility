@@ -1,9 +1,6 @@
 #ifndef MAINWINDOW_H
 #define MAINWINDOW_H
 
-#include "../../FiltOption/src/FiltOption/filterswindow.h"
-#include "../../HistOption/src/HistOption/histogram.h"
-
 #include <QMainWindow>
 #include <QMessageBox>
 
@@ -29,8 +26,6 @@ private slots:
 private:
 
     Ui::MainWindow *ui;
-    FiltersWindow *filt;
-    histogram *hist;
 
     const QString _details = tr(
         "This project will help you understand all the fondamentals about Image Processing.<br>"

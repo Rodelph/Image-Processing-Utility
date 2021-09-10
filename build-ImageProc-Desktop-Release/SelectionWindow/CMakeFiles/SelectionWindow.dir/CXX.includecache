@@ -6,22 +6,14 @@
 
 #IncludeRegexTransform: 
 
-../FiltOption/src/FiltOption/filterswindow.h
+/home/rodelph/dev/ImageProc/FiltOption/src/FiltOption/filterswindow.h
 QDialog
 -
 
-../HistOption/src/HistOption/histogram.h
+/home/rodelph/dev/ImageProc/HistOption/src/HistOption/histogram.h
 QDialog
 -
-
-../SelectionWindow/src/SelectionWindow/mainwindow.h
-../../FiltOption/src/FiltOption/filterswindow.h
-../SelectionWindow/FiltOption/src/FiltOption/filterswindow.h
-../../HistOption/src/HistOption/histogram.h
-../SelectionWindow/HistOption/src/HistOption/histogram.h
-QMainWindow
--
-QMessageBox
+QFileDialog
 -
 
 /home/rodelph/dev/ImageProc/SelectionWindow/src/SelectionWindow/mainwindow.cpp
@@ -29,28 +21,16 @@ mainwindow.h
 /home/rodelph/dev/ImageProc/SelectionWindow/src/SelectionWindow/mainwindow.h
 ../../../build-ImageProc-Desktop-Release/SelectionWindow/SelectionWindow_autogen/include/ui_mainwindow.h
 /home/rodelph/dev/ImageProc/build-ImageProc-Desktop-Release/SelectionWindow/SelectionWindow_autogen/include/ui_mainwindow.h
+../../../FiltOption/src/FiltOption/filterswindow.h
+/home/rodelph/dev/ImageProc/FiltOption/src/FiltOption/filterswindow.h
+../../../HistOption/src/HistOption/histogram.h
+/home/rodelph/dev/ImageProc/HistOption/src/HistOption/histogram.h
 
 /home/rodelph/dev/ImageProc/SelectionWindow/src/SelectionWindow/mainwindow.h
-../../FiltOption/src/FiltOption/filterswindow.h
-/home/rodelph/dev/ImageProc/SelectionWindow/FiltOption/src/FiltOption/filterswindow.h
-../../HistOption/src/HistOption/histogram.h
-/home/rodelph/dev/ImageProc/SelectionWindow/HistOption/src/HistOption/histogram.h
 QMainWindow
 -
 QMessageBox
 -
-
-/home/rodelph/dev/ImageProc/build-ImageProc-Desktop-Release/SelectionWindow/SelectionWindow_autogen/4IQRHBKUR6/moc_mainwindow.cpp
-src/SelectionWindow/mainwindow.h
-/home/rodelph/dev/ImageProc/build-ImageProc-Desktop-Release/SelectionWindow/SelectionWindow_autogen/4IQRHBKUR6/src/SelectionWindow/mainwindow.h
-QtCore/qbytearray.h
--
-QtCore/qmetatype.h
--
-
-/home/rodelph/dev/ImageProc/build-ImageProc-Desktop-Release/SelectionWindow/SelectionWindow_autogen/mocs_compilation.cpp
-4IQRHBKUR6/moc_mainwindow.cpp
-/home/rodelph/dev/ImageProc/build-ImageProc-Desktop-Release/SelectionWindow/SelectionWindow_autogen/4IQRHBKUR6/moc_mainwindow.cpp
 
 /usr/include/x86_64-linux-gnu/qt5/QtCore/QVariant
 qvariant.h
@@ -210,6 +190,16 @@ map
 utility
 -
 
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qdir.h
+QtCore/qstring.h
+-
+QtCore/qfileinfo.h
+-
+QtCore/qstringlist.h
+-
+QtCore/qshareddata.h
+-
+
 /usr/include/x86_64-linux-gnu/qt5/QtCore/qeventloop.h
 QtCore/qobject.h
 -
@@ -226,6 +216,16 @@ stdio.h
 QtCore/qiodevice.h
 -
 QtCore/qstring.h
+-
+
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qfileinfo.h
+QtCore/qfile.h
+-
+QtCore/qlist.h
+-
+QtCore/qshareddata.h
+-
+QtCore/qmetatype.h
 -
 
 /usr/include/x86_64-linux-gnu/qt5/QtCore/qflags.h
@@ -1098,6 +1098,10 @@ qapplication.h
 qdialog.h
 /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qdialog.h
 
+/usr/include/x86_64-linux-gnu/qt5/QtWidgets/QFileDialog
+qfiledialog.h
+/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qfiledialog.h
+
 /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QGridLayout
 qgridlayout.h
 /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qgridlayout.h
@@ -1208,6 +1212,18 @@ QtWidgets/qwidget.h
 QtWidgets/qtwidgetsglobal.h
 -
 QtWidgets/qwidget.h
+-
+
+/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qfiledialog.h
+QtWidgets/qtwidgetsglobal.h
+-
+QtCore/qdir.h
+-
+QtCore/qstring.h
+-
+QtCore/qurl.h
+-
+QtWidgets/qdialog.h
 -
 
 /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qframe.h
