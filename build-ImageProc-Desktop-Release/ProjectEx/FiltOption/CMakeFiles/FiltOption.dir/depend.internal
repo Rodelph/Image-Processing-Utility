@@ -115,6 +115,7 @@ FiltOption/CMakeFiles/FiltOption.dir/src/FiltOption/filterswindow.cpp.o
  /home/rodelph/dev/ImageProc/FiltOption/LowPassFilt/src/LowPassFilt/lowpassfilt.h
  /home/rodelph/dev/ImageProc/FiltOption/MedFilt/src/MedFilt/medfilt.h
  /home/rodelph/dev/ImageProc/FiltOption/SegmFilt/src/SegmFilt/segmfilt.h
+ /home/rodelph/dev/ImageProc/FiltOption/TreshFilt/src/TreshFilt/treshfilt.h
  /home/rodelph/dev/ImageProc/FiltOption/src/FiltOption/filterswindow.cpp
  /home/rodelph/dev/ImageProc/FiltOption/src/FiltOption/filterswindow.h
  /home/rodelph/dev/ImageProc/HistOption/src/HistOption/histogram.h
@@ -195,6 +196,7 @@ FiltOption/CMakeFiles/FiltOption.dir/src/FiltOption/filterswindow.cpp.o
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qvarlengtharray.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qvector.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qversiontagging.h
+ /usr/include/x86_64-linux-gnu/qt5/QtGui/QPixmap
  /usr/include/x86_64-linux-gnu/qt5/QtGui/qbrush.h
  /usr/include/x86_64-linux-gnu/qt5/QtGui/qcolor.h
  /usr/include/x86_64-linux-gnu/qt5/QtGui/qcursor.h
@@ -248,4 +250,39 @@ FiltOption/CMakeFiles/FiltOption.dir/src/FiltOption/filterswindow.cpp.o
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qtwidgets-config.h
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qtwidgetsglobal.h
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qwidget.h
+ /usr/local/include/opencv4/opencv2/core.hpp
+ /usr/local/include/opencv4/opencv2/core/base.hpp
+ /usr/local/include/opencv4/opencv2/core/bufferpool.hpp
+ /usr/local/include/opencv4/opencv2/core/check.hpp
+ /usr/local/include/opencv4/opencv2/core/cv_cpu_dispatch.h
+ /usr/local/include/opencv4/opencv2/core/cv_cpu_helper.h
+ /usr/local/include/opencv4/opencv2/core/cvdef.h
+ /usr/local/include/opencv4/opencv2/core/cvstd.hpp
+ /usr/local/include/opencv4/opencv2/core/cvstd.inl.hpp
+ /usr/local/include/opencv4/opencv2/core/cvstd_wrapper.hpp
+ /usr/local/include/opencv4/opencv2/core/fast_math.hpp
+ /usr/local/include/opencv4/opencv2/core/hal/interface.h
+ /usr/local/include/opencv4/opencv2/core/hal/msa_macros.h
+ /usr/local/include/opencv4/opencv2/core/mat.hpp
+ /usr/local/include/opencv4/opencv2/core/mat.inl.hpp
+ /usr/local/include/opencv4/opencv2/core/matx.hpp
+ /usr/local/include/opencv4/opencv2/core/neon_utils.hpp
+ /usr/local/include/opencv4/opencv2/core/operations.hpp
+ /usr/local/include/opencv4/opencv2/core/optim.hpp
+ /usr/local/include/opencv4/opencv2/core/ovx.hpp
+ /usr/local/include/opencv4/opencv2/core/persistence.hpp
+ /usr/local/include/opencv4/opencv2/core/saturate.hpp
+ /usr/local/include/opencv4/opencv2/core/traits.hpp
+ /usr/local/include/opencv4/opencv2/core/types.hpp
+ /usr/local/include/opencv4/opencv2/core/utility.hpp
+ /usr/local/include/opencv4/opencv2/core/utils/instrumentation.hpp
+ /usr/local/include/opencv4/opencv2/core/utils/tls.hpp
+ /usr/local/include/opencv4/opencv2/core/version.hpp
+ /usr/local/include/opencv4/opencv2/core/vsx_utils.hpp
+ /usr/local/include/opencv4/opencv2/highgui.hpp
+ /usr/local/include/opencv4/opencv2/imgcodecs.hpp
+ /usr/local/include/opencv4/opencv2/imgproc.hpp
+ /usr/local/include/opencv4/opencv2/imgproc/segmentation.hpp
+ /usr/local/include/opencv4/opencv2/opencv_modules.hpp
+ /usr/local/include/opencv4/opencv2/videoio.hpp
  build-ImageProc-Desktop-Release/FiltOption/FiltOption_autogen/include/ui_filterswindow.h

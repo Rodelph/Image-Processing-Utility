@@ -1,18 +1,19 @@
-Start testing: Sep 11 14:28 +01
+Start testing: Sep 11 19:56 +01
 ----------------------------------------------------------
 1/1 Testing: Tester
 1/1 Test: Tester
-Command: "/home/rodelph/dev/ImageProc/build-ImageProc-Desktop-Release/ProjectEx/ImageProc"
-Directory: /home/rodelph/dev/ImageProc/build-ImageProc-Desktop-Release/ProjectEx
-"Tester" start time: Sep 11 14:28 +01
+Command: "/home/rodelph/dev/ImageProc/build-ImageProc-Desktop-Release/ProjectEx/ProjectEx/ImageProc"
+Directory: /home/rodelph/dev/ImageProc/build-ImageProc-Desktop-Release/ProjectEx/ProjectEx
+"Tester" start time: Sep 11 19:56 +01
 Output:
 ----------------------------------------------------------
+QPixmap::scaled: Pixmap is a null pixmap
 <end of output>
-Test time =  47.23 sec
+Test time =  10.44 sec
 ----------------------------------------------------------
 Test Passed.
-"Tester" end time: Sep 11 14:29 +01
-"Tester" time elapsed: 00:00:47
+"Tester" end time: Sep 11 19:56 +01
+"Tester" time elapsed: 00:00:10
 ----------------------------------------------------------
 
-End testing: Sep 11 14:29 +01
+End testing: Sep 11 19:56 +01

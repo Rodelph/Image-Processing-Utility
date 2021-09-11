@@ -29,6 +29,7 @@
 		"/home/rodelph/dev/ImageProc/build-ImageProc-Desktop-Release/ProjectEx/FiltOption",
 		"/home/rodelph/dev/ImageProc/FiltOption",
 		"/home/rodelph/dev/ImageProc/FiltOption/src",
+		"/usr/local/include/opencv4",
 		"/usr/include/x86_64-linux-gnu/qt5",
 		"/usr/include/x86_64-linux-gnu/qt5/QtWidgets",
 		"/usr/include/x86_64-linux-gnu/qt5/QtGui",

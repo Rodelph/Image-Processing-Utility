@@ -3,7 +3,7 @@
 
 # Relative path conversion top directories.
 set(CMAKE_RELATIVE_PATH_TOP_SOURCE "/home/rodelph/dev/ImageProc")
-set(CMAKE_RELATIVE_PATH_TOP_BINARY "/home/rodelph/dev/ImageProc/build-ImageProc-Desktop-Release")
+set(CMAKE_RELATIVE_PATH_TOP_BINARY "/home/rodelph/dev/ImageProc/build-ImageProc-Desktop-Release/ProjectEx")
 
 # Force unix paths in dependencies.
 set(CMAKE_FORCE_UNIX_PATHS 1)

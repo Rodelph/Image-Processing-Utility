@@ -6,12 +6,6 @@
 
 #IncludeRegexTransform: 
 
-../../FiltOption/SegmFilt/src/SegmFilt/segmfilt.h
-QDialog
--
-QFileDialog
--
-
 ../../FiltOption/src/FiltOption/filterswindow.h
 QDialog
 -
@@ -29,18 +23,6 @@ QDialog
 -
 QFileDialog
 -
-
-/home/rodelph/dev/ImageProc/build-ImageProc-Desktop-Release/ProjectEx/FiltOption/SegmFilt/SegmFilt_autogen/5YX364HJJU/moc_segmfilt.cpp
-src/SegmFilt/segmfilt.h
-/home/rodelph/dev/ImageProc/build-ImageProc-Desktop-Release/ProjectEx/FiltOption/SegmFilt/SegmFilt_autogen/5YX364HJJU/src/SegmFilt/segmfilt.h
-QtCore/qbytearray.h
--
-QtCore/qmetatype.h
--
-
-/home/rodelph/dev/ImageProc/build-ImageProc-Desktop-Release/ProjectEx/FiltOption/SegmFilt/SegmFilt_autogen/mocs_compilation.cpp
-5YX364HJJU/moc_segmfilt.cpp
-/home/rodelph/dev/ImageProc/build-ImageProc-Desktop-Release/ProjectEx/FiltOption/SegmFilt/SegmFilt_autogen/5YX364HJJU/moc_segmfilt.cpp
 
 /usr/include/x86_64-linux-gnu/qt5/QtCore/QVariant
 qvariant.h

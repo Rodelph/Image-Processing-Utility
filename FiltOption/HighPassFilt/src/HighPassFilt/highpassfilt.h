@@ -3,6 +3,10 @@
 
 #include <QDialog>
 #include <QFileDialog>
+#include <QPixmap>
+#include <opencv2/imgcodecs.hpp>
+#include <opencv2/highgui.hpp>
+#include <opencv2/imgproc.hpp>
 
 namespace Ui { class highpassfilt; }
 
@@ -16,10 +20,16 @@ public:
 
 private slots :
     void on_retBtn_clicked();
-    void on_foldBtn_clicked();
+    QString on_foldBtn_clicked();
+    void on_transformBtn_clicked();
 
 private:
     Ui::highpassfilt *ui;
+    int width, height;
+    QString path;
+    QString pathToImages = QDir::currentPath() + "/resources/";
+    std::string pathToSave = pathToImages.toStdString();
+    QString data;
 };
 
 #endif // HIGHPASSFILT_H

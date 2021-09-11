@@ -29,6 +29,7 @@
 		"/home/rodelph/dev/ImageProc/build-ImageProc-Desktop-Release/ProjectEx/FiltOption/HighPassFilt",
 		"/home/rodelph/dev/ImageProc/FiltOption/HighPassFilt",
 		"/home/rodelph/dev/ImageProc/FiltOption/HighPassFilt/src",
+		"/usr/local/include/opencv4",
 		"/usr/include/x86_64-linux-gnu/qt5",
 		"/usr/include/x86_64-linux-gnu/qt5/QtWidgets",
 		"/usr/include/x86_64-linux-gnu/qt5/QtGui",

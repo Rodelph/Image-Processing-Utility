@@ -62,7 +62,7 @@ public:
         foldBtn = new QPushButton(horizontalLayoutWidget);
         foldBtn->setObjectName(QString::fromUtf8("foldBtn"));
 
-        verticalLayout->addWidget(foldBtn);
+        verticalLayout->addWidget(foldBtn, 0, Qt::AlignHCenter);
 
 
         horizontalLayout->addLayout(verticalLayout);
@@ -77,7 +77,7 @@ public:
         transBtn = new QPushButton(horizontalLayoutWidget);
         transBtn->setObjectName(QString::fromUtf8("transBtn"));
 
-        verticalLayout_2->addWidget(transBtn);
+        verticalLayout_2->addWidget(transBtn, 0, Qt::AlignHCenter);
 
 
         horizontalLayout->addLayout(verticalLayout_2);

@@ -22,8 +22,10 @@ FiltOption/TreshFilt/CMakeFiles/TreshFilt.dir/TreshFilt_autogen/mocs_compilation
 FiltOption/TreshFilt/CMakeFiles/TreshFilt.dir/TreshFilt_autogen/mocs_compilation.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qcoreevent.h
 FiltOption/TreshFilt/CMakeFiles/TreshFilt.dir/TreshFilt_autogen/mocs_compilation.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qdatastream.h
 FiltOption/TreshFilt/CMakeFiles/TreshFilt.dir/TreshFilt_autogen/mocs_compilation.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qdebug.h
+FiltOption/TreshFilt/CMakeFiles/TreshFilt.dir/TreshFilt_autogen/mocs_compilation.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qdir.h
 FiltOption/TreshFilt/CMakeFiles/TreshFilt.dir/TreshFilt_autogen/mocs_compilation.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qfile.h
 FiltOption/TreshFilt/CMakeFiles/TreshFilt.dir/TreshFilt_autogen/mocs_compilation.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qfiledevice.h
+FiltOption/TreshFilt/CMakeFiles/TreshFilt.dir/TreshFilt_autogen/mocs_compilation.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qfileinfo.h
 FiltOption/TreshFilt/CMakeFiles/TreshFilt.dir/TreshFilt_autogen/mocs_compilation.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qflags.h
 FiltOption/TreshFilt/CMakeFiles/TreshFilt.dir/TreshFilt_autogen/mocs_compilation.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qgenericatomic.h
 FiltOption/TreshFilt/CMakeFiles/TreshFilt.dir/TreshFilt_autogen/mocs_compilation.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qglobal.h
@@ -103,7 +105,9 @@ FiltOption/TreshFilt/CMakeFiles/TreshFilt.dir/TreshFilt_autogen/mocs_compilation
 FiltOption/TreshFilt/CMakeFiles/TreshFilt.dir/TreshFilt_autogen/mocs_compilation.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtGui/qwindowdefs.h
 FiltOption/TreshFilt/CMakeFiles/TreshFilt.dir/TreshFilt_autogen/mocs_compilation.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtGui/qwindowdefs_win.h
 FiltOption/TreshFilt/CMakeFiles/TreshFilt.dir/TreshFilt_autogen/mocs_compilation.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QDialog
+FiltOption/TreshFilt/CMakeFiles/TreshFilt.dir/TreshFilt_autogen/mocs_compilation.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QFileDialog
 FiltOption/TreshFilt/CMakeFiles/TreshFilt.dir/TreshFilt_autogen/mocs_compilation.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qdialog.h
+FiltOption/TreshFilt/CMakeFiles/TreshFilt.dir/TreshFilt_autogen/mocs_compilation.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qfiledialog.h
 FiltOption/TreshFilt/CMakeFiles/TreshFilt.dir/TreshFilt_autogen/mocs_compilation.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qsizepolicy.h
 FiltOption/TreshFilt/CMakeFiles/TreshFilt.dir/TreshFilt_autogen/mocs_compilation.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qtwidgets-config.h
 FiltOption/TreshFilt/CMakeFiles/TreshFilt.dir/TreshFilt_autogen/mocs_compilation.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qtwidgetsglobal.h
@@ -111,6 +115,7 @@ FiltOption/TreshFilt/CMakeFiles/TreshFilt.dir/TreshFilt_autogen/mocs_compilation
 
 FiltOption/TreshFilt/CMakeFiles/TreshFilt.dir/src/TreshFilt/treshfilt.cpp.o: ../../FiltOption/TreshFilt/src/TreshFilt/treshfilt.cpp
 FiltOption/TreshFilt/CMakeFiles/TreshFilt.dir/src/TreshFilt/treshfilt.cpp.o: ../../FiltOption/TreshFilt/src/TreshFilt/treshfilt.h
+FiltOption/TreshFilt/CMakeFiles/TreshFilt.dir/src/TreshFilt/treshfilt.cpp.o: ../../FiltOption/src/FiltOption/filterswindow.h
 FiltOption/TreshFilt/CMakeFiles/TreshFilt.dir/src/TreshFilt/treshfilt.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/QVariant
 FiltOption/TreshFilt/CMakeFiles/TreshFilt.dir/src/TreshFilt/treshfilt.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qalgorithms.h
 FiltOption/TreshFilt/CMakeFiles/TreshFilt.dir/src/TreshFilt/treshfilt.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qarraydata.h
@@ -131,9 +136,11 @@ FiltOption/TreshFilt/CMakeFiles/TreshFilt.dir/src/TreshFilt/treshfilt.cpp.o: /us
 FiltOption/TreshFilt/CMakeFiles/TreshFilt.dir/src/TreshFilt/treshfilt.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qcoreevent.h
 FiltOption/TreshFilt/CMakeFiles/TreshFilt.dir/src/TreshFilt/treshfilt.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qdatastream.h
 FiltOption/TreshFilt/CMakeFiles/TreshFilt.dir/src/TreshFilt/treshfilt.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qdebug.h
+FiltOption/TreshFilt/CMakeFiles/TreshFilt.dir/src/TreshFilt/treshfilt.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qdir.h
 FiltOption/TreshFilt/CMakeFiles/TreshFilt.dir/src/TreshFilt/treshfilt.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qeventloop.h
 FiltOption/TreshFilt/CMakeFiles/TreshFilt.dir/src/TreshFilt/treshfilt.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qfile.h
 FiltOption/TreshFilt/CMakeFiles/TreshFilt.dir/src/TreshFilt/treshfilt.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qfiledevice.h
+FiltOption/TreshFilt/CMakeFiles/TreshFilt.dir/src/TreshFilt/treshfilt.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qfileinfo.h
 FiltOption/TreshFilt/CMakeFiles/TreshFilt.dir/src/TreshFilt/treshfilt.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qflags.h
 FiltOption/TreshFilt/CMakeFiles/TreshFilt.dir/src/TreshFilt/treshfilt.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qgenericatomic.h
 FiltOption/TreshFilt/CMakeFiles/TreshFilt.dir/src/TreshFilt/treshfilt.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qglobal.h
@@ -194,6 +201,7 @@ FiltOption/TreshFilt/CMakeFiles/TreshFilt.dir/src/TreshFilt/treshfilt.cpp.o: /us
 FiltOption/TreshFilt/CMakeFiles/TreshFilt.dir/src/TreshFilt/treshfilt.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtGui/qfontinfo.h
 FiltOption/TreshFilt/CMakeFiles/TreshFilt.dir/src/TreshFilt/treshfilt.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtGui/qfontmetrics.h
 FiltOption/TreshFilt/CMakeFiles/TreshFilt.dir/src/TreshFilt/treshfilt.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtGui/qguiapplication.h
+FiltOption/TreshFilt/CMakeFiles/TreshFilt.dir/src/TreshFilt/treshfilt.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtGui/qicon.h
 FiltOption/TreshFilt/CMakeFiles/TreshFilt.dir/src/TreshFilt/treshfilt.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtGui/qimage.h
 FiltOption/TreshFilt/CMakeFiles/TreshFilt.dir/src/TreshFilt/treshfilt.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtGui/qinputmethod.h
 FiltOption/TreshFilt/CMakeFiles/TreshFilt.dir/src/TreshFilt/treshfilt.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtGui/qkeysequence.h
@@ -216,9 +224,24 @@ FiltOption/TreshFilt/CMakeFiles/TreshFilt.dir/src/TreshFilt/treshfilt.cpp.o: /us
 FiltOption/TreshFilt/CMakeFiles/TreshFilt.dir/src/TreshFilt/treshfilt.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtGui/qwindowdefs_win.h
 FiltOption/TreshFilt/CMakeFiles/TreshFilt.dir/src/TreshFilt/treshfilt.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QApplication
 FiltOption/TreshFilt/CMakeFiles/TreshFilt.dir/src/TreshFilt/treshfilt.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QDialog
+FiltOption/TreshFilt/CMakeFiles/TreshFilt.dir/src/TreshFilt/treshfilt.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QFileDialog
+FiltOption/TreshFilt/CMakeFiles/TreshFilt.dir/src/TreshFilt/treshfilt.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QHBoxLayout
+FiltOption/TreshFilt/CMakeFiles/TreshFilt.dir/src/TreshFilt/treshfilt.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QLabel
+FiltOption/TreshFilt/CMakeFiles/TreshFilt.dir/src/TreshFilt/treshfilt.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QPushButton
+FiltOption/TreshFilt/CMakeFiles/TreshFilt.dir/src/TreshFilt/treshfilt.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QVBoxLayout
+FiltOption/TreshFilt/CMakeFiles/TreshFilt.dir/src/TreshFilt/treshfilt.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QWidget
+FiltOption/TreshFilt/CMakeFiles/TreshFilt.dir/src/TreshFilt/treshfilt.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qabstractbutton.h
 FiltOption/TreshFilt/CMakeFiles/TreshFilt.dir/src/TreshFilt/treshfilt.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qapplication.h
+FiltOption/TreshFilt/CMakeFiles/TreshFilt.dir/src/TreshFilt/treshfilt.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qboxlayout.h
 FiltOption/TreshFilt/CMakeFiles/TreshFilt.dir/src/TreshFilt/treshfilt.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qdesktopwidget.h
 FiltOption/TreshFilt/CMakeFiles/TreshFilt.dir/src/TreshFilt/treshfilt.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qdialog.h
+FiltOption/TreshFilt/CMakeFiles/TreshFilt.dir/src/TreshFilt/treshfilt.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qfiledialog.h
+FiltOption/TreshFilt/CMakeFiles/TreshFilt.dir/src/TreshFilt/treshfilt.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qframe.h
+FiltOption/TreshFilt/CMakeFiles/TreshFilt.dir/src/TreshFilt/treshfilt.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qgridlayout.h
+FiltOption/TreshFilt/CMakeFiles/TreshFilt.dir/src/TreshFilt/treshfilt.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qlabel.h
+FiltOption/TreshFilt/CMakeFiles/TreshFilt.dir/src/TreshFilt/treshfilt.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qlayout.h
+FiltOption/TreshFilt/CMakeFiles/TreshFilt.dir/src/TreshFilt/treshfilt.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qlayoutitem.h
+FiltOption/TreshFilt/CMakeFiles/TreshFilt.dir/src/TreshFilt/treshfilt.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qpushbutton.h
 FiltOption/TreshFilt/CMakeFiles/TreshFilt.dir/src/TreshFilt/treshfilt.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qsizepolicy.h
 FiltOption/TreshFilt/CMakeFiles/TreshFilt.dir/src/TreshFilt/treshfilt.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qtwidgets-config.h
 FiltOption/TreshFilt/CMakeFiles/TreshFilt.dir/src/TreshFilt/treshfilt.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qtwidgetsglobal.h

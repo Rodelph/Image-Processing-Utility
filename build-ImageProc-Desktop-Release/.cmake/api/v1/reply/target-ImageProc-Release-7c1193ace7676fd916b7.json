@@ -11,15 +11,11 @@
 		"commands" : 
 		[
 			"add_executable",
-			"link_directories",
-			"find_package",
-			"target_link_libraries",
-			"include_directories"
+			"target_link_libraries"
 		],
 		"files" : 
 		[
-			"ProjectEx/CMakeLists.txt",
-			"/usr/local/lib/cmake/opencv4/OpenCVConfig.cmake"
+			"ProjectEx/CMakeLists.txt"
 		],
 		"nodes" : 
 		[
@@ -29,95 +25,67 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 11,
-				"parent" : 0
-			},
-			{
-				"command" : 2,
-				"file" : 0,
 				"line" : 9,
 				"parent" : 0
 			},
 			{
-				"file" : 1,
-				"parent" : 2
+				"command" : 1,
+				"file" : 0,
+				"line" : 11,
+				"parent" : 0
 			},
 			{
 				"command" : 1,
-				"file" : 1,
-				"line" : 151,
-				"parent" : 3
+				"file" : 0,
+				"line" : 12,
+				"parent" : 0
 			},
 			{
-				"command" : 3,
+				"command" : 1,
+				"file" : 0,
+				"line" : 13,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 14,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 15,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
 				"file" : 0,
 				"line" : 16,
 				"parent" : 0
 			},
 			{
-				"command" : 3,
+				"command" : 1,
 				"file" : 0,
 				"line" : 17,
 				"parent" : 0
 			},
 			{
-				"command" : 3,
+				"command" : 1,
 				"file" : 0,
 				"line" : 18,
 				"parent" : 0
 			},
 			{
-				"command" : 3,
+				"command" : 1,
 				"file" : 0,
 				"line" : 19,
 				"parent" : 0
 			},
 			{
-				"command" : 3,
+				"command" : 1,
 				"file" : 0,
 				"line" : 20,
-				"parent" : 0
-			},
-			{
-				"command" : 3,
-				"file" : 0,
-				"line" : 21,
-				"parent" : 0
-			},
-			{
-				"command" : 3,
-				"file" : 0,
-				"line" : 22,
-				"parent" : 0
-			},
-			{
-				"command" : 3,
-				"file" : 0,
-				"line" : 23,
-				"parent" : 0
-			},
-			{
-				"command" : 3,
-				"file" : 0,
-				"line" : 24,
-				"parent" : 0
-			},
-			{
-				"command" : 3,
-				"file" : 0,
-				"line" : 25,
-				"parent" : 0
-			},
-			{
-				"command" : 3,
-				"file" : 0,
-				"line" : 26,
-				"parent" : 0
-			},
-			{
-				"command" : 4,
-				"file" : 0,
-				"line" : 15,
 				"parent" : 0
 			}
 		]
@@ -131,26 +99,26 @@
 					"fragment" : "-O3 -DNDEBUG  "
 				},
 				{
-					"backtrace" : 6,
+					"backtrace" : 2,
 					"fragment" : "-fPIC"
 				}
 			],
 			"defines" : 
 			[
 				{
-					"backtrace" : 6,
+					"backtrace" : 2,
 					"define" : "QT_CORE_LIB"
 				},
 				{
-					"backtrace" : 6,
+					"backtrace" : 2,
 					"define" : "QT_GUI_LIB"
 				},
 				{
-					"backtrace" : 6,
+					"backtrace" : 2,
 					"define" : "QT_NO_DEBUG"
 				},
 				{
-					"backtrace" : 6,
+					"backtrace" : 2,
 					"define" : "QT_WIDGETS_LIB"
 				}
 			],
@@ -167,74 +135,74 @@
 					"path" : "/home/rodelph/dev/ImageProc/build-ImageProc-Desktop-Release/ProjectEx/ImageProc_autogen/include"
 				},
 				{
-					"backtrace" : 6,
+					"backtrace" : 2,
 					"path" : "/home/rodelph/dev/ImageProc/SelectionWindow/src"
 				},
 				{
-					"backtrace" : 7,
+					"backtrace" : 3,
 					"path" : "/home/rodelph/dev/ImageProc/FiltOption/src"
 				},
 				{
-					"backtrace" : 8,
+					"backtrace" : 4,
 					"path" : "/home/rodelph/dev/ImageProc/FiltOption/FreqFilt/src"
 				},
 				{
-					"backtrace" : 9,
+					"backtrace" : 5,
 					"path" : "/home/rodelph/dev/ImageProc/FiltOption/HighPassFilt/src"
 				},
 				{
-					"backtrace" : 10,
+					"backtrace" : 6,
 					"path" : "/home/rodelph/dev/ImageProc/FiltOption/LowPassFilt/src"
 				},
 				{
-					"backtrace" : 11,
+					"backtrace" : 7,
 					"path" : "/home/rodelph/dev/ImageProc/FiltOption/MedFilt/src"
 				},
 				{
-					"backtrace" : 12,
+					"backtrace" : 8,
 					"path" : "/home/rodelph/dev/ImageProc/FiltOption/SegmFilt/src"
 				},
 				{
-					"backtrace" : 13,
+					"backtrace" : 9,
 					"path" : "/home/rodelph/dev/ImageProc/FiltOption/TreshFilt/src"
 				},
 				{
-					"backtrace" : 14,
+					"backtrace" : 10,
 					"path" : "/home/rodelph/dev/ImageProc/HistOption/src"
 				},
 				{
-					"backtrace" : 15,
+					"backtrace" : 11,
 					"path" : "/home/rodelph/dev/ImageProc/ImageAlgorithms/src"
 				},
 				{
-					"backtrace" : 16,
-					"isSystem" : true,
-					"path" : "/usr/local/include/opencv4"
-				},
-				{
-					"backtrace" : 6,
+					"backtrace" : 2,
 					"isSystem" : true,
 					"path" : "/usr/include/x86_64-linux-gnu/qt5"
 				},
 				{
-					"backtrace" : 6,
+					"backtrace" : 2,
 					"isSystem" : true,
 					"path" : "/usr/include/x86_64-linux-gnu/qt5/QtWidgets"
 				},
 				{
-					"backtrace" : 6,
+					"backtrace" : 2,
 					"isSystem" : true,
 					"path" : "/usr/include/x86_64-linux-gnu/qt5/QtGui"
 				},
 				{
-					"backtrace" : 6,
+					"backtrace" : 2,
 					"isSystem" : true,
 					"path" : "/usr/include/x86_64-linux-gnu/qt5/QtCore"
 				},
 				{
-					"backtrace" : 6,
+					"backtrace" : 2,
 					"isSystem" : true,
 					"path" : "/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++"
+				},
+				{
+					"backtrace" : 3,
+					"isSystem" : true,
+					"path" : "/usr/local/include/opencv4"
 				}
 			],
 			"language" : "CXX",
@@ -248,43 +216,43 @@
 	"dependencies" : 
 	[
 		{
-			"backtrace" : 15,
+			"backtrace" : 11,
 			"id" : "ImageAlgorithms::@c16bd134b49833051e8d"
 		},
 		{
-			"backtrace" : 6,
+			"backtrace" : 2,
 			"id" : "SelectionWindow::@8357cd656b2d9e461885"
 		},
 		{
-			"backtrace" : 7,
+			"backtrace" : 3,
 			"id" : "FiltOption::@78159e4a7ecc33594894"
 		},
 		{
-			"backtrace" : 9,
+			"backtrace" : 5,
 			"id" : "HighPassFilt::@f6d16be10b591a8b1a18"
 		},
 		{
-			"backtrace" : 10,
+			"backtrace" : 6,
 			"id" : "LowPassFilt::@b2dc804a7729002c48fa"
 		},
 		{
-			"backtrace" : 8,
+			"backtrace" : 4,
 			"id" : "FreqFilt::@73e90590c886ac8e6c25"
 		},
 		{
-			"backtrace" : 11,
+			"backtrace" : 7,
 			"id" : "MedFilt::@783e2fb74a8c7f6bd769"
 		},
 		{
-			"backtrace" : 13,
+			"backtrace" : 9,
 			"id" : "TreshFilt::@8a3cbb9e1ba5b500fd59"
 		},
 		{
-			"backtrace" : 12,
+			"backtrace" : 8,
 			"id" : "SegmFilt::@12ee167c7515ad1a44a9"
 		},
 		{
-			"backtrace" : 14,
+			"backtrace" : 10,
 			"id" : "HistOption::@7d0c1c7413a5b4b4a66c"
 		},
 		{
@@ -306,391 +274,332 @@
 				"role" : "flags"
 			},
 			{
-				"backtrace" : 4,
-				"fragment" : "-L/usr/local/cuda/lib64",
-				"role" : "libraryPath"
-			},
-			{
-				"fragment" : "-Wl,-rpath,/usr/local/cuda/lib64:/usr/local/lib",
+				"fragment" : "-Wl,-rpath,/usr/local/lib",
 				"role" : "libraries"
 			},
 			{
-				"backtrace" : 5,
-				"fragment" : "/usr/local/lib/libopencv_gapi.so.4.5.2",
-				"role" : "libraries"
-			},
-			{
-				"backtrace" : 5,
-				"fragment" : "/usr/local/lib/libopencv_stitching.so.4.5.2",
-				"role" : "libraries"
-			},
-			{
-				"backtrace" : 5,
-				"fragment" : "/usr/local/lib/libopencv_alphamat.so.4.5.2",
-				"role" : "libraries"
-			},
-			{
-				"backtrace" : 5,
-				"fragment" : "/usr/local/lib/libopencv_aruco.so.4.5.2",
-				"role" : "libraries"
-			},
-			{
-				"backtrace" : 5,
-				"fragment" : "/usr/local/lib/libopencv_bgsegm.so.4.5.2",
-				"role" : "libraries"
-			},
-			{
-				"backtrace" : 5,
-				"fragment" : "/usr/local/lib/libopencv_bioinspired.so.4.5.2",
-				"role" : "libraries"
-			},
-			{
-				"backtrace" : 5,
-				"fragment" : "/usr/local/lib/libopencv_ccalib.so.4.5.2",
-				"role" : "libraries"
-			},
-			{
-				"backtrace" : 5,
-				"fragment" : "/usr/local/lib/libopencv_cudabgsegm.so.4.5.2",
-				"role" : "libraries"
-			},
-			{
-				"backtrace" : 5,
-				"fragment" : "/usr/local/lib/libopencv_cudafeatures2d.so.4.5.2",
-				"role" : "libraries"
-			},
-			{
-				"backtrace" : 5,
-				"fragment" : "/usr/local/lib/libopencv_cudaobjdetect.so.4.5.2",
-				"role" : "libraries"
-			},
-			{
-				"backtrace" : 5,
-				"fragment" : "/usr/local/lib/libopencv_cudastereo.so.4.5.2",
-				"role" : "libraries"
-			},
-			{
-				"backtrace" : 5,
-				"fragment" : "/usr/local/lib/libopencv_dnn_objdetect.so.4.5.2",
-				"role" : "libraries"
-			},
-			{
-				"backtrace" : 5,
-				"fragment" : "/usr/local/lib/libopencv_dnn_superres.so.4.5.2",
-				"role" : "libraries"
-			},
-			{
-				"backtrace" : 5,
-				"fragment" : "/usr/local/lib/libopencv_dpm.so.4.5.2",
-				"role" : "libraries"
-			},
-			{
-				"backtrace" : 5,
-				"fragment" : "/usr/local/lib/libopencv_face.so.4.5.2",
-				"role" : "libraries"
-			},
-			{
-				"backtrace" : 5,
-				"fragment" : "/usr/local/lib/libopencv_freetype.so.4.5.2",
-				"role" : "libraries"
-			},
-			{
-				"backtrace" : 5,
-				"fragment" : "/usr/local/lib/libopencv_fuzzy.so.4.5.2",
-				"role" : "libraries"
-			},
-			{
-				"backtrace" : 5,
-				"fragment" : "/usr/local/lib/libopencv_hdf.so.4.5.2",
-				"role" : "libraries"
-			},
-			{
-				"backtrace" : 5,
-				"fragment" : "/usr/local/lib/libopencv_hfs.so.4.5.2",
-				"role" : "libraries"
-			},
-			{
-				"backtrace" : 5,
-				"fragment" : "/usr/local/lib/libopencv_img_hash.so.4.5.2",
-				"role" : "libraries"
-			},
-			{
-				"backtrace" : 5,
-				"fragment" : "/usr/local/lib/libopencv_intensity_transform.so.4.5.2",
-				"role" : "libraries"
-			},
-			{
-				"backtrace" : 5,
-				"fragment" : "/usr/local/lib/libopencv_line_descriptor.so.4.5.2",
-				"role" : "libraries"
-			},
-			{
-				"backtrace" : 5,
-				"fragment" : "/usr/local/lib/libopencv_mcc.so.4.5.2",
-				"role" : "libraries"
-			},
-			{
-				"backtrace" : 5,
-				"fragment" : "/usr/local/lib/libopencv_quality.so.4.5.2",
-				"role" : "libraries"
-			},
-			{
-				"backtrace" : 5,
-				"fragment" : "/usr/local/lib/libopencv_rapid.so.4.5.2",
-				"role" : "libraries"
-			},
-			{
-				"backtrace" : 5,
-				"fragment" : "/usr/local/lib/libopencv_reg.so.4.5.2",
-				"role" : "libraries"
-			},
-			{
-				"backtrace" : 5,
-				"fragment" : "/usr/local/lib/libopencv_rgbd.so.4.5.2",
-				"role" : "libraries"
-			},
-			{
-				"backtrace" : 5,
-				"fragment" : "/usr/local/lib/libopencv_saliency.so.4.5.2",
-				"role" : "libraries"
-			},
-			{
-				"backtrace" : 5,
-				"fragment" : "/usr/local/lib/libopencv_sfm.so.4.5.2",
-				"role" : "libraries"
-			},
-			{
-				"backtrace" : 5,
-				"fragment" : "/usr/local/lib/libopencv_stereo.so.4.5.2",
-				"role" : "libraries"
-			},
-			{
-				"backtrace" : 5,
-				"fragment" : "/usr/local/lib/libopencv_structured_light.so.4.5.2",
-				"role" : "libraries"
-			},
-			{
-				"backtrace" : 5,
-				"fragment" : "/usr/local/lib/libopencv_superres.so.4.5.2",
-				"role" : "libraries"
-			},
-			{
-				"backtrace" : 5,
-				"fragment" : "/usr/local/lib/libopencv_surface_matching.so.4.5.2",
-				"role" : "libraries"
-			},
-			{
-				"backtrace" : 5,
-				"fragment" : "/usr/local/lib/libopencv_tracking.so.4.5.2",
-				"role" : "libraries"
-			},
-			{
-				"backtrace" : 5,
-				"fragment" : "/usr/local/lib/libopencv_videostab.so.4.5.2",
-				"role" : "libraries"
-			},
-			{
-				"backtrace" : 5,
-				"fragment" : "/usr/local/lib/libopencv_wechat_qrcode.so.4.5.2",
-				"role" : "libraries"
-			},
-			{
-				"backtrace" : 5,
-				"fragment" : "/usr/local/lib/libopencv_xfeatures2d.so.4.5.2",
-				"role" : "libraries"
-			},
-			{
-				"backtrace" : 5,
-				"fragment" : "/usr/local/lib/libopencv_xobjdetect.so.4.5.2",
-				"role" : "libraries"
-			},
-			{
-				"backtrace" : 5,
-				"fragment" : "/usr/local/lib/libopencv_xphoto.so.4.5.2",
-				"role" : "libraries"
-			},
-			{
-				"backtrace" : 6,
+				"backtrace" : 2,
 				"fragment" : "../SelectionWindow/libSelectionWindow.a",
 				"role" : "libraries"
 			},
 			{
-				"backtrace" : 7,
+				"backtrace" : 3,
 				"fragment" : "../FiltOption/libFiltOption.a",
 				"role" : "libraries"
 			},
 			{
-				"backtrace" : 8,
+				"backtrace" : 4,
 				"fragment" : "../FiltOption/FreqFilt/libFreqFilt.a",
 				"role" : "libraries"
 			},
 			{
-				"backtrace" : 9,
+				"backtrace" : 5,
 				"fragment" : "../FiltOption/HighPassFilt/libHighPassFilt.a",
 				"role" : "libraries"
 			},
 			{
-				"backtrace" : 10,
+				"backtrace" : 6,
 				"fragment" : "../FiltOption/LowPassFilt/libLowPassFilt.a",
 				"role" : "libraries"
 			},
 			{
-				"backtrace" : 11,
+				"backtrace" : 7,
 				"fragment" : "../FiltOption/MedFilt/libMedFilt.a",
 				"role" : "libraries"
 			},
 			{
-				"backtrace" : 12,
+				"backtrace" : 8,
 				"fragment" : "../FiltOption/SegmFilt/libSegmFilt.a",
 				"role" : "libraries"
 			},
 			{
-				"backtrace" : 13,
+				"backtrace" : 9,
 				"fragment" : "../FiltOption/TreshFilt/libTreshFilt.a",
 				"role" : "libraries"
 			},
 			{
-				"backtrace" : 14,
+				"backtrace" : 10,
 				"fragment" : "../HistOption/libHistOption.a",
 				"role" : "libraries"
 			},
 			{
-				"backtrace" : 15,
+				"backtrace" : 11,
 				"fragment" : "../ImageAlgorithms/libImageAlgorithms.a",
 				"role" : "libraries"
 			},
 			{
-				"backtrace" : 5,
-				"fragment" : "/usr/local/lib/libopencv_shape.so.4.5.2",
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libQt5Widgets.so.5.12.8",
 				"role" : "libraries"
 			},
 			{
-				"backtrace" : 5,
-				"fragment" : "/usr/local/lib/libopencv_highgui.so.4.5.2",
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libQt5Gui.so.5.12.8",
 				"role" : "libraries"
 			},
 			{
-				"backtrace" : 5,
-				"fragment" : "/usr/local/lib/libopencv_datasets.so.4.5.2",
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libQt5Core.so.5.12.8",
 				"role" : "libraries"
 			},
 			{
-				"backtrace" : 5,
-				"fragment" : "/usr/local/lib/libopencv_plot.so.4.5.2",
+				"fragment" : "/usr/local/lib/libopencv_gapi.so.4.5.2",
 				"role" : "libraries"
 			},
 			{
-				"backtrace" : 5,
-				"fragment" : "/usr/local/lib/libopencv_text.so.4.5.2",
+				"fragment" : "/usr/local/lib/libopencv_stitching.so.4.5.2",
 				"role" : "libraries"
 			},
 			{
-				"backtrace" : 5,
-				"fragment" : "/usr/local/lib/libopencv_ml.so.4.5.2",
+				"fragment" : "/usr/local/lib/libopencv_alphamat.so.4.5.2",
 				"role" : "libraries"
 			},
 			{
-				"backtrace" : 5,
+				"fragment" : "/usr/local/lib/libopencv_aruco.so.4.5.2",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/local/lib/libopencv_bgsegm.so.4.5.2",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/local/lib/libopencv_bioinspired.so.4.5.2",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/local/lib/libopencv_ccalib.so.4.5.2",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/local/lib/libopencv_cudabgsegm.so.4.5.2",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/local/lib/libopencv_cudafeatures2d.so.4.5.2",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/local/lib/libopencv_cudaobjdetect.so.4.5.2",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/local/lib/libopencv_cudastereo.so.4.5.2",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/local/lib/libopencv_dnn_objdetect.so.4.5.2",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/local/lib/libopencv_dnn_superres.so.4.5.2",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/local/lib/libopencv_dpm.so.4.5.2",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/local/lib/libopencv_face.so.4.5.2",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/local/lib/libopencv_freetype.so.4.5.2",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/local/lib/libopencv_fuzzy.so.4.5.2",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/local/lib/libopencv_hdf.so.4.5.2",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/local/lib/libopencv_hfs.so.4.5.2",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/local/lib/libopencv_img_hash.so.4.5.2",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/local/lib/libopencv_intensity_transform.so.4.5.2",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/local/lib/libopencv_line_descriptor.so.4.5.2",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/local/lib/libopencv_mcc.so.4.5.2",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/local/lib/libopencv_quality.so.4.5.2",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/local/lib/libopencv_rapid.so.4.5.2",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/local/lib/libopencv_reg.so.4.5.2",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/local/lib/libopencv_rgbd.so.4.5.2",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/local/lib/libopencv_saliency.so.4.5.2",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/local/lib/libopencv_sfm.so.4.5.2",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/local/lib/libopencv_stereo.so.4.5.2",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/local/lib/libopencv_structured_light.so.4.5.2",
+				"role" : "libraries"
+			},
+			{
 				"fragment" : "/usr/local/lib/libopencv_phase_unwrapping.so.4.5.2",
 				"role" : "libraries"
 			},
 			{
-				"backtrace" : 5,
+				"fragment" : "/usr/local/lib/libopencv_superres.so.4.5.2",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/local/lib/libopencv_surface_matching.so.4.5.2",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/local/lib/libopencv_tracking.so.4.5.2",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/local/lib/libopencv_highgui.so.4.5.2",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/local/lib/libopencv_datasets.so.4.5.2",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/local/lib/libopencv_plot.so.4.5.2",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/local/lib/libopencv_text.so.4.5.2",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/local/lib/libopencv_videostab.so.4.5.2",
+				"role" : "libraries"
+			},
+			{
 				"fragment" : "/usr/local/lib/libopencv_videoio.so.4.5.2",
 				"role" : "libraries"
 			},
 			{
-				"backtrace" : 5,
 				"fragment" : "/usr/local/lib/libopencv_cudaoptflow.so.4.5.2",
 				"role" : "libraries"
 			},
 			{
-				"backtrace" : 5,
 				"fragment" : "/usr/local/lib/libopencv_cudalegacy.so.4.5.2",
 				"role" : "libraries"
 			},
 			{
-				"backtrace" : 5,
 				"fragment" : "/usr/local/lib/libopencv_cudawarping.so.4.5.2",
 				"role" : "libraries"
 			},
 			{
-				"backtrace" : 5,
 				"fragment" : "/usr/local/lib/libopencv_optflow.so.4.5.2",
 				"role" : "libraries"
 			},
 			{
-				"backtrace" : 5,
+				"fragment" : "/usr/local/lib/libopencv_wechat_qrcode.so.4.5.2",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/local/lib/libopencv_xfeatures2d.so.4.5.2",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/local/lib/libopencv_ml.so.4.5.2",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/local/lib/libopencv_shape.so.4.5.2",
+				"role" : "libraries"
+			},
+			{
 				"fragment" : "/usr/local/lib/libopencv_ximgproc.so.4.5.2",
 				"role" : "libraries"
 			},
 			{
-				"backtrace" : 5,
 				"fragment" : "/usr/local/lib/libopencv_video.so.4.5.2",
 				"role" : "libraries"
 			},
 			{
-				"backtrace" : 5,
 				"fragment" : "/usr/local/lib/libopencv_dnn.so.4.5.2",
 				"role" : "libraries"
 			},
 			{
-				"backtrace" : 5,
+				"fragment" : "/usr/local/lib/libopencv_xobjdetect.so.4.5.2",
+				"role" : "libraries"
+			},
+			{
 				"fragment" : "/usr/local/lib/libopencv_imgcodecs.so.4.5.2",
 				"role" : "libraries"
 			},
 			{
-				"backtrace" : 5,
 				"fragment" : "/usr/local/lib/libopencv_objdetect.so.4.5.2",
 				"role" : "libraries"
 			},
 			{
-				"backtrace" : 5,
 				"fragment" : "/usr/local/lib/libopencv_calib3d.so.4.5.2",
 				"role" : "libraries"
 			},
 			{
-				"backtrace" : 5,
 				"fragment" : "/usr/local/lib/libopencv_features2d.so.4.5.2",
 				"role" : "libraries"
 			},
 			{
-				"backtrace" : 5,
 				"fragment" : "/usr/local/lib/libopencv_flann.so.4.5.2",
 				"role" : "libraries"
 			},
 			{
-				"backtrace" : 5,
+				"fragment" : "/usr/local/lib/libopencv_xphoto.so.4.5.2",
+				"role" : "libraries"
+			},
+			{
 				"fragment" : "/usr/local/lib/libopencv_photo.so.4.5.2",
 				"role" : "libraries"
 			},
 			{
-				"backtrace" : 5,
 				"fragment" : "/usr/local/lib/libopencv_cudaimgproc.so.4.5.2",
 				"role" : "libraries"
 			},
 			{
-				"backtrace" : 5,
 				"fragment" : "/usr/local/lib/libopencv_cudafilters.so.4.5.2",
 				"role" : "libraries"
 			},
 			{
-				"backtrace" : 5,
 				"fragment" : "/usr/local/lib/libopencv_imgproc.so.4.5.2",
 				"role" : "libraries"
 			},
 			{
-				"backtrace" : 5,
 				"fragment" : "/usr/local/lib/libopencv_cudaarithm.so.4.5.2",
 				"role" : "libraries"
 			},
 			{
-				"backtrace" : 5,
 				"fragment" : "/usr/local/lib/libopencv_core.so.4.5.2",
 				"role" : "libraries"
 			},
 			{
-				"backtrace" : 5,
 				"fragment" : "/usr/local/lib/libopencv_cudev.so.4.5.2",
 				"role" : "libraries"
 			},
@@ -719,15 +628,267 @@
 				"role" : "libraries"
 			},
 			{
-				"fragment" : "/usr/lib/x86_64-linux-gnu/libQt5Widgets.so.5.12.8",
+				"fragment" : "/usr/local/lib/libopencv_gapi.so.4.5.2",
 				"role" : "libraries"
 			},
 			{
-				"fragment" : "/usr/lib/x86_64-linux-gnu/libQt5Gui.so.5.12.8",
+				"fragment" : "/usr/local/lib/libopencv_stitching.so.4.5.2",
 				"role" : "libraries"
 			},
 			{
-				"fragment" : "/usr/lib/x86_64-linux-gnu/libQt5Core.so.5.12.8",
+				"fragment" : "/usr/local/lib/libopencv_alphamat.so.4.5.2",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/local/lib/libopencv_aruco.so.4.5.2",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/local/lib/libopencv_bgsegm.so.4.5.2",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/local/lib/libopencv_bioinspired.so.4.5.2",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/local/lib/libopencv_ccalib.so.4.5.2",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/local/lib/libopencv_cudabgsegm.so.4.5.2",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/local/lib/libopencv_cudafeatures2d.so.4.5.2",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/local/lib/libopencv_cudaobjdetect.so.4.5.2",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/local/lib/libopencv_cudastereo.so.4.5.2",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/local/lib/libopencv_dnn_objdetect.so.4.5.2",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/local/lib/libopencv_dnn_superres.so.4.5.2",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/local/lib/libopencv_dpm.so.4.5.2",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/local/lib/libopencv_face.so.4.5.2",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/local/lib/libopencv_freetype.so.4.5.2",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/local/lib/libopencv_fuzzy.so.4.5.2",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/local/lib/libopencv_hdf.so.4.5.2",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/local/lib/libopencv_hfs.so.4.5.2",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/local/lib/libopencv_img_hash.so.4.5.2",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/local/lib/libopencv_intensity_transform.so.4.5.2",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/local/lib/libopencv_line_descriptor.so.4.5.2",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/local/lib/libopencv_mcc.so.4.5.2",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/local/lib/libopencv_quality.so.4.5.2",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/local/lib/libopencv_rapid.so.4.5.2",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/local/lib/libopencv_reg.so.4.5.2",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/local/lib/libopencv_rgbd.so.4.5.2",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/local/lib/libopencv_saliency.so.4.5.2",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/local/lib/libopencv_sfm.so.4.5.2",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/local/lib/libopencv_stereo.so.4.5.2",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/local/lib/libopencv_structured_light.so.4.5.2",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/local/lib/libopencv_phase_unwrapping.so.4.5.2",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/local/lib/libopencv_superres.so.4.5.2",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/local/lib/libopencv_surface_matching.so.4.5.2",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/local/lib/libopencv_tracking.so.4.5.2",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/local/lib/libopencv_highgui.so.4.5.2",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/local/lib/libopencv_datasets.so.4.5.2",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/local/lib/libopencv_plot.so.4.5.2",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/local/lib/libopencv_text.so.4.5.2",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/local/lib/libopencv_videostab.so.4.5.2",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/local/lib/libopencv_videoio.so.4.5.2",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/local/lib/libopencv_cudaoptflow.so.4.5.2",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/local/lib/libopencv_cudalegacy.so.4.5.2",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/local/lib/libopencv_cudawarping.so.4.5.2",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/local/lib/libopencv_optflow.so.4.5.2",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/local/lib/libopencv_wechat_qrcode.so.4.5.2",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/local/lib/libopencv_xfeatures2d.so.4.5.2",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/local/lib/libopencv_ml.so.4.5.2",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/local/lib/libopencv_shape.so.4.5.2",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/local/lib/libopencv_ximgproc.so.4.5.2",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/local/lib/libopencv_video.so.4.5.2",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/local/lib/libopencv_dnn.so.4.5.2",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/local/lib/libopencv_xobjdetect.so.4.5.2",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/local/lib/libopencv_imgcodecs.so.4.5.2",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/local/lib/libopencv_objdetect.so.4.5.2",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/local/lib/libopencv_calib3d.so.4.5.2",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/local/lib/libopencv_features2d.so.4.5.2",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/local/lib/libopencv_flann.so.4.5.2",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/local/lib/libopencv_xphoto.so.4.5.2",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/local/lib/libopencv_photo.so.4.5.2",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/local/lib/libopencv_cudaimgproc.so.4.5.2",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/local/lib/libopencv_cudafilters.so.4.5.2",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/local/lib/libopencv_imgproc.so.4.5.2",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/local/lib/libopencv_cudaarithm.so.4.5.2",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/local/lib/libopencv_core.so.4.5.2",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/local/lib/libopencv_cudev.so.4.5.2",
 				"role" : "libraries"
 			},
 			{
