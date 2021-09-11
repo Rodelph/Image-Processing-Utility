@@ -138,6 +138,9 @@ ProjectEx/ImageProc: FiltOption/libFiltOption.a
 ProjectEx/ImageProc: FiltOption/FreqFilt/libFreqFilt.a
 ProjectEx/ImageProc: FiltOption/HighPassFilt/libHighPassFilt.a
 ProjectEx/ImageProc: FiltOption/LowPassFilt/libLowPassFilt.a
+ProjectEx/ImageProc: FiltOption/MedFilt/libMedFilt.a
+ProjectEx/ImageProc: FiltOption/SegmFilt/libSegmFilt.a
+ProjectEx/ImageProc: FiltOption/TreshFilt/libTreshFilt.a
 ProjectEx/ImageProc: HistOption/libHistOption.a
 ProjectEx/ImageProc: ImageAlgorithms/libImageAlgorithms.a
 ProjectEx/ImageProc: /usr/local/lib/libopencv_shape.so.4.5.2
@@ -167,6 +170,15 @@ ProjectEx/ImageProc: /usr/local/lib/libopencv_imgproc.so.4.5.2
 ProjectEx/ImageProc: /usr/local/lib/libopencv_cudaarithm.so.4.5.2
 ProjectEx/ImageProc: /usr/local/lib/libopencv_core.so.4.5.2
 ProjectEx/ImageProc: /usr/local/lib/libopencv_cudev.so.4.5.2
+ProjectEx/ImageProc: /usr/lib/x86_64-linux-gnu/libQt5Widgets.so.5.12.8
+ProjectEx/ImageProc: /usr/lib/x86_64-linux-gnu/libQt5Gui.so.5.12.8
+ProjectEx/ImageProc: /usr/lib/x86_64-linux-gnu/libQt5Core.so.5.12.8
+ProjectEx/ImageProc: /usr/lib/x86_64-linux-gnu/libQt5Widgets.so.5.12.8
+ProjectEx/ImageProc: /usr/lib/x86_64-linux-gnu/libQt5Gui.so.5.12.8
+ProjectEx/ImageProc: /usr/lib/x86_64-linux-gnu/libQt5Core.so.5.12.8
+ProjectEx/ImageProc: /usr/lib/x86_64-linux-gnu/libQt5Widgets.so.5.12.8
+ProjectEx/ImageProc: /usr/lib/x86_64-linux-gnu/libQt5Gui.so.5.12.8
+ProjectEx/ImageProc: /usr/lib/x86_64-linux-gnu/libQt5Core.so.5.12.8
 ProjectEx/ImageProc: /usr/lib/x86_64-linux-gnu/libQt5Widgets.so.5.12.8
 ProjectEx/ImageProc: /usr/lib/x86_64-linux-gnu/libQt5Gui.so.5.12.8
 ProjectEx/ImageProc: /usr/lib/x86_64-linux-gnu/libQt5Core.so.5.12.8

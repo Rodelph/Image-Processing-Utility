@@ -1,0 +1,58 @@
+{
+	"backtrace" : 0,
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : 
+		[
+			"FiltOption/TreshFilt/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			}
+		]
+	},
+	"id" : "TreshFilt_autogen::@8a3cbb9e1ba5b500fd59",
+	"isGeneratorProvided" : true,
+	"name" : "TreshFilt_autogen",
+	"paths" : 
+	{
+		"build" : "FiltOption/TreshFilt",
+		"source" : "FiltOption/TreshFilt"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				1
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build-ImageProc-Desktop-Release/FiltOption/TreshFilt/CMakeFiles/TreshFilt_autogen",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build-ImageProc-Desktop-Release/FiltOption/TreshFilt/CMakeFiles/TreshFilt_autogen.rule",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "UTILITY"
+}

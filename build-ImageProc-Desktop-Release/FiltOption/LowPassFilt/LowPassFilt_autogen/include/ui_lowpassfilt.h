@@ -55,7 +55,7 @@ public:
         label->setAlignment(Qt::AlignCenter);
         horizontalLayoutWidget = new QWidget(lowpassfilt);
         horizontalLayoutWidget->setObjectName(QString::fromUtf8("horizontalLayoutWidget"));
-        horizontalLayoutWidget->setGeometry(QRect(10, 90, 1151, 621));
+        horizontalLayoutWidget->setGeometry(QRect(10, 70, 1191, 641));
         horizontalLayout = new QHBoxLayout(horizontalLayoutWidget);
         horizontalLayout->setObjectName(QString::fromUtf8("horizontalLayout"));
         horizontalLayout->setContentsMargins(0, 0, 0, 0);

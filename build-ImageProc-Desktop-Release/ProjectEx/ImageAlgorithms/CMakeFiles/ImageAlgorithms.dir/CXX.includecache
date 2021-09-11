@@ -1,0 +1,12 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/rodelph/dev/ImageProc/ImageAlgorithms/src/ImageAlgorithms/algo.cpp
+
+/home/rodelph/dev/ImageProc/build-ImageProc-Desktop-Release/ProjectEx/ImageAlgorithms/ImageAlgorithms_autogen/mocs_compilation.cpp
+

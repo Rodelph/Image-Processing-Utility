@@ -36,7 +36,7 @@
     <rect>
      <x>20</x>
      <y>90</y>
-     <width>1151</width>
+     <width>1201</width>
      <height>621</height>
     </rect>
    </property>
@@ -71,7 +71,7 @@
       <item alignment="Qt::AlignHCenter">
        <widget class="QPushButton" name="transBtn">
         <property name="text">
-         <string>Tramsform</string>
+         <string>Transform</string>
         </property>
        </widget>
       </item>

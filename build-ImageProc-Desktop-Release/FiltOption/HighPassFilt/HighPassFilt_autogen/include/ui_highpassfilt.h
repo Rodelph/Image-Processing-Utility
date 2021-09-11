@@ -48,7 +48,7 @@ public:
         highpassfilt->setMaximumSize(QSize(1366, 720));
         horizontalLayoutWidget = new QWidget(highpassfilt);
         horizontalLayoutWidget->setObjectName(QString::fromUtf8("horizontalLayoutWidget"));
-        horizontalLayoutWidget->setGeometry(QRect(19, 80, 1111, 631));
+        horizontalLayoutWidget->setGeometry(QRect(19, 80, 1211, 631));
         horizontalLayout = new QHBoxLayout(horizontalLayoutWidget);
         horizontalLayout->setObjectName(QString::fromUtf8("horizontalLayout"));
         horizontalLayout->setContentsMargins(0, 0, 0, 0);

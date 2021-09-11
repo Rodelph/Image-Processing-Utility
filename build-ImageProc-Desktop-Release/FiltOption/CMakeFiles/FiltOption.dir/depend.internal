@@ -113,6 +113,9 @@ FiltOption/CMakeFiles/FiltOption.dir/src/FiltOption/filterswindow.cpp.o
  /home/rodelph/dev/ImageProc/FiltOption/FreqFilt/src/FreqFilt/freqfilt.h
  /home/rodelph/dev/ImageProc/FiltOption/HighPassFilt/src/HighPassFilt/highpassfilt.h
  /home/rodelph/dev/ImageProc/FiltOption/LowPassFilt/src/LowPassFilt/lowpassfilt.h
+ /home/rodelph/dev/ImageProc/FiltOption/MedFilt/src/MedFilt/medfilt.h
+ /home/rodelph/dev/ImageProc/FiltOption/SegmFilt/src/SegmFilt/segmfilt.h
+ /home/rodelph/dev/ImageProc/FiltOption/TreshFilt/src/TreshFilt/treshfilt.h
  /home/rodelph/dev/ImageProc/FiltOption/src/FiltOption/filterswindow.cpp
  /home/rodelph/dev/ImageProc/FiltOption/src/FiltOption/filterswindow.h
  /home/rodelph/dev/ImageProc/HistOption/src/HistOption/histogram.h

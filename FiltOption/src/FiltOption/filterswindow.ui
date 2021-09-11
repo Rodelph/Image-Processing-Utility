@@ -98,12 +98,12 @@
     <rect>
      <x>10</x>
      <y>20</y>
-     <width>101</width>
+     <width>121</width>
      <height>25</height>
     </rect>
    </property>
    <property name="text">
-    <string>Go Histogram</string>
+    <string>Go to Histogram</string>
    </property>
   </widget>
   <widget class="QLabel" name="label">

@@ -6,12 +6,6 @@
 
 #IncludeRegexTransform: 
 
-../FiltOption/FreqFilt/src/FreqFilt/freqfilt.h
-QDialog
--
-QFileDialog
--
-
 ../FiltOption/src/FiltOption/filterswindow.h
 QDialog
 -
@@ -29,18 +23,6 @@ QDialog
 -
 QFileDialog
 -
-
-/home/rodelph/dev/ImageProc/build-ImageProc-Desktop-Release/FiltOption/FreqFilt/FreqFilt_autogen/K5YPCHNSED/moc_freqfilt.cpp
-src/FreqFilt/freqfilt.h
-/home/rodelph/dev/ImageProc/build-ImageProc-Desktop-Release/FiltOption/FreqFilt/FreqFilt_autogen/K5YPCHNSED/src/FreqFilt/freqfilt.h
-QtCore/qbytearray.h
--
-QtCore/qmetatype.h
--
-
-/home/rodelph/dev/ImageProc/build-ImageProc-Desktop-Release/FiltOption/FreqFilt/FreqFilt_autogen/mocs_compilation.cpp
-K5YPCHNSED/moc_freqfilt.cpp
-/home/rodelph/dev/ImageProc/build-ImageProc-Desktop-Release/FiltOption/FreqFilt/FreqFilt_autogen/K5YPCHNSED/moc_freqfilt.cpp
 
 /usr/include/x86_64-linux-gnu/qt5/QtCore/QVariant
 qvariant.h

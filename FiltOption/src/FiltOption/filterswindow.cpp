@@ -4,12 +4,15 @@
 #include "../../HighPassFilt/src/HighPassFilt/highpassfilt.h"
 #include "../../LowPassFilt/src/LowPassFilt/lowpassfilt.h"
 #include "../../FreqFilt/src/FreqFilt/freqfilt.h"
+#include "../../MedFilt/src/MedFilt/medfilt.h"
+#include "../../SegmFilt/src/SegmFilt/segmfilt.h"
+#include "../../TreshFilt/src/TreshFilt/treshfilt.h"
+
 
 FiltersWindow::FiltersWindow(QWidget *parent) : QDialog(parent), 
                                                 ui(new Ui::FiltersWindow)
 {
     ui->setupUi(this);
-    Qt::WA_DeleteOnClose;
 }
 
 FiltersWindow::~FiltersWindow() { delete ui; }
@@ -46,4 +49,30 @@ void FiltersWindow::on_freqBtn_clicked()
     freqfilt frFilt;
     frFilt.setModal(true);
     frFilt.exec();
+}
+
+void FiltersWindow::on_medBtn_clicked()
+{
+    this->setAttribute(Qt::WA_QuitOnClose);
+    this->close();
+    medfilt med;
+    med.setModal(true);
+    med.exec();
+}
+void FiltersWindow::on_segBtn_clicked()
+{
+    this->setAttribute(Qt::WA_QuitOnClose);
+    this->close();
+    segmfilt seg;
+    seg.setModal(true);
+    seg.exec();
+}
+
+void FiltersWindow::on_treshBtn_clicked()
+{
+    this->setAttribute(Qt::WA_QuitOnClose);
+    this->close();
+    treshfilt tfilt;
+    tfilt.setModal(true);
+    tfilt.exec();
 }

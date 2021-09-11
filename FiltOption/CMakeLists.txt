@@ -2,6 +2,9 @@
 add_subdirectory(HighPassFilt)
 add_subdirectory(LowPassFilt)
 add_subdirectory(FreqFilt)
+add_subdirectory(MedFilt)
+add_subdirectory(TreshFilt)
+add_subdirectory(SegmFilt)
 
 add_library(
             FiltOption

@@ -115,6 +115,9 @@ FiltOption/all: FiltOption/CMakeFiles/FiltOption.dir/all
 FiltOption/all: FiltOption/HighPassFilt/all
 FiltOption/all: FiltOption/LowPassFilt/all
 FiltOption/all: FiltOption/FreqFilt/all
+FiltOption/all: FiltOption/MedFilt/all
+FiltOption/all: FiltOption/TreshFilt/all
+FiltOption/all: FiltOption/SegmFilt/all
 
 .PHONY : FiltOption/all
 
@@ -122,6 +125,9 @@ FiltOption/all: FiltOption/FreqFilt/all
 FiltOption/preinstall: FiltOption/HighPassFilt/preinstall
 FiltOption/preinstall: FiltOption/LowPassFilt/preinstall
 FiltOption/preinstall: FiltOption/FreqFilt/preinstall
+FiltOption/preinstall: FiltOption/MedFilt/preinstall
+FiltOption/preinstall: FiltOption/TreshFilt/preinstall
+FiltOption/preinstall: FiltOption/SegmFilt/preinstall
 
 .PHONY : FiltOption/preinstall
 
@@ -131,6 +137,9 @@ FiltOption/clean: FiltOption/CMakeFiles/FiltOption_autogen.dir/clean
 FiltOption/clean: FiltOption/HighPassFilt/clean
 FiltOption/clean: FiltOption/LowPassFilt/clean
 FiltOption/clean: FiltOption/FreqFilt/clean
+FiltOption/clean: FiltOption/MedFilt/clean
+FiltOption/clean: FiltOption/TreshFilt/clean
+FiltOption/clean: FiltOption/SegmFilt/clean
 
 .PHONY : FiltOption/clean
 
@@ -190,6 +199,63 @@ FiltOption/LowPassFilt/clean: FiltOption/LowPassFilt/CMakeFiles/LowPassFilt.dir/
 FiltOption/LowPassFilt/clean: FiltOption/LowPassFilt/CMakeFiles/LowPassFilt_autogen.dir/clean
 
 .PHONY : FiltOption/LowPassFilt/clean
+
+#=============================================================================
+# Directory level rules for directory FiltOption/MedFilt
+
+# Recursive "all" directory target.
+FiltOption/MedFilt/all: FiltOption/MedFilt/CMakeFiles/MedFilt.dir/all
+
+.PHONY : FiltOption/MedFilt/all
+
+# Recursive "preinstall" directory target.
+FiltOption/MedFilt/preinstall:
+
+.PHONY : FiltOption/MedFilt/preinstall
+
+# Recursive "clean" directory target.
+FiltOption/MedFilt/clean: FiltOption/MedFilt/CMakeFiles/MedFilt.dir/clean
+FiltOption/MedFilt/clean: FiltOption/MedFilt/CMakeFiles/MedFilt_autogen.dir/clean
+
+.PHONY : FiltOption/MedFilt/clean
+
+#=============================================================================
+# Directory level rules for directory FiltOption/SegmFilt
+
+# Recursive "all" directory target.
+FiltOption/SegmFilt/all: FiltOption/SegmFilt/CMakeFiles/SegmFilt.dir/all
+
+.PHONY : FiltOption/SegmFilt/all
+
+# Recursive "preinstall" directory target.
+FiltOption/SegmFilt/preinstall:
+
+.PHONY : FiltOption/SegmFilt/preinstall
+
+# Recursive "clean" directory target.
+FiltOption/SegmFilt/clean: FiltOption/SegmFilt/CMakeFiles/SegmFilt.dir/clean
+FiltOption/SegmFilt/clean: FiltOption/SegmFilt/CMakeFiles/SegmFilt_autogen.dir/clean
+
+.PHONY : FiltOption/SegmFilt/clean
+
+#=============================================================================
+# Directory level rules for directory FiltOption/TreshFilt
+
+# Recursive "all" directory target.
+FiltOption/TreshFilt/all: FiltOption/TreshFilt/CMakeFiles/TreshFilt.dir/all
+
+.PHONY : FiltOption/TreshFilt/all
+
+# Recursive "preinstall" directory target.
+FiltOption/TreshFilt/preinstall:
+
+.PHONY : FiltOption/TreshFilt/preinstall
+
+# Recursive "clean" directory target.
+FiltOption/TreshFilt/clean: FiltOption/TreshFilt/CMakeFiles/TreshFilt.dir/clean
+FiltOption/TreshFilt/clean: FiltOption/TreshFilt/CMakeFiles/TreshFilt_autogen.dir/clean
+
+.PHONY : FiltOption/TreshFilt/clean
 
 #=============================================================================
 # Directory level rules for directory HistOption
@@ -1084,7 +1150,7 @@ ImageAlgorithms/CMakeFiles/ImageAlgorithms_autogen.dir/clean:
 SelectionWindow/CMakeFiles/SelectionWindow.dir/all: SelectionWindow/CMakeFiles/SelectionWindow_autogen.dir/all
 	$(MAKE) -f SelectionWindow/CMakeFiles/SelectionWindow.dir/build.make SelectionWindow/CMakeFiles/SelectionWindow.dir/depend
 	$(MAKE) -f SelectionWindow/CMakeFiles/SelectionWindow.dir/build.make SelectionWindow/CMakeFiles/SelectionWindow.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/rodelph/dev/ImageProc/build-ImageProc-Desktop-Release/CMakeFiles --progress-num=29,30,31 "Built target SelectionWindow"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/rodelph/dev/ImageProc/build-ImageProc-Desktop-Release/CMakeFiles --progress-num=37,38,39 "Built target SelectionWindow"
 .PHONY : SelectionWindow/CMakeFiles/SelectionWindow.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1111,7 +1177,7 @@ SelectionWindow/CMakeFiles/SelectionWindow.dir/clean:
 SelectionWindow/CMakeFiles/SelectionWindow_autogen.dir/all:
 	$(MAKE) -f SelectionWindow/CMakeFiles/SelectionWindow_autogen.dir/build.make SelectionWindow/CMakeFiles/SelectionWindow_autogen.dir/depend
 	$(MAKE) -f SelectionWindow/CMakeFiles/SelectionWindow_autogen.dir/build.make SelectionWindow/CMakeFiles/SelectionWindow_autogen.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/rodelph/dev/ImageProc/build-ImageProc-Desktop-Release/CMakeFiles --progress-num=32 "Built target SelectionWindow_autogen"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/rodelph/dev/ImageProc/build-ImageProc-Desktop-Release/CMakeFiles --progress-num=40 "Built target SelectionWindow_autogen"
 .PHONY : SelectionWindow/CMakeFiles/SelectionWindow_autogen.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1348,6 +1414,168 @@ FiltOption/FreqFilt/CMakeFiles/FreqFilt_autogen.dir/clean:
 .PHONY : FiltOption/FreqFilt/CMakeFiles/FreqFilt_autogen.dir/clean
 
 #=============================================================================
+# Target rules for target FiltOption/MedFilt/CMakeFiles/MedFilt.dir
+
+# All Build rule for target.
+FiltOption/MedFilt/CMakeFiles/MedFilt.dir/all: FiltOption/MedFilt/CMakeFiles/MedFilt_autogen.dir/all
+	$(MAKE) -f FiltOption/MedFilt/CMakeFiles/MedFilt.dir/build.make FiltOption/MedFilt/CMakeFiles/MedFilt.dir/depend
+	$(MAKE) -f FiltOption/MedFilt/CMakeFiles/MedFilt.dir/build.make FiltOption/MedFilt/CMakeFiles/MedFilt.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/rodelph/dev/ImageProc/build-ImageProc-Desktop-Release/CMakeFiles --progress-num=29,30,31 "Built target MedFilt"
+.PHONY : FiltOption/MedFilt/CMakeFiles/MedFilt.dir/all
+
+# Build rule for subdir invocation for target.
+FiltOption/MedFilt/CMakeFiles/MedFilt.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/rodelph/dev/ImageProc/build-ImageProc-Desktop-Release/CMakeFiles 4
+	$(MAKE) -f CMakeFiles/Makefile2 FiltOption/MedFilt/CMakeFiles/MedFilt.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/rodelph/dev/ImageProc/build-ImageProc-Desktop-Release/CMakeFiles 0
+.PHONY : FiltOption/MedFilt/CMakeFiles/MedFilt.dir/rule
+
+# Convenience name for target.
+MedFilt: FiltOption/MedFilt/CMakeFiles/MedFilt.dir/rule
+
+.PHONY : MedFilt
+
+# clean rule for target.
+FiltOption/MedFilt/CMakeFiles/MedFilt.dir/clean:
+	$(MAKE) -f FiltOption/MedFilt/CMakeFiles/MedFilt.dir/build.make FiltOption/MedFilt/CMakeFiles/MedFilt.dir/clean
+.PHONY : FiltOption/MedFilt/CMakeFiles/MedFilt.dir/clean
+
+#=============================================================================
+# Target rules for target FiltOption/MedFilt/CMakeFiles/MedFilt_autogen.dir
+
+# All Build rule for target.
+FiltOption/MedFilt/CMakeFiles/MedFilt_autogen.dir/all:
+	$(MAKE) -f FiltOption/MedFilt/CMakeFiles/MedFilt_autogen.dir/build.make FiltOption/MedFilt/CMakeFiles/MedFilt_autogen.dir/depend
+	$(MAKE) -f FiltOption/MedFilt/CMakeFiles/MedFilt_autogen.dir/build.make FiltOption/MedFilt/CMakeFiles/MedFilt_autogen.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/rodelph/dev/ImageProc/build-ImageProc-Desktop-Release/CMakeFiles --progress-num=32 "Built target MedFilt_autogen"
+.PHONY : FiltOption/MedFilt/CMakeFiles/MedFilt_autogen.dir/all
+
+# Build rule for subdir invocation for target.
+FiltOption/MedFilt/CMakeFiles/MedFilt_autogen.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/rodelph/dev/ImageProc/build-ImageProc-Desktop-Release/CMakeFiles 1
+	$(MAKE) -f CMakeFiles/Makefile2 FiltOption/MedFilt/CMakeFiles/MedFilt_autogen.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/rodelph/dev/ImageProc/build-ImageProc-Desktop-Release/CMakeFiles 0
+.PHONY : FiltOption/MedFilt/CMakeFiles/MedFilt_autogen.dir/rule
+
+# Convenience name for target.
+MedFilt_autogen: FiltOption/MedFilt/CMakeFiles/MedFilt_autogen.dir/rule
+
+.PHONY : MedFilt_autogen
+
+# clean rule for target.
+FiltOption/MedFilt/CMakeFiles/MedFilt_autogen.dir/clean:
+	$(MAKE) -f FiltOption/MedFilt/CMakeFiles/MedFilt_autogen.dir/build.make FiltOption/MedFilt/CMakeFiles/MedFilt_autogen.dir/clean
+.PHONY : FiltOption/MedFilt/CMakeFiles/MedFilt_autogen.dir/clean
+
+#=============================================================================
+# Target rules for target FiltOption/TreshFilt/CMakeFiles/TreshFilt.dir
+
+# All Build rule for target.
+FiltOption/TreshFilt/CMakeFiles/TreshFilt.dir/all: FiltOption/TreshFilt/CMakeFiles/TreshFilt_autogen.dir/all
+	$(MAKE) -f FiltOption/TreshFilt/CMakeFiles/TreshFilt.dir/build.make FiltOption/TreshFilt/CMakeFiles/TreshFilt.dir/depend
+	$(MAKE) -f FiltOption/TreshFilt/CMakeFiles/TreshFilt.dir/build.make FiltOption/TreshFilt/CMakeFiles/TreshFilt.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/rodelph/dev/ImageProc/build-ImageProc-Desktop-Release/CMakeFiles --progress-num=41,42,43 "Built target TreshFilt"
+.PHONY : FiltOption/TreshFilt/CMakeFiles/TreshFilt.dir/all
+
+# Build rule for subdir invocation for target.
+FiltOption/TreshFilt/CMakeFiles/TreshFilt.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/rodelph/dev/ImageProc/build-ImageProc-Desktop-Release/CMakeFiles 4
+	$(MAKE) -f CMakeFiles/Makefile2 FiltOption/TreshFilt/CMakeFiles/TreshFilt.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/rodelph/dev/ImageProc/build-ImageProc-Desktop-Release/CMakeFiles 0
+.PHONY : FiltOption/TreshFilt/CMakeFiles/TreshFilt.dir/rule
+
+# Convenience name for target.
+TreshFilt: FiltOption/TreshFilt/CMakeFiles/TreshFilt.dir/rule
+
+.PHONY : TreshFilt
+
+# clean rule for target.
+FiltOption/TreshFilt/CMakeFiles/TreshFilt.dir/clean:
+	$(MAKE) -f FiltOption/TreshFilt/CMakeFiles/TreshFilt.dir/build.make FiltOption/TreshFilt/CMakeFiles/TreshFilt.dir/clean
+.PHONY : FiltOption/TreshFilt/CMakeFiles/TreshFilt.dir/clean
+
+#=============================================================================
+# Target rules for target FiltOption/TreshFilt/CMakeFiles/TreshFilt_autogen.dir
+
+# All Build rule for target.
+FiltOption/TreshFilt/CMakeFiles/TreshFilt_autogen.dir/all:
+	$(MAKE) -f FiltOption/TreshFilt/CMakeFiles/TreshFilt_autogen.dir/build.make FiltOption/TreshFilt/CMakeFiles/TreshFilt_autogen.dir/depend
+	$(MAKE) -f FiltOption/TreshFilt/CMakeFiles/TreshFilt_autogen.dir/build.make FiltOption/TreshFilt/CMakeFiles/TreshFilt_autogen.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/rodelph/dev/ImageProc/build-ImageProc-Desktop-Release/CMakeFiles --progress-num=44 "Built target TreshFilt_autogen"
+.PHONY : FiltOption/TreshFilt/CMakeFiles/TreshFilt_autogen.dir/all
+
+# Build rule for subdir invocation for target.
+FiltOption/TreshFilt/CMakeFiles/TreshFilt_autogen.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/rodelph/dev/ImageProc/build-ImageProc-Desktop-Release/CMakeFiles 1
+	$(MAKE) -f CMakeFiles/Makefile2 FiltOption/TreshFilt/CMakeFiles/TreshFilt_autogen.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/rodelph/dev/ImageProc/build-ImageProc-Desktop-Release/CMakeFiles 0
+.PHONY : FiltOption/TreshFilt/CMakeFiles/TreshFilt_autogen.dir/rule
+
+# Convenience name for target.
+TreshFilt_autogen: FiltOption/TreshFilt/CMakeFiles/TreshFilt_autogen.dir/rule
+
+.PHONY : TreshFilt_autogen
+
+# clean rule for target.
+FiltOption/TreshFilt/CMakeFiles/TreshFilt_autogen.dir/clean:
+	$(MAKE) -f FiltOption/TreshFilt/CMakeFiles/TreshFilt_autogen.dir/build.make FiltOption/TreshFilt/CMakeFiles/TreshFilt_autogen.dir/clean
+.PHONY : FiltOption/TreshFilt/CMakeFiles/TreshFilt_autogen.dir/clean
+
+#=============================================================================
+# Target rules for target FiltOption/SegmFilt/CMakeFiles/SegmFilt.dir
+
+# All Build rule for target.
+FiltOption/SegmFilt/CMakeFiles/SegmFilt.dir/all: FiltOption/SegmFilt/CMakeFiles/SegmFilt_autogen.dir/all
+	$(MAKE) -f FiltOption/SegmFilt/CMakeFiles/SegmFilt.dir/build.make FiltOption/SegmFilt/CMakeFiles/SegmFilt.dir/depend
+	$(MAKE) -f FiltOption/SegmFilt/CMakeFiles/SegmFilt.dir/build.make FiltOption/SegmFilt/CMakeFiles/SegmFilt.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/rodelph/dev/ImageProc/build-ImageProc-Desktop-Release/CMakeFiles --progress-num=33,34,35 "Built target SegmFilt"
+.PHONY : FiltOption/SegmFilt/CMakeFiles/SegmFilt.dir/all
+
+# Build rule for subdir invocation for target.
+FiltOption/SegmFilt/CMakeFiles/SegmFilt.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/rodelph/dev/ImageProc/build-ImageProc-Desktop-Release/CMakeFiles 4
+	$(MAKE) -f CMakeFiles/Makefile2 FiltOption/SegmFilt/CMakeFiles/SegmFilt.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/rodelph/dev/ImageProc/build-ImageProc-Desktop-Release/CMakeFiles 0
+.PHONY : FiltOption/SegmFilt/CMakeFiles/SegmFilt.dir/rule
+
+# Convenience name for target.
+SegmFilt: FiltOption/SegmFilt/CMakeFiles/SegmFilt.dir/rule
+
+.PHONY : SegmFilt
+
+# clean rule for target.
+FiltOption/SegmFilt/CMakeFiles/SegmFilt.dir/clean:
+	$(MAKE) -f FiltOption/SegmFilt/CMakeFiles/SegmFilt.dir/build.make FiltOption/SegmFilt/CMakeFiles/SegmFilt.dir/clean
+.PHONY : FiltOption/SegmFilt/CMakeFiles/SegmFilt.dir/clean
+
+#=============================================================================
+# Target rules for target FiltOption/SegmFilt/CMakeFiles/SegmFilt_autogen.dir
+
+# All Build rule for target.
+FiltOption/SegmFilt/CMakeFiles/SegmFilt_autogen.dir/all:
+	$(MAKE) -f FiltOption/SegmFilt/CMakeFiles/SegmFilt_autogen.dir/build.make FiltOption/SegmFilt/CMakeFiles/SegmFilt_autogen.dir/depend
+	$(MAKE) -f FiltOption/SegmFilt/CMakeFiles/SegmFilt_autogen.dir/build.make FiltOption/SegmFilt/CMakeFiles/SegmFilt_autogen.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/rodelph/dev/ImageProc/build-ImageProc-Desktop-Release/CMakeFiles --progress-num=36 "Built target SegmFilt_autogen"
+.PHONY : FiltOption/SegmFilt/CMakeFiles/SegmFilt_autogen.dir/all
+
+# Build rule for subdir invocation for target.
+FiltOption/SegmFilt/CMakeFiles/SegmFilt_autogen.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/rodelph/dev/ImageProc/build-ImageProc-Desktop-Release/CMakeFiles 1
+	$(MAKE) -f CMakeFiles/Makefile2 FiltOption/SegmFilt/CMakeFiles/SegmFilt_autogen.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/rodelph/dev/ImageProc/build-ImageProc-Desktop-Release/CMakeFiles 0
+.PHONY : FiltOption/SegmFilt/CMakeFiles/SegmFilt_autogen.dir/rule
+
+# Convenience name for target.
+SegmFilt_autogen: FiltOption/SegmFilt/CMakeFiles/SegmFilt_autogen.dir/rule
+
+.PHONY : SegmFilt_autogen
+
+# clean rule for target.
+FiltOption/SegmFilt/CMakeFiles/SegmFilt_autogen.dir/clean:
+	$(MAKE) -f FiltOption/SegmFilt/CMakeFiles/SegmFilt_autogen.dir/build.make FiltOption/SegmFilt/CMakeFiles/SegmFilt_autogen.dir/clean
+.PHONY : FiltOption/SegmFilt/CMakeFiles/SegmFilt_autogen.dir/clean
+
+#=============================================================================
 # Target rules for target HistOption/CMakeFiles/HistOption.dir
 
 # All Build rule for target.
@@ -1411,6 +1639,9 @@ ProjectEx/CMakeFiles/ImageProc.dir/all: FiltOption/CMakeFiles/FiltOption.dir/all
 ProjectEx/CMakeFiles/ImageProc.dir/all: FiltOption/HighPassFilt/CMakeFiles/HighPassFilt.dir/all
 ProjectEx/CMakeFiles/ImageProc.dir/all: FiltOption/LowPassFilt/CMakeFiles/LowPassFilt.dir/all
 ProjectEx/CMakeFiles/ImageProc.dir/all: FiltOption/FreqFilt/CMakeFiles/FreqFilt.dir/all
+ProjectEx/CMakeFiles/ImageProc.dir/all: FiltOption/MedFilt/CMakeFiles/MedFilt.dir/all
+ProjectEx/CMakeFiles/ImageProc.dir/all: FiltOption/TreshFilt/CMakeFiles/TreshFilt.dir/all
+ProjectEx/CMakeFiles/ImageProc.dir/all: FiltOption/SegmFilt/CMakeFiles/SegmFilt.dir/all
 ProjectEx/CMakeFiles/ImageProc.dir/all: HistOption/CMakeFiles/HistOption.dir/all
 ProjectEx/CMakeFiles/ImageProc.dir/all: ProjectEx/CMakeFiles/ImageProc_autogen.dir/all
 	$(MAKE) -f ProjectEx/CMakeFiles/ImageProc.dir/build.make ProjectEx/CMakeFiles/ImageProc.dir/depend
@@ -1420,7 +1651,7 @@ ProjectEx/CMakeFiles/ImageProc.dir/all: ProjectEx/CMakeFiles/ImageProc_autogen.d
 
 # Build rule for subdir invocation for target.
 ProjectEx/CMakeFiles/ImageProc.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/rodelph/dev/ImageProc/build-ImageProc-Desktop-Release/CMakeFiles 32
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/rodelph/dev/ImageProc/build-ImageProc-Desktop-Release/CMakeFiles 44
 	$(MAKE) -f CMakeFiles/Makefile2 ProjectEx/CMakeFiles/ImageProc.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/rodelph/dev/ImageProc/build-ImageProc-Desktop-Release/CMakeFiles 0
 .PHONY : ProjectEx/CMakeFiles/ImageProc.dir/rule
@@ -1445,6 +1676,9 @@ ProjectEx/CMakeFiles/ImageProc_autogen.dir/all: FiltOption/CMakeFiles/FiltOption
 ProjectEx/CMakeFiles/ImageProc_autogen.dir/all: FiltOption/HighPassFilt/CMakeFiles/HighPassFilt.dir/all
 ProjectEx/CMakeFiles/ImageProc_autogen.dir/all: FiltOption/LowPassFilt/CMakeFiles/LowPassFilt.dir/all
 ProjectEx/CMakeFiles/ImageProc_autogen.dir/all: FiltOption/FreqFilt/CMakeFiles/FreqFilt.dir/all
+ProjectEx/CMakeFiles/ImageProc_autogen.dir/all: FiltOption/MedFilt/CMakeFiles/MedFilt.dir/all
+ProjectEx/CMakeFiles/ImageProc_autogen.dir/all: FiltOption/TreshFilt/CMakeFiles/TreshFilt.dir/all
+ProjectEx/CMakeFiles/ImageProc_autogen.dir/all: FiltOption/SegmFilt/CMakeFiles/SegmFilt.dir/all
 ProjectEx/CMakeFiles/ImageProc_autogen.dir/all: HistOption/CMakeFiles/HistOption.dir/all
 	$(MAKE) -f ProjectEx/CMakeFiles/ImageProc_autogen.dir/build.make ProjectEx/CMakeFiles/ImageProc_autogen.dir/depend
 	$(MAKE) -f ProjectEx/CMakeFiles/ImageProc_autogen.dir/build.make ProjectEx/CMakeFiles/ImageProc_autogen.dir/build
@@ -1453,7 +1687,7 @@ ProjectEx/CMakeFiles/ImageProc_autogen.dir/all: HistOption/CMakeFiles/HistOption
 
 # Build rule for subdir invocation for target.
 ProjectEx/CMakeFiles/ImageProc_autogen.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/rodelph/dev/ImageProc/build-ImageProc-Desktop-Release/CMakeFiles 29
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/rodelph/dev/ImageProc/build-ImageProc-Desktop-Release/CMakeFiles 41
 	$(MAKE) -f CMakeFiles/Makefile2 ProjectEx/CMakeFiles/ImageProc_autogen.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/rodelph/dev/ImageProc/build-ImageProc-Desktop-Release/CMakeFiles 0
 .PHONY : ProjectEx/CMakeFiles/ImageProc_autogen.dir/rule

@@ -664,6 +664,84 @@ FreqFilt_autogen/fast:
 .PHONY : FreqFilt_autogen/fast
 
 #=============================================================================
+# Target rules for targets named MedFilt
+
+# Build rule for target.
+MedFilt: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 MedFilt
+.PHONY : MedFilt
+
+# fast build rule for target.
+MedFilt/fast:
+	$(MAKE) -f FiltOption/MedFilt/CMakeFiles/MedFilt.dir/build.make FiltOption/MedFilt/CMakeFiles/MedFilt.dir/build
+.PHONY : MedFilt/fast
+
+#=============================================================================
+# Target rules for targets named MedFilt_autogen
+
+# Build rule for target.
+MedFilt_autogen: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 MedFilt_autogen
+.PHONY : MedFilt_autogen
+
+# fast build rule for target.
+MedFilt_autogen/fast:
+	$(MAKE) -f FiltOption/MedFilt/CMakeFiles/MedFilt_autogen.dir/build.make FiltOption/MedFilt/CMakeFiles/MedFilt_autogen.dir/build
+.PHONY : MedFilt_autogen/fast
+
+#=============================================================================
+# Target rules for targets named TreshFilt
+
+# Build rule for target.
+TreshFilt: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 TreshFilt
+.PHONY : TreshFilt
+
+# fast build rule for target.
+TreshFilt/fast:
+	$(MAKE) -f FiltOption/TreshFilt/CMakeFiles/TreshFilt.dir/build.make FiltOption/TreshFilt/CMakeFiles/TreshFilt.dir/build
+.PHONY : TreshFilt/fast
+
+#=============================================================================
+# Target rules for targets named TreshFilt_autogen
+
+# Build rule for target.
+TreshFilt_autogen: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 TreshFilt_autogen
+.PHONY : TreshFilt_autogen
+
+# fast build rule for target.
+TreshFilt_autogen/fast:
+	$(MAKE) -f FiltOption/TreshFilt/CMakeFiles/TreshFilt_autogen.dir/build.make FiltOption/TreshFilt/CMakeFiles/TreshFilt_autogen.dir/build
+.PHONY : TreshFilt_autogen/fast
+
+#=============================================================================
+# Target rules for targets named SegmFilt
+
+# Build rule for target.
+SegmFilt: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 SegmFilt
+.PHONY : SegmFilt
+
+# fast build rule for target.
+SegmFilt/fast:
+	$(MAKE) -f FiltOption/SegmFilt/CMakeFiles/SegmFilt.dir/build.make FiltOption/SegmFilt/CMakeFiles/SegmFilt.dir/build
+.PHONY : SegmFilt/fast
+
+#=============================================================================
+# Target rules for targets named SegmFilt_autogen
+
+# Build rule for target.
+SegmFilt_autogen: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 SegmFilt_autogen
+.PHONY : SegmFilt_autogen
+
+# fast build rule for target.
+SegmFilt_autogen/fast:
+	$(MAKE) -f FiltOption/SegmFilt/CMakeFiles/SegmFilt_autogen.dir/build.make FiltOption/SegmFilt/CMakeFiles/SegmFilt_autogen.dir/build
+.PHONY : SegmFilt_autogen/fast
+
+#=============================================================================
 # Target rules for targets named HistOption
 
 # Build rule for target.
@@ -766,6 +844,12 @@ help:
 	@echo "... LowPassFilt_autogen"
 	@echo "... FreqFilt"
 	@echo "... FreqFilt_autogen"
+	@echo "... MedFilt"
+	@echo "... MedFilt_autogen"
+	@echo "... TreshFilt"
+	@echo "... TreshFilt_autogen"
+	@echo "... SegmFilt"
+	@echo "... SegmFilt_autogen"
 	@echo "... HistOption"
 	@echo "... HistOption_autogen"
 	@echo "... ImageProc"

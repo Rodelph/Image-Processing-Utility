@@ -42,6 +42,9 @@ if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   include("/home/rodelph/dev/ImageProc/build-ImageProc-Desktop-Release/FiltOption/HighPassFilt/cmake_install.cmake")
   include("/home/rodelph/dev/ImageProc/build-ImageProc-Desktop-Release/FiltOption/LowPassFilt/cmake_install.cmake")
   include("/home/rodelph/dev/ImageProc/build-ImageProc-Desktop-Release/FiltOption/FreqFilt/cmake_install.cmake")
+  include("/home/rodelph/dev/ImageProc/build-ImageProc-Desktop-Release/FiltOption/MedFilt/cmake_install.cmake")
+  include("/home/rodelph/dev/ImageProc/build-ImageProc-Desktop-Release/FiltOption/TreshFilt/cmake_install.cmake")
+  include("/home/rodelph/dev/ImageProc/build-ImageProc-Desktop-Release/FiltOption/SegmFilt/cmake_install.cmake")
 
 endif()
 

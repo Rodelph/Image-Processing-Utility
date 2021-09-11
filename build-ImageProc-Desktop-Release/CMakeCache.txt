@@ -294,7 +294,7 @@ CUDA_GENERATED_OUTPUT_DIR:PATH=
 CUDA_HOST_COMPILATION_CPP:BOOL=ON
 
 //Host side compiler used by NVCC
-CUDA_HOST_COMPILER:FILEPATH=/bin/x86_64-linux-gnu-gcc-9
+CUDA_HOST_COMPILER:FILEPATH=
 
 //Path to a program.
 CUDA_NVCC_EXECUTABLE:FILEPATH=/usr/local/cuda/bin/nvcc
@@ -463,6 +463,9 @@ MEMORYCHECK_COMMAND:FILEPATH=MEMORYCHECK_COMMAND-NOTFOUND
 //File that contains suppressions for the memory checker
 MEMORYCHECK_SUPPRESSIONS_FILE:FILEPATH=
 
+//Dependencies for the target
+MedFilt_LIB_DEPENDS:STATIC=general;Qt5::Widgets;general;Qt5::Core;general;Qt5::Gui;
+
 //The directory containing a CMake configuration file for OpenCV.
 OpenCV_DIR:PATH=/usr/local/lib/cmake/opencv4
 
@@ -494,7 +497,13 @@ SLURM_SRUN_COMMAND:FILEPATH=SLURM_SRUN_COMMAND-NOTFOUND
 SVNCOMMAND:FILEPATH=SVNCOMMAND-NOTFOUND
 
 //Dependencies for the target
+SegmFilt_LIB_DEPENDS:STATIC=general;Qt5::Widgets;general;Qt5::Core;general;Qt5::Gui;
+
+//Dependencies for the target
 SelectionWindow_LIB_DEPENDS:STATIC=general;Qt5::Widgets;general;Qt5::Core;general;Qt5::Gui;
+
+//Dependencies for the target
+TreshFilt_LIB_DEPENDS:STATIC=general;Qt5::Widgets;general;Qt5::Core;general;Qt5::Gui;
 
 
 ########################
@@ -597,7 +606,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=9
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=12
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP

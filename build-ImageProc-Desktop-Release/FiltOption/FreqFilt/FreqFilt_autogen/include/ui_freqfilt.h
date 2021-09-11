@@ -48,7 +48,7 @@ public:
         freqfilt->setMaximumSize(QSize(1366, 720));
         horizontalLayoutWidget = new QWidget(freqfilt);
         horizontalLayoutWidget->setObjectName(QString::fromUtf8("horizontalLayoutWidget"));
-        horizontalLayoutWidget->setGeometry(QRect(20, 90, 1151, 621));
+        horizontalLayoutWidget->setGeometry(QRect(20, 90, 1201, 621));
         horizontalLayout = new QHBoxLayout(horizontalLayoutWidget);
         horizontalLayout->setObjectName(QString::fromUtf8("horizontalLayout"));
         horizontalLayout->setContentsMargins(0, 0, 0, 0);
@@ -62,7 +62,7 @@ public:
         foldBtn = new QPushButton(horizontalLayoutWidget);
         foldBtn->setObjectName(QString::fromUtf8("foldBtn"));
 
-        verticalLayout->addWidget(foldBtn);
+        verticalLayout->addWidget(foldBtn, 0, Qt::AlignHCenter);
 
 
         horizontalLayout->addLayout(verticalLayout);
@@ -77,7 +77,7 @@ public:
         transBtn = new QPushButton(horizontalLayoutWidget);
         transBtn->setObjectName(QString::fromUtf8("transBtn"));
 
-        verticalLayout_2->addWidget(transBtn);
+        verticalLayout_2->addWidget(transBtn, 0, Qt::AlignHCenter);
 
 
         horizontalLayout->addLayout(verticalLayout_2);
@@ -104,7 +104,7 @@ public:
         imageFoldLbl->setText(QString());
         foldBtn->setText(QApplication::translate("freqfilt", "Folder", nullptr));
         imageTransLbl->setText(QString());
-        transBtn->setText(QApplication::translate("freqfilt", "Tramsform", nullptr));
+        transBtn->setText(QApplication::translate("freqfilt", "Transform", nullptr));
         retBtn->setText(QApplication::translate("freqfilt", "Return", nullptr));
         label_3->setText(QApplication::translate("freqfilt", "Frequency Filter", nullptr));
     } // retranslateUi

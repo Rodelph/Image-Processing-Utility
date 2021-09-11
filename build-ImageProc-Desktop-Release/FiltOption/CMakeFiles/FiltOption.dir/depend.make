@@ -112,6 +112,9 @@ FiltOption/CMakeFiles/FiltOption.dir/FiltOption_autogen/mocs_compilation.cpp.o: 
 FiltOption/CMakeFiles/FiltOption.dir/src/FiltOption/filterswindow.cpp.o: ../FiltOption/FreqFilt/src/FreqFilt/freqfilt.h
 FiltOption/CMakeFiles/FiltOption.dir/src/FiltOption/filterswindow.cpp.o: ../FiltOption/HighPassFilt/src/HighPassFilt/highpassfilt.h
 FiltOption/CMakeFiles/FiltOption.dir/src/FiltOption/filterswindow.cpp.o: ../FiltOption/LowPassFilt/src/LowPassFilt/lowpassfilt.h
+FiltOption/CMakeFiles/FiltOption.dir/src/FiltOption/filterswindow.cpp.o: ../FiltOption/MedFilt/src/MedFilt/medfilt.h
+FiltOption/CMakeFiles/FiltOption.dir/src/FiltOption/filterswindow.cpp.o: ../FiltOption/SegmFilt/src/SegmFilt/segmfilt.h
+FiltOption/CMakeFiles/FiltOption.dir/src/FiltOption/filterswindow.cpp.o: ../FiltOption/TreshFilt/src/TreshFilt/treshfilt.h
 FiltOption/CMakeFiles/FiltOption.dir/src/FiltOption/filterswindow.cpp.o: ../FiltOption/src/FiltOption/filterswindow.cpp
 FiltOption/CMakeFiles/FiltOption.dir/src/FiltOption/filterswindow.cpp.o: ../FiltOption/src/FiltOption/filterswindow.h
 FiltOption/CMakeFiles/FiltOption.dir/src/FiltOption/filterswindow.cpp.o: ../HistOption/src/HistOption/histogram.h

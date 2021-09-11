@@ -7,3 +7,6 @@
 subdirs("HighPassFilt")
 subdirs("LowPassFilt")
 subdirs("FreqFilt")
+subdirs("MedFilt")
+subdirs("TreshFilt")
+subdirs("SegmFilt")
