@@ -1,7 +1,6 @@
 #include "highpassfilt.h"
 #include "ui_highpassfilt.h"
 #include "../../../FiltOption/src/FiltOption/filterswindow.h"
-#include <iostream>
 
 highpassfilt::highpassfilt(QWidget *parent) : QDialog(parent),
                                               ui(new Ui::highpassfilt)
@@ -23,10 +22,10 @@ void highpassfilt::on_retBtn_clicked()
 QString highpassfilt::on_foldBtn_clicked()
 {
     path = QFileDialog::getOpenFileName ( this,
-                                                "Open Image File",
-                                                pathToImages + "Images/**",
-                                                "Images (*.png *.jpg *.jpeg)"
-                                                );       
+                                          "Open Image File",
+                                          pathToImages + "Images/**",
+                                          "Images (*.png *.jpg *.jpeg)"
+                                        );       
     QPixmap map(path);
     width = ui->imgFoldLbl->width();
     height = ui->imgFoldLbl->height();
@@ -39,14 +38,22 @@ void highpassfilt::on_transformBtn_clicked()
     cv::Mat img = cv::imread(path.toStdString(), cv::IMREAD_GRAYSCALE);
     cv::Mat dst;
     data = QString::fromStdString(pathToSave);
-
-    cv::filter2D(img, dst, img.depth(), make_Kernel());
-        
-    cv::imwrite(pathToSave + "SavedImages/resultHpFilter.png", dst);
-    QPixmap resTransform(data+ "SavedImages/resultHpFilter.png");
-    width = ui->imageTrsLbl->width();
-    height = ui->imageTrsLbl->height();
-    ui->imageTrsLbl->setPixmap(resTransform.scaled(width, height, Qt::KeepAspectRatio));
+    
+    try
+    {
+        cv::filter2D(img, dst, img.depth(), make_Kernel());
+        cv::imwrite(pathToSave + "SavedImages/resultHpFilter.png", dst);
+        QPixmap resTransform(data+ "SavedImages/resultHpFilter.png");
+        width = ui->imageTrsLbl->width();
+        height = ui->imageTrsLbl->height();
+        ui->imageTrsLbl->setPixmap(resTransform.scaled(width, height, Qt::KeepAspectRatio));
+    }
+    catch(cv::Exception& e)
+    {
+        errMsg = new QErrorMessage(this);
+        errMsg->showMessage("Please chose your image by clicking "
+                            "on the folder button!!");
+    }
 }
 
 void highpassfilt::on_confBtn_clicked() { make_Kernel();}

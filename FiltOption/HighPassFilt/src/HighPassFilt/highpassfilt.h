@@ -3,7 +3,7 @@
 
 #include <QDialog>
 #include <QFileDialog>
-#include <QMessageBox>
+#include <QErrorMessage>
 #include <QPixmap>
 #include <opencv2/imgcodecs.hpp>
 #include <opencv2/highgui.hpp>
@@ -34,7 +34,7 @@ private:
     const QString pathToImages = QDir::currentPath() + "/resources/";
     const std::string pathToSave = pathToImages.toStdString();
     QString data;
-
+    QErrorMessage* errMsg;
     cv::Mat kernel;
 };
 

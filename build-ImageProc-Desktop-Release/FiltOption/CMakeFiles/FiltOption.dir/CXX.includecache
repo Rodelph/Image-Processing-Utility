@@ -17,7 +17,7 @@ QDialog
 -
 QFileDialog
 -
-QMessageBox
+QErrorMessage
 -
 QPixmap
 -
@@ -1148,6 +1148,10 @@ qapplication.h
 qdialog.h
 /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qdialog.h
 
+/usr/include/x86_64-linux-gnu/qt5/QtWidgets/QErrorMessage
+qerrormessage.h
+/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qerrormessage.h
+
 /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QFileDialog
 qfiledialog.h
 /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qfiledialog.h
@@ -1159,10 +1163,6 @@ qboxlayout.h
 /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QLabel
 qlabel.h
 /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qlabel.h
-
-/usr/include/x86_64-linux-gnu/qt5/QtWidgets/QMessageBox
-qmessagebox.h
-/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qmessagebox.h
 
 /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QPushButton
 qpushbutton.h
@@ -1224,6 +1224,12 @@ QtWidgets/qwidget.h
 QtWidgets/qtwidgetsglobal.h
 -
 QtWidgets/qwidget.h
+-
+
+/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qerrormessage.h
+QtWidgets/qtwidgetsglobal.h
+-
+QtWidgets/qdialog.h
 -
 
 /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qfiledialog.h
@@ -1288,12 +1294,6 @@ QtWidgets/qsizepolicy.h
 QtCore/qrect.h
 -
 limits.h
--
-
-/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qmessagebox.h
-QtWidgets/qtwidgetsglobal.h
--
-QtWidgets/qdialog.h
 -
 
 /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qpushbutton.h
