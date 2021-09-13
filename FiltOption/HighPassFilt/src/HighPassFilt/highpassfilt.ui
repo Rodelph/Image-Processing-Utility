@@ -130,6 +130,9 @@
         <property name="minimum">
          <number>-99</number>
         </property>
+        <property name="value">
+         <number>-1</number>
+        </property>
        </widget>
       </item>
       <item>
@@ -138,7 +141,7 @@
          <number>-99</number>
         </property>
         <property name="value">
-         <number>0</number>
+         <number>-1</number>
         </property>
        </widget>
       </item>
@@ -146,6 +149,9 @@
        <widget class="QSpinBox" name="spinBox_3">
         <property name="minimum">
          <number>-99</number>
+        </property>
+        <property name="value">
+         <number>-1</number>
         </property>
        </widget>
       </item>
@@ -159,7 +165,7 @@
          <number>-99</number>
         </property>
         <property name="value">
-         <number>0</number>
+         <number>-1</number>
         </property>
        </widget>
       </item>
@@ -169,7 +175,7 @@
          <number>-99</number>
         </property>
         <property name="value">
-         <number>0</number>
+         <number>8</number>
         </property>
        </widget>
       </item>
@@ -179,7 +185,7 @@
          <number>-99</number>
         </property>
         <property name="value">
-         <number>0</number>
+         <number>-1</number>
         </property>
        </widget>
       </item>
@@ -192,6 +198,9 @@
         <property name="minimum">
          <number>-99</number>
         </property>
+        <property name="value">
+         <number>-1</number>
+        </property>
        </widget>
       </item>
       <item>
@@ -200,7 +209,7 @@
          <number>-99</number>
         </property>
         <property name="value">
-         <number>0</number>
+         <number>-1</number>
         </property>
        </widget>
       </item>
@@ -208,6 +217,9 @@
        <widget class="QSpinBox" name="spinBox_9">
         <property name="minimum">
          <number>-99</number>
+        </property>
+        <property name="value">
+         <number>-1</number>
         </property>
        </widget>
       </item>

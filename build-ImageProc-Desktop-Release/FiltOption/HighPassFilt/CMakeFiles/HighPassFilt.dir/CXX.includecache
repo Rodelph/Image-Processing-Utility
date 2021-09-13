@@ -6,6 +6,22 @@
 
 #IncludeRegexTransform: 
 
+../FiltOption/HighPassFilt/src/HighPassFilt/highpassfilt.h
+QDialog
+-
+QFileDialog
+-
+QMessageBox
+-
+QPixmap
+-
+opencv2/imgcodecs.hpp
+-
+opencv2/highgui.hpp
+-
+opencv2/imgproc.hpp
+-
+
 ../FiltOption/src/FiltOption/filterswindow.h
 QDialog
 -
@@ -35,6 +51,18 @@ opencv2/highgui.hpp
 -
 opencv2/imgproc.hpp
 -
+
+/home/rodelph/dev/ImageProc/build-ImageProc-Desktop-Release/FiltOption/HighPassFilt/HighPassFilt_autogen/KW5O7YXN3I/moc_highpassfilt.cpp
+src/HighPassFilt/highpassfilt.h
+/home/rodelph/dev/ImageProc/build-ImageProc-Desktop-Release/FiltOption/HighPassFilt/HighPassFilt_autogen/KW5O7YXN3I/src/HighPassFilt/highpassfilt.h
+QtCore/qbytearray.h
+-
+QtCore/qmetatype.h
+-
+
+/home/rodelph/dev/ImageProc/build-ImageProc-Desktop-Release/FiltOption/HighPassFilt/HighPassFilt_autogen/mocs_compilation.cpp
+KW5O7YXN3I/moc_highpassfilt.cpp
+/home/rodelph/dev/ImageProc/build-ImageProc-Desktop-Release/FiltOption/HighPassFilt/HighPassFilt_autogen/KW5O7YXN3I/moc_highpassfilt.cpp
 
 /usr/include/x86_64-linux-gnu/qt5/QtCore/QVariant
 qvariant.h

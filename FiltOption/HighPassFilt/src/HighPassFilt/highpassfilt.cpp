@@ -22,11 +22,11 @@ void highpassfilt::on_retBtn_clicked()
 
 QString highpassfilt::on_foldBtn_clicked()
 {
-    path = QFileDialog::getOpenFileName (this,
-                                        "Open Image File",
-                                        pathToImages + "Images/**",
-                                        "Images (*.png *.jpg *.jpeg)"
-                                        );       
+    path = QFileDialog::getOpenFileName ( this,
+                                                "Open Image File",
+                                                pathToImages + "Images/**",
+                                                "Images (*.png *.jpg *.jpeg)"
+                                                );       
     QPixmap map(path);
     width = ui->imgFoldLbl->width();
     height = ui->imgFoldLbl->height();
@@ -39,8 +39,8 @@ void highpassfilt::on_transformBtn_clicked()
     cv::Mat img = cv::imread(path.toStdString(), cv::IMREAD_GRAYSCALE);
     cv::Mat dst;
     data = QString::fromStdString(pathToSave);
-    
-    cv::filter2D(img, dst, img.depth(), kernel);
+
+    cv::filter2D(img, dst, img.depth(), make_Kernel());
         
     cv::imwrite(pathToSave + "SavedImages/resultHpFilter.png", dst);
     QPixmap resTransform(data+ "SavedImages/resultHpFilter.png");
@@ -49,20 +49,13 @@ void highpassfilt::on_transformBtn_clicked()
     ui->imageTrsLbl->setPixmap(resTransform.scaled(width, height, Qt::KeepAspectRatio));
 }
 
-void highpassfilt::on_confBtn_clicked()
+void highpassfilt::on_confBtn_clicked() { make_Kernel();}
+
+cv::Mat highpassfilt::make_Kernel()
 {
-
-    kernel = (cv::Mat_<char>(3,3) << mat1, mat2, mat3,
-                                     mat4, mat5, mat6,
-                                     mat7, mat8, mat9 );
+    kernel = (cv::Mat_<int>(3,3) << ui->spinBox_1->value(), ui->spinBox_2->value(), ui->spinBox_3->value(),
+                                    ui->spinBox_4->value(), ui->spinBox_5->value(), ui->spinBox_6->value(),
+                                    ui->spinBox_7->value(), ui->spinBox_8->value(), ui->spinBox_9->value() 
+                                    );
+    return kernel;
 }
-
-int highpassfilt::on_spinBox_1_valueChanged() { return mat1 = ui->spinBox_1->value(); }
-int highpassfilt::on_spinBox_2_valueChanged() { return mat2 = ui->spinBox_2->value(); }
-int highpassfilt::on_spinBox_3_valueChanged() { return mat3 = ui->spinBox_3->value(); }
-int highpassfilt::on_spinBox_4_valueChanged() { return mat4 = ui->spinBox_4->value(); }
-int highpassfilt::on_spinBox_5_valueChanged() { return mat5 = ui->spinBox_5->value(); }
-int highpassfilt::on_spinBox_6_valueChanged() { return mat6 = ui->spinBox_6->value(); }
-int highpassfilt::on_spinBox_7_valueChanged() { return mat7 = ui->spinBox_7->value(); }
-int highpassfilt::on_spinBox_8_valueChanged() { return mat8 = ui->spinBox_8->value(); }
-int highpassfilt::on_spinBox_9_valueChanged() { return mat9 = ui->spinBox_9->value(); }
