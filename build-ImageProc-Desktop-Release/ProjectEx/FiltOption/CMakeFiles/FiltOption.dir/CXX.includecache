@@ -17,6 +17,8 @@ QDialog
 -
 QFileDialog
 -
+QMessageBox
+-
 QPixmap
 -
 opencv2/imgcodecs.hpp
@@ -1158,6 +1160,10 @@ qboxlayout.h
 qlabel.h
 /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qlabel.h
 
+/usr/include/x86_64-linux-gnu/qt5/QtWidgets/QMessageBox
+qmessagebox.h
+/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qmessagebox.h
+
 /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QPushButton
 qpushbutton.h
 /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qpushbutton.h
@@ -1282,6 +1288,12 @@ QtWidgets/qsizepolicy.h
 QtCore/qrect.h
 -
 limits.h
+-
+
+/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qmessagebox.h
+QtWidgets/qtwidgetsglobal.h
+-
+QtWidgets/qdialog.h
 -
 
 /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qpushbutton.h

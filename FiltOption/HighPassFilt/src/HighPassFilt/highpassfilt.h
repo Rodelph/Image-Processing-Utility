@@ -3,6 +3,7 @@
 
 #include <QDialog>
 #include <QFileDialog>
+#include <QMessageBox>
 #include <QPixmap>
 #include <opencv2/imgcodecs.hpp>
 #include <opencv2/highgui.hpp>
@@ -19,9 +20,21 @@ public:
     ~highpassfilt();
 
 private slots :
-    void on_retBtn_clicked();
     QString on_foldBtn_clicked();
+
+    void on_retBtn_clicked();
     void on_transformBtn_clicked();
+    void on_confBtn_clicked();
+
+    int on_spinBox_1_valueChanged();
+    int on_spinBox_2_valueChanged();
+    int on_spinBox_3_valueChanged();
+    int on_spinBox_4_valueChanged();
+    int on_spinBox_5_valueChanged();
+    int on_spinBox_6_valueChanged();
+    int on_spinBox_7_valueChanged();
+    int on_spinBox_8_valueChanged();
+    int on_spinBox_9_valueChanged();
 
 private:
     Ui::highpassfilt *ui;
@@ -30,6 +43,12 @@ private:
     QString pathToImages = QDir::currentPath() + "/resources/";
     std::string pathToSave = pathToImages.toStdString();
     QString data;
+    char mat1, mat2, mat3,
+         mat4, mat5, mat6,
+         mat7, mat8, mat9; 
+
+    cv::Mat kernel;
+    QMessageBox *box;
 };
 
 #endif // HIGHPASSFILT_H

@@ -1,20 +1,40 @@
-Start testing: Sep 11 19:51 +01
+Start testing: Sep 13 14:29 +01
 ----------------------------------------------------------
 1/1 Testing: Tester
 1/1 Test: Tester
 Command: "/home/rodelph/dev/ImageProc/build-ImageProc-Desktop-Release/ProjectEx/ProjectEx/ImageProc"
 Directory: /home/rodelph/dev/ImageProc/build-ImageProc-Desktop-Release/ProjectEx/ProjectEx
-"Tester" start time: Sep 11 19:51 +01
+"Tester" start time: Sep 13 14:29 +01
 Output:
 ----------------------------------------------------------
+QMetaObject::connectSlotsByName: No matching signal for on_mat1_valueChanged()
+QMetaObject::connectSlotsByName: No matching signal for on_mat2_valueChanged()
+QMetaObject::connectSlotsByName: No matching signal for on_mat3_valueChanged()
+QMetaObject::connectSlotsByName: No matching signal for on_mat4_valueChanged()
+QMetaObject::connectSlotsByName: No matching signal for on_mat5_valueChanged()
+QMetaObject::connectSlotsByName: No matching signal for on_mat6_valueChanged()
+QMetaObject::connectSlotsByName: No matching signal for on_mat7_valueChanged()
+QMetaObject::connectSlotsByName: No matching signal for on_mat8_valueChanged()
+QMetaObject::connectSlotsByName: No matching signal for on_mat9_valueChanged()
 QPixmap::scaled: Pixmap is a null pixmap
-/home/rodelph/dev/ImageProc/build-ImageProc-Desktop-Release/ProjectEx/resources/Images
+QPixmap::scaled: Pixmap is a null pixmap
+QPixmap::scaled: Pixmap is a null pixmap
+QPixmap::scaled: Pixmap is a null pixmap
+QPixmap::scaled: Pixmap is a null pixmap
+QPixmap::scaled: Pixmap is a null pixmap
+QPixmap::scaled: Pixmap is a null pixmap
+QPixmap::scaled: Pixmap is a null pixmap
+QPixmap::scaled: Pixmap is a null pixmap
+QPixmap::scaled: Pixmap is a null pixmap
+QPixmap::scaled: Pixmap is a null pixmap
+QPixmap::scaled: Pixmap is a null pixmap
+QPixmap::scaled: Pixmap is a null pixmap
 <end of output>
-Test time =  35.59 sec
+Test time =  43.23 sec
 ----------------------------------------------------------
 Test Passed.
-"Tester" end time: Sep 11 19:52 +01
-"Tester" time elapsed: 00:00:35
+"Tester" end time: Sep 13 14:30 +01
+"Tester" time elapsed: 00:00:43
 ----------------------------------------------------------
 
-End testing: Sep 11 19:52 +01
+End testing: Sep 13 14:30 +01

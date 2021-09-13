@@ -107,8 +107,10 @@ FiltOption/HighPassFilt/CMakeFiles/HighPassFilt.dir/HighPassFilt_autogen/mocs_co
 FiltOption/HighPassFilt/CMakeFiles/HighPassFilt.dir/HighPassFilt_autogen/mocs_compilation.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtGui/qwindowdefs_win.h
 FiltOption/HighPassFilt/CMakeFiles/HighPassFilt.dir/HighPassFilt_autogen/mocs_compilation.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QDialog
 FiltOption/HighPassFilt/CMakeFiles/HighPassFilt.dir/HighPassFilt_autogen/mocs_compilation.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QFileDialog
+FiltOption/HighPassFilt/CMakeFiles/HighPassFilt.dir/HighPassFilt_autogen/mocs_compilation.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QMessageBox
 FiltOption/HighPassFilt/CMakeFiles/HighPassFilt.dir/HighPassFilt_autogen/mocs_compilation.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qdialog.h
 FiltOption/HighPassFilt/CMakeFiles/HighPassFilt.dir/HighPassFilt_autogen/mocs_compilation.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qfiledialog.h
+FiltOption/HighPassFilt/CMakeFiles/HighPassFilt.dir/HighPassFilt_autogen/mocs_compilation.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qmessagebox.h
 FiltOption/HighPassFilt/CMakeFiles/HighPassFilt.dir/HighPassFilt_autogen/mocs_compilation.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qsizepolicy.h
 FiltOption/HighPassFilt/CMakeFiles/HighPassFilt.dir/HighPassFilt_autogen/mocs_compilation.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qtwidgets-config.h
 FiltOption/HighPassFilt/CMakeFiles/HighPassFilt.dir/HighPassFilt_autogen/mocs_compilation.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qtwidgetsglobal.h
@@ -205,6 +207,7 @@ FiltOption/HighPassFilt/CMakeFiles/HighPassFilt.dir/src/HighPassFilt/highpassfil
 FiltOption/HighPassFilt/CMakeFiles/HighPassFilt.dir/src/HighPassFilt/highpassfilt.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qrect.h
 FiltOption/HighPassFilt/CMakeFiles/HighPassFilt.dir/src/HighPassFilt/highpassfilt.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qrefcount.h
 FiltOption/HighPassFilt/CMakeFiles/HighPassFilt.dir/src/HighPassFilt/highpassfilt.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qregexp.h
+FiltOption/HighPassFilt/CMakeFiles/HighPassFilt.dir/src/HighPassFilt/highpassfilt.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qregularexpression.h
 FiltOption/HighPassFilt/CMakeFiles/HighPassFilt.dir/src/HighPassFilt/highpassfilt.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qscopedpointer.h
 FiltOption/HighPassFilt/CMakeFiles/HighPassFilt.dir/src/HighPassFilt/highpassfilt.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qset.h
 FiltOption/HighPassFilt/CMakeFiles/HighPassFilt.dir/src/HighPassFilt/highpassfilt.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qshareddata.h
@@ -256,6 +259,7 @@ FiltOption/HighPassFilt/CMakeFiles/HighPassFilt.dir/src/HighPassFilt/highpassfil
 FiltOption/HighPassFilt/CMakeFiles/HighPassFilt.dir/src/HighPassFilt/highpassfilt.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtGui/qtguiglobal.h
 FiltOption/HighPassFilt/CMakeFiles/HighPassFilt.dir/src/HighPassFilt/highpassfilt.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtGui/qtouchdevice.h
 FiltOption/HighPassFilt/CMakeFiles/HighPassFilt.dir/src/HighPassFilt/highpassfilt.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtGui/qtransform.h
+FiltOption/HighPassFilt/CMakeFiles/HighPassFilt.dir/src/HighPassFilt/highpassfilt.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtGui/qvalidator.h
 FiltOption/HighPassFilt/CMakeFiles/HighPassFilt.dir/src/HighPassFilt/highpassfilt.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtGui/qvector2d.h
 FiltOption/HighPassFilt/CMakeFiles/HighPassFilt.dir/src/HighPassFilt/highpassfilt.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtGui/qwindowdefs.h
 FiltOption/HighPassFilt/CMakeFiles/HighPassFilt.dir/src/HighPassFilt/highpassfilt.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtGui/qwindowdefs_win.h
@@ -264,10 +268,13 @@ FiltOption/HighPassFilt/CMakeFiles/HighPassFilt.dir/src/HighPassFilt/highpassfil
 FiltOption/HighPassFilt/CMakeFiles/HighPassFilt.dir/src/HighPassFilt/highpassfilt.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QFileDialog
 FiltOption/HighPassFilt/CMakeFiles/HighPassFilt.dir/src/HighPassFilt/highpassfilt.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QHBoxLayout
 FiltOption/HighPassFilt/CMakeFiles/HighPassFilt.dir/src/HighPassFilt/highpassfilt.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QLabel
+FiltOption/HighPassFilt/CMakeFiles/HighPassFilt.dir/src/HighPassFilt/highpassfilt.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QMessageBox
 FiltOption/HighPassFilt/CMakeFiles/HighPassFilt.dir/src/HighPassFilt/highpassfilt.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QPushButton
+FiltOption/HighPassFilt/CMakeFiles/HighPassFilt.dir/src/HighPassFilt/highpassfilt.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QSpinBox
 FiltOption/HighPassFilt/CMakeFiles/HighPassFilt.dir/src/HighPassFilt/highpassfilt.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QVBoxLayout
 FiltOption/HighPassFilt/CMakeFiles/HighPassFilt.dir/src/HighPassFilt/highpassfilt.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QWidget
 FiltOption/HighPassFilt/CMakeFiles/HighPassFilt.dir/src/HighPassFilt/highpassfilt.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qabstractbutton.h
+FiltOption/HighPassFilt/CMakeFiles/HighPassFilt.dir/src/HighPassFilt/highpassfilt.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qabstractspinbox.h
 FiltOption/HighPassFilt/CMakeFiles/HighPassFilt.dir/src/HighPassFilt/highpassfilt.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qapplication.h
 FiltOption/HighPassFilt/CMakeFiles/HighPassFilt.dir/src/HighPassFilt/highpassfilt.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qboxlayout.h
 FiltOption/HighPassFilt/CMakeFiles/HighPassFilt.dir/src/HighPassFilt/highpassfilt.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qdesktopwidget.h
@@ -278,8 +285,10 @@ FiltOption/HighPassFilt/CMakeFiles/HighPassFilt.dir/src/HighPassFilt/highpassfil
 FiltOption/HighPassFilt/CMakeFiles/HighPassFilt.dir/src/HighPassFilt/highpassfilt.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qlabel.h
 FiltOption/HighPassFilt/CMakeFiles/HighPassFilt.dir/src/HighPassFilt/highpassfilt.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qlayout.h
 FiltOption/HighPassFilt/CMakeFiles/HighPassFilt.dir/src/HighPassFilt/highpassfilt.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qlayoutitem.h
+FiltOption/HighPassFilt/CMakeFiles/HighPassFilt.dir/src/HighPassFilt/highpassfilt.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qmessagebox.h
 FiltOption/HighPassFilt/CMakeFiles/HighPassFilt.dir/src/HighPassFilt/highpassfilt.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qpushbutton.h
 FiltOption/HighPassFilt/CMakeFiles/HighPassFilt.dir/src/HighPassFilt/highpassfilt.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qsizepolicy.h
+FiltOption/HighPassFilt/CMakeFiles/HighPassFilt.dir/src/HighPassFilt/highpassfilt.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qspinbox.h
 FiltOption/HighPassFilt/CMakeFiles/HighPassFilt.dir/src/HighPassFilt/highpassfilt.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qtwidgets-config.h
 FiltOption/HighPassFilt/CMakeFiles/HighPassFilt.dir/src/HighPassFilt/highpassfilt.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qtwidgetsglobal.h
 FiltOption/HighPassFilt/CMakeFiles/HighPassFilt.dir/src/HighPassFilt/highpassfilt.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qwidget.h

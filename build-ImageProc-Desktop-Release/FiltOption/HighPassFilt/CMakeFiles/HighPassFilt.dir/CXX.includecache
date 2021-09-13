@@ -6,20 +6,6 @@
 
 #IncludeRegexTransform: 
 
-../FiltOption/HighPassFilt/src/HighPassFilt/highpassfilt.h
-QDialog
--
-QFileDialog
--
-QPixmap
--
-opencv2/imgcodecs.hpp
--
-opencv2/highgui.hpp
--
-opencv2/imgproc.hpp
--
-
 ../FiltOption/src/FiltOption/filterswindow.h
 QDialog
 -
@@ -39,6 +25,8 @@ QDialog
 -
 QFileDialog
 -
+QMessageBox
+-
 QPixmap
 -
 opencv2/imgcodecs.hpp
@@ -47,18 +35,6 @@ opencv2/highgui.hpp
 -
 opencv2/imgproc.hpp
 -
-
-/home/rodelph/dev/ImageProc/build-ImageProc-Desktop-Release/FiltOption/HighPassFilt/HighPassFilt_autogen/KW5O7YXN3I/moc_highpassfilt.cpp
-src/HighPassFilt/highpassfilt.h
-/home/rodelph/dev/ImageProc/build-ImageProc-Desktop-Release/FiltOption/HighPassFilt/HighPassFilt_autogen/KW5O7YXN3I/src/HighPassFilt/highpassfilt.h
-QtCore/qbytearray.h
--
-QtCore/qmetatype.h
--
-
-/home/rodelph/dev/ImageProc/build-ImageProc-Desktop-Release/FiltOption/HighPassFilt/HighPassFilt_autogen/mocs_compilation.cpp
-KW5O7YXN3I/moc_highpassfilt.cpp
-/home/rodelph/dev/ImageProc/build-ImageProc-Desktop-Release/FiltOption/HighPassFilt/HighPassFilt_autogen/KW5O7YXN3I/moc_highpassfilt.cpp
 
 /usr/include/x86_64-linux-gnu/qt5/QtCore/QVariant
 qvariant.h
@@ -532,6 +508,18 @@ QtCore/qatomic.h
 QtCore/qglobal.h
 -
 QtCore/qstring.h
+-
+
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qregularexpression.h
+QtCore/qglobal.h
+-
+QtCore/qstring.h
+-
+QtCore/qstringlist.h
+-
+QtCore/qshareddata.h
+-
+QtCore/qvariant.h
 -
 
 /usr/include/x86_64-linux-gnu/qt5/QtCore/qscopedpointer.h
@@ -1096,6 +1084,20 @@ QtCore/qpoint.h
 QtCore/qrect.h
 -
 
+/usr/include/x86_64-linux-gnu/qt5/QtGui/qvalidator.h
+QtGui/qtguiglobal.h
+-
+QtCore/qobject.h
+-
+QtCore/qstring.h
+-
+QtCore/qregexp.h
+-
+QtCore/qregularexpression.h
+-
+QtCore/qlocale.h
+-
+
 /usr/include/x86_64-linux-gnu/qt5/QtGui/qvector2d.h
 QtGui/qtguiglobal.h
 -
@@ -1138,9 +1140,17 @@ qboxlayout.h
 qlabel.h
 /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qlabel.h
 
+/usr/include/x86_64-linux-gnu/qt5/QtWidgets/QMessageBox
+qmessagebox.h
+/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qmessagebox.h
+
 /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QPushButton
 qpushbutton.h
 /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qpushbutton.h
+
+/usr/include/x86_64-linux-gnu/qt5/QtWidgets/QSpinBox
+qspinbox.h
+/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qspinbox.h
 
 /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QVBoxLayout
 qboxlayout.h
@@ -1158,6 +1168,14 @@ QtGui/qicon.h
 QtGui/qkeysequence.h
 -
 QtWidgets/qwidget.h
+-
+
+/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qabstractspinbox.h
+QtWidgets/qtwidgetsglobal.h
+-
+QtWidgets/qwidget.h
+-
+QtGui/qvalidator.h
 -
 
 /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qapplication.h
@@ -1264,6 +1282,12 @@ QtCore/qrect.h
 limits.h
 -
 
+/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qmessagebox.h
+QtWidgets/qtwidgetsglobal.h
+-
+QtWidgets/qdialog.h
+-
+
 /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qpushbutton.h
 QtWidgets/qtwidgetsglobal.h
 -
@@ -1276,6 +1300,12 @@ QtWidgets/qtwidgetsglobal.h
 QtCore/qobject.h
 -
 QtCore/qalgorithms.h
+-
+
+/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qspinbox.h
+QtWidgets/qtwidgetsglobal.h
+-
+QtWidgets/qabstractspinbox.h
 -
 
 /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qtwidgets-config.h
@@ -1674,6 +1704,8 @@ QtWidgets/QHBoxLayout
 QtWidgets/QLabel
 -
 QtWidgets/QPushButton
+-
+QtWidgets/QSpinBox
 -
 QtWidgets/QVBoxLayout
 -
