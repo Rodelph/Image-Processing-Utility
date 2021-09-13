@@ -51,27 +51,10 @@ void highpassfilt::on_transformBtn_clicked()
 
 void highpassfilt::on_confBtn_clicked()
 {
-    if ( mat1 == 0 &&
-         mat2 == 0 &&
-         mat3 == 0 &&
-         mat4 == 0 &&
-         mat5 == 0 &&
-         mat6 == 0 &&
-         mat7 == 0 &&
-         mat8 == 0 &&
-         mat9 == 0 )
-    {
-        this->box = new QMessageBox(this);
-        this->box->setWindowTitle("Notification");
-        this->box->setText("No all zero");
-        this->box->open();
-    }
-    else 
-    {
-        kernel = (cv::Mat_<char>(3,3) << mat1, mat2, mat3,
-                                        mat4, mat5, mat6,
-                                        mat7, mat8, mat9 );
-    }
+
+    kernel = (cv::Mat_<char>(3,3) << mat1, mat2, mat3,
+                                     mat4, mat5, mat6,
+                                     mat7, mat8, mat9 );
 }
 
 int highpassfilt::on_spinBox_1_valueChanged() { return mat1 = ui->spinBox_1->value(); }

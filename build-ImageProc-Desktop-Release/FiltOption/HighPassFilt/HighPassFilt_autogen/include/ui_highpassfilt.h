@@ -125,7 +125,7 @@ public:
         spinBox_2 = new QSpinBox(verticalLayoutWidget);
         spinBox_2->setObjectName(QString::fromUtf8("spinBox_2"));
         spinBox_2->setMinimum(-99);
-        spinBox_2->setValue(-1);
+        spinBox_2->setValue(0);
 
         horizontalLayout_4->addWidget(spinBox_2);
 
@@ -143,21 +143,21 @@ public:
         spinBox_4 = new QSpinBox(verticalLayoutWidget);
         spinBox_4->setObjectName(QString::fromUtf8("spinBox_4"));
         spinBox_4->setMinimum(-99);
-        spinBox_4->setValue(-1);
+        spinBox_4->setValue(0);
 
         horizontalLayout_3->addWidget(spinBox_4);
 
         spinBox_5 = new QSpinBox(verticalLayoutWidget);
         spinBox_5->setObjectName(QString::fromUtf8("spinBox_5"));
         spinBox_5->setMinimum(-99);
-        spinBox_5->setValue(4);
+        spinBox_5->setValue(0);
 
         horizontalLayout_3->addWidget(spinBox_5);
 
         spinBox_6 = new QSpinBox(verticalLayoutWidget);
         spinBox_6->setObjectName(QString::fromUtf8("spinBox_6"));
         spinBox_6->setMinimum(-99);
-        spinBox_6->setValue(-1);
+        spinBox_6->setValue(0);
 
         horizontalLayout_3->addWidget(spinBox_6);
 
@@ -175,7 +175,7 @@ public:
         spinBox_8 = new QSpinBox(verticalLayoutWidget);
         spinBox_8->setObjectName(QString::fromUtf8("spinBox_8"));
         spinBox_8->setMinimum(-99);
-        spinBox_8->setValue(-1);
+        spinBox_8->setValue(0);
 
         horizontalLayout_5->addWidget(spinBox_8);
 
