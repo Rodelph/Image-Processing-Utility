@@ -33,6 +33,16 @@ QDialog
 -
 QFileDialog
 -
+QErrorMessage
+-
+QPixmap
+-
+opencv4/opencv2/imgcodecs.hpp
+-
+opencv4/opencv2/highgui.hpp
+-
+opencv4/opencv2/imgproc.hpp
+-
 
 /home/rodelph/dev/ImageProc/FiltOption/MedFilt/src/MedFilt/medfilt.h
 QDialog

@@ -1,0 +1,18 @@
+Start testing: Sep 14 18:19 +01
+----------------------------------------------------------
+1/1 Testing: Tester
+1/1 Test: Tester
+Command: "/home/rodelph/dev/ImageProc/build-ImageProc-Desktop-Release/ProjectEx/ImageProc"
+Directory: /home/rodelph/dev/ImageProc/build-ImageProc-Desktop-Release/ProjectEx
+"Tester" start time: Sep 14 18:19 +01
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   7.88 sec
+----------------------------------------------------------
+Test Failed.
+"Tester" end time: Sep 14 18:19 +01
+"Tester" time elapsed: 00:00:07
+----------------------------------------------------------
+
+End testing: Sep 14 18:19 +01

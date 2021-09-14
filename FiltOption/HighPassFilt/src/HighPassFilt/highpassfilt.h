@@ -32,8 +32,6 @@ private:
     int width, height;
     QString path;
     const QString pathToImages = QDir::currentPath() + "/resources/";
-    const std::string pathToSave = pathToImages.toStdString();
-    QString data;
     QErrorMessage* errMsg;
     cv::Mat kernel;
 };

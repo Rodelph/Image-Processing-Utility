@@ -51,10 +51,21 @@ EQUALS = =
 CMAKE_SOURCE_DIR = /home/rodelph/dev/ImageProc
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/rodelph/dev/ImageProc/build-ImageProc-Desktop-Release/ProjectEx
+CMAKE_BINARY_DIR = /home/rodelph/dev/ImageProc/build-ImageProc-Desktop-Release
 
 #=============================================================================
 # Targets provided globally by CMake.
+
+# Special rule for the target package_source
+package_source:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool for source..."
+	cd /home/rodelph/dev/ImageProc/build-ImageProc-Desktop-Release && /usr/bin/cpack --config ./CPackSourceConfig.cmake /home/rodelph/dev/ImageProc/build-ImageProc-Desktop-Release/CPackSourceConfig.cmake
+.PHONY : package_source
+
+# Special rule for the target package_source
+package_source/fast: package_source
+
+.PHONY : package_source/fast
 
 # Special rule for the target rebuild_cache
 rebuild_cache:
@@ -67,27 +78,16 @@ rebuild_cache/fast: rebuild_cache
 
 .PHONY : rebuild_cache/fast
 
-# Special rule for the target test
-test:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running tests..."
-	/usr/bin/ctest --force-new-ctest-process $(ARGS)
-.PHONY : test
+# Special rule for the target package
+package: preinstall
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool..."
+	cd /home/rodelph/dev/ImageProc/build-ImageProc-Desktop-Release && /usr/bin/cpack --config ./CPackConfig.cmake
+.PHONY : package
 
-# Special rule for the target test
-test/fast: test
+# Special rule for the target package
+package/fast: package
 
-.PHONY : test/fast
-
-# Special rule for the target package_source
-package_source:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool for source..."
-	/usr/bin/cpack --config ./CPackSourceConfig.cmake /home/rodelph/dev/ImageProc/build-ImageProc-Desktop-Release/ProjectEx/CPackSourceConfig.cmake
-.PHONY : package_source
-
-# Special rule for the target package_source
-package_source/fast: package_source
-
-.PHONY : package_source/fast
+.PHONY : package/fast
 
 # Special rule for the target edit_cache
 edit_cache:
@@ -100,27 +100,27 @@ edit_cache/fast: edit_cache
 
 .PHONY : edit_cache/fast
 
-# Special rule for the target package
-package: preinstall
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool..."
-	/usr/bin/cpack --config ./CPackConfig.cmake
-.PHONY : package
+# Special rule for the target test
+test:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running tests..."
+	/usr/bin/ctest --force-new-ctest-process $(ARGS)
+.PHONY : test
 
-# Special rule for the target package
-package/fast: package
+# Special rule for the target test
+test/fast: test
 
-.PHONY : package/fast
+.PHONY : test/fast
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/rodelph/dev/ImageProc/build-ImageProc-Desktop-Release/ProjectEx/CMakeFiles /home/rodelph/dev/ImageProc/build-ImageProc-Desktop-Release/ProjectEx/CMakeFiles/progress.marks
-	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/rodelph/dev/ImageProc/build-ImageProc-Desktop-Release/ProjectEx/CMakeFiles 0
+	cd /home/rodelph/dev/ImageProc/build-ImageProc-Desktop-Release && $(CMAKE_COMMAND) -E cmake_progress_start /home/rodelph/dev/ImageProc/build-ImageProc-Desktop-Release/CMakeFiles /home/rodelph/dev/ImageProc/build-ImageProc-Desktop-Release/ProjectEx/CMakeFiles/progress.marks
+	cd /home/rodelph/dev/ImageProc/build-ImageProc-Desktop-Release && $(MAKE) -f CMakeFiles/Makefile2 ProjectEx/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/rodelph/dev/ImageProc/build-ImageProc-Desktop-Release/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	$(MAKE) -f CMakeFiles/Makefile2 clean
+	cd /home/rodelph/dev/ImageProc/build-ImageProc-Desktop-Release && $(MAKE) -f CMakeFiles/Makefile2 ProjectEx/clean
 .PHONY : clean
 
 # The main clean target
@@ -130,668 +130,102 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	$(MAKE) -f CMakeFiles/Makefile2 preinstall
+	cd /home/rodelph/dev/ImageProc/build-ImageProc-Desktop-Release && $(MAKE) -f CMakeFiles/Makefile2 ProjectEx/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	$(MAKE) -f CMakeFiles/Makefile2 preinstall
+	cd /home/rodelph/dev/ImageProc/build-ImageProc-Desktop-Release && $(MAKE) -f CMakeFiles/Makefile2 ProjectEx/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/rodelph/dev/ImageProc/build-ImageProc-Desktop-Release && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
-#=============================================================================
-# Target rules for targets named NightlyMemCheck
+# Convenience name for target.
+ProjectEx/CMakeFiles/ImageProc.dir/rule:
+	cd /home/rodelph/dev/ImageProc/build-ImageProc-Desktop-Release && $(MAKE) -f CMakeFiles/Makefile2 ProjectEx/CMakeFiles/ImageProc.dir/rule
+.PHONY : ProjectEx/CMakeFiles/ImageProc.dir/rule
 
-# Build rule for target.
-NightlyMemCheck: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 NightlyMemCheck
-.PHONY : NightlyMemCheck
+# Convenience name for target.
+ImageProc: ProjectEx/CMakeFiles/ImageProc.dir/rule
 
-# fast build rule for target.
-NightlyMemCheck/fast:
-	$(MAKE) -f CMakeFiles/NightlyMemCheck.dir/build.make CMakeFiles/NightlyMemCheck.dir/build
-.PHONY : NightlyMemCheck/fast
-
-#=============================================================================
-# Target rules for targets named NightlyTest
-
-# Build rule for target.
-NightlyTest: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 NightlyTest
-.PHONY : NightlyTest
-
-# fast build rule for target.
-NightlyTest/fast:
-	$(MAKE) -f CMakeFiles/NightlyTest.dir/build.make CMakeFiles/NightlyTest.dir/build
-.PHONY : NightlyTest/fast
-
-#=============================================================================
-# Target rules for targets named ContinuousConfigure
-
-# Build rule for target.
-ContinuousConfigure: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 ContinuousConfigure
-.PHONY : ContinuousConfigure
-
-# fast build rule for target.
-ContinuousConfigure/fast:
-	$(MAKE) -f CMakeFiles/ContinuousConfigure.dir/build.make CMakeFiles/ContinuousConfigure.dir/build
-.PHONY : ContinuousConfigure/fast
-
-#=============================================================================
-# Target rules for targets named ContinuousBuild
-
-# Build rule for target.
-ContinuousBuild: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 ContinuousBuild
-.PHONY : ContinuousBuild
-
-# fast build rule for target.
-ContinuousBuild/fast:
-	$(MAKE) -f CMakeFiles/ContinuousBuild.dir/build.make CMakeFiles/ContinuousBuild.dir/build
-.PHONY : ContinuousBuild/fast
-
-#=============================================================================
-# Target rules for targets named NightlyConfigure
-
-# Build rule for target.
-NightlyConfigure: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 NightlyConfigure
-.PHONY : NightlyConfigure
-
-# fast build rule for target.
-NightlyConfigure/fast:
-	$(MAKE) -f CMakeFiles/NightlyConfigure.dir/build.make CMakeFiles/NightlyConfigure.dir/build
-.PHONY : NightlyConfigure/fast
-
-#=============================================================================
-# Target rules for targets named NightlyMemoryCheck
-
-# Build rule for target.
-NightlyMemoryCheck: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 NightlyMemoryCheck
-.PHONY : NightlyMemoryCheck
-
-# fast build rule for target.
-NightlyMemoryCheck/fast:
-	$(MAKE) -f CMakeFiles/NightlyMemoryCheck.dir/build.make CMakeFiles/NightlyMemoryCheck.dir/build
-.PHONY : NightlyMemoryCheck/fast
-
-#=============================================================================
-# Target rules for targets named ExperimentalTest
-
-# Build rule for target.
-ExperimentalTest: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 ExperimentalTest
-.PHONY : ExperimentalTest
-
-# fast build rule for target.
-ExperimentalTest/fast:
-	$(MAKE) -f CMakeFiles/ExperimentalTest.dir/build.make CMakeFiles/ExperimentalTest.dir/build
-.PHONY : ExperimentalTest/fast
-
-#=============================================================================
-# Target rules for targets named ContinuousUpdate
-
-# Build rule for target.
-ContinuousUpdate: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 ContinuousUpdate
-.PHONY : ContinuousUpdate
-
-# fast build rule for target.
-ContinuousUpdate/fast:
-	$(MAKE) -f CMakeFiles/ContinuousUpdate.dir/build.make CMakeFiles/ContinuousUpdate.dir/build
-.PHONY : ContinuousUpdate/fast
-
-#=============================================================================
-# Target rules for targets named NightlyUpdate
-
-# Build rule for target.
-NightlyUpdate: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 NightlyUpdate
-.PHONY : NightlyUpdate
-
-# fast build rule for target.
-NightlyUpdate/fast:
-	$(MAKE) -f CMakeFiles/NightlyUpdate.dir/build.make CMakeFiles/NightlyUpdate.dir/build
-.PHONY : NightlyUpdate/fast
-
-#=============================================================================
-# Target rules for targets named ExperimentalMemCheck
-
-# Build rule for target.
-ExperimentalMemCheck: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 ExperimentalMemCheck
-.PHONY : ExperimentalMemCheck
-
-# fast build rule for target.
-ExperimentalMemCheck/fast:
-	$(MAKE) -f CMakeFiles/ExperimentalMemCheck.dir/build.make CMakeFiles/ExperimentalMemCheck.dir/build
-.PHONY : ExperimentalMemCheck/fast
-
-#=============================================================================
-# Target rules for targets named ExperimentalSubmit
-
-# Build rule for target.
-ExperimentalSubmit: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 ExperimentalSubmit
-.PHONY : ExperimentalSubmit
-
-# fast build rule for target.
-ExperimentalSubmit/fast:
-	$(MAKE) -f CMakeFiles/ExperimentalSubmit.dir/build.make CMakeFiles/ExperimentalSubmit.dir/build
-.PHONY : ExperimentalSubmit/fast
-
-#=============================================================================
-# Target rules for targets named Experimental
-
-# Build rule for target.
-Experimental: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 Experimental
-.PHONY : Experimental
-
-# fast build rule for target.
-Experimental/fast:
-	$(MAKE) -f CMakeFiles/Experimental.dir/build.make CMakeFiles/Experimental.dir/build
-.PHONY : Experimental/fast
-
-#=============================================================================
-# Target rules for targets named ContinuousCoverage
-
-# Build rule for target.
-ContinuousCoverage: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 ContinuousCoverage
-.PHONY : ContinuousCoverage
-
-# fast build rule for target.
-ContinuousCoverage/fast:
-	$(MAKE) -f CMakeFiles/ContinuousCoverage.dir/build.make CMakeFiles/ContinuousCoverage.dir/build
-.PHONY : ContinuousCoverage/fast
-
-#=============================================================================
-# Target rules for targets named ExperimentalConfigure
-
-# Build rule for target.
-ExperimentalConfigure: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 ExperimentalConfigure
-.PHONY : ExperimentalConfigure
-
-# fast build rule for target.
-ExperimentalConfigure/fast:
-	$(MAKE) -f CMakeFiles/ExperimentalConfigure.dir/build.make CMakeFiles/ExperimentalConfigure.dir/build
-.PHONY : ExperimentalConfigure/fast
-
-#=============================================================================
-# Target rules for targets named Continuous
-
-# Build rule for target.
-Continuous: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 Continuous
-.PHONY : Continuous
-
-# fast build rule for target.
-Continuous/fast:
-	$(MAKE) -f CMakeFiles/Continuous.dir/build.make CMakeFiles/Continuous.dir/build
-.PHONY : Continuous/fast
-
-#=============================================================================
-# Target rules for targets named Nightly
-
-# Build rule for target.
-Nightly: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 Nightly
-.PHONY : Nightly
-
-# fast build rule for target.
-Nightly/fast:
-	$(MAKE) -f CMakeFiles/Nightly.dir/build.make CMakeFiles/Nightly.dir/build
-.PHONY : Nightly/fast
-
-#=============================================================================
-# Target rules for targets named NightlySubmit
-
-# Build rule for target.
-NightlySubmit: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 NightlySubmit
-.PHONY : NightlySubmit
-
-# fast build rule for target.
-NightlySubmit/fast:
-	$(MAKE) -f CMakeFiles/NightlySubmit.dir/build.make CMakeFiles/NightlySubmit.dir/build
-.PHONY : NightlySubmit/fast
-
-#=============================================================================
-# Target rules for targets named NightlyStart
-
-# Build rule for target.
-NightlyStart: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 NightlyStart
-.PHONY : NightlyStart
-
-# fast build rule for target.
-NightlyStart/fast:
-	$(MAKE) -f CMakeFiles/NightlyStart.dir/build.make CMakeFiles/NightlyStart.dir/build
-.PHONY : NightlyStart/fast
-
-#=============================================================================
-# Target rules for targets named ExperimentalCoverage
-
-# Build rule for target.
-ExperimentalCoverage: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 ExperimentalCoverage
-.PHONY : ExperimentalCoverage
-
-# fast build rule for target.
-ExperimentalCoverage/fast:
-	$(MAKE) -f CMakeFiles/ExperimentalCoverage.dir/build.make CMakeFiles/ExperimentalCoverage.dir/build
-.PHONY : ExperimentalCoverage/fast
-
-#=============================================================================
-# Target rules for targets named NightlyCoverage
-
-# Build rule for target.
-NightlyCoverage: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 NightlyCoverage
-.PHONY : NightlyCoverage
-
-# fast build rule for target.
-NightlyCoverage/fast:
-	$(MAKE) -f CMakeFiles/NightlyCoverage.dir/build.make CMakeFiles/NightlyCoverage.dir/build
-.PHONY : NightlyCoverage/fast
-
-#=============================================================================
-# Target rules for targets named ExperimentalStart
-
-# Build rule for target.
-ExperimentalStart: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 ExperimentalStart
-.PHONY : ExperimentalStart
-
-# fast build rule for target.
-ExperimentalStart/fast:
-	$(MAKE) -f CMakeFiles/ExperimentalStart.dir/build.make CMakeFiles/ExperimentalStart.dir/build
-.PHONY : ExperimentalStart/fast
-
-#=============================================================================
-# Target rules for targets named ExperimentalUpdate
-
-# Build rule for target.
-ExperimentalUpdate: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 ExperimentalUpdate
-.PHONY : ExperimentalUpdate
-
-# fast build rule for target.
-ExperimentalUpdate/fast:
-	$(MAKE) -f CMakeFiles/ExperimentalUpdate.dir/build.make CMakeFiles/ExperimentalUpdate.dir/build
-.PHONY : ExperimentalUpdate/fast
-
-#=============================================================================
-# Target rules for targets named ContinuousStart
-
-# Build rule for target.
-ContinuousStart: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 ContinuousStart
-.PHONY : ContinuousStart
-
-# fast build rule for target.
-ContinuousStart/fast:
-	$(MAKE) -f CMakeFiles/ContinuousStart.dir/build.make CMakeFiles/ContinuousStart.dir/build
-.PHONY : ContinuousStart/fast
-
-#=============================================================================
-# Target rules for targets named ContinuousMemCheck
-
-# Build rule for target.
-ContinuousMemCheck: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 ContinuousMemCheck
-.PHONY : ContinuousMemCheck
-
-# fast build rule for target.
-ContinuousMemCheck/fast:
-	$(MAKE) -f CMakeFiles/ContinuousMemCheck.dir/build.make CMakeFiles/ContinuousMemCheck.dir/build
-.PHONY : ContinuousMemCheck/fast
-
-#=============================================================================
-# Target rules for targets named ContinuousTest
-
-# Build rule for target.
-ContinuousTest: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 ContinuousTest
-.PHONY : ContinuousTest
-
-# fast build rule for target.
-ContinuousTest/fast:
-	$(MAKE) -f CMakeFiles/ContinuousTest.dir/build.make CMakeFiles/ContinuousTest.dir/build
-.PHONY : ContinuousTest/fast
-
-#=============================================================================
-# Target rules for targets named ContinuousSubmit
-
-# Build rule for target.
-ContinuousSubmit: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 ContinuousSubmit
-.PHONY : ContinuousSubmit
-
-# fast build rule for target.
-ContinuousSubmit/fast:
-	$(MAKE) -f CMakeFiles/ContinuousSubmit.dir/build.make CMakeFiles/ContinuousSubmit.dir/build
-.PHONY : ContinuousSubmit/fast
-
-#=============================================================================
-# Target rules for targets named NightlyBuild
-
-# Build rule for target.
-NightlyBuild: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 NightlyBuild
-.PHONY : NightlyBuild
-
-# fast build rule for target.
-NightlyBuild/fast:
-	$(MAKE) -f CMakeFiles/NightlyBuild.dir/build.make CMakeFiles/NightlyBuild.dir/build
-.PHONY : NightlyBuild/fast
-
-#=============================================================================
-# Target rules for targets named ExperimentalBuild
-
-# Build rule for target.
-ExperimentalBuild: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 ExperimentalBuild
-.PHONY : ExperimentalBuild
-
-# fast build rule for target.
-ExperimentalBuild/fast:
-	$(MAKE) -f CMakeFiles/ExperimentalBuild.dir/build.make CMakeFiles/ExperimentalBuild.dir/build
-.PHONY : ExperimentalBuild/fast
-
-#=============================================================================
-# Target rules for targets named ImageAlgorithms
-
-# Build rule for target.
-ImageAlgorithms: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 ImageAlgorithms
-.PHONY : ImageAlgorithms
-
-# fast build rule for target.
-ImageAlgorithms/fast:
-	$(MAKE) -f ImageAlgorithms/CMakeFiles/ImageAlgorithms.dir/build.make ImageAlgorithms/CMakeFiles/ImageAlgorithms.dir/build
-.PHONY : ImageAlgorithms/fast
-
-#=============================================================================
-# Target rules for targets named ImageAlgorithms_autogen
-
-# Build rule for target.
-ImageAlgorithms_autogen: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 ImageAlgorithms_autogen
-.PHONY : ImageAlgorithms_autogen
-
-# fast build rule for target.
-ImageAlgorithms_autogen/fast:
-	$(MAKE) -f ImageAlgorithms/CMakeFiles/ImageAlgorithms_autogen.dir/build.make ImageAlgorithms/CMakeFiles/ImageAlgorithms_autogen.dir/build
-.PHONY : ImageAlgorithms_autogen/fast
-
-#=============================================================================
-# Target rules for targets named SelectionWindow
-
-# Build rule for target.
-SelectionWindow: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 SelectionWindow
-.PHONY : SelectionWindow
-
-# fast build rule for target.
-SelectionWindow/fast:
-	$(MAKE) -f SelectionWindow/CMakeFiles/SelectionWindow.dir/build.make SelectionWindow/CMakeFiles/SelectionWindow.dir/build
-.PHONY : SelectionWindow/fast
-
-#=============================================================================
-# Target rules for targets named SelectionWindow_autogen
-
-# Build rule for target.
-SelectionWindow_autogen: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 SelectionWindow_autogen
-.PHONY : SelectionWindow_autogen
-
-# fast build rule for target.
-SelectionWindow_autogen/fast:
-	$(MAKE) -f SelectionWindow/CMakeFiles/SelectionWindow_autogen.dir/build.make SelectionWindow/CMakeFiles/SelectionWindow_autogen.dir/build
-.PHONY : SelectionWindow_autogen/fast
-
-#=============================================================================
-# Target rules for targets named FiltOption
-
-# Build rule for target.
-FiltOption: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 FiltOption
-.PHONY : FiltOption
-
-# fast build rule for target.
-FiltOption/fast:
-	$(MAKE) -f FiltOption/CMakeFiles/FiltOption.dir/build.make FiltOption/CMakeFiles/FiltOption.dir/build
-.PHONY : FiltOption/fast
-
-#=============================================================================
-# Target rules for targets named FiltOption_autogen
-
-# Build rule for target.
-FiltOption_autogen: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 FiltOption_autogen
-.PHONY : FiltOption_autogen
-
-# fast build rule for target.
-FiltOption_autogen/fast:
-	$(MAKE) -f FiltOption/CMakeFiles/FiltOption_autogen.dir/build.make FiltOption/CMakeFiles/FiltOption_autogen.dir/build
-.PHONY : FiltOption_autogen/fast
-
-#=============================================================================
-# Target rules for targets named HighPassFilt
-
-# Build rule for target.
-HighPassFilt: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 HighPassFilt
-.PHONY : HighPassFilt
-
-# fast build rule for target.
-HighPassFilt/fast:
-	$(MAKE) -f FiltOption/HighPassFilt/CMakeFiles/HighPassFilt.dir/build.make FiltOption/HighPassFilt/CMakeFiles/HighPassFilt.dir/build
-.PHONY : HighPassFilt/fast
-
-#=============================================================================
-# Target rules for targets named HighPassFilt_autogen
-
-# Build rule for target.
-HighPassFilt_autogen: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 HighPassFilt_autogen
-.PHONY : HighPassFilt_autogen
-
-# fast build rule for target.
-HighPassFilt_autogen/fast:
-	$(MAKE) -f FiltOption/HighPassFilt/CMakeFiles/HighPassFilt_autogen.dir/build.make FiltOption/HighPassFilt/CMakeFiles/HighPassFilt_autogen.dir/build
-.PHONY : HighPassFilt_autogen/fast
-
-#=============================================================================
-# Target rules for targets named LowPassFilt
-
-# Build rule for target.
-LowPassFilt: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 LowPassFilt
-.PHONY : LowPassFilt
-
-# fast build rule for target.
-LowPassFilt/fast:
-	$(MAKE) -f FiltOption/LowPassFilt/CMakeFiles/LowPassFilt.dir/build.make FiltOption/LowPassFilt/CMakeFiles/LowPassFilt.dir/build
-.PHONY : LowPassFilt/fast
-
-#=============================================================================
-# Target rules for targets named LowPassFilt_autogen
-
-# Build rule for target.
-LowPassFilt_autogen: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 LowPassFilt_autogen
-.PHONY : LowPassFilt_autogen
-
-# fast build rule for target.
-LowPassFilt_autogen/fast:
-	$(MAKE) -f FiltOption/LowPassFilt/CMakeFiles/LowPassFilt_autogen.dir/build.make FiltOption/LowPassFilt/CMakeFiles/LowPassFilt_autogen.dir/build
-.PHONY : LowPassFilt_autogen/fast
-
-#=============================================================================
-# Target rules for targets named FreqFilt
-
-# Build rule for target.
-FreqFilt: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 FreqFilt
-.PHONY : FreqFilt
-
-# fast build rule for target.
-FreqFilt/fast:
-	$(MAKE) -f FiltOption/FreqFilt/CMakeFiles/FreqFilt.dir/build.make FiltOption/FreqFilt/CMakeFiles/FreqFilt.dir/build
-.PHONY : FreqFilt/fast
-
-#=============================================================================
-# Target rules for targets named FreqFilt_autogen
-
-# Build rule for target.
-FreqFilt_autogen: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 FreqFilt_autogen
-.PHONY : FreqFilt_autogen
-
-# fast build rule for target.
-FreqFilt_autogen/fast:
-	$(MAKE) -f FiltOption/FreqFilt/CMakeFiles/FreqFilt_autogen.dir/build.make FiltOption/FreqFilt/CMakeFiles/FreqFilt_autogen.dir/build
-.PHONY : FreqFilt_autogen/fast
-
-#=============================================================================
-# Target rules for targets named MedFilt
-
-# Build rule for target.
-MedFilt: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 MedFilt
-.PHONY : MedFilt
-
-# fast build rule for target.
-MedFilt/fast:
-	$(MAKE) -f FiltOption/MedFilt/CMakeFiles/MedFilt.dir/build.make FiltOption/MedFilt/CMakeFiles/MedFilt.dir/build
-.PHONY : MedFilt/fast
-
-#=============================================================================
-# Target rules for targets named MedFilt_autogen
-
-# Build rule for target.
-MedFilt_autogen: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 MedFilt_autogen
-.PHONY : MedFilt_autogen
-
-# fast build rule for target.
-MedFilt_autogen/fast:
-	$(MAKE) -f FiltOption/MedFilt/CMakeFiles/MedFilt_autogen.dir/build.make FiltOption/MedFilt/CMakeFiles/MedFilt_autogen.dir/build
-.PHONY : MedFilt_autogen/fast
-
-#=============================================================================
-# Target rules for targets named TreshFilt
-
-# Build rule for target.
-TreshFilt: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 TreshFilt
-.PHONY : TreshFilt
-
-# fast build rule for target.
-TreshFilt/fast:
-	$(MAKE) -f FiltOption/TreshFilt/CMakeFiles/TreshFilt.dir/build.make FiltOption/TreshFilt/CMakeFiles/TreshFilt.dir/build
-.PHONY : TreshFilt/fast
-
-#=============================================================================
-# Target rules for targets named TreshFilt_autogen
-
-# Build rule for target.
-TreshFilt_autogen: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 TreshFilt_autogen
-.PHONY : TreshFilt_autogen
-
-# fast build rule for target.
-TreshFilt_autogen/fast:
-	$(MAKE) -f FiltOption/TreshFilt/CMakeFiles/TreshFilt_autogen.dir/build.make FiltOption/TreshFilt/CMakeFiles/TreshFilt_autogen.dir/build
-.PHONY : TreshFilt_autogen/fast
-
-#=============================================================================
-# Target rules for targets named SegmFilt
-
-# Build rule for target.
-SegmFilt: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 SegmFilt
-.PHONY : SegmFilt
-
-# fast build rule for target.
-SegmFilt/fast:
-	$(MAKE) -f FiltOption/SegmFilt/CMakeFiles/SegmFilt.dir/build.make FiltOption/SegmFilt/CMakeFiles/SegmFilt.dir/build
-.PHONY : SegmFilt/fast
-
-#=============================================================================
-# Target rules for targets named SegmFilt_autogen
-
-# Build rule for target.
-SegmFilt_autogen: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 SegmFilt_autogen
-.PHONY : SegmFilt_autogen
-
-# fast build rule for target.
-SegmFilt_autogen/fast:
-	$(MAKE) -f FiltOption/SegmFilt/CMakeFiles/SegmFilt_autogen.dir/build.make FiltOption/SegmFilt/CMakeFiles/SegmFilt_autogen.dir/build
-.PHONY : SegmFilt_autogen/fast
-
-#=============================================================================
-# Target rules for targets named HistOption
-
-# Build rule for target.
-HistOption: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 HistOption
-.PHONY : HistOption
-
-# fast build rule for target.
-HistOption/fast:
-	$(MAKE) -f HistOption/CMakeFiles/HistOption.dir/build.make HistOption/CMakeFiles/HistOption.dir/build
-.PHONY : HistOption/fast
-
-#=============================================================================
-# Target rules for targets named HistOption_autogen
-
-# Build rule for target.
-HistOption_autogen: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 HistOption_autogen
-.PHONY : HistOption_autogen
-
-# fast build rule for target.
-HistOption_autogen/fast:
-	$(MAKE) -f HistOption/CMakeFiles/HistOption_autogen.dir/build.make HistOption/CMakeFiles/HistOption_autogen.dir/build
-.PHONY : HistOption_autogen/fast
-
-#=============================================================================
-# Target rules for targets named ImageProc
-
-# Build rule for target.
-ImageProc: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 ImageProc
 .PHONY : ImageProc
 
 # fast build rule for target.
 ImageProc/fast:
-	$(MAKE) -f ProjectEx/CMakeFiles/ImageProc.dir/build.make ProjectEx/CMakeFiles/ImageProc.dir/build
+	cd /home/rodelph/dev/ImageProc/build-ImageProc-Desktop-Release && $(MAKE) -f ProjectEx/CMakeFiles/ImageProc.dir/build.make ProjectEx/CMakeFiles/ImageProc.dir/build
 .PHONY : ImageProc/fast
 
-#=============================================================================
-# Target rules for targets named ImageProc_autogen
+# Convenience name for target.
+ProjectEx/CMakeFiles/ImageProc_autogen.dir/rule:
+	cd /home/rodelph/dev/ImageProc/build-ImageProc-Desktop-Release && $(MAKE) -f CMakeFiles/Makefile2 ProjectEx/CMakeFiles/ImageProc_autogen.dir/rule
+.PHONY : ProjectEx/CMakeFiles/ImageProc_autogen.dir/rule
 
-# Build rule for target.
-ImageProc_autogen: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 ImageProc_autogen
+# Convenience name for target.
+ImageProc_autogen: ProjectEx/CMakeFiles/ImageProc_autogen.dir/rule
+
 .PHONY : ImageProc_autogen
 
 # fast build rule for target.
 ImageProc_autogen/fast:
-	$(MAKE) -f ProjectEx/CMakeFiles/ImageProc_autogen.dir/build.make ProjectEx/CMakeFiles/ImageProc_autogen.dir/build
+	cd /home/rodelph/dev/ImageProc/build-ImageProc-Desktop-Release && $(MAKE) -f ProjectEx/CMakeFiles/ImageProc_autogen.dir/build.make ProjectEx/CMakeFiles/ImageProc_autogen.dir/build
 .PHONY : ImageProc_autogen/fast
+
+ImageProc_autogen/mocs_compilation.o: ImageProc_autogen/mocs_compilation.cpp.o
+
+.PHONY : ImageProc_autogen/mocs_compilation.o
+
+# target to build an object file
+ImageProc_autogen/mocs_compilation.cpp.o:
+	cd /home/rodelph/dev/ImageProc/build-ImageProc-Desktop-Release && $(MAKE) -f ProjectEx/CMakeFiles/ImageProc.dir/build.make ProjectEx/CMakeFiles/ImageProc.dir/ImageProc_autogen/mocs_compilation.cpp.o
+.PHONY : ImageProc_autogen/mocs_compilation.cpp.o
+
+ImageProc_autogen/mocs_compilation.i: ImageProc_autogen/mocs_compilation.cpp.i
+
+.PHONY : ImageProc_autogen/mocs_compilation.i
+
+# target to preprocess a source file
+ImageProc_autogen/mocs_compilation.cpp.i:
+	cd /home/rodelph/dev/ImageProc/build-ImageProc-Desktop-Release && $(MAKE) -f ProjectEx/CMakeFiles/ImageProc.dir/build.make ProjectEx/CMakeFiles/ImageProc.dir/ImageProc_autogen/mocs_compilation.cpp.i
+.PHONY : ImageProc_autogen/mocs_compilation.cpp.i
+
+ImageProc_autogen/mocs_compilation.s: ImageProc_autogen/mocs_compilation.cpp.s
+
+.PHONY : ImageProc_autogen/mocs_compilation.s
+
+# target to generate assembly for a file
+ImageProc_autogen/mocs_compilation.cpp.s:
+	cd /home/rodelph/dev/ImageProc/build-ImageProc-Desktop-Release && $(MAKE) -f ProjectEx/CMakeFiles/ImageProc.dir/build.make ProjectEx/CMakeFiles/ImageProc.dir/ImageProc_autogen/mocs_compilation.cpp.s
+.PHONY : ImageProc_autogen/mocs_compilation.cpp.s
+
+main.o: main.cpp.o
+
+.PHONY : main.o
+
+# target to build an object file
+main.cpp.o:
+	cd /home/rodelph/dev/ImageProc/build-ImageProc-Desktop-Release && $(MAKE) -f ProjectEx/CMakeFiles/ImageProc.dir/build.make ProjectEx/CMakeFiles/ImageProc.dir/main.cpp.o
+.PHONY : main.cpp.o
+
+main.i: main.cpp.i
+
+.PHONY : main.i
+
+# target to preprocess a source file
+main.cpp.i:
+	cd /home/rodelph/dev/ImageProc/build-ImageProc-Desktop-Release && $(MAKE) -f ProjectEx/CMakeFiles/ImageProc.dir/build.make ProjectEx/CMakeFiles/ImageProc.dir/main.cpp.i
+.PHONY : main.cpp.i
+
+main.s: main.cpp.s
+
+.PHONY : main.s
+
+# target to generate assembly for a file
+main.cpp.s:
+	cd /home/rodelph/dev/ImageProc/build-ImageProc-Desktop-Release && $(MAKE) -f ProjectEx/CMakeFiles/ImageProc.dir/build.make ProjectEx/CMakeFiles/ImageProc.dir/main.cpp.s
+.PHONY : main.cpp.s
 
 # Help Target
 help:
@@ -799,61 +233,19 @@ help:
 	@echo "... all (the default if no target is provided)"
 	@echo "... clean"
 	@echo "... depend"
-	@echo "... rebuild_cache"
-	@echo "... test"
 	@echo "... package_source"
-	@echo "... edit_cache"
-	@echo "... NightlyMemCheck"
-	@echo "... NightlyTest"
-	@echo "... ContinuousConfigure"
-	@echo "... ContinuousBuild"
-	@echo "... NightlyConfigure"
-	@echo "... NightlyMemoryCheck"
-	@echo "... ExperimentalTest"
-	@echo "... ContinuousUpdate"
-	@echo "... NightlyUpdate"
-	@echo "... ExperimentalMemCheck"
-	@echo "... ExperimentalSubmit"
-	@echo "... Experimental"
-	@echo "... ContinuousCoverage"
-	@echo "... ExperimentalConfigure"
-	@echo "... Continuous"
-	@echo "... Nightly"
-	@echo "... NightlySubmit"
-	@echo "... NightlyStart"
-	@echo "... ExperimentalCoverage"
-	@echo "... NightlyCoverage"
-	@echo "... ExperimentalStart"
-	@echo "... ExperimentalUpdate"
-	@echo "... ContinuousStart"
-	@echo "... ContinuousMemCheck"
-	@echo "... ContinuousTest"
-	@echo "... ContinuousSubmit"
-	@echo "... NightlyBuild"
-	@echo "... ExperimentalBuild"
+	@echo "... rebuild_cache"
 	@echo "... package"
-	@echo "... ImageAlgorithms"
-	@echo "... ImageAlgorithms_autogen"
-	@echo "... SelectionWindow"
-	@echo "... SelectionWindow_autogen"
-	@echo "... FiltOption"
-	@echo "... FiltOption_autogen"
-	@echo "... HighPassFilt"
-	@echo "... HighPassFilt_autogen"
-	@echo "... LowPassFilt"
-	@echo "... LowPassFilt_autogen"
-	@echo "... FreqFilt"
-	@echo "... FreqFilt_autogen"
-	@echo "... MedFilt"
-	@echo "... MedFilt_autogen"
-	@echo "... TreshFilt"
-	@echo "... TreshFilt_autogen"
-	@echo "... SegmFilt"
-	@echo "... SegmFilt_autogen"
-	@echo "... HistOption"
-	@echo "... HistOption_autogen"
+	@echo "... edit_cache"
+	@echo "... test"
 	@echo "... ImageProc"
 	@echo "... ImageProc_autogen"
+	@echo "... ImageProc_autogen/mocs_compilation.o"
+	@echo "... ImageProc_autogen/mocs_compilation.i"
+	@echo "... ImageProc_autogen/mocs_compilation.s"
+	@echo "... main.o"
+	@echo "... main.i"
+	@echo "... main.s"
 .PHONY : help
 
 
@@ -865,6 +257,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/rodelph/dev/ImageProc/build-ImageProc-Desktop-Release && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

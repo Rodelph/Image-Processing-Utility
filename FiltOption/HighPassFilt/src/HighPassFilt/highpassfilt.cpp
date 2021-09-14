@@ -1,6 +1,7 @@
 #include "highpassfilt.h"
 #include "ui_highpassfilt.h"
 #include "../../../FiltOption/src/FiltOption/filterswindow.h"
+#include <iostream>
 
 highpassfilt::highpassfilt(QWidget *parent) : QDialog(parent),
                                               ui(new Ui::highpassfilt)
@@ -13,6 +14,7 @@ highpassfilt::~highpassfilt() { delete ui; }
 void highpassfilt::on_retBtn_clicked()
 {
     this->setAttribute(Qt::WA_DeleteOnClose);
+    this->hide();
     this->close();
     FiltersWindow filt;
     filt.setModal(true);
@@ -37,16 +39,13 @@ void highpassfilt::on_transformBtn_clicked()
 {
     cv::Mat img = cv::imread(path.toStdString(), cv::IMREAD_GRAYSCALE);
     cv::Mat dst;
-    data = QString::fromStdString(pathToSave);
     
     try
     {
         cv::filter2D(img, dst, img.depth(), make_Kernel());
-        cv::imwrite(pathToSave + "SavedImages/resultHpFilter.png", dst);
-        QPixmap resTransform(data+ "SavedImages/resultHpFilter.png");
-        width = ui->imageTrsLbl->width();
-        height = ui->imageTrsLbl->height();
-        ui->imageTrsLbl->setPixmap(resTransform.scaled(width, height, Qt::KeepAspectRatio));
+        cv::imshow("title", dst);
+        cv::waitKey();
+        cv::destroyAllWindows();
     }
     catch(cv::Exception& e)
     {
@@ -60,9 +59,11 @@ void highpassfilt::on_confBtn_clicked() { make_Kernel();}
 
 cv::Mat highpassfilt::make_Kernel()
 {
-    kernel = (cv::Mat_<int>(3,3) << ui->spinBox_1->value(), ui->spinBox_2->value(), ui->spinBox_3->value(),
-                                    ui->spinBox_4->value(), ui->spinBox_5->value(), ui->spinBox_6->value(),
-                                    ui->spinBox_7->value(), ui->spinBox_8->value(), ui->spinBox_9->value() 
+    kernel = (cv::Mat_<int>(5,5) << ui->spinBox_1->value(),  ui->spinBox_2->value(),  ui->spinBox_3->value(),  ui->spinBox_4->value(),  ui->spinBox_5->value()  ,
+                                    ui->spinBox_6->value(),  ui->spinBox_7->value(),  ui->spinBox_8->value(),  ui->spinBox_9->value(),  ui->spinBox_10->value() ,
+                                    ui->spinBox_11->value(), ui->spinBox_12->value(), ui->spinBox_13->value(), ui->spinBox_14->value(), ui->spinBox_15->value() , 
+                                    ui->spinBox_16->value(), ui->spinBox_17->value(), ui->spinBox_18->value(), ui->spinBox_19->value(), ui->spinBox_20->value() ,  
+                                    ui->spinBox_21->value(), ui->spinBox_22->value(), ui->spinBox_23->value(), ui->spinBox_24->value(), ui->spinBox_25->value()  
                                     );
     return kernel;
 }
