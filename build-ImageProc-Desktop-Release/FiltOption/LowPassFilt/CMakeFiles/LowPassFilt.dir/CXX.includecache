@@ -6,22 +6,6 @@
 
 #IncludeRegexTransform: 
 
-../FiltOption/LowPassFilt/src/LowPassFilt/lowpassfilt.h
-QDialog
--
-QFileDialog
--
-QErrorMessage
--
-QPixmap
--
-opencv4/opencv2/imgcodecs.hpp
--
-opencv4/opencv2/highgui.hpp
--
-opencv4/opencv2/imgproc.hpp
--
-
 ../FiltOption/src/FiltOption/filterswindow.h
 QDialog
 -
@@ -49,18 +33,6 @@ opencv4/opencv2/highgui.hpp
 -
 opencv4/opencv2/imgproc.hpp
 -
-
-/home/rodelph/dev/ImageProc/build-ImageProc-Desktop-Release/FiltOption/LowPassFilt/LowPassFilt_autogen/L4ABIF6HTO/moc_lowpassfilt.cpp
-src/LowPassFilt/lowpassfilt.h
-/home/rodelph/dev/ImageProc/build-ImageProc-Desktop-Release/FiltOption/LowPassFilt/LowPassFilt_autogen/L4ABIF6HTO/src/LowPassFilt/lowpassfilt.h
-QtCore/qbytearray.h
--
-QtCore/qmetatype.h
--
-
-/home/rodelph/dev/ImageProc/build-ImageProc-Desktop-Release/FiltOption/LowPassFilt/LowPassFilt_autogen/mocs_compilation.cpp
-L4ABIF6HTO/moc_lowpassfilt.cpp
-/home/rodelph/dev/ImageProc/build-ImageProc-Desktop-Release/FiltOption/LowPassFilt/LowPassFilt_autogen/L4ABIF6HTO/moc_lowpassfilt.cpp
 
 /usr/include/x86_64-linux-gnu/qt5/QtCore/QVariant
 qvariant.h

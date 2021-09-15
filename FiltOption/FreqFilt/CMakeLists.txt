@@ -8,10 +8,19 @@ add_library(
 target_include_directories(FreqFilt PUBLIC "${CMAKE_CURRENT_SOURCE_DIR}/src")
 
 find_package(Qt5 COMPONENTS Widgets Core Gui REQUIRED)
+find_package(OpenCV 4.5.2 REQUIRED)
 
 if (${Qt5_FOUND})
-    message("Found Qt : " ${Qt5_VERSION} " for FreqFilt ")
-    target_link_libraries(FreqFilt  Qt5::Widgets Qt5::Core Qt5::Gui)
+    message("Found Qt : " ${Qt5_VERSION} " for FreqPassFilter ")
+    if (${OpenCV_FOUND} EQUAL 1)
+        message("Found this version : " ${OpenCV_VERSION})
+        include_directories(${OpenCV_INCLUDE_DIRS})
+        target_link_libraries(FreqFilt ${OpenCV_LIBS})
+        target_link_libraries(FreqFilt  Qt5::Widgets Qt5::Core Qt5::Gui)
+    else ( )
+        message("Couldn't find the OpenCV installation")
+    endif()
 else()
-    message("Couldn't find Qt for FreqFilt ")
+    message("Couldn't find Qt for FreqFilter ")
 endif()
+

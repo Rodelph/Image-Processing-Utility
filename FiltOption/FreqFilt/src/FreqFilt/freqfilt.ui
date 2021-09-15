@@ -35,9 +35,9 @@
    <property name="geometry">
     <rect>
      <x>20</x>
-     <y>90</y>
-     <width>1201</width>
-     <height>621</height>
+     <y>100</y>
+     <width>1321</width>
+     <height>611</height>
     </rect>
    </property>
    <layout class="QHBoxLayout" name="horizontalLayout">
@@ -48,23 +48,15 @@
         <property name="text">
          <string/>
         </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
        </widget>
       </item>
       <item alignment="Qt::AlignHCenter">
        <widget class="QPushButton" name="foldBtn">
         <property name="text">
          <string>Folder</string>
-        </property>
-       </widget>
-      </item>
-     </layout>
-    </item>
-    <item>
-     <layout class="QVBoxLayout" name="verticalLayout_2">
-      <item>
-       <widget class="QLabel" name="imageTransLbl">
-        <property name="text">
-         <string/>
         </property>
        </widget>
       </item>

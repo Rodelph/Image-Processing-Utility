@@ -105,8 +105,10 @@ FiltOption/FreqFilt/CMakeFiles/FreqFilt.dir/FreqFilt_autogen/mocs_compilation.cp
 FiltOption/FreqFilt/CMakeFiles/FreqFilt.dir/FreqFilt_autogen/mocs_compilation.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtGui/qwindowdefs.h
 FiltOption/FreqFilt/CMakeFiles/FreqFilt.dir/FreqFilt_autogen/mocs_compilation.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtGui/qwindowdefs_win.h
 FiltOption/FreqFilt/CMakeFiles/FreqFilt.dir/FreqFilt_autogen/mocs_compilation.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QDialog
+FiltOption/FreqFilt/CMakeFiles/FreqFilt.dir/FreqFilt_autogen/mocs_compilation.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QErrorMessage
 FiltOption/FreqFilt/CMakeFiles/FreqFilt.dir/FreqFilt_autogen/mocs_compilation.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QFileDialog
 FiltOption/FreqFilt/CMakeFiles/FreqFilt.dir/FreqFilt_autogen/mocs_compilation.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qdialog.h
+FiltOption/FreqFilt/CMakeFiles/FreqFilt.dir/FreqFilt_autogen/mocs_compilation.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qerrormessage.h
 FiltOption/FreqFilt/CMakeFiles/FreqFilt.dir/FreqFilt_autogen/mocs_compilation.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qfiledialog.h
 FiltOption/FreqFilt/CMakeFiles/FreqFilt.dir/FreqFilt_autogen/mocs_compilation.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qsizepolicy.h
 FiltOption/FreqFilt/CMakeFiles/FreqFilt.dir/FreqFilt_autogen/mocs_compilation.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qtwidgets-config.h
@@ -224,6 +226,7 @@ FiltOption/FreqFilt/CMakeFiles/FreqFilt.dir/src/FreqFilt/freqfilt.cpp.o: /usr/in
 FiltOption/FreqFilt/CMakeFiles/FreqFilt.dir/src/FreqFilt/freqfilt.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtGui/qwindowdefs_win.h
 FiltOption/FreqFilt/CMakeFiles/FreqFilt.dir/src/FreqFilt/freqfilt.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QApplication
 FiltOption/FreqFilt/CMakeFiles/FreqFilt.dir/src/FreqFilt/freqfilt.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QDialog
+FiltOption/FreqFilt/CMakeFiles/FreqFilt.dir/src/FreqFilt/freqfilt.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QErrorMessage
 FiltOption/FreqFilt/CMakeFiles/FreqFilt.dir/src/FreqFilt/freqfilt.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QFileDialog
 FiltOption/FreqFilt/CMakeFiles/FreqFilt.dir/src/FreqFilt/freqfilt.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QHBoxLayout
 FiltOption/FreqFilt/CMakeFiles/FreqFilt.dir/src/FreqFilt/freqfilt.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QLabel
@@ -235,6 +238,7 @@ FiltOption/FreqFilt/CMakeFiles/FreqFilt.dir/src/FreqFilt/freqfilt.cpp.o: /usr/in
 FiltOption/FreqFilt/CMakeFiles/FreqFilt.dir/src/FreqFilt/freqfilt.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qboxlayout.h
 FiltOption/FreqFilt/CMakeFiles/FreqFilt.dir/src/FreqFilt/freqfilt.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qdesktopwidget.h
 FiltOption/FreqFilt/CMakeFiles/FreqFilt.dir/src/FreqFilt/freqfilt.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qdialog.h
+FiltOption/FreqFilt/CMakeFiles/FreqFilt.dir/src/FreqFilt/freqfilt.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qerrormessage.h
 FiltOption/FreqFilt/CMakeFiles/FreqFilt.dir/src/FreqFilt/freqfilt.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qfiledialog.h
 FiltOption/FreqFilt/CMakeFiles/FreqFilt.dir/src/FreqFilt/freqfilt.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qframe.h
 FiltOption/FreqFilt/CMakeFiles/FreqFilt.dir/src/FreqFilt/freqfilt.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qgridlayout.h

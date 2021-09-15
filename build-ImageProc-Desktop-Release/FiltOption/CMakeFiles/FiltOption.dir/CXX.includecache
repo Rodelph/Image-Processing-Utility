@@ -11,6 +11,16 @@ QDialog
 -
 QFileDialog
 -
+QErrorMessage
+-
+opencv4/opencv2/core.hpp
+-
+opencv4/opencv2/highgui.hpp
+-
+opencv4/opencv2/imgcodecs.hpp
+-
+opencv4/opencv2/imgproc.hpp
+-
 
 /home/rodelph/dev/ImageProc/FiltOption/HighPassFilt/src/HighPassFilt/highpassfilt.h
 QDialog

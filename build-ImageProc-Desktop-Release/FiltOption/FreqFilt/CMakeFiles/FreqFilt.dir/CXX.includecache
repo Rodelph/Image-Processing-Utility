@@ -23,6 +23,16 @@ QDialog
 -
 QFileDialog
 -
+QErrorMessage
+-
+opencv4/opencv2/core.hpp
+-
+opencv4/opencv2/highgui.hpp
+-
+opencv4/opencv2/imgcodecs.hpp
+-
+opencv4/opencv2/imgproc.hpp
+-
 
 /usr/include/x86_64-linux-gnu/qt5/QtCore/QVariant
 qvariant.h
@@ -1086,6 +1096,10 @@ qapplication.h
 qdialog.h
 /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qdialog.h
 
+/usr/include/x86_64-linux-gnu/qt5/QtWidgets/QErrorMessage
+qerrormessage.h
+/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qerrormessage.h
+
 /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QFileDialog
 qfiledialog.h
 /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qfiledialog.h
@@ -1158,6 +1172,12 @@ QtWidgets/qwidget.h
 QtWidgets/qtwidgetsglobal.h
 -
 QtWidgets/qwidget.h
+-
+
+/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qerrormessage.h
+QtWidgets/qtwidgetsglobal.h
+-
+QtWidgets/qdialog.h
 -
 
 /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qfiledialog.h

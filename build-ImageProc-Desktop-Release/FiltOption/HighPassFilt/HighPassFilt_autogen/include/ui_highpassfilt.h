@@ -93,6 +93,7 @@ public:
         verticalLayout->setObjectName(QString::fromUtf8("verticalLayout"));
         imgFoldLbl = new QLabel(horizontalLayoutWidget);
         imgFoldLbl->setObjectName(QString::fromUtf8("imgFoldLbl"));
+        imgFoldLbl->setAlignment(Qt::AlignCenter);
 
         verticalLayout->addWidget(imgFoldLbl);
 

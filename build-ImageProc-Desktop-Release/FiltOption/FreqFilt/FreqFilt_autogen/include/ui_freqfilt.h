@@ -28,8 +28,6 @@ public:
     QVBoxLayout *verticalLayout;
     QLabel *imageFoldLbl;
     QPushButton *foldBtn;
-    QVBoxLayout *verticalLayout_2;
-    QLabel *imageTransLbl;
     QPushButton *transBtn;
     QPushButton *retBtn;
     QLabel *label_3;
@@ -48,7 +46,7 @@ public:
         freqfilt->setMaximumSize(QSize(1366, 720));
         horizontalLayoutWidget = new QWidget(freqfilt);
         horizontalLayoutWidget->setObjectName(QString::fromUtf8("horizontalLayoutWidget"));
-        horizontalLayoutWidget->setGeometry(QRect(20, 90, 1201, 621));
+        horizontalLayoutWidget->setGeometry(QRect(20, 100, 1321, 611));
         horizontalLayout = new QHBoxLayout(horizontalLayoutWidget);
         horizontalLayout->setObjectName(QString::fromUtf8("horizontalLayout"));
         horizontalLayout->setContentsMargins(0, 0, 0, 0);
@@ -56,6 +54,7 @@ public:
         verticalLayout->setObjectName(QString::fromUtf8("verticalLayout"));
         imageFoldLbl = new QLabel(horizontalLayoutWidget);
         imageFoldLbl->setObjectName(QString::fromUtf8("imageFoldLbl"));
+        imageFoldLbl->setAlignment(Qt::AlignCenter);
 
         verticalLayout->addWidget(imageFoldLbl);
 
@@ -64,23 +63,13 @@ public:
 
         verticalLayout->addWidget(foldBtn, 0, Qt::AlignHCenter);
 
-
-        horizontalLayout->addLayout(verticalLayout);
-
-        verticalLayout_2 = new QVBoxLayout();
-        verticalLayout_2->setObjectName(QString::fromUtf8("verticalLayout_2"));
-        imageTransLbl = new QLabel(horizontalLayoutWidget);
-        imageTransLbl->setObjectName(QString::fromUtf8("imageTransLbl"));
-
-        verticalLayout_2->addWidget(imageTransLbl);
-
         transBtn = new QPushButton(horizontalLayoutWidget);
         transBtn->setObjectName(QString::fromUtf8("transBtn"));
 
-        verticalLayout_2->addWidget(transBtn, 0, Qt::AlignHCenter);
+        verticalLayout->addWidget(transBtn, 0, Qt::AlignHCenter);
 
 
-        horizontalLayout->addLayout(verticalLayout_2);
+        horizontalLayout->addLayout(verticalLayout);
 
         retBtn = new QPushButton(freqfilt);
         retBtn->setObjectName(QString::fromUtf8("retBtn"));
@@ -103,7 +92,6 @@ public:
         freqfilt->setWindowTitle(QApplication::translate("freqfilt", "Dialog", nullptr));
         imageFoldLbl->setText(QString());
         foldBtn->setText(QApplication::translate("freqfilt", "Folder", nullptr));
-        imageTransLbl->setText(QString());
         transBtn->setText(QApplication::translate("freqfilt", "Transform", nullptr));
         retBtn->setText(QApplication::translate("freqfilt", "Return", nullptr));
         label_3->setText(QApplication::translate("freqfilt", "Frequency Filter", nullptr));
