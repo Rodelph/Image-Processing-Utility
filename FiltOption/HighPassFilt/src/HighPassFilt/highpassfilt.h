@@ -18,7 +18,8 @@ class highpassfilt : public QDialog
 public:
     explicit highpassfilt(QWidget *parent = nullptr);
     ~highpassfilt();
-    cv::Mat make_Kernel();
+    cv::Mat make_Kernel5x5();
+    cv::Mat make_Kernel3x3();
 
 private slots :
     QString on_foldBtn_clicked();
@@ -26,6 +27,8 @@ private slots :
     void on_retBtn_clicked();
     void on_transformBtn_clicked();
     void on_confBtn_clicked();
+    bool on_x3rad_clicked();
+    bool on_x5rad_clicked();
 
 private:
     Ui::highpassfilt *ui;
@@ -34,6 +37,7 @@ private:
     const QString pathToImages = QDir::currentPath() + "/resources/";
     QErrorMessage* errMsg;
     cv::Mat kernel;
+    bool r3x3 = false, r5x5 = false;
 };
 
 #endif // HIGHPASSFILT_H

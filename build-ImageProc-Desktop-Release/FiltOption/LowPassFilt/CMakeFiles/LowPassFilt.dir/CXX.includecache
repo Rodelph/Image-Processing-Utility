@@ -6,6 +6,22 @@
 
 #IncludeRegexTransform: 
 
+../FiltOption/LowPassFilt/src/LowPassFilt/lowpassfilt.h
+QDialog
+-
+QFileDialog
+-
+QErrorMessage
+-
+QPixmap
+-
+opencv4/opencv2/imgcodecs.hpp
+-
+opencv4/opencv2/highgui.hpp
+-
+opencv4/opencv2/imgproc.hpp
+-
+
 ../FiltOption/src/FiltOption/filterswindow.h
 QDialog
 -
@@ -33,6 +49,18 @@ opencv4/opencv2/highgui.hpp
 -
 opencv4/opencv2/imgproc.hpp
 -
+
+/home/rodelph/dev/ImageProc/build-ImageProc-Desktop-Release/FiltOption/LowPassFilt/LowPassFilt_autogen/L4ABIF6HTO/moc_lowpassfilt.cpp
+src/LowPassFilt/lowpassfilt.h
+/home/rodelph/dev/ImageProc/build-ImageProc-Desktop-Release/FiltOption/LowPassFilt/LowPassFilt_autogen/L4ABIF6HTO/src/LowPassFilt/lowpassfilt.h
+QtCore/qbytearray.h
+-
+QtCore/qmetatype.h
+-
+
+/home/rodelph/dev/ImageProc/build-ImageProc-Desktop-Release/FiltOption/LowPassFilt/LowPassFilt_autogen/mocs_compilation.cpp
+L4ABIF6HTO/moc_lowpassfilt.cpp
+/home/rodelph/dev/ImageProc/build-ImageProc-Desktop-Release/FiltOption/LowPassFilt/LowPassFilt_autogen/L4ABIF6HTO/moc_lowpassfilt.cpp
 
 /usr/include/x86_64-linux-gnu/qt5/QtCore/QVariant
 qvariant.h
@@ -1146,6 +1174,10 @@ qlabel.h
 qpushbutton.h
 /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qpushbutton.h
 
+/usr/include/x86_64-linux-gnu/qt5/QtWidgets/QRadioButton
+qradiobutton.h
+/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qradiobutton.h
+
 /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QSpinBox
 qspinbox.h
 /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qspinbox.h
@@ -1292,6 +1324,12 @@ QtWidgets/qtwidgetsglobal.h
 QtWidgets/qabstractbutton.h
 -
 
+/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qradiobutton.h
+QtWidgets/qtwidgetsglobal.h
+-
+QtWidgets/qabstractbutton.h
+-
+
 /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qsizepolicy.h
 QtWidgets/qtwidgetsglobal.h
 -
@@ -1358,6 +1396,8 @@ QtWidgets/QHBoxLayout
 QtWidgets/QLabel
 -
 QtWidgets/QPushButton
+-
+QtWidgets/QRadioButton
 -
 QtWidgets/QSpinBox
 -

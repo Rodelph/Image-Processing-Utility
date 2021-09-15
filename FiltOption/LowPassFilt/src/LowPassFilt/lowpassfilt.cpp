@@ -41,10 +41,20 @@ void lowpassfilt::on_transBtn_clicked()
 
     try
     {
-        cv::filter2D(imgLp, dstLp, imgLp.depth(), make_Kernel());
-        cv::imshow("title", dstLp);
-        cv::waitKey();
-        cv::destroyAllWindows();
+        if ( x5state == true )
+        {
+            cv::filter2D(imgLp, dstLp, imgLp.depth(), make_Kernel5x5());
+            cv::imshow("title", dstLp);
+            cv::waitKey();
+            cv::destroyAllWindows();
+        }
+        else if ( x3state == true )
+        {
+            cv::filter2D(imgLp, dstLp, imgLp.depth(), make_Kernel3x3());
+            cv::imshow("title", dstLp);
+            cv::waitKey();
+            cv::destroyAllWindows();
+        }
     }
     catch(cv::Exception& e)
     {
@@ -54,9 +64,9 @@ void lowpassfilt::on_transBtn_clicked()
     }
 }
 
-void lowpassfilt::on_confBtn_clicked() { make_Kernel(); }
+void lowpassfilt::on_confBtn_clicked() { make_Kernel5x5(); make_Kernel3x3(); }
 
-cv::Mat lowpassfilt::make_Kernel()
+cv::Mat lowpassfilt::make_Kernel5x5()
 {
     sum = ui->spinBox_1->value()  + ui->spinBox_2->value()  + ui->spinBox_3->value()  + ui->spinBox_4->value()  + ui->spinBox_5->value()  +
           ui->spinBox_6->value()  + ui->spinBox_7->value()  + ui->spinBox_8->value()  + ui->spinBox_9->value()  + ui->spinBox_10->value() +
@@ -72,4 +82,61 @@ cv::Mat lowpassfilt::make_Kernel()
                                         );
     kernel = kernel / sum;
     return kernel;
+}
+
+cv::Mat lowpassfilt::make_Kernel3x3()
+{
+    sum = ui->spinBox_7->value()  + ui->spinBox_8->value()  + ui->spinBox_9->value()  + 
+          ui->spinBox_12->value() + ui->spinBox_13->value() + ui->spinBox_14->value() + 
+          ui->spinBox_17->value() + ui->spinBox_18->value() + ui->spinBox_19->value() ; 
+    
+    kernel = (cv::Mat_<float_t>(3,3) << ui->spinBox_7->value()  , ui->spinBox_8->value()  , ui->spinBox_9->value()  , 
+                                        ui->spinBox_12->value() , ui->spinBox_13->value() , ui->spinBox_14->value() , 
+                                        ui->spinBox_17->value() , ui->spinBox_18->value() , ui->spinBox_19->value());
+    kernel = kernel / sum;
+    return kernel;
+}
+
+bool lowpassfilt::on_x3rad_clicked()
+{
+    ui->spinBox_1->hide();
+    ui->spinBox_2->hide();
+    ui->spinBox_3->hide();
+    ui->spinBox_4->hide();
+    ui->spinBox_5->hide();
+    ui->spinBox_6->hide();
+    ui->spinBox_10->hide();
+    ui->spinBox_11->hide();
+    ui->spinBox_15->hide();
+    ui->spinBox_16->hide();
+    ui->spinBox_20->hide();
+    ui->spinBox_21->hide();
+    ui->spinBox_22->hide();
+    ui->spinBox_23->hide();
+    ui->spinBox_24->hide();
+    ui->spinBox_25->hide();
+
+    return x3state = true, x5state = false;
+}
+
+bool lowpassfilt::on_x5rad_clicked()
+{
+    ui->spinBox_1->show();
+    ui->spinBox_2->show();
+    ui->spinBox_3->show();
+    ui->spinBox_4->show();
+    ui->spinBox_5->show();
+    ui->spinBox_6->show();
+    ui->spinBox_10->show();
+    ui->spinBox_11->show();
+    ui->spinBox_15->show();
+    ui->spinBox_16->show();
+    ui->spinBox_20->show();
+    ui->spinBox_21->show();
+    ui->spinBox_22->show();
+    ui->spinBox_23->show();
+    ui->spinBox_24->show();
+    ui->spinBox_25->show();
+    
+    return x3state = false, x5state = true;
 }

@@ -42,10 +42,20 @@ void highpassfilt::on_transformBtn_clicked()
     
     try
     {
-        cv::filter2D(img, dst, img.depth(), make_Kernel());
-        cv::imshow("title", dst);
-        cv::waitKey();
-        cv::destroyAllWindows();
+        if(r5x5 == true)
+        {
+            cv::filter2D(img, dst, img.depth(), make_Kernel5x5());
+            cv::imshow("title", dst);
+            cv::waitKey();
+            cv::destroyAllWindows();
+        }
+        else if(r3x3 == true)
+        {
+            cv::filter2D(img, dst, img.depth(), make_Kernel3x3());
+            cv::imshow("title", dst);
+            cv::waitKey();
+            cv::destroyAllWindows();
+        }
     }
     catch(cv::Exception& e)
     {
@@ -55,9 +65,9 @@ void highpassfilt::on_transformBtn_clicked()
     }
 }
 
-void highpassfilt::on_confBtn_clicked() { make_Kernel();}
+void highpassfilt::on_confBtn_clicked() { make_Kernel5x5(); make_Kernel3x3();}
 
-cv::Mat highpassfilt::make_Kernel()
+cv::Mat highpassfilt::make_Kernel5x5()
 {
     kernel = (cv::Mat_<int>(5,5) << ui->spinBox_1->value(),  ui->spinBox_2->value(),  ui->spinBox_3->value(),  ui->spinBox_4->value(),  ui->spinBox_5->value()  ,
                                     ui->spinBox_6->value(),  ui->spinBox_7->value(),  ui->spinBox_8->value(),  ui->spinBox_9->value(),  ui->spinBox_10->value() ,
@@ -66,4 +76,57 @@ cv::Mat highpassfilt::make_Kernel()
                                     ui->spinBox_21->value(), ui->spinBox_22->value(), ui->spinBox_23->value(), ui->spinBox_24->value(), ui->spinBox_25->value()  
                                     );
     return kernel;
+}
+
+cv::Mat highpassfilt::make_Kernel3x3()
+{
+    kernel = (cv::Mat_<int>(3,3) << ui->spinBox_7->value(),  ui->spinBox_8->value(),  ui->spinBox_9->value(),   
+                                    ui->spinBox_12->value(), ui->spinBox_13->value(), ui->spinBox_14->value(), 
+                                    ui->spinBox_17->value(), ui->spinBox_18->value(), ui->spinBox_19->value()
+                                    );
+    return kernel;
+}
+
+bool highpassfilt::on_x3rad_clicked()
+{
+    ui->spinBox_1->hide();
+    ui->spinBox_2->hide();
+    ui->spinBox_3->hide();
+    ui->spinBox_4->hide();
+    ui->spinBox_5->hide();
+    ui->spinBox_6->hide();
+    ui->spinBox_10->hide();
+    ui->spinBox_11->hide();
+    ui->spinBox_15->hide();
+    ui->spinBox_16->hide();
+    ui->spinBox_20->hide();
+    ui->spinBox_21->hide();
+    ui->spinBox_22->hide();
+    ui->spinBox_23->hide();
+    ui->spinBox_24->hide();
+    ui->spinBox_25->hide();
+
+    return r3x3 = true, r5x5 = false;
+}
+
+bool highpassfilt::on_x5rad_clicked()
+{
+    ui->spinBox_1->show();
+    ui->spinBox_2->show();
+    ui->spinBox_3->show();
+    ui->spinBox_4->show();
+    ui->spinBox_5->show();
+    ui->spinBox_6->show();
+    ui->spinBox_10->show();
+    ui->spinBox_11->show();
+    ui->spinBox_15->show();
+    ui->spinBox_16->show();
+    ui->spinBox_20->show();
+    ui->spinBox_21->show();
+    ui->spinBox_22->show();
+    ui->spinBox_23->show();
+    ui->spinBox_24->show();
+    ui->spinBox_25->show();
+
+    return r5x5 = true, r3x3 = false;
 }

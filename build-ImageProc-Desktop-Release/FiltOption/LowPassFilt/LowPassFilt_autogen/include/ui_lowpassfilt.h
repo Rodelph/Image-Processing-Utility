@@ -15,6 +15,7 @@
 #include <QtWidgets/QHBoxLayout>
 #include <QtWidgets/QLabel>
 #include <QtWidgets/QPushButton>
+#include <QtWidgets/QRadioButton>
 #include <QtWidgets/QSpinBox>
 #include <QtWidgets/QVBoxLayout>
 #include <QtWidgets/QWidget>
@@ -65,6 +66,10 @@ public:
     QSpinBox *spinBox_24;
     QSpinBox *spinBox_25;
     QPushButton *confBtn_2;
+    QWidget *horizontalLayoutWidget_2;
+    QHBoxLayout *horizontalLayout_2;
+    QRadioButton *x3rad;
+    QRadioButton *x5rad;
 
     void setupUi(QDialog *lowpassfilt)
     {
@@ -116,7 +121,7 @@ public:
         retBtn->setGeometry(QRect(10, 30, 89, 25));
         verticalLayoutWidget_2 = new QWidget(lowpassfilt);
         verticalLayoutWidget_2->setObjectName(QString::fromUtf8("verticalLayoutWidget_2"));
-        verticalLayoutWidget_2->setGeometry(QRect(1050, 290, 293, 197));
+        verticalLayoutWidget_2->setGeometry(QRect(1050, 290, 293, 228));
         verticalLayout_4 = new QVBoxLayout(verticalLayoutWidget_2);
         verticalLayout_4->setObjectName(QString::fromUtf8("verticalLayout_4"));
         verticalLayout_4->setContentsMargins(0, 0, 0, 0);
@@ -325,6 +330,23 @@ public:
 
         verticalLayout_4->addWidget(confBtn_2);
 
+        horizontalLayoutWidget_2 = new QWidget(lowpassfilt);
+        horizontalLayoutWidget_2->setObjectName(QString::fromUtf8("horizontalLayoutWidget_2"));
+        horizontalLayoutWidget_2->setGeometry(QRect(1120, 240, 160, 31));
+        horizontalLayout_2 = new QHBoxLayout(horizontalLayoutWidget_2);
+        horizontalLayout_2->setObjectName(QString::fromUtf8("horizontalLayout_2"));
+        horizontalLayout_2->setContentsMargins(0, 0, 0, 0);
+        x3rad = new QRadioButton(horizontalLayoutWidget_2);
+        x3rad->setObjectName(QString::fromUtf8("x3rad"));
+
+        horizontalLayout_2->addWidget(x3rad);
+
+        x5rad = new QRadioButton(horizontalLayoutWidget_2);
+        x5rad->setObjectName(QString::fromUtf8("x5rad"));
+        x5rad->setChecked(true);
+
+        horizontalLayout_2->addWidget(x5rad);
+
 
         retranslateUi(lowpassfilt);
 
@@ -340,6 +362,8 @@ public:
         transBtn->setText(QApplication::translate("lowpassfilt", "Transform", nullptr));
         retBtn->setText(QApplication::translate("lowpassfilt", "Return", nullptr));
         confBtn_2->setText(QApplication::translate("lowpassfilt", "Confirm", nullptr));
+        x3rad->setText(QApplication::translate("lowpassfilt", "3x3", nullptr));
+        x5rad->setText(QApplication::translate("lowpassfilt", "5x5", nullptr));
     } // retranslateUi
 
 };

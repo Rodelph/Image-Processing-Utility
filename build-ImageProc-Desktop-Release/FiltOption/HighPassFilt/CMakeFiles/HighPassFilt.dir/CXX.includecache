@@ -1148,6 +1148,10 @@ qlabel.h
 qpushbutton.h
 /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qpushbutton.h
 
+/usr/include/x86_64-linux-gnu/qt5/QtWidgets/QRadioButton
+qradiobutton.h
+/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qradiobutton.h
+
 /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QSpinBox
 qspinbox.h
 /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qspinbox.h
@@ -1289,6 +1293,12 @@ limits.h
 -
 
 /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qpushbutton.h
+QtWidgets/qtwidgetsglobal.h
+-
+QtWidgets/qabstractbutton.h
+-
+
+/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qradiobutton.h
 QtWidgets/qtwidgetsglobal.h
 -
 QtWidgets/qabstractbutton.h
@@ -1704,6 +1714,8 @@ QtWidgets/QHBoxLayout
 QtWidgets/QLabel
 -
 QtWidgets/QPushButton
+-
+QtWidgets/QRadioButton
 -
 QtWidgets/QSpinBox
 -
