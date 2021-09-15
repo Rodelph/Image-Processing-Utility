@@ -48,23 +48,15 @@
         <property name="text">
          <string/>
         </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
        </widget>
       </item>
       <item alignment="Qt::AlignHCenter">
        <widget class="QPushButton" name="foldBtn">
         <property name="text">
          <string>Folder</string>
-        </property>
-       </widget>
-      </item>
-     </layout>
-    </item>
-    <item>
-     <layout class="QVBoxLayout" name="verticalLayout_2">
-      <item>
-       <widget class="QLabel" name="calcImage">
-        <property name="text">
-         <string/>
         </property>
        </widget>
       </item>

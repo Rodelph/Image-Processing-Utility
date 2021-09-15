@@ -1,7 +1,6 @@
 #include "highpassfilt.h"
 #include "ui_highpassfilt.h"
 #include "../../../FiltOption/src/FiltOption/filterswindow.h"
-#include <iostream>
 
 highpassfilt::highpassfilt(QWidget *parent) : QDialog(parent),
                                               ui(new Ui::highpassfilt)
@@ -32,6 +31,7 @@ QString highpassfilt::on_foldBtn_clicked()
     width = ui->imgFoldLbl->width();
     height = ui->imgFoldLbl->height();
     ui->imgFoldLbl->setPixmap(map.scaled(width, height, Qt::KeepAspectRatio));
+   
     return path;
 }
 

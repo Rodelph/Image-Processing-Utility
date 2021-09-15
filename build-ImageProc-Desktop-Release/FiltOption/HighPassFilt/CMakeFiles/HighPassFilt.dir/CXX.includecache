@@ -17,8 +17,6 @@ ui_highpassfilt.h
 /home/rodelph/dev/ImageProc/FiltOption/HighPassFilt/src/HighPassFilt/ui_highpassfilt.h
 ../../../FiltOption/src/FiltOption/filterswindow.h
 /home/rodelph/dev/ImageProc/FiltOption/FiltOption/src/FiltOption/filterswindow.h
-iostream
--
 
 /home/rodelph/dev/ImageProc/FiltOption/HighPassFilt/src/HighPassFilt/highpassfilt.h
 QDialog

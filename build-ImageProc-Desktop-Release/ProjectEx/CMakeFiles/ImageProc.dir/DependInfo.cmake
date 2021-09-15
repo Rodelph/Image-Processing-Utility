@@ -32,12 +32,12 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "../FiltOption/TreshFilt/src"
   "../HistOption/src"
   "../ImageAlgorithms/src"
+  "/usr/local/include/opencv4"
   "/usr/include/x86_64-linux-gnu/qt5"
   "/usr/include/x86_64-linux-gnu/qt5/QtWidgets"
   "/usr/include/x86_64-linux-gnu/qt5/QtGui"
   "/usr/include/x86_64-linux-gnu/qt5/QtCore"
   "/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++"
-  "/usr/local/include/opencv4"
   )
 
 # Targets to which this target links.

@@ -99,7 +99,19 @@ QDialog
 /home/rodelph/dev/ImageProc/HistOption/src/HistOption/histogram.h
 QDialog
 -
+QErrorMessage
+-
 QFileDialog
+-
+QPixmap
+-
+opencv2/imgcodecs.hpp
+-
+opencv2/highgui.hpp
+-
+opencv2/imgproc.hpp
+-
+iostream
 -
 
 /usr/include/x86_64-linux-gnu/qt5/QtCore/QVariant
