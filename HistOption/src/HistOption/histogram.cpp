@@ -37,8 +37,57 @@ QString histogram::on_foldBtn_clicked()
 
 void histogram::on_calcBtn_clicked()
 {
+    if(radStateRgb == true)
+    {
+        calc_rgb();
+    }
+    else if(radStateGs == true)
+    {
+        calc_gs();
+        radStateEq = false;
+        radStateRgb = false;
+    }
+    else if(radStateEq == true)
+    {
+        calc_eq();
+        radStateEq = false;
+        radStateRgb = false;
+    }
+}
+
+bool histogram::calc_gs()
+{
+    cv::Mat img = cv::imread(path.toStdString(), cv::IMREAD_GRAYSCALE);
+
+    std::vector<cv::Mat> bgr_planes;
+    cv::split(img, bgr_planes);
+    float range[] = {0, 256};
+    const float* histRange[] = { range };
+
+    cv::calcHist(&bgr_planes[0], 1, 0, cv::Mat(), b_hist, 1, &histsize, histRange, uniform, accumulate);
+    
+    bin_w = cvRound((double) hist_w / histsize );
+    cv::Mat histImage(hist_h, hist_w, CV_8UC1, cv::Scalar(0));
+
+    cv::normalize(b_hist, b_hist, 0, histImage.rows, cv::NORM_MINMAX, -1, cv::Mat());
+
+    for(int i = 0 ; i < histsize ; i++)
+    {
+        cv::line(histImage, cv::Point( bin_w * ( i - 1 ), hist_h - cvRound(b_hist.at<float>( i - 1 ))),
+                            cv::Point( bin_w * ( i )    , hist_h - cvRound(b_hist.at<float>( i ))),
+                            cv::Scalar(255, 255, 255), 2, 8, 0 );
+    }
+
+    cv::imshow("Histogram", histImage);
+    cv::waitKey();
+    cv::destroyAllWindows();
+
+    return  radStateGs = true, radStateEq = true, radStateGs = false;
+}
+
+bool histogram::calc_rgb()
+{
     cv::Mat img = cv::imread(path.toStdString(), cv::IMREAD_COLOR);
-    cv::Mat dst;
 
     std::vector<cv::Mat> bgr_planes;
     cv::split(img, bgr_planes);
@@ -75,4 +124,44 @@ void histogram::on_calcBtn_clicked()
     cv::waitKey();
     cv::destroyAllWindows();
 
+    return radStateGs = false, radStateEq = false, radStateGs = true;
 }
+
+bool histogram::calc_eq()
+{
+    cv::Mat img = cv::imread(path.toStdString(), cv::IMREAD_GRAYSCALE);
+    cv::Mat dst;
+
+    cv::equalizeHist(img, dst);
+
+    std::vector<cv::Mat> bgr_planes;
+    cv::split(dst, bgr_planes);
+    float range[] = {0, 256};
+    const float* histRange[] = { range };
+
+    cv::calcHist(&bgr_planes[0], 1, 0, cv::Mat(), b_hist, 1, &histsize, histRange, uniform, accumulate);
+    
+    bin_w = cvRound((double) hist_w / histsize );
+    cv::Mat histImage(hist_h, hist_w, CV_8UC1, cv::Scalar(0));
+
+    cv::normalize(b_hist, b_hist, 0, histImage.rows, cv::NORM_MINMAX, -1, cv::Mat());
+
+    for(int i = 0 ; i < histsize ; i++)
+    {
+        cv::line(histImage, cv::Point( bin_w * ( i - 1 ), hist_h - cvRound(b_hist.at<float>( i - 1 ))),
+                            cv::Point( bin_w * ( i )    , hist_h - cvRound(b_hist.at<float>( i ))),
+                            cv::Scalar(255, 255, 255), 2, 8, 0 );
+    }
+
+    cv::imshow("Histogram", histImage);
+    cv::waitKey();
+    cv::destroyAllWindows();
+
+    return radStateGs = false, radStateEq = true, radStateGs = false;
+}
+
+bool histogram::on_radRgb_clicked() { return radStateRgb = true ; }
+
+bool histogram::on_radGs_clicked() { return radStateGs = true ; }
+
+bool histogram::on_radEq_clicked() { return radStateEq = true ; }

@@ -25,18 +25,31 @@ public:
 private slots:
     void on_filtBtn_clicked();
     void on_calcBtn_clicked();
+    bool calc_gs();
+    bool calc_rgb();
+    bool calc_eq();
+
+    bool on_radGs_clicked();
+    bool on_radEq_clicked();
+    bool on_radRgb_clicked();
 
     QString on_foldBtn_clicked();
 
 private:
     Ui::histogram *ui;
-    int width, height, hist_w = 512, hist_h = 400, bin_w;
+
     QString path;
     const QString pathToImages = QDir::currentPath() + "/resources/";
+    
     QErrorMessage* errMsg;
+    
     const int histsize = 256;
-    bool uniform = true, accumulate = false;
+    int width, height, hist_w = 512, hist_h = 400, bin_w;
+
     cv::Mat b_hist, g_hist, r_hist;
+
+    bool uniform = true, accumulate = false;
+    bool radStateRgb = false, radStateGs = false, radStateEq = false;
 
 };
 

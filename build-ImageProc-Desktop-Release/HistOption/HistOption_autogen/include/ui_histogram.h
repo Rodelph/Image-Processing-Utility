@@ -15,6 +15,7 @@
 #include <QtWidgets/QHBoxLayout>
 #include <QtWidgets/QLabel>
 #include <QtWidgets/QPushButton>
+#include <QtWidgets/QRadioButton>
 #include <QtWidgets/QVBoxLayout>
 #include <QtWidgets/QWidget>
 
@@ -31,6 +32,11 @@ public:
     QPushButton *calcBtn;
     QPushButton *filtBtn;
     QLabel *label;
+    QWidget *verticalLayoutWidget;
+    QVBoxLayout *verticalLayout_2;
+    QRadioButton *radRgb;
+    QRadioButton *radGs;
+    QRadioButton *radEq;
 
     void setupUi(QDialog *histogram)
     {
@@ -46,7 +52,7 @@ public:
         histogram->setMaximumSize(QSize(1366, 720));
         horizontalLayoutWidget = new QWidget(histogram);
         horizontalLayoutWidget->setObjectName(QString::fromUtf8("horizontalLayoutWidget"));
-        horizontalLayoutWidget->setGeometry(QRect(10, 60, 1341, 651));
+        horizontalLayoutWidget->setGeometry(QRect(10, 80, 1191, 631));
         horizontalLayout = new QHBoxLayout(horizontalLayoutWidget);
         horizontalLayout->setObjectName(QString::fromUtf8("horizontalLayout"));
         horizontalLayout->setContentsMargins(0, 0, 0, 0);
@@ -81,6 +87,27 @@ public:
         font.setPointSize(21);
         label->setFont(font);
         label->setAlignment(Qt::AlignCenter);
+        verticalLayoutWidget = new QWidget(histogram);
+        verticalLayoutWidget->setObjectName(QString::fromUtf8("verticalLayoutWidget"));
+        verticalLayoutWidget->setGeometry(QRect(1220, 300, 121, 71));
+        verticalLayout_2 = new QVBoxLayout(verticalLayoutWidget);
+        verticalLayout_2->setObjectName(QString::fromUtf8("verticalLayout_2"));
+        verticalLayout_2->setContentsMargins(0, 0, 0, 0);
+        radRgb = new QRadioButton(verticalLayoutWidget);
+        radRgb->setObjectName(QString::fromUtf8("radRgb"));
+
+        verticalLayout_2->addWidget(radRgb);
+
+        radGs = new QRadioButton(verticalLayoutWidget);
+        radGs->setObjectName(QString::fromUtf8("radGs"));
+
+        verticalLayout_2->addWidget(radGs);
+
+        radEq = new QRadioButton(verticalLayoutWidget);
+        radEq->setObjectName(QString::fromUtf8("radEq"));
+
+        verticalLayout_2->addWidget(radEq);
+
 
         retranslateUi(histogram);
 
@@ -95,6 +122,9 @@ public:
         calcBtn->setText(QApplication::translate("histogram", "Calculate", nullptr));
         filtBtn->setText(QApplication::translate("histogram", "Go to Filters", nullptr));
         label->setText(QApplication::translate("histogram", "Histogram", nullptr));
+        radRgb->setText(QApplication::translate("histogram", "rgb", nullptr));
+        radGs->setText(QApplication::translate("histogram", "grayscale", nullptr));
+        radEq->setText(QApplication::translate("histogram", "equalize", nullptr));
     } // retranslateUi
 
 };

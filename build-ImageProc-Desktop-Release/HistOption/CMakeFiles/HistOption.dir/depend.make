@@ -268,6 +268,7 @@ HistOption/CMakeFiles/HistOption.dir/src/HistOption/histogram.cpp.o: /usr/includ
 HistOption/CMakeFiles/HistOption.dir/src/HistOption/histogram.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QHBoxLayout
 HistOption/CMakeFiles/HistOption.dir/src/HistOption/histogram.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QLabel
 HistOption/CMakeFiles/HistOption.dir/src/HistOption/histogram.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QPushButton
+HistOption/CMakeFiles/HistOption.dir/src/HistOption/histogram.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QRadioButton
 HistOption/CMakeFiles/HistOption.dir/src/HistOption/histogram.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QVBoxLayout
 HistOption/CMakeFiles/HistOption.dir/src/HistOption/histogram.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QWidget
 HistOption/CMakeFiles/HistOption.dir/src/HistOption/histogram.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qabstractbutton.h
@@ -283,6 +284,7 @@ HistOption/CMakeFiles/HistOption.dir/src/HistOption/histogram.cpp.o: /usr/includ
 HistOption/CMakeFiles/HistOption.dir/src/HistOption/histogram.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qlayout.h
 HistOption/CMakeFiles/HistOption.dir/src/HistOption/histogram.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qlayoutitem.h
 HistOption/CMakeFiles/HistOption.dir/src/HistOption/histogram.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qpushbutton.h
+HistOption/CMakeFiles/HistOption.dir/src/HistOption/histogram.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qradiobutton.h
 HistOption/CMakeFiles/HistOption.dir/src/HistOption/histogram.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qsizepolicy.h
 HistOption/CMakeFiles/HistOption.dir/src/HistOption/histogram.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qtwidgets-config.h
 HistOption/CMakeFiles/HistOption.dir/src/HistOption/histogram.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qtwidgetsglobal.h
