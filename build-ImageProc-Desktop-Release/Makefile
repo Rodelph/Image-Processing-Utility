@@ -508,32 +508,6 @@ ExperimentalBuild/fast:
 .PHONY : ExperimentalBuild/fast
 
 #=============================================================================
-# Target rules for targets named ImageAlgorithms
-
-# Build rule for target.
-ImageAlgorithms: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 ImageAlgorithms
-.PHONY : ImageAlgorithms
-
-# fast build rule for target.
-ImageAlgorithms/fast:
-	$(MAKE) -f ImageAlgorithms/CMakeFiles/ImageAlgorithms.dir/build.make ImageAlgorithms/CMakeFiles/ImageAlgorithms.dir/build
-.PHONY : ImageAlgorithms/fast
-
-#=============================================================================
-# Target rules for targets named ImageAlgorithms_autogen
-
-# Build rule for target.
-ImageAlgorithms_autogen: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 ImageAlgorithms_autogen
-.PHONY : ImageAlgorithms_autogen
-
-# fast build rule for target.
-ImageAlgorithms_autogen/fast:
-	$(MAKE) -f ImageAlgorithms/CMakeFiles/ImageAlgorithms_autogen.dir/build.make ImageAlgorithms/CMakeFiles/ImageAlgorithms_autogen.dir/build
-.PHONY : ImageAlgorithms_autogen/fast
-
-#=============================================================================
 # Target rules for targets named SelectionWindow
 
 # Build rule for target.
@@ -716,32 +690,6 @@ TreshFilt_autogen/fast:
 .PHONY : TreshFilt_autogen/fast
 
 #=============================================================================
-# Target rules for targets named SegmFilt
-
-# Build rule for target.
-SegmFilt: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 SegmFilt
-.PHONY : SegmFilt
-
-# fast build rule for target.
-SegmFilt/fast:
-	$(MAKE) -f FiltOption/SegmFilt/CMakeFiles/SegmFilt.dir/build.make FiltOption/SegmFilt/CMakeFiles/SegmFilt.dir/build
-.PHONY : SegmFilt/fast
-
-#=============================================================================
-# Target rules for targets named SegmFilt_autogen
-
-# Build rule for target.
-SegmFilt_autogen: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 SegmFilt_autogen
-.PHONY : SegmFilt_autogen
-
-# fast build rule for target.
-SegmFilt_autogen/fast:
-	$(MAKE) -f FiltOption/SegmFilt/CMakeFiles/SegmFilt_autogen.dir/build.make FiltOption/SegmFilt/CMakeFiles/SegmFilt_autogen.dir/build
-.PHONY : SegmFilt_autogen/fast
-
-#=============================================================================
 # Target rules for targets named HistOption
 
 # Build rule for target.
@@ -832,8 +780,6 @@ help:
 	@echo "... NightlyBuild"
 	@echo "... ExperimentalBuild"
 	@echo "... package"
-	@echo "... ImageAlgorithms"
-	@echo "... ImageAlgorithms_autogen"
 	@echo "... SelectionWindow"
 	@echo "... SelectionWindow_autogen"
 	@echo "... FiltOption"
@@ -848,8 +794,6 @@ help:
 	@echo "... MedFilt_autogen"
 	@echo "... TreshFilt"
 	@echo "... TreshFilt_autogen"
-	@echo "... SegmFilt"
-	@echo "... SegmFilt_autogen"
 	@echo "... HistOption"
 	@echo "... HistOption_autogen"
 	@echo "... ImageProc"

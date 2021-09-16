@@ -1,11 +1,10 @@
 #include "filterswindow.h"
-#include "../../../build-ImageProc-Desktop-Release/FiltOption/FiltOption_autogen/include/ui_filterswindow.h"
+#include "ui_filterswindow.h"
 #include "../../../HistOption/src/HistOption/histogram.h"
 #include "../../HighPassFilt/src/HighPassFilt/highpassfilt.h"
 #include "../../LowPassFilt/src/LowPassFilt/lowpassfilt.h"
 #include "../../FreqFilt/src/FreqFilt/freqfilt.h"
 #include "../../MedFilt/src/MedFilt/medfilt.h"
-#include "../../SegmFilt/src/SegmFilt/segmfilt.h"
 #include "../../TreshFilt/src/TreshFilt/treshfilt.h"
 
 
@@ -58,14 +57,6 @@ void FiltersWindow::on_medBtn_clicked()
     medfilt med;
     med.setModal(true);
     med.exec();
-}
-void FiltersWindow::on_segBtn_clicked()
-{
-    this->setAttribute(Qt::WA_QuitOnClose);
-    this->close();
-    segmfilt seg;
-    seg.setModal(true);
-    seg.exec();
 }
 
 void FiltersWindow::on_treshBtn_clicked()

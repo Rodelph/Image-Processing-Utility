@@ -1,2 +1,0 @@
-/bin/ar qc libImageAlgorithms.a  CMakeFiles/ImageAlgorithms.dir/ImageAlgorithms_autogen/mocs_compilation.cpp.o CMakeFiles/ImageAlgorithms.dir/src/ImageAlgorithms/algo.cpp.o
-/bin/ranlib libImageAlgorithms.a

@@ -114,7 +114,6 @@ FiltOption/CMakeFiles/FiltOption.dir/src/FiltOption/filterswindow.cpp.o
  /home/rodelph/dev/ImageProc/FiltOption/HighPassFilt/src/HighPassFilt/highpassfilt.h
  /home/rodelph/dev/ImageProc/FiltOption/LowPassFilt/src/LowPassFilt/lowpassfilt.h
  /home/rodelph/dev/ImageProc/FiltOption/MedFilt/src/MedFilt/medfilt.h
- /home/rodelph/dev/ImageProc/FiltOption/SegmFilt/src/SegmFilt/segmfilt.h
  /home/rodelph/dev/ImageProc/FiltOption/TreshFilt/src/TreshFilt/treshfilt.h
  /home/rodelph/dev/ImageProc/FiltOption/src/FiltOption/filterswindow.cpp
  /home/rodelph/dev/ImageProc/FiltOption/src/FiltOption/filterswindow.h
@@ -287,4 +286,4 @@ FiltOption/CMakeFiles/FiltOption.dir/src/FiltOption/filterswindow.cpp.o
  /usr/local/include/opencv4/opencv2/imgproc/segmentation.hpp
  /usr/local/include/opencv4/opencv2/opencv_modules.hpp
  /usr/local/include/opencv4/opencv2/videoio.hpp
- build-ImageProc-Desktop-Release/FiltOption/FiltOption_autogen/include/ui_filterswindow.h
+ FiltOption/FiltOption_autogen/include/ui_filterswindow.h

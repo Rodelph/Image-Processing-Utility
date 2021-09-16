@@ -301,4 +301,4 @@ SelectionWindow/CMakeFiles/SelectionWindow.dir/src/SelectionWindow/mainwindow.cp
  /usr/local/include/opencv4/opencv2/imgproc/segmentation.hpp
  /usr/local/include/opencv4/opencv2/opencv_modules.hpp
  /usr/local/include/opencv4/opencv2/videoio.hpp
- build-ImageProc-Desktop-Release/SelectionWindow/SelectionWindow_autogen/include/ui_mainwindow.h
+ SelectionWindow/SelectionWindow_autogen/include/ui_mainwindow.h

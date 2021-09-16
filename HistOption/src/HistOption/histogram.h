@@ -25,9 +25,9 @@ public:
 private slots:
     void on_filtBtn_clicked();
     void on_calcBtn_clicked();
-    bool calc_gs();
-    bool calc_rgb();
-    bool calc_eq();
+    void calc_gs();
+    void calc_rgb();
+    void calc_eq();
 
     bool on_radGs_clicked();
     bool on_radEq_clicked();
@@ -50,7 +50,6 @@ private:
 
     bool uniform = true, accumulate = false;
     bool radStateRgb, radStateGs, radStateEq;
-
 };
 
 #endif // HISTOGRAM_H

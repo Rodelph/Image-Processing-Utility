@@ -4,14 +4,13 @@ add_subdirectory(LowPassFilt)
 add_subdirectory(FreqFilt)
 add_subdirectory(MedFilt)
 add_subdirectory(TreshFilt)
-add_subdirectory(SegmFilt)
 
 add_library(
             FiltOption
             src/FiltOption/filterswindow.cpp
             src/FiltOption/filterswindow.h
             src/FiltOption/filterswindow.ui
-            )
+           )
 
 target_include_directories(FiltOption PUBLIC "${CMAKE_CURRENT_SOURCE_DIR}/src")
 

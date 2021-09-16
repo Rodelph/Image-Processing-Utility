@@ -57,13 +57,6 @@
         </property>
        </widget>
       </item>
-      <item>
-       <widget class="QPushButton" name="segBtn">
-        <property name="text">
-         <string>Segmentation</string>
-        </property>
-       </widget>
-      </item>
      </layout>
     </item>
     <item>

@@ -21,7 +21,6 @@ private slots :
     void on_lpBtn_clicked();
     void on_freqBtn_clicked();
     void on_medBtn_clicked();
-    void on_segBtn_clicked();
     void on_treshBtn_clicked();
 
 private:

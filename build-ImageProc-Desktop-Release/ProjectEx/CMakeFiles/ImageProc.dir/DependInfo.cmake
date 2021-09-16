@@ -28,10 +28,8 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "../FiltOption/HighPassFilt/src"
   "../FiltOption/LowPassFilt/src"
   "../FiltOption/MedFilt/src"
-  "../FiltOption/SegmFilt/src"
   "../FiltOption/TreshFilt/src"
   "../HistOption/src"
-  "../ImageAlgorithms/src"
   "/usr/local/include/opencv4"
   "/usr/include/x86_64-linux-gnu/qt5"
   "/usr/include/x86_64-linux-gnu/qt5/QtWidgets"
@@ -48,10 +46,8 @@ set(CMAKE_TARGET_LINKED_INFO_FILES
   "/home/rodelph/dev/ImageProc/build-ImageProc-Desktop-Release/FiltOption/HighPassFilt/CMakeFiles/HighPassFilt.dir/DependInfo.cmake"
   "/home/rodelph/dev/ImageProc/build-ImageProc-Desktop-Release/FiltOption/LowPassFilt/CMakeFiles/LowPassFilt.dir/DependInfo.cmake"
   "/home/rodelph/dev/ImageProc/build-ImageProc-Desktop-Release/FiltOption/MedFilt/CMakeFiles/MedFilt.dir/DependInfo.cmake"
-  "/home/rodelph/dev/ImageProc/build-ImageProc-Desktop-Release/FiltOption/SegmFilt/CMakeFiles/SegmFilt.dir/DependInfo.cmake"
   "/home/rodelph/dev/ImageProc/build-ImageProc-Desktop-Release/FiltOption/TreshFilt/CMakeFiles/TreshFilt.dir/DependInfo.cmake"
   "/home/rodelph/dev/ImageProc/build-ImageProc-Desktop-Release/HistOption/CMakeFiles/HistOption.dir/DependInfo.cmake"
-  "/home/rodelph/dev/ImageProc/build-ImageProc-Desktop-Release/ImageAlgorithms/CMakeFiles/ImageAlgorithms.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

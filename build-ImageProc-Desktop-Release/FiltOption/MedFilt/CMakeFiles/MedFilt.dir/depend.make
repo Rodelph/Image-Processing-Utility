@@ -169,6 +169,7 @@ FiltOption/MedFilt/CMakeFiles/MedFilt.dir/src/MedFilt/medfilt.cpp.o: /usr/includ
 FiltOption/MedFilt/CMakeFiles/MedFilt.dir/src/MedFilt/medfilt.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qrect.h
 FiltOption/MedFilt/CMakeFiles/MedFilt.dir/src/MedFilt/medfilt.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qrefcount.h
 FiltOption/MedFilt/CMakeFiles/MedFilt.dir/src/MedFilt/medfilt.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qregexp.h
+FiltOption/MedFilt/CMakeFiles/MedFilt.dir/src/MedFilt/medfilt.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qregularexpression.h
 FiltOption/MedFilt/CMakeFiles/MedFilt.dir/src/MedFilt/medfilt.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qscopedpointer.h
 FiltOption/MedFilt/CMakeFiles/MedFilt.dir/src/MedFilt/medfilt.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qset.h
 FiltOption/MedFilt/CMakeFiles/MedFilt.dir/src/MedFilt/medfilt.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qshareddata.h
@@ -219,6 +220,7 @@ FiltOption/MedFilt/CMakeFiles/MedFilt.dir/src/MedFilt/medfilt.cpp.o: /usr/includ
 FiltOption/MedFilt/CMakeFiles/MedFilt.dir/src/MedFilt/medfilt.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtGui/qtguiglobal.h
 FiltOption/MedFilt/CMakeFiles/MedFilt.dir/src/MedFilt/medfilt.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtGui/qtouchdevice.h
 FiltOption/MedFilt/CMakeFiles/MedFilt.dir/src/MedFilt/medfilt.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtGui/qtransform.h
+FiltOption/MedFilt/CMakeFiles/MedFilt.dir/src/MedFilt/medfilt.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtGui/qvalidator.h
 FiltOption/MedFilt/CMakeFiles/MedFilt.dir/src/MedFilt/medfilt.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtGui/qvector2d.h
 FiltOption/MedFilt/CMakeFiles/MedFilt.dir/src/MedFilt/medfilt.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtGui/qwindowdefs.h
 FiltOption/MedFilt/CMakeFiles/MedFilt.dir/src/MedFilt/medfilt.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtGui/qwindowdefs_win.h
@@ -228,9 +230,11 @@ FiltOption/MedFilt/CMakeFiles/MedFilt.dir/src/MedFilt/medfilt.cpp.o: /usr/includ
 FiltOption/MedFilt/CMakeFiles/MedFilt.dir/src/MedFilt/medfilt.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QHBoxLayout
 FiltOption/MedFilt/CMakeFiles/MedFilt.dir/src/MedFilt/medfilt.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QLabel
 FiltOption/MedFilt/CMakeFiles/MedFilt.dir/src/MedFilt/medfilt.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QPushButton
+FiltOption/MedFilt/CMakeFiles/MedFilt.dir/src/MedFilt/medfilt.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QSpinBox
 FiltOption/MedFilt/CMakeFiles/MedFilt.dir/src/MedFilt/medfilt.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QVBoxLayout
 FiltOption/MedFilt/CMakeFiles/MedFilt.dir/src/MedFilt/medfilt.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QWidget
 FiltOption/MedFilt/CMakeFiles/MedFilt.dir/src/MedFilt/medfilt.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qabstractbutton.h
+FiltOption/MedFilt/CMakeFiles/MedFilt.dir/src/MedFilt/medfilt.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qabstractspinbox.h
 FiltOption/MedFilt/CMakeFiles/MedFilt.dir/src/MedFilt/medfilt.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qapplication.h
 FiltOption/MedFilt/CMakeFiles/MedFilt.dir/src/MedFilt/medfilt.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qboxlayout.h
 FiltOption/MedFilt/CMakeFiles/MedFilt.dir/src/MedFilt/medfilt.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qdesktopwidget.h
@@ -243,6 +247,7 @@ FiltOption/MedFilt/CMakeFiles/MedFilt.dir/src/MedFilt/medfilt.cpp.o: /usr/includ
 FiltOption/MedFilt/CMakeFiles/MedFilt.dir/src/MedFilt/medfilt.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qlayoutitem.h
 FiltOption/MedFilt/CMakeFiles/MedFilt.dir/src/MedFilt/medfilt.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qpushbutton.h
 FiltOption/MedFilt/CMakeFiles/MedFilt.dir/src/MedFilt/medfilt.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qsizepolicy.h
+FiltOption/MedFilt/CMakeFiles/MedFilt.dir/src/MedFilt/medfilt.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qspinbox.h
 FiltOption/MedFilt/CMakeFiles/MedFilt.dir/src/MedFilt/medfilt.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qtwidgets-config.h
 FiltOption/MedFilt/CMakeFiles/MedFilt.dir/src/MedFilt/medfilt.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qtwidgetsglobal.h
 FiltOption/MedFilt/CMakeFiles/MedFilt.dir/src/MedFilt/medfilt.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qwidget.h

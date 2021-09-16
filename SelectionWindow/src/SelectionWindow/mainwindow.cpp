@@ -1,5 +1,5 @@
 #include "mainwindow.h"
-#include "../../../build-ImageProc-Desktop-Release/SelectionWindow/SelectionWindow_autogen/include/ui_mainwindow.h"
+#include "ui_mainwindow.h"
 #include "../../../FiltOption/src/FiltOption/filterswindow.h"
 #include "../../../HistOption/src/HistOption/histogram.h"
 

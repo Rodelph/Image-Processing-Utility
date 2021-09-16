@@ -59,11 +59,11 @@ QDialog
 -
 QFileDialog
 -
-
-/home/rodelph/dev/ImageProc/FiltOption/SegmFilt/src/SegmFilt/segmfilt.h
-QDialog
+opencv4/opencv2/imgcodecs.hpp
 -
-QFileDialog
+opencv4/opencv2/imgproc.hpp
+-
+opencv4/opencv2/highgui.hpp
 -
 
 /home/rodelph/dev/ImageProc/FiltOption/TreshFilt/src/TreshFilt/treshfilt.h
@@ -75,8 +75,8 @@ QFileDialog
 /home/rodelph/dev/ImageProc/FiltOption/src/FiltOption/filterswindow.cpp
 filterswindow.h
 /home/rodelph/dev/ImageProc/FiltOption/src/FiltOption/filterswindow.h
-../../../build-ImageProc-Desktop-Release/FiltOption/FiltOption_autogen/include/ui_filterswindow.h
-/home/rodelph/dev/ImageProc/build-ImageProc-Desktop-Release/FiltOption/FiltOption_autogen/include/ui_filterswindow.h
+ui_filterswindow.h
+/home/rodelph/dev/ImageProc/FiltOption/src/FiltOption/ui_filterswindow.h
 ../../../HistOption/src/HistOption/histogram.h
 /home/rodelph/dev/ImageProc/HistOption/src/HistOption/histogram.h
 ../../HighPassFilt/src/HighPassFilt/highpassfilt.h
@@ -87,8 +87,6 @@ filterswindow.h
 /home/rodelph/dev/ImageProc/FiltOption/FreqFilt/src/FreqFilt/freqfilt.h
 ../../MedFilt/src/MedFilt/medfilt.h
 /home/rodelph/dev/ImageProc/FiltOption/MedFilt/src/MedFilt/medfilt.h
-../../SegmFilt/src/SegmFilt/segmfilt.h
-/home/rodelph/dev/ImageProc/FiltOption/SegmFilt/src/SegmFilt/segmfilt.h
 ../../TreshFilt/src/TreshFilt/treshfilt.h
 /home/rodelph/dev/ImageProc/FiltOption/TreshFilt/src/TreshFilt/treshfilt.h
 
@@ -1726,7 +1724,7 @@ opencv2/imgproc.hpp
 opencv2/core.hpp
 /usr/local/include/opencv4/opencv2/opencv2/core.hpp
 
-build-ImageProc-Desktop-Release/FiltOption/FiltOption_autogen/include/ui_filterswindow.h
+FiltOption/FiltOption_autogen/include/ui_filterswindow.h
 QtCore/QVariant
 -
 QtWidgets/QApplication

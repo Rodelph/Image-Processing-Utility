@@ -15,6 +15,7 @@
 #include <QtWidgets/QHBoxLayout>
 #include <QtWidgets/QLabel>
 #include <QtWidgets/QPushButton>
+#include <QtWidgets/QSpinBox>
 #include <QtWidgets/QVBoxLayout>
 #include <QtWidgets/QWidget>
 
@@ -27,12 +28,11 @@ public:
     QWidget *horizontalLayoutWidget;
     QHBoxLayout *horizontalLayout;
     QVBoxLayout *verticalLayout;
-    QLabel *label;
+    QLabel *foldImageLbl;
     QPushButton *foldBtn;
-    QVBoxLayout *verticalLayout_2;
-    QLabel *label_2;
     QPushButton *transBtn;
     QLabel *label_3;
+    QSpinBox *spinBox;
 
     void setupUi(QDialog *medfilt)
     {
@@ -51,39 +51,30 @@ public:
         retBtn->setGeometry(QRect(10, 30, 89, 25));
         horizontalLayoutWidget = new QWidget(medfilt);
         horizontalLayoutWidget->setObjectName(QString::fromUtf8("horizontalLayoutWidget"));
-        horizontalLayoutWidget->setGeometry(QRect(9, 80, 1341, 621));
+        horizontalLayoutWidget->setGeometry(QRect(9, 80, 1211, 621));
         horizontalLayout = new QHBoxLayout(horizontalLayoutWidget);
         horizontalLayout->setObjectName(QString::fromUtf8("horizontalLayout"));
         horizontalLayout->setContentsMargins(0, 0, 0, 0);
         verticalLayout = new QVBoxLayout();
         verticalLayout->setObjectName(QString::fromUtf8("verticalLayout"));
-        label = new QLabel(horizontalLayoutWidget);
-        label->setObjectName(QString::fromUtf8("label"));
+        foldImageLbl = new QLabel(horizontalLayoutWidget);
+        foldImageLbl->setObjectName(QString::fromUtf8("foldImageLbl"));
+        foldImageLbl->setAlignment(Qt::AlignCenter);
 
-        verticalLayout->addWidget(label);
+        verticalLayout->addWidget(foldImageLbl);
 
         foldBtn = new QPushButton(horizontalLayoutWidget);
         foldBtn->setObjectName(QString::fromUtf8("foldBtn"));
 
         verticalLayout->addWidget(foldBtn, 0, Qt::AlignHCenter);
 
-
-        horizontalLayout->addLayout(verticalLayout);
-
-        verticalLayout_2 = new QVBoxLayout();
-        verticalLayout_2->setObjectName(QString::fromUtf8("verticalLayout_2"));
-        label_2 = new QLabel(horizontalLayoutWidget);
-        label_2->setObjectName(QString::fromUtf8("label_2"));
-
-        verticalLayout_2->addWidget(label_2);
-
         transBtn = new QPushButton(horizontalLayoutWidget);
         transBtn->setObjectName(QString::fromUtf8("transBtn"));
 
-        verticalLayout_2->addWidget(transBtn, 0, Qt::AlignHCenter);
+        verticalLayout->addWidget(transBtn, 0, Qt::AlignHCenter);
 
 
-        horizontalLayout->addLayout(verticalLayout_2);
+        horizontalLayout->addLayout(verticalLayout);
 
         label_3 = new QLabel(medfilt);
         label_3->setObjectName(QString::fromUtf8("label_3"));
@@ -92,6 +83,11 @@ public:
         font.setPointSize(21);
         label_3->setFont(font);
         label_3->setAlignment(Qt::AlignCenter);
+        spinBox = new QSpinBox(medfilt);
+        spinBox->setObjectName(QString::fromUtf8("spinBox"));
+        spinBox->setGeometry(QRect(1260, 340, 71, 26));
+        spinBox->setMinimum(3);
+        spinBox->setSingleStep(2);
 
         retranslateUi(medfilt);
 
@@ -102,9 +98,8 @@ public:
     {
         medfilt->setWindowTitle(QApplication::translate("medfilt", "Dialog", nullptr));
         retBtn->setText(QApplication::translate("medfilt", "Return", nullptr));
-        label->setText(QString());
+        foldImageLbl->setText(QString());
         foldBtn->setText(QApplication::translate("medfilt", "Folder", nullptr));
-        label_2->setText(QString());
         transBtn->setText(QApplication::translate("medfilt", "Transform", nullptr));
         label_3->setText(QApplication::translate("medfilt", "Median Filter", nullptr));
     } // retranslateUi

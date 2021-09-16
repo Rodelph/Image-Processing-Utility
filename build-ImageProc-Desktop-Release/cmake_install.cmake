@@ -39,7 +39,6 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/rodelph/dev/ImageProc/build-ImageProc-Desktop-Release/ImageAlgorithms/cmake_install.cmake")
   include("/home/rodelph/dev/ImageProc/build-ImageProc-Desktop-Release/SelectionWindow/cmake_install.cmake")
   include("/home/rodelph/dev/ImageProc/build-ImageProc-Desktop-Release/FiltOption/cmake_install.cmake")
   include("/home/rodelph/dev/ImageProc/build-ImageProc-Desktop-Release/HistOption/cmake_install.cmake")

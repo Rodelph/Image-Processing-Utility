@@ -23,7 +23,3 @@ if (${Qt5_FOUND})
 else()
     message("Couldn't find Qt for HighPassFilter ")
 endif()
-
-
-
-

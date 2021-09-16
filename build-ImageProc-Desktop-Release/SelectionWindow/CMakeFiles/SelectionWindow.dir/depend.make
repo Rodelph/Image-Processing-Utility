@@ -300,5 +300,5 @@ SelectionWindow/CMakeFiles/SelectionWindow.dir/src/SelectionWindow/mainwindow.cp
 SelectionWindow/CMakeFiles/SelectionWindow.dir/src/SelectionWindow/mainwindow.cpp.o: /usr/local/include/opencv4/opencv2/imgproc/segmentation.hpp
 SelectionWindow/CMakeFiles/SelectionWindow.dir/src/SelectionWindow/mainwindow.cpp.o: /usr/local/include/opencv4/opencv2/opencv_modules.hpp
 SelectionWindow/CMakeFiles/SelectionWindow.dir/src/SelectionWindow/mainwindow.cpp.o: /usr/local/include/opencv4/opencv2/videoio.hpp
-SelectionWindow/CMakeFiles/SelectionWindow.dir/src/SelectionWindow/mainwindow.cpp.o: build-ImageProc-Desktop-Release/SelectionWindow/SelectionWindow_autogen/include/ui_mainwindow.h
+SelectionWindow/CMakeFiles/SelectionWindow.dir/src/SelectionWindow/mainwindow.cpp.o: SelectionWindow/SelectionWindow_autogen/include/ui_mainwindow.h
 

@@ -19,11 +19,29 @@ void medfilt::on_retBtn_clicked()
     filt.exec();
 }
 
-void medfilt::on_foldBtn_clicked()
+QString medfilt::on_foldBtn_clicked()
 {
-    QString path = QFileDialog::getOpenFileName(nullptr,
-                                                "Open Image File",
-                                                QDir::currentPath() + "/resources/Images/**",
-                                                ("Image files (*.png *.jpg *.jpeg")
-                                                );
+    path = QFileDialog::getOpenFileName(this,
+                                        "Open Image File",
+                                        pathToImages + "Images/**",
+                                        "Images (*.png *.jpg *.jpeg)"
+                                        );
+    QPixmap map(path);
+    width = ui->foldImageLbl->width();
+    height = ui->foldImageLbl->height();
+    ui->foldImageLbl->setPixmap(map.scaled(width, height, Qt::KeepAspectRatio));
+
+    return path;
+}
+
+void medfilt::on_transBtn_clicked()
+{
+    cv::Mat img = cv::imread(path.toStdString(), cv::IMREAD_GRAYSCALE);
+    cv::Mat dst;
+
+    cv::medianBlur(img, dst, ui->spinBox->value());
+
+    cv::imshow("med blur", dst);
+    cv::waitKey();
+    cv::destroyAllWindows();
 }

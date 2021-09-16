@@ -2,6 +2,7 @@
 
 *.user
 *.txt
+*.vscode 
 
 # exceptions 
 !CMakeLists.txt

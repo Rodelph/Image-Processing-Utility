@@ -52,7 +52,7 @@ void histogram::on_calcBtn_clicked()
     }
 }
 
-bool histogram::calc_gs()
+void histogram::calc_gs()
 {
     cv::Mat img = cv::imread(path.toStdString(), cv::IMREAD_GRAYSCALE);
 
@@ -78,11 +78,9 @@ bool histogram::calc_gs()
     cv::imshow("Histogram", histImage);
     cv::waitKey();
     cv::destroyAllWindows();
-
-    return  radStateGs = true, radStateEq = false, radStateGs = false;
 }
 
-bool histogram::calc_rgb()
+void histogram::calc_rgb()
 {
     cv::Mat img = cv::imread(path.toStdString(), cv::IMREAD_COLOR);
 
@@ -120,11 +118,9 @@ bool histogram::calc_rgb()
     cv::imshow("Histogram", histImage);
     cv::waitKey();
     cv::destroyAllWindows();
-
-    return radStateGs = false, radStateEq = false, radStateRgb = true;
 }
 
-bool histogram::calc_eq()
+void histogram::calc_eq()
 {
     cv::Mat img = cv::imread(path.toStdString(), cv::IMREAD_GRAYSCALE);
     cv::Mat dst;
@@ -153,8 +149,6 @@ bool histogram::calc_eq()
     cv::imshow("Histogram", histImage);
     cv::waitKey();
     cv::destroyAllWindows();
-
-    return radStateGs = false, radStateEq = true, radStateGs = false;
 }
 
 bool histogram::on_radRgb_clicked() 

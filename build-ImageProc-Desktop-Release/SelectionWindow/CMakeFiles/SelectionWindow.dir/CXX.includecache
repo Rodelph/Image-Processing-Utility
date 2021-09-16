@@ -31,8 +31,8 @@ iostream
 /home/rodelph/dev/ImageProc/SelectionWindow/src/SelectionWindow/mainwindow.cpp
 mainwindow.h
 /home/rodelph/dev/ImageProc/SelectionWindow/src/SelectionWindow/mainwindow.h
-../../../build-ImageProc-Desktop-Release/SelectionWindow/SelectionWindow_autogen/include/ui_mainwindow.h
-/home/rodelph/dev/ImageProc/build-ImageProc-Desktop-Release/SelectionWindow/SelectionWindow_autogen/include/ui_mainwindow.h
+ui_mainwindow.h
+/home/rodelph/dev/ImageProc/SelectionWindow/src/SelectionWindow/ui_mainwindow.h
 ../../../FiltOption/src/FiltOption/filterswindow.h
 /home/rodelph/dev/ImageProc/FiltOption/src/FiltOption/filterswindow.h
 ../../../HistOption/src/HistOption/histogram.h
@@ -1748,7 +1748,7 @@ opencv2/imgproc.hpp
 opencv2/core.hpp
 /usr/local/include/opencv4/opencv2/opencv2/core.hpp
 
-build-ImageProc-Desktop-Release/SelectionWindow/SelectionWindow_autogen/include/ui_mainwindow.h
+SelectionWindow/SelectionWindow_autogen/include/ui_mainwindow.h
 QtCore/QVariant
 -
 QtWidgets/QAction

@@ -113,7 +113,6 @@ FiltOption/CMakeFiles/FiltOption.dir/src/FiltOption/filterswindow.cpp.o: ../Filt
 FiltOption/CMakeFiles/FiltOption.dir/src/FiltOption/filterswindow.cpp.o: ../FiltOption/HighPassFilt/src/HighPassFilt/highpassfilt.h
 FiltOption/CMakeFiles/FiltOption.dir/src/FiltOption/filterswindow.cpp.o: ../FiltOption/LowPassFilt/src/LowPassFilt/lowpassfilt.h
 FiltOption/CMakeFiles/FiltOption.dir/src/FiltOption/filterswindow.cpp.o: ../FiltOption/MedFilt/src/MedFilt/medfilt.h
-FiltOption/CMakeFiles/FiltOption.dir/src/FiltOption/filterswindow.cpp.o: ../FiltOption/SegmFilt/src/SegmFilt/segmfilt.h
 FiltOption/CMakeFiles/FiltOption.dir/src/FiltOption/filterswindow.cpp.o: ../FiltOption/TreshFilt/src/TreshFilt/treshfilt.h
 FiltOption/CMakeFiles/FiltOption.dir/src/FiltOption/filterswindow.cpp.o: ../FiltOption/src/FiltOption/filterswindow.cpp
 FiltOption/CMakeFiles/FiltOption.dir/src/FiltOption/filterswindow.cpp.o: ../FiltOption/src/FiltOption/filterswindow.h
@@ -286,5 +285,5 @@ FiltOption/CMakeFiles/FiltOption.dir/src/FiltOption/filterswindow.cpp.o: /usr/lo
 FiltOption/CMakeFiles/FiltOption.dir/src/FiltOption/filterswindow.cpp.o: /usr/local/include/opencv4/opencv2/imgproc/segmentation.hpp
 FiltOption/CMakeFiles/FiltOption.dir/src/FiltOption/filterswindow.cpp.o: /usr/local/include/opencv4/opencv2/opencv_modules.hpp
 FiltOption/CMakeFiles/FiltOption.dir/src/FiltOption/filterswindow.cpp.o: /usr/local/include/opencv4/opencv2/videoio.hpp
-FiltOption/CMakeFiles/FiltOption.dir/src/FiltOption/filterswindow.cpp.o: build-ImageProc-Desktop-Release/FiltOption/FiltOption_autogen/include/ui_filterswindow.h
+FiltOption/CMakeFiles/FiltOption.dir/src/FiltOption/filterswindow.cpp.o: FiltOption/FiltOption_autogen/include/ui_filterswindow.h
 

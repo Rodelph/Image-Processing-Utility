@@ -31,13 +31,6 @@
 /home/rodelph/dev/ImageProc/build-ImageProc-Desktop-Release/CMakeFiles/NightlyBuild.dir
 /home/rodelph/dev/ImageProc/build-ImageProc-Desktop-Release/CMakeFiles/ExperimentalBuild.dir
 /home/rodelph/dev/ImageProc/build-ImageProc-Desktop-Release/CMakeFiles/package.dir
-/home/rodelph/dev/ImageProc/build-ImageProc-Desktop-Release/ImageAlgorithms/CMakeFiles/edit_cache.dir
-/home/rodelph/dev/ImageProc/build-ImageProc-Desktop-Release/ImageAlgorithms/CMakeFiles/test.dir
-/home/rodelph/dev/ImageProc/build-ImageProc-Desktop-Release/ImageAlgorithms/CMakeFiles/package_source.dir
-/home/rodelph/dev/ImageProc/build-ImageProc-Desktop-Release/ImageAlgorithms/CMakeFiles/rebuild_cache.dir
-/home/rodelph/dev/ImageProc/build-ImageProc-Desktop-Release/ImageAlgorithms/CMakeFiles/package.dir
-/home/rodelph/dev/ImageProc/build-ImageProc-Desktop-Release/ImageAlgorithms/CMakeFiles/ImageAlgorithms.dir
-/home/rodelph/dev/ImageProc/build-ImageProc-Desktop-Release/ImageAlgorithms/CMakeFiles/ImageAlgorithms_autogen.dir
 /home/rodelph/dev/ImageProc/build-ImageProc-Desktop-Release/SelectionWindow/CMakeFiles/edit_cache.dir
 /home/rodelph/dev/ImageProc/build-ImageProc-Desktop-Release/SelectionWindow/CMakeFiles/test.dir
 /home/rodelph/dev/ImageProc/build-ImageProc-Desktop-Release/SelectionWindow/CMakeFiles/package_source.dir
@@ -87,13 +80,6 @@
 /home/rodelph/dev/ImageProc/build-ImageProc-Desktop-Release/FiltOption/TreshFilt/CMakeFiles/package.dir
 /home/rodelph/dev/ImageProc/build-ImageProc-Desktop-Release/FiltOption/TreshFilt/CMakeFiles/TreshFilt.dir
 /home/rodelph/dev/ImageProc/build-ImageProc-Desktop-Release/FiltOption/TreshFilt/CMakeFiles/TreshFilt_autogen.dir
-/home/rodelph/dev/ImageProc/build-ImageProc-Desktop-Release/FiltOption/SegmFilt/CMakeFiles/edit_cache.dir
-/home/rodelph/dev/ImageProc/build-ImageProc-Desktop-Release/FiltOption/SegmFilt/CMakeFiles/test.dir
-/home/rodelph/dev/ImageProc/build-ImageProc-Desktop-Release/FiltOption/SegmFilt/CMakeFiles/package_source.dir
-/home/rodelph/dev/ImageProc/build-ImageProc-Desktop-Release/FiltOption/SegmFilt/CMakeFiles/rebuild_cache.dir
-/home/rodelph/dev/ImageProc/build-ImageProc-Desktop-Release/FiltOption/SegmFilt/CMakeFiles/package.dir
-/home/rodelph/dev/ImageProc/build-ImageProc-Desktop-Release/FiltOption/SegmFilt/CMakeFiles/SegmFilt.dir
-/home/rodelph/dev/ImageProc/build-ImageProc-Desktop-Release/FiltOption/SegmFilt/CMakeFiles/SegmFilt_autogen.dir
 /home/rodelph/dev/ImageProc/build-ImageProc-Desktop-Release/HistOption/CMakeFiles/edit_cache.dir
 /home/rodelph/dev/ImageProc/build-ImageProc-Desktop-Release/HistOption/CMakeFiles/test.dir
 /home/rodelph/dev/ImageProc/build-ImageProc-Desktop-Release/HistOption/CMakeFiles/package_source.dir

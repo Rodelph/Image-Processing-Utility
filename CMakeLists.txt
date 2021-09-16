@@ -15,8 +15,6 @@ set(CMAKE_AUTORCC ON)
 
 include(CTest)
 
-add_subdirectory(ImageAlgorithms)
-
 add_subdirectory(SelectionWindow)
 
 add_subdirectory(FiltOption)

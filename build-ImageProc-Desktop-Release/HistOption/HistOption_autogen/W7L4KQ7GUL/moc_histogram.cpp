@@ -78,9 +78,9 @@ static const uint qt_meta_data_histogram[] = {
  // slots: parameters
     QMetaType::Void,
     QMetaType::Void,
-    QMetaType::Bool,
-    QMetaType::Bool,
-    QMetaType::Bool,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
     QMetaType::Bool,
     QMetaType::Bool,
     QMetaType::Bool,
@@ -97,12 +97,9 @@ void histogram::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, v
         switch (_id) {
         case 0: _t->on_filtBtn_clicked(); break;
         case 1: _t->on_calcBtn_clicked(); break;
-        case 2: { bool _r = _t->calc_gs();
-            if (_a[0]) *reinterpret_cast< bool*>(_a[0]) = std::move(_r); }  break;
-        case 3: { bool _r = _t->calc_rgb();
-            if (_a[0]) *reinterpret_cast< bool*>(_a[0]) = std::move(_r); }  break;
-        case 4: { bool _r = _t->calc_eq();
-            if (_a[0]) *reinterpret_cast< bool*>(_a[0]) = std::move(_r); }  break;
+        case 2: _t->calc_gs(); break;
+        case 3: _t->calc_rgb(); break;
+        case 4: _t->calc_eq(); break;
         case 5: { bool _r = _t->on_radGs_clicked();
             if (_a[0]) *reinterpret_cast< bool*>(_a[0]) = std::move(_r); }  break;
         case 6: { bool _r = _t->on_radEq_clicked();
