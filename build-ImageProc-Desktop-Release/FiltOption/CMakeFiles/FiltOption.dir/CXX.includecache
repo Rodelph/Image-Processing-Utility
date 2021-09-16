@@ -71,6 +71,12 @@ QDialog
 -
 QFileDialog
 -
+opencv4/opencv2/highgui.hpp
+-
+opencv4/opencv2/imgcodecs.hpp
+-
+opencv4/opencv2/imgproc.hpp
+-
 
 /home/rodelph/dev/ImageProc/FiltOption/src/FiltOption/filterswindow.cpp
 filterswindow.h

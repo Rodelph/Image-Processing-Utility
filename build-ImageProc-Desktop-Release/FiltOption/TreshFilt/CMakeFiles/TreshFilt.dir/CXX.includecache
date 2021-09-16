@@ -6,6 +6,18 @@
 
 #IncludeRegexTransform: 
 
+../FiltOption/TreshFilt/src/TreshFilt/treshfilt.h
+QDialog
+-
+QFileDialog
+-
+opencv4/opencv2/highgui.hpp
+-
+opencv4/opencv2/imgcodecs.hpp
+-
+opencv4/opencv2/imgproc.hpp
+-
+
 /home/rodelph/dev/ImageProc/FiltOption/TreshFilt/src/TreshFilt/treshfilt.cpp
 treshfilt.h
 /home/rodelph/dev/ImageProc/FiltOption/TreshFilt/src/TreshFilt/treshfilt.h
@@ -13,16 +25,36 @@ ui_treshfilt.h
 /home/rodelph/dev/ImageProc/FiltOption/TreshFilt/src/TreshFilt/ui_treshfilt.h
 ../../../src/FiltOption/filterswindow.h
 /home/rodelph/dev/ImageProc/FiltOption/src/FiltOption/filterswindow.h
+iostream
+-
 
 /home/rodelph/dev/ImageProc/FiltOption/TreshFilt/src/TreshFilt/treshfilt.h
 QDialog
 -
 QFileDialog
 -
+opencv4/opencv2/highgui.hpp
+-
+opencv4/opencv2/imgcodecs.hpp
+-
+opencv4/opencv2/imgproc.hpp
+-
 
 /home/rodelph/dev/ImageProc/FiltOption/src/FiltOption/filterswindow.h
 QDialog
 -
+
+/home/rodelph/dev/ImageProc/build-ImageProc-Desktop-Release/FiltOption/TreshFilt/TreshFilt_autogen/NIXB3GA5WS/moc_treshfilt.cpp
+src/TreshFilt/treshfilt.h
+/home/rodelph/dev/ImageProc/build-ImageProc-Desktop-Release/FiltOption/TreshFilt/TreshFilt_autogen/NIXB3GA5WS/src/TreshFilt/treshfilt.h
+QtCore/qbytearray.h
+-
+QtCore/qmetatype.h
+-
+
+/home/rodelph/dev/ImageProc/build-ImageProc-Desktop-Release/FiltOption/TreshFilt/TreshFilt_autogen/mocs_compilation.cpp
+NIXB3GA5WS/moc_treshfilt.cpp
+/home/rodelph/dev/ImageProc/build-ImageProc-Desktop-Release/FiltOption/TreshFilt/TreshFilt_autogen/NIXB3GA5WS/moc_treshfilt.cpp
 
 /usr/include/x86_64-linux-gnu/qt5/QtCore/QVariant
 qvariant.h
@@ -1102,6 +1134,10 @@ qlabel.h
 qpushbutton.h
 /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qpushbutton.h
 
+/usr/include/x86_64-linux-gnu/qt5/QtWidgets/QSlider
+qslider.h
+/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qslider.h
+
 /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QVBoxLayout
 qboxlayout.h
 /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qboxlayout.h
@@ -1116,6 +1152,12 @@ QtWidgets/qtwidgetsglobal.h
 QtGui/qicon.h
 -
 QtGui/qkeysequence.h
+-
+QtWidgets/qwidget.h
+-
+
+/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qabstractslider.h
+QtWidgets/qtwidgetsglobal.h
 -
 QtWidgets/qwidget.h
 -
@@ -1238,6 +1280,12 @@ QtCore/qobject.h
 QtCore/qalgorithms.h
 -
 
+/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qslider.h
+QtWidgets/qtwidgetsglobal.h
+-
+QtWidgets/qabstractslider.h
+-
+
 /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qtwidgets-config.h
 
 /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qtwidgetsglobal.h
@@ -1290,6 +1338,8 @@ QtWidgets/QHBoxLayout
 QtWidgets/QLabel
 -
 QtWidgets/QPushButton
+-
+QtWidgets/QSlider
 -
 QtWidgets/QVBoxLayout
 -

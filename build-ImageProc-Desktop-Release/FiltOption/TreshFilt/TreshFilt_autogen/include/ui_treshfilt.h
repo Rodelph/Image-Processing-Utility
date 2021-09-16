@@ -15,6 +15,7 @@
 #include <QtWidgets/QHBoxLayout>
 #include <QtWidgets/QLabel>
 #include <QtWidgets/QPushButton>
+#include <QtWidgets/QSlider>
 #include <QtWidgets/QVBoxLayout>
 #include <QtWidgets/QWidget>
 
@@ -31,6 +32,9 @@ public:
     QLabel *foldImageLbl;
     QPushButton *foldBtn;
     QPushButton *transBtn;
+    QSlider *treshSlide;
+    QLabel *label_2;
+    QLabel *treshVal;
 
     void setupUi(QDialog *treshfilt)
     {
@@ -81,6 +85,19 @@ public:
 
         horizontalLayout->addLayout(verticalLayout);
 
+        treshSlide = new QSlider(treshfilt);
+        treshSlide->setObjectName(QString::fromUtf8("treshSlide"));
+        treshSlide->setGeometry(QRect(1190, 210, 160, 16));
+        treshSlide->setMaximum(255);
+        treshSlide->setMinimum(0);
+        treshSlide->setOrientation(Qt::Horizontal);
+        label_2 = new QLabel(treshfilt);
+        label_2->setObjectName(QString::fromUtf8("label_2"));
+        label_2->setGeometry(QRect(1210, 190, 67, 17));
+        treshVal = new QLabel(treshfilt);
+        treshVal->setObjectName(QString::fromUtf8("treshVal"));
+        treshVal->setGeometry(QRect(1280, 190, 51, 16));
+        treshVal->setAlignment(Qt::AlignCenter);
 
         retranslateUi(treshfilt);
 
@@ -95,6 +112,8 @@ public:
         foldImageLbl->setText(QString());
         foldBtn->setText(QApplication::translate("treshfilt", "Folder", nullptr));
         transBtn->setText(QApplication::translate("treshfilt", "Transform", nullptr));
+        label_2->setText(QApplication::translate("treshfilt", "Treshold :", nullptr));
+        treshVal->setText(QApplication::translate("treshfilt", "0", nullptr));
     } // retranslateUi
 
 };

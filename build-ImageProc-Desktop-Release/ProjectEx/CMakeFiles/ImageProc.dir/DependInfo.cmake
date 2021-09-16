@@ -28,7 +28,6 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "../FiltOption/HighPassFilt/src"
   "../FiltOption/LowPassFilt/src"
   "../FiltOption/MedFilt/src"
-  "../FiltOption/TreshFilt/src"
   "../HistOption/src"
   "/usr/local/include/opencv4"
   "/usr/include/x86_64-linux-gnu/qt5"

@@ -4,6 +4,10 @@
 #include <QDialog>
 #include <QFileDialog>
 
+#include <opencv4/opencv2/highgui.hpp>
+#include <opencv4/opencv2/imgcodecs.hpp>
+#include <opencv4/opencv2/imgproc.hpp>
+
 namespace Ui { class treshfilt; }
 
 class treshfilt : public QDialog
@@ -16,6 +20,9 @@ public:
 
 private slots :
     void on_retBtn_clicked();
+    void on_transBtn_clicked();
+    void on_treshSlide_valueChanged(int value);
+
     QString on_foldBtn_clicked();
 
 private:
@@ -23,6 +30,8 @@ private:
     QString path;
     QString pathToImages = QDir::currentPath() + "/resources/";
     int width, height;
+    const double maxVal = 255.0;
+    int val;
 };
 
 #endif // TRESHFILT_H

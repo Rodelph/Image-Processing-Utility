@@ -13,7 +13,7 @@
 		[
 			"add_library",
 			"target_link_libraries",
-			"target_include_directories"
+			"include_directories"
 		],
 		"files" : 
 		[
@@ -33,13 +33,13 @@
 			{
 				"command" : 1,
 				"file" : 0,
-				"line" : 14,
+				"line" : 17,
 				"parent" : 0
 			},
 			{
 				"command" : 2,
 				"file" : 0,
-				"line" : 8,
+				"line" : 15,
 				"parent" : 0
 			}
 		]
@@ -90,7 +90,8 @@
 				},
 				{
 					"backtrace" : 3,
-					"path" : "/home/rodelph/dev/ImageProc/FiltOption/TreshFilt/src"
+					"isSystem" : true,
+					"path" : "/usr/local/include/opencv4"
 				},
 				{
 					"backtrace" : 2,

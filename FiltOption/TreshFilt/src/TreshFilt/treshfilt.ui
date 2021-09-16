@@ -105,6 +105,51 @@
     </item>
    </layout>
   </widget>
+  <widget class="QSlider" name="treshSlide">
+   <property name="geometry">
+    <rect>
+     <x>1190</x>
+     <y>210</y>
+     <width>160</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="maximum">
+    <number>255</number>
+   </property>
+   <property name="orientation">
+    <enum>Qt::Horizontal</enum>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>1210</x>
+     <y>190</y>
+     <width>67</width>
+     <height>17</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Treshold :</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="treshVal">
+   <property name="geometry">
+    <rect>
+     <x>1280</x>
+     <y>190</y>
+     <width>51</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>0</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
  </widget>
  <resources/>
  <connections/>
