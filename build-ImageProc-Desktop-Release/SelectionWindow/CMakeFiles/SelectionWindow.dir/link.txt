@@ -1,2 +1,0 @@
-/bin/ar qc libSelectionWindow.a  CMakeFiles/SelectionWindow.dir/SelectionWindow_autogen/mocs_compilation.cpp.o CMakeFiles/SelectionWindow.dir/src/SelectionWindow/mainwindow.cpp.o
-/bin/ranlib libSelectionWindow.a
