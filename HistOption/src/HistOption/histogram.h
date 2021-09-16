@@ -49,7 +49,7 @@ private:
     cv::Mat b_hist, g_hist, r_hist;
 
     bool uniform = true, accumulate = false;
-    bool radStateRgb = false, radStateGs = false, radStateEq = false;
+    bool radStateRgb, radStateGs, radStateEq;
 
 };
 

@@ -1,6 +1,7 @@
 #include "histogram.h"
 #include "ui_histogram.h"
 #include "../../../FiltOption/src/FiltOption/filterswindow.h"
+#include <iostream>
 
 histogram::histogram(QWidget *parent) : QDialog(parent),
                                         ui(new Ui::histogram)
@@ -37,21 +38,17 @@ QString histogram::on_foldBtn_clicked()
 
 void histogram::on_calcBtn_clicked()
 {
-    if(radStateRgb == true)
+    if(radStateRgb == true && radStateGs == false && radStateEq == false)
     {
         calc_rgb();
     }
-    else if(radStateGs == true)
+    else if(radStateRgb == false && radStateGs == true && radStateEq == false)
     {
         calc_gs();
-        radStateEq = false;
-        radStateRgb = false;
     }
-    else if(radStateEq == true)
+    else if(radStateRgb == false && radStateGs == false && radStateEq == true)
     {
         calc_eq();
-        radStateEq = false;
-        radStateRgb = false;
     }
 }
 
@@ -75,14 +72,14 @@ bool histogram::calc_gs()
     {
         cv::line(histImage, cv::Point( bin_w * ( i - 1 ), hist_h - cvRound(b_hist.at<float>( i - 1 ))),
                             cv::Point( bin_w * ( i )    , hist_h - cvRound(b_hist.at<float>( i ))),
-                            cv::Scalar(255, 255, 255), 2, 8, 0 );
+                            cv::Scalar(255, 255, 255), 1, 8, 0 );
     }
 
     cv::imshow("Histogram", histImage);
     cv::waitKey();
     cv::destroyAllWindows();
 
-    return  radStateGs = true, radStateEq = true, radStateGs = false;
+    return  radStateGs = true, radStateEq = false, radStateGs = false;
 }
 
 bool histogram::calc_rgb()
@@ -109,22 +106,22 @@ bool histogram::calc_rgb()
     {
         cv::line(histImage, cv::Point( bin_w * ( i - 1 ), hist_h - cvRound(b_hist.at<float>( i - 1 ))),
                             cv::Point( bin_w * ( i )    , hist_h - cvRound(b_hist.at<float>( i ))),
-                            cv::Scalar(255, 0, 0), 2, 8, 0 );
+                            cv::Scalar(255, 0, 0), 1, 8, 0 );
 
         cv::line(histImage, cv::Point( bin_w * ( i - 1 ), hist_h - cvRound(g_hist.at<float>( i - 1 ))),
                             cv::Point( bin_w * ( i )    , hist_h - cvRound(g_hist.at<float>( i ))),
-                            cv::Scalar(0, 255, 0), 2, 8, 0 );
+                            cv::Scalar(0, 255, 0), 1, 8, 0 );
         
         cv::line(histImage, cv::Point( bin_w * ( i - 1 ), hist_h - cvRound(r_hist.at<float>( i - 1 ))),
                             cv::Point( bin_w * ( i )    , hist_h - cvRound(r_hist.at<float>( i ))),
-                            cv::Scalar(0, 0, 255), 2, 8, 0 );
+                            cv::Scalar(0, 0, 255), 1, 8, 0 );
     }
 
     cv::imshow("Histogram", histImage);
     cv::waitKey();
     cv::destroyAllWindows();
 
-    return radStateGs = false, radStateEq = false, radStateGs = true;
+    return radStateGs = false, radStateEq = false, radStateRgb = true;
 }
 
 bool histogram::calc_eq()
@@ -150,7 +147,7 @@ bool histogram::calc_eq()
     {
         cv::line(histImage, cv::Point( bin_w * ( i - 1 ), hist_h - cvRound(b_hist.at<float>( i - 1 ))),
                             cv::Point( bin_w * ( i )    , hist_h - cvRound(b_hist.at<float>( i ))),
-                            cv::Scalar(255, 255, 255), 2, 8, 0 );
+                            cv::Scalar(255, 255, 255), 1, 8, 0 );
     }
 
     cv::imshow("Histogram", histImage);
@@ -160,8 +157,29 @@ bool histogram::calc_eq()
     return radStateGs = false, radStateEq = true, radStateGs = false;
 }
 
-bool histogram::on_radRgb_clicked() { return radStateRgb = true ; }
+bool histogram::on_radRgb_clicked() 
+{
+    radStateRgb = true ; 
+    radStateGs = false ; 
+    radStateEq = false ;
 
-bool histogram::on_radGs_clicked() { return radStateGs = true ; }
+    return radStateRgb, radStateGs, radStateEq;
+}
 
-bool histogram::on_radEq_clicked() { return radStateEq = true ; }
+bool histogram::on_radGs_clicked() 
+{ 
+    radStateRgb = false ; 
+    radStateGs = true ; 
+    radStateEq = false ;
+
+    return radStateRgb, radStateGs, radStateEq; 
+}
+
+bool histogram::on_radEq_clicked() 
+{
+    radStateRgb = false ; 
+    radStateGs = false ; 
+    radStateEq = true ;
+
+    return radStateRgb, radStateGs, radStateEq;
+}
