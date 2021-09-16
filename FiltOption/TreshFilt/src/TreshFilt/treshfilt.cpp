@@ -19,11 +19,18 @@ void treshfilt::on_retBtn_clicked()
     filt.exec();
 }
 
-void treshfilt::on_foldBtn_clicked()
+QString treshfilt::on_foldBtn_clicked()
 {
-    QString path = QFileDialog::getOpenFileName(nullptr,
-                                                "Open Image File",
-                                                QDir::currentPath() + "/resources/Images/**",
-                                                ("Image files (*.png *.jpg *.jpeg")
-                                                );
+    path = QFileDialog::getOpenFileName(this,
+                                        "Open Image File",
+                                        pathToImages + "Images/**",
+                                        "Images (*.png *.jpg *.jpeg)"
+                                        );
+    QPixmap map(path);
+    width = ui->foldImageLbl->width();
+    height = ui->foldImageLbl->height();
+    ui->foldImageLbl->setPixmap(map.scaled(width, height, Qt::KeepAspectRatio));
+
+    return path;    
 }
+

@@ -6,12 +6,6 @@
 
 #IncludeRegexTransform: 
 
-../FiltOption/TreshFilt/src/TreshFilt/treshfilt.h
-QDialog
--
-QFileDialog
--
-
 /home/rodelph/dev/ImageProc/FiltOption/TreshFilt/src/TreshFilt/treshfilt.cpp
 treshfilt.h
 /home/rodelph/dev/ImageProc/FiltOption/TreshFilt/src/TreshFilt/treshfilt.h
@@ -29,18 +23,6 @@ QFileDialog
 /home/rodelph/dev/ImageProc/FiltOption/src/FiltOption/filterswindow.h
 QDialog
 -
-
-/home/rodelph/dev/ImageProc/build-ImageProc-Desktop-Release/FiltOption/TreshFilt/TreshFilt_autogen/NIXB3GA5WS/moc_treshfilt.cpp
-src/TreshFilt/treshfilt.h
-/home/rodelph/dev/ImageProc/build-ImageProc-Desktop-Release/FiltOption/TreshFilt/TreshFilt_autogen/NIXB3GA5WS/src/TreshFilt/treshfilt.h
-QtCore/qbytearray.h
--
-QtCore/qmetatype.h
--
-
-/home/rodelph/dev/ImageProc/build-ImageProc-Desktop-Release/FiltOption/TreshFilt/TreshFilt_autogen/mocs_compilation.cpp
-NIXB3GA5WS/moc_treshfilt.cpp
-/home/rodelph/dev/ImageProc/build-ImageProc-Desktop-Release/FiltOption/TreshFilt/TreshFilt_autogen/NIXB3GA5WS/moc_treshfilt.cpp
 
 /usr/include/x86_64-linux-gnu/qt5/QtCore/QVariant
 qvariant.h

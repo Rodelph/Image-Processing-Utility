@@ -16,10 +16,13 @@ public:
 
 private slots :
     void on_retBtn_clicked();
-    void on_foldBtn_clicked();
+    QString on_foldBtn_clicked();
 
 private:
     Ui::treshfilt *ui;
+    QString path;
+    QString pathToImages = QDir::currentPath() + "/resources/";
+    int width, height;
 };
 
 #endif // TRESHFILT_H

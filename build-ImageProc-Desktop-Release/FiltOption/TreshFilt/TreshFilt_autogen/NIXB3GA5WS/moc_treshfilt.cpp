@@ -61,7 +61,7 @@ static const uint qt_meta_data_treshfilt[] = {
 
  // slots: parameters
     QMetaType::Void,
-    QMetaType::Void,
+    QMetaType::QString,
 
        0        // eod
 };
@@ -73,11 +73,11 @@ void treshfilt::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, v
         Q_UNUSED(_t)
         switch (_id) {
         case 0: _t->on_retBtn_clicked(); break;
-        case 1: _t->on_foldBtn_clicked(); break;
+        case 1: { QString _r = _t->on_foldBtn_clicked();
+            if (_a[0]) *reinterpret_cast< QString*>(_a[0]) = std::move(_r); }  break;
         default: ;
         }
     }
-    Q_UNUSED(_a);
 }
 
 QT_INIT_METAOBJECT const QMetaObject treshfilt::staticMetaObject = { {

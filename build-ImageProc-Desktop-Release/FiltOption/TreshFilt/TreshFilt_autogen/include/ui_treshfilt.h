@@ -28,10 +28,8 @@ public:
     QWidget *horizontalLayoutWidget;
     QHBoxLayout *horizontalLayout;
     QVBoxLayout *verticalLayout;
-    QLabel *label_2;
+    QLabel *foldImageLbl;
     QPushButton *foldBtn;
-    QVBoxLayout *verticalLayout_2;
-    QLabel *label_3;
     QPushButton *transBtn;
 
     void setupUi(QDialog *treshfilt)
@@ -64,33 +62,24 @@ public:
         horizontalLayout->setContentsMargins(0, 0, 0, 0);
         verticalLayout = new QVBoxLayout();
         verticalLayout->setObjectName(QString::fromUtf8("verticalLayout"));
-        label_2 = new QLabel(horizontalLayoutWidget);
-        label_2->setObjectName(QString::fromUtf8("label_2"));
+        foldImageLbl = new QLabel(horizontalLayoutWidget);
+        foldImageLbl->setObjectName(QString::fromUtf8("foldImageLbl"));
+        foldImageLbl->setAlignment(Qt::AlignCenter);
 
-        verticalLayout->addWidget(label_2);
+        verticalLayout->addWidget(foldImageLbl);
 
         foldBtn = new QPushButton(horizontalLayoutWidget);
         foldBtn->setObjectName(QString::fromUtf8("foldBtn"));
 
         verticalLayout->addWidget(foldBtn, 0, Qt::AlignHCenter);
 
-
-        horizontalLayout->addLayout(verticalLayout);
-
-        verticalLayout_2 = new QVBoxLayout();
-        verticalLayout_2->setObjectName(QString::fromUtf8("verticalLayout_2"));
-        label_3 = new QLabel(horizontalLayoutWidget);
-        label_3->setObjectName(QString::fromUtf8("label_3"));
-
-        verticalLayout_2->addWidget(label_3);
-
         transBtn = new QPushButton(horizontalLayoutWidget);
         transBtn->setObjectName(QString::fromUtf8("transBtn"));
 
-        verticalLayout_2->addWidget(transBtn, 0, Qt::AlignHCenter);
+        verticalLayout->addWidget(transBtn, 0, Qt::AlignHCenter);
 
 
-        horizontalLayout->addLayout(verticalLayout_2);
+        horizontalLayout->addLayout(verticalLayout);
 
 
         retranslateUi(treshfilt);
@@ -103,9 +92,8 @@ public:
         treshfilt->setWindowTitle(QApplication::translate("treshfilt", "Dialog", nullptr));
         label->setText(QApplication::translate("treshfilt", "Tresholding Filter", nullptr));
         retBtn->setText(QApplication::translate("treshfilt", "Return", nullptr));
-        label_2->setText(QString());
+        foldImageLbl->setText(QString());
         foldBtn->setText(QApplication::translate("treshfilt", "Folder", nullptr));
-        label_3->setText(QString());
         transBtn->setText(QApplication::translate("treshfilt", "Transform", nullptr));
     } // retranslateUi
 
