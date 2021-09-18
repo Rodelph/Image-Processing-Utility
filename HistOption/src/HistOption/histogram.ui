@@ -34,10 +34,10 @@
   <widget class="QWidget" name="horizontalLayoutWidget">
    <property name="geometry">
     <rect>
-     <x>10</x>
-     <y>80</y>
-     <width>1191</width>
-     <height>631</height>
+     <x>40</x>
+     <y>110</y>
+     <width>1181</width>
+     <height>601</height>
     </rect>
    </property>
    <layout class="QHBoxLayout" name="horizontalLayout">
@@ -71,65 +71,71 @@
     </item>
    </layout>
   </widget>
-  <widget class="QPushButton" name="filtBtn">
+  <widget class="QWidget" name="horizontalLayoutWidget_2">
    <property name="geometry">
     <rect>
      <x>10</x>
-     <y>20</y>
-     <width>141</width>
-     <height>25</height>
-    </rect>
-   </property>
-   <property name="text">
-    <string>Go to Filters</string>
-   </property>
-  </widget>
-  <widget class="QLabel" name="label">
-   <property name="geometry">
-    <rect>
-     <x>540</x>
      <y>10</y>
-     <width>271</width>
-     <height>31</height>
+     <width>851</width>
+     <height>61</height>
     </rect>
    </property>
-   <property name="font">
-    <font>
-     <pointsize>21</pointsize>
-    </font>
-   </property>
-   <property name="text">
-    <string>Histogram</string>
-   </property>
-   <property name="alignment">
-    <set>Qt::AlignCenter</set>
-   </property>
-  </widget>
-  <widget class="QWidget" name="verticalLayoutWidget">
-   <property name="geometry">
-    <rect>
-     <x>1220</x>
-     <y>300</y>
-     <width>121</width>
-     <height>71</height>
-    </rect>
-   </property>
-   <layout class="QVBoxLayout" name="verticalLayout_2">
-    <item>
-     <widget class="QRadioButton" name="radRgb">
+   <layout class="QHBoxLayout" name="horizontalLayout_2">
+    <item alignment="Qt::AlignLeft">
+     <widget class="QPushButton" name="filtBtn">
       <property name="text">
-       <string>rgb</string>
+       <string>Go to Filters</string>
       </property>
      </widget>
     </item>
     <item>
+     <widget class="QLabel" name="label">
+      <property name="font">
+       <font>
+        <pointsize>21</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>Histogram</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QWidget" name="verticalLayoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>1250</x>
+     <y>270</y>
+     <width>91</width>
+     <height>251</height>
+    </rect>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout_2">
+    <item alignment="Qt::AlignLeft">
+     <widget class="QRadioButton" name="radRgb">
+      <property name="text">
+       <string>rgb</string>
+      </property>
+      <property name="checkable">
+       <bool>true</bool>
+      </property>
+      <property name="checked">
+       <bool>false</bool>
+      </property>
+     </widget>
+    </item>
+    <item alignment="Qt::AlignLeft">
      <widget class="QRadioButton" name="radGs">
       <property name="text">
        <string>grayscale</string>
       </property>
      </widget>
     </item>
-    <item>
+    <item alignment="Qt::AlignLeft">
      <widget class="QRadioButton" name="radEq">
       <property name="text">
        <string>equalize</string>

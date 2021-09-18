@@ -1,6 +1,5 @@
 #include "treshfilt.h"
 #include "ui_treshfilt.h"
-#include "../../../src/FiltOption/filterswindow.h"
 
 treshfilt::treshfilt(QWidget *parent) : QDialog(parent),
                                         ui(new Ui::treshfilt)
@@ -14,7 +13,6 @@ void treshfilt::on_retBtn_clicked()
 {
     this->setAttribute(Qt::WA_QuitOnClose);
     this->close();
-    FiltersWindow filt;
     filt.setModal(true);
     filt.exec();
 }
@@ -38,6 +36,11 @@ void treshfilt::on_treshSlide_valueChanged(int value) { ui->treshVal->setText(QS
 
 void treshfilt::on_transBtn_clicked()
 {
+    if( boost::ends_with(path.toStdString(), ".jpg") ||
+        boost::ends_with(path.toStdString(), ".png") ||
+        boost::ends_with(path.toStdString(), ".jpeg") )
+    {
+
     cv::Mat img = cv::imread(path.toStdString(), cv::IMREAD_GRAYSCALE);
     cv::Mat dst;
 
@@ -46,4 +49,11 @@ void treshfilt::on_transBtn_clicked()
     cv::imshow("Threshold", dst);
     cv::waitKey();
     cv::destroyAllWindows();
+
+    }
+    else 
+    {
+        errMsg = new QErrorMessage(this);
+        errMsg->showMessage("You did not chose an image !!");
+    }
 }

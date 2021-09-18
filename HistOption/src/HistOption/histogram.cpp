@@ -1,7 +1,5 @@
 #include "histogram.h"
 #include "ui_histogram.h"
-#include "../../../FiltOption/src/FiltOption/filterswindow.h"
-#include <iostream>
 
 histogram::histogram(QWidget *parent) : QDialog(parent),
                                         ui(new Ui::histogram)
@@ -28,16 +26,33 @@ QString histogram::on_foldBtn_clicked()
                                         pathToImages + "Images/**",
                                         "Image (*.png *.jpg *.jpeg)"
                                         );
-    QPixmap map(path);
-    width = ui->foldImage->width();
-    height = ui->foldImage->height();
-    ui->foldImage->setPixmap(map.scaled(width, height, Qt::KeepAspectRatio));
-    
-    return path;
+
+    if( boost::ends_with(path.toStdString(), ".jpg") ||
+        boost::ends_with(path.toStdString(), ".png") ||
+        boost::ends_with(path.toStdString(), ".jpeg") )
+    {
+        QPixmap map(path);
+        width = ui->foldImage->width();
+        height = ui->foldImage->height();
+        ui->foldImage->setPixmap(map.scaled(width, height, Qt::KeepAspectRatio));
+
+        return path;
+    }
+    else 
+    {
+        errMsg->showMessage("You did not chose an image !!");
+        return nullptr;
+    }
 }
 
 void histogram::on_calcBtn_clicked()
 {
+    if(path == "")
+        errMsg->showMessage("You did not chose an image !!");
+    
+    if(radStateRgb == false && radStateGs == false && radStateEq == false)
+        errMsg->showMessage("Please check an option (Rgb, grayscale, or equalize) !!");
+
     if(radStateRgb == true && radStateGs == false && radStateEq == false)
     {
         calc_rgb();

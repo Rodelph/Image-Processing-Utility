@@ -10,6 +10,10 @@
 #include <opencv2/highgui.hpp>
 #include <opencv2/imgproc.hpp>
 
+#include <boost/algorithm/string/predicate.hpp>
+
+#include "../../../src/FiltOption/filterswindow.h"
+
 namespace Ui { class highpassfilt; }
 
 class highpassfilt : public QDialog
@@ -39,6 +43,7 @@ private:
     QErrorMessage* errMsg;
     cv::Mat kernel;
     bool r3x3 = false, r5x5 = false;
+    FiltersWindow filt;
 };
 
 #endif // HIGHPASSFILT_H

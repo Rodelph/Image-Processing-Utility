@@ -3,10 +3,15 @@
 
 #include <QDialog>
 #include <QFileDialog>
+#include <QErrorMessage>
 
 #include <opencv4/opencv2/highgui.hpp>
 #include <opencv4/opencv2/imgcodecs.hpp>
 #include <opencv4/opencv2/imgproc.hpp>
+
+#include <boost/algorithm/string/predicate.hpp>
+
+#include "../../../src/FiltOption/filterswindow.h"
 
 namespace Ui { class treshfilt; }
 
@@ -32,6 +37,8 @@ private:
     int width, height;
     const double maxVal = 255.0;
     int val;
+    FiltersWindow filt;
+    QErrorMessage* errMsg;
 };
 
 #endif // TRESHFILT_H

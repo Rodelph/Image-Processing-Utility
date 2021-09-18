@@ -10,7 +10,9 @@
 #include <opencv2/highgui.hpp>
 #include <opencv2/imgproc.hpp>
 
-#include <iostream>
+#include <boost/algorithm/string/predicate.hpp>
+
+#include "../../../FiltOption/src/FiltOption/filterswindow.h"
 
 namespace Ui { class histogram; }
 
@@ -41,7 +43,7 @@ private:
     QString path;
     const QString pathToImages = QDir::currentPath() + "/resources/";
     
-    QErrorMessage* errMsg;
+    QErrorMessage* errMsg = new QErrorMessage(this);
     
     const int histsize = 256;
     int width, height, hist_w = 512, hist_h = 400, bin_w;
@@ -49,7 +51,9 @@ private:
     cv::Mat b_hist, g_hist, r_hist;
 
     bool uniform = true, accumulate = false;
-    bool radStateRgb, radStateGs, radStateEq;
+    bool radStateRgb = false, radStateGs = false, radStateEq = false;
+
+    FiltersWindow main;
 };
 
 #endif // HISTOGRAM_H

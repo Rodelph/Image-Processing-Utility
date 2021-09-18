@@ -1,6 +1,5 @@
 #include "highpassfilt.h"
 #include "ui_highpassfilt.h"
-#include "../../../FiltOption/src/FiltOption/filterswindow.h"
 
 highpassfilt::highpassfilt(QWidget *parent) : QDialog(parent),
                                               ui(new Ui::highpassfilt)
@@ -15,7 +14,6 @@ void highpassfilt::on_retBtn_clicked()
     this->setAttribute(Qt::WA_DeleteOnClose);
     this->hide();
     this->close();
-    FiltersWindow filt;
     filt.setModal(true);
     filt.exec();
 }
@@ -40,7 +38,9 @@ void highpassfilt::on_transformBtn_clicked()
     cv::Mat img = cv::imread(path.toStdString(), cv::IMREAD_GRAYSCALE);
     cv::Mat dst;
     
-    try
+    if (boost::ends_with(path.toStdString(), ".jpg") ||
+        boost::ends_with(path.toStdString(), ".png") ||
+        boost::ends_with(path.toStdString(), ".jpeg") )
     {
         if(r5x5 == true)
         {
@@ -57,11 +57,10 @@ void highpassfilt::on_transformBtn_clicked()
             cv::destroyAllWindows();
         }
     }
-    catch(cv::Exception& e)
+    else
     {
         errMsg = new QErrorMessage(this);
-        errMsg->showMessage("Please chose your image by clicking "
-                            "on the folder button!!");
+        errMsg->showMessage("You did not chose an image !!");
     }
 }
 

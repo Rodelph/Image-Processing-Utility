@@ -1,6 +1,5 @@
 #include "lowpassfilt.h"
 #include "ui_lowpassfilt.h"
-#include "../../../FiltOption/src/FiltOption/filterswindow.h"
 
 lowpassfilt::lowpassfilt(QWidget *parent) : QDialog(parent),
                                             ui(new Ui::lowpassfilt)
@@ -15,7 +14,6 @@ void lowpassfilt::on_retBtn_clicked()
     this->setAttribute(Qt::WA_DeleteOnClose);
     this->hide();
     this->close();
-    FiltersWindow filt;
     filt.setModal(true);
     filt.exec();
 }
@@ -31,6 +29,7 @@ QString lowpassfilt::on_foldBtn_clicked()
     width = ui->foldImageLbl->width();
     height = ui->foldImageLbl->height();
     ui->foldImageLbl->setPixmap(map.scaled(width, height, Qt::KeepAspectRatio));
+    
     return path;
 }
 
@@ -39,7 +38,9 @@ void lowpassfilt::on_transBtn_clicked()
     cv::Mat imgLp = cv::imread(path.toStdString(), cv::IMREAD_GRAYSCALE);
     cv::Mat dstLp;
 
-    try
+    if( boost::ends_with(path.toStdString(), ".jpg") ||
+        boost::ends_with(path.toStdString(), ".png") ||
+        boost::ends_with(path.toStdString(), ".jpeg") )
     {
         if ( x5state == true )
         {
@@ -56,11 +57,10 @@ void lowpassfilt::on_transBtn_clicked()
             cv::destroyAllWindows();
         }
     }
-    catch(cv::Exception& e)
+    else
     {
         errMsg = new QErrorMessage(this);
-        errMsg->showMessage("Please chose your image by clicking "
-                            "on the folder button!!");
+        errMsg->showMessage("You did not chose an image !!");
     }
 }
 

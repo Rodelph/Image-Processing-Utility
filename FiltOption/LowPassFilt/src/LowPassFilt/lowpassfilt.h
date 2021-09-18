@@ -10,6 +10,10 @@
 #include <opencv4/opencv2/highgui.hpp>
 #include <opencv4/opencv2/imgproc.hpp>
 
+#include <boost/algorithm/string/predicate.hpp>
+
+#include "../../../src/FiltOption/filterswindow.h"
+
 namespace Ui { class lowpassfilt; }
 
 class lowpassfilt : public QDialog
@@ -39,6 +43,7 @@ private:
     cv::Mat kernel;
     int sum;
     bool x3state = false, x5state = false;
+    FiltersWindow filt;
 };
 
 #endif // LOWPASSFILT_H

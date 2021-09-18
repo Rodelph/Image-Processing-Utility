@@ -3,10 +3,15 @@
 
 #include <QDialog>
 #include <QFileDialog>
+#include <QErrorMessage>
 
 #include <opencv4/opencv2/imgcodecs.hpp>
 #include <opencv4/opencv2/imgproc.hpp>
 #include <opencv4/opencv2/highgui.hpp>
+
+#include <boost/algorithm/string/predicate.hpp>
+
+#include "../../../src/FiltOption/filterswindow.h"
 
 namespace Ui {
 class medfilt;
@@ -29,6 +34,9 @@ private:
     Ui::medfilt *ui;
     QString path, pathToImages = QDir::currentPath() + "/resources/";
     int width, height;
+    FiltersWindow filt;
+    cv::Mat dst;
+    QErrorMessage* errMsg;
 };
 
 #endif // MEDFILT_H

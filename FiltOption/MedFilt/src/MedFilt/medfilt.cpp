@@ -1,6 +1,5 @@
 #include "medfilt.h"
 #include "ui_medfilt.h"
-#include "../../../FiltOption/src/FiltOption/filterswindow.h"
 
 medfilt::medfilt(QWidget *parent) : QDialog(parent),
                                     ui(new Ui::medfilt)
@@ -14,7 +13,7 @@ void medfilt::on_retBtn_clicked()
 {
     this->setAttribute(Qt::WA_DeleteOnClose);
     this->close();
-    FiltersWindow filt;
+
     filt.setModal(true);
     filt.exec();
 }
@@ -36,12 +35,21 @@ QString medfilt::on_foldBtn_clicked()
 
 void medfilt::on_transBtn_clicked()
 {
-    cv::Mat img = cv::imread(path.toStdString(), cv::IMREAD_GRAYSCALE);
-    cv::Mat dst;
+    if( boost::ends_with(path.toStdString(), ".jpg") ||
+        boost::ends_with(path.toStdString(), ".png") ||
+        boost::ends_with(path.toStdString(), ".jpeg") )
+    {
+        cv::Mat img = cv::imread(path.toStdString(), cv::IMREAD_GRAYSCALE);
 
-    cv::medianBlur(img, dst, ui->spinBox->value());
+        cv::medianBlur(img, dst, ui->spinBox->value());
 
-    cv::imshow("med blur", dst);
-    cv::waitKey();
-    cv::destroyAllWindows();
+        cv::imshow("med blur", dst);
+        cv::waitKey();
+        cv::destroyAllWindows();
+    } 
+    else
+    {
+        errMsg = new QErrorMessage(this);
+        errMsg->showMessage("You did not chose an image !!");
+    }
 }
