@@ -2,8 +2,7 @@ cmake_minimum_required(VERSION 3.8)
 
 project(ImageProc 
         VERSION 0.1.0
-        LANGUAGES CXX 
-        HOMEPAGE_URL "https://github.com/Rodelph/Image-Processing-Utility")
+        LANGUAGES CXX )
 
 set(CMAKE_BUILD_TYPE Release)
 

@@ -6,7 +6,7 @@ add_library(
             )
 
 find_package(Qt5 COMPONENTS Widgets Core Gui REQUIRED)
-find_package(OpenCV 4.5.2 REQUIRED)
+find_package(OpenCV REQUIRED)
 
 if (${Qt5_FOUND})
     message("Found Qt : " ${Qt5_VERSION} " for TreshFilt")
