@@ -5,7 +5,7 @@
 #include "../../LowPassFilt/src/LowPassFilt/lowpassfilt.h"
 #include "../../FreqFilt/src/FreqFilt/freqfilt.h"
 #include "../../MedFilt/src/MedFilt/medfilt.h"
-#include "../../TreshFilt/src/TreshFilt/treshfilt.h"
+#include "../../ThreshFilt/src/ThreshFilt/threshfilt.h"
 
 
 FiltersWindow::FiltersWindow(QWidget *parent) : QDialog(parent), 

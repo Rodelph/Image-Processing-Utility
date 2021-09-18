@@ -1,5 +1,5 @@
-#include "treshfilt.h"
-#include "ui_treshfilt.h"
+#include "threshfilt.h"
+#include "ui_threshfilt.h"
 
 treshfilt::treshfilt(QWidget *parent) : QDialog(parent),
                                         ui(new Ui::treshfilt)
