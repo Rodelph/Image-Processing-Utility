@@ -1,6 +1,6 @@
-<p align = "center">Image Processing Learning Utility</p>
+<p align = "center" size="+5">Image Processing Learning Utility</p>
 
-<p align = "center">🔴 IMPORTANT❗ 🔴 </p>
+<p align = "center">🔴 IMPORTANT 🔴 </p>
 
 <p align = "center"> Before Building </p>
 
