@@ -1,4 +1,8 @@
-<p align = "center" size="+5">Image Processing Learning Utility</p>
+<p align = "center">
+ <font size="+5">
+       Image Processing Learning Utility
+ </font>
+</p>
 
 <p align = "center">🔴 IMPORTANT 🔴 </p>
 
