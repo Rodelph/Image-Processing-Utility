@@ -31,7 +31,7 @@ Please make sure that you have :
 </p>
 
 <p align = "center"> 
-    <img src = "./readmeImages/histogram.png"/>
+    <img src = "./readmeImages/histogram.PNG"/>
 </p>
 
 
@@ -41,7 +41,7 @@ Please make sure that you have :
 </p>
 
 <p align = "center"> 
-    <img src = "./readmeImages/filteroptions.png"/>
+    <img src = "./readmeImages/filteroptions.PNG"/>
 </p>
 
 
@@ -51,7 +51,7 @@ Please make sure that you have :
 </p>
 
 <p align = "center"> 
-    <img src = "./readmeImages/lplift.png"/>
+    <img src = "./readmeImages/lplift.PNG"/>
 </p>
 
 
