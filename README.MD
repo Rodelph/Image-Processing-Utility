@@ -51,7 +51,7 @@ Please make sure that you have :
 </p>
 
 <p align = "center"> 
-    <img src = "./readmeImages/lplift.PNG"/>
+    <img src = "./readmeImages/lpfilt.PNG"/>
 </p>
 
 
