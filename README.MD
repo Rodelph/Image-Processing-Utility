@@ -1,7 +1,7 @@
 <p align = "center">Image Processing Learning Utility</p>
 <p align="center">
  
-""""""""""""""""""""""""""""""""""""""""""""""""""""" Before Building" """""""""""""""""""""""""""""""""""""""""""""
+""""""""""""""""""""""""""""""""""""""""""""""""""""" Before Building """"""""""""""""""""""""""""""""""""""""""""""
 </p>
 
 Please make sure that you have :
