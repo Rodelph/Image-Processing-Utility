@@ -1,5 +1,5 @@
 <p align = "center">
- <font size="+5">
+ <font style="font-size:40px">
        Image Processing Learning Utility
  </font>
 </p>
