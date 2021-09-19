@@ -1,6 +1,8 @@
 <p align = "center">Image Processing Learning Utility</p>
 
-<p align = "center">🔴IMPORTANT❗🔴 <br> Before Building </p>
+<p align = "center">🔴 IMPORTANT❗ 🔴 Before Building </p>
+
+<p align = "center" style ="color:red"> Before Building </p>
 
 <p align="center">
  
