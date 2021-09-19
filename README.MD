@@ -1,7 +1,5 @@
 <p align = "center">
- <font style="font-size:40px">
        Image Processing Learning Utility
- </font>
 </p>
 
 <p align = "center">🔴 IMPORTANT 🔴 </p>
