@@ -1,7 +1,7 @@
 <p align = "center">Image Processing Learning Utility</p>
 <p align="center">
  
-""""""""""""""""""""""""""""""""""""""""""""""""""""" Before Building" """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+""""""""""""""""""""""""""""""""""""""""""""""""""""" Before Building" """""""""""""""""""""""""""""""""""""""""""""
 </p>
 
 Please make sure that you have :
@@ -18,7 +18,7 @@ Please make sure that you have :
 </p>
 
 <p align = "center"> 
-    <img src = ".readmeImages/mainWind.png"/>
+    <img src = "./readmeImages/mainWind.png"/>
 </p>
 
 
@@ -28,7 +28,7 @@ Please make sure that you have :
 </p>
 
 <p align = "center"> 
-    <img src = ".readmeImages/histogram.png"/>
+    <img src = "./readmeImages/histogram.png"/>
 </p>
 
 
@@ -38,7 +38,7 @@ Please make sure that you have :
 </p>
 
 <p align = "center"> 
-    <img src = ".readmeImages/filteroptions.png"/>
+    <img src = "./readmeImages/filteroptions.png"/>
 </p>
 
 
@@ -48,7 +48,7 @@ Please make sure that you have :
 </p>
 
 <p align = "center"> 
-    <img src = ".readmeImages/lplift.png"/>
+    <img src = "./readmeImages/lplift.png"/>
 </p>
 
 
