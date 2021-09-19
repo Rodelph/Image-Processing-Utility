@@ -21,7 +21,7 @@ Please make sure that you have :
 </p>
 
 <p align = "center"> 
-    <img src = "./readmeImages/mainWind.png"/>
+    <img src = "./readmeImages/mainWind.PNG"/>
 </p>
 
 
