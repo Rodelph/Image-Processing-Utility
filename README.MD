@@ -10,7 +10,7 @@
  
 *******************************************************************************************************************
 </p>
-
+The project only works in release !
 Please make sure that you have :
 
  - Opencv (I used 4.5.2)
